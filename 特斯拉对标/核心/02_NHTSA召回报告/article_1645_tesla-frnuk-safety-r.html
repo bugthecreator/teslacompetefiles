@@ -1,0 +1,1158 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head><!-- adthrive -->
+<script>
+!function(){"use strict";var e=window.location.search.substring(1).split("&");const t=e=>e.replace(/\s/g,""),o=e=>new Promise((t=>{if(!("msCrypto"in window)&&"https:"===location.protocol&&"crypto"in window&&"TextEncoder"in window){const o=(new TextEncoder).encode(e);crypto.subtle.digest("SHA-256",o).then((e=>{const o=Array.from(new Uint8Array(e)).map((e=>("00"+e.toString(16)).slice(-2))).join("");t(o)}))}else t("")}));for(var n=0;n<e.length;n++){var r="adt_ei",i=decodeURIComponent(e[n]);if(0===i.indexOf(r)){var a=i.split(r+"=")[1];if((e=>{const t=e.match(/((?=([a-zA-Z0-9._!#$%+^&*()[\]<>-]+))\2@[a-zA-Z0-9._-]+\.[a-zA-Z0-9._-]+)/gi);return t?t[0]:""})(t(a.toLowerCase()))){o(a).then((t=>{t.length&&(localStorage.setItem(r,t),localStorage.setItem("adt_emsrc","url"),e.splice(n,1),history.replaceState(null,"","?"+e.join("&")))}));break}}}}();
+</script>
+<!-- END adthrive -->
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="120x120" href="https://www.notateslaapp.com/apple-touch-icon-120x120.png?v=2">
+    <link rel="apple-touch-icon" sizes="152x152" href="https://www.notateslaapp.com/apple-touch-icon-152x152.png?v=2">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://www.notateslaapp.com/apple-touch-icon-180x180.png?v=2">
+    <link rel="apple-touch-icon" href="https://www.notateslaapp.com/apple-touch-icon.png?v=2">
+
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="https://www.notateslaapp.com/apple-touch-icon-120x120-precomposed.png?v=2" />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="https://www.notateslaapp.com/apple-touch-icon-152x152-precomposed.png?v=2" />
+    <link rel="apple-touch-icon-precomposed" sizes="180x180" href="https://www.notateslaapp.com/apple-touch-icon-180x180-precomposed.png?v=2" />
+
+    <link rel="icon" type="image/png" href="https://www.notateslaapp.com/favicon-16x16.png" sizes="16x16" />
+    <link rel="icon" type="image/png" href="https://www.notateslaapp.com/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="https://www.notateslaapp.com/favicon-128x128.png" sizes="128x128" />
+    <link rel="icon" type="image/png" href="https://www.notateslaapp.com/favicon-196x196.png" sizes="196x196" />
+
+    <link rel="shortcut icon" href="https://www.notateslaapp.com/favicon.ico?v=2">
+    <meta name="apple-mobile-web-app-title" content="">
+<meta name="application-name" content="">
+    <meta name="msapplication-TileColor" content="#f4f6f8">
+    <meta name="theme-color" content="#f4f6f8">
+    <meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="alternate" type="application/rss+xml" href="https://www.notateslaapp.com/rss" title="Not a Tesla App RSS">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500;600;700&display=swap" rel="stylesheet">
+         
+        <link rel="stylesheet" href="https://www.notateslaapp.com/assets/css/core-legacy.style.v155.css" />  
+                <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-145811549-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'UA-145811549-1');
+
+            //gtag('config', 'G-TK8ZNSHLTK');
+        </script>
+
+        <!-- Google Tag Manager -->
+        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-N44BWRL');</script>
+        <!-- End Google Tag Manager -->
+            <title>Tesla Update 2023.38 Shows Predicted Supercharger Wait Time and Number of Cars En Route</title>
+    <meta name="description" content="Tesla's 2023.38 update will include predictive Supercharger availabity and wait times. It also includes an update to the hazard lights after an accident and mor" />
+            <meta name="author" content="Kevin Armstrong" />
+        <meta name="keywords" content="tesla, update, 2023.38, predictive supercharger availability, location sharing, vampire zombies," />    <link rel="canonical" href="https://www.notateslaapp.com/news/1645/tesla-update-2023-38-will-predict-supercharger-availability-and-wait-times" />
+    	<meta property="og:locale" content="en_US"/>
+	<meta property="og:type" content="article"/>
+	<meta property="og:site_name" content="Not a Tesla App"/>
+    <meta property="og:title" content="Tesla Update 2023.38 Shows Predicted Supercharger Wait Time and Number of Cars En Route" />
+    <meta property="og:description" content="Tesla's 2023.38 update will include predictive Supercharger availabity and wait times. It also includes an update to the hazard lights after an accident and mor" />
+    <meta property="og:image" content="https://www.notateslaapp.com/images/news/2023/predictive-wait-times.jpg" />
+    <meta property="og:url" content="https://www.notateslaapp.com/news/1645/tesla-update-2023-38-will-predict-supercharger-availability-and-wait-times" />
+		<meta property="article:published_time" content="2023-10-16T15:24:09+00:00"/>
+	<meta property="article:modified_time" content="2023-11-14T03:48:46+00:00"/>
+    <meta property="article:publisher" content="https://www.facebook.com/NotATeslaApp"/>
+    <meta property="article:section" content="News" />
+
+	<meta name="twitter:creator" content="@NotATeslaApp"/>
+	<meta name="twitter:site" content="@NotATeslaApp"/>
+    <meta name="twitter:title" content="Tesla Update 2023.38 Shows Predicted Supercharger Wait Time and Number of Cars En Route" />
+    <meta name="twitter:description" content="Tesla's 2023.38 update will include predictive Supercharger availabity and wait times. It also includes an update to the hazard lights after an accident and mor" />
+    <meta name="twitter:image" content="https://www.notateslaapp.com/images/news/2023/predictive-wait-times.jpg" />
+    <meta name="twitter:card" content="summary_large_image" />
+                        <script>
+                        function getCookie(name) {
+                            var v = document.cookie.match('(^|;) ?' + name + '=([^;]*)(;|$)');
+                            return v ? v[2] : null;
+                        }
+                
+                        async function hashText(input) {
+                            let hashHex;
+                            if(crypto && crypto.subtle && crypto.subtle.digest) {
+                                const encoder = new TextEncoder();
+                                const data = encoder.encode(input);
+                                const hashBuffer = await crypto.subtle.digest("SHA-256", data);
+                                const hashArray = Array.from(new Uint8Array(hashBuffer));
+                                hashHex = hashArray.map(b => b.toString(16).padStart(2, "0")).join("");
+                            }
+                            return hashHex;
+                        }
+                
+                        async function userIsSubscribed() {
+                            let subscribed = false;
+                            let userCookie = getCookie('user_account');
+                            if(userCookie) {
+                                let hashCookieValue = await hashText(userCookie);
+                                if(hashCookieValue == 'f7bfb611b452d26955cbf987d239c175743bee5992e421fb0ae1475a54f804f9' || userCookie.startsWith("e")) {
+                                    subscribed = true;
+                                }
+                            }
+                            return subscribed;
+                        }
+
+                        let ktiqxqnkelrabc = false;
+                        (async function() {
+                            ktiqxqnkelrabc = await userIsSubscribed();
+
+                            if(!ktiqxqnkelrabc) {
+                                (function(w, d) {
+                                w.adthrive = w.adthrive || {};
+                                w.adthrive.cmd = w.adthrive.cmd || [];
+                                w.adthrive.plugin = 'adthrive-ads-manual';
+                                w.adthrive.host = 'ads.adthrive.com';
+                                var s = d.createElement('script');
+                                s.async = true;
+                                s.referrerpolicy='no-referrer-when-downgrade';
+                                s.src = 'https://' + w.adthrive.host + '/sites/6086f736fa0c1f0c8270ab14/ads.min.js?referrer=' + w.encodeURIComponent(w.location.href) + '&cb=' + (Math.floor(Math.random() * 100) + 1);
+                                var n = d.getElementsByTagName('script')[0];
+                                n.parentNode.insertBefore(s, n);
+                                })(window, document);
+                            }
+                        })();
+                    </script>
+                    </head>
+
+<body class="light has-video tesla-site news-page">
+	        <!-- Google Tag Manager (noscript) -->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N44BWRL"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <!-- End Google Tag Manager (noscript) -->
+            <script>
+        function deleteCookie(name) { setCookie(name, '', -1); }
+        
+        if (typeof getCookie === "undefined") {
+            function getCookie(name) {
+                var v = document.cookie.match('(^|;) ?' + name + '=([^;]*)(;|$)');
+                return v ? v[2] : null;
+            }
+        }
+
+        function setCookie(name, value, days) {
+            var d = new Date;
+            d.setTime(d.getTime() + 24*60*60*1000*days);
+            document.cookie = name + "=" + value + ";path=/;expires=" + d.toGMTString();
+        }
+
+        function debounce(func, wait, immediate) {
+            var timeout;
+            return function() {
+                var context = this,
+                    args = arguments;
+                var later = function() {
+                    timeout = null;
+                    if (!immediate) func.apply(context, args);
+                };
+                var callNow = immediate && !timeout;
+                clearTimeout(timeout);
+                timeout = setTimeout(later, wait);
+                if (callNow) func.apply(context, args);
+            };
+        };
+
+        tesla = {
+            releases: {}
+        };
+
+        tesla.releases.setColorScheme = function (target, value) {
+
+            if(!value) {
+                value = 'auto';
+            }
+
+            if(target) {
+                value = target.getAttribute('data-value');
+            }
+
+            setColorSchemeLight = function(target, value) {
+                if(target) {
+                        setCookie('color-scheme', value, 365);
+                    }
+                    document.body.classList.remove('dark');
+
+                if(documentReferrer.includes('console.la') || document.location.href.indexOf('appearance=alt') >= 0) {
+                    document.body.classList.add('light', 'alt');
+                }else {
+                    document.body.classList.add('light');
+                }
+                
+                document.querySelector('meta[name="theme-color"]').setAttribute('content',  '#f4f6f8');
+                document.querySelector('meta[name="msapplication-TileColor"]').setAttribute('content',  '#f4f6f8');                
+            }
+
+            setColorSchemeDark = function(target, value) {
+                if(target) {
+                    setCookie('color-scheme', value, 365);
+                }
+                document.body.classList.remove('light');
+                document.body.classList.add('dark');
+
+                document.querySelector('meta[name="theme-color"]').setAttribute('content',  '#141d29');
+                document.querySelector('meta[name="msapplication-TileColor"]').setAttribute('content',  '#141d29');
+            }            
+
+  
+            tesla.releases.colorScheme = value;
+
+            if(value == 'auto' && window.matchMedia) {
+
+
+                // detect appearance on load
+                if(window.matchMedia('(prefers-color-scheme: dark)').matches) {
+                    setColorSchemeDark(target, 'auto');
+                }else {
+                    setColorSchemeLight(target, 'auto');
+                }
+
+                // detect if user switches appearance
+                window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', event => {
+                    if (event.matches) {
+                        setColorSchemeDark(target, 'auto');
+
+                    } else {
+                        setColorSchemeLight(target, 'auto');
+                    }
+                })
+            
+            }else if(value == 'dark') {
+                setColorSchemeDark(target, value);
+
+            }else {
+                setColorSchemeLight(target, value);
+            }
+        
+        }
+
+        tesla.releases.colorScheme = getCookie('color-scheme');
+        const documentReferrer = document.referrer;
+
+        // if saved preference and light or dark, show that scheme
+        if(tesla.releases.colorScheme) {
+            tesla.releases.setColorScheme(null, tesla.releases.colorScheme);
+
+        // no saved pref
+        }else {
+            tesla.releases.setColorScheme(null, null);
+        }
+
+    </script>
+    	
+	<div id="main">
+		<header class="header-group header-wrapper header-wrapper-primary">
+
+    <div class="header header-primary">
+        <div class="header-logo-wrapper">
+                            <a href="/" class="header-logo">
+                    <img class="round-logo" src="/assets/logo/nata-site-logo.png" height="30px" alt="Not a Tesla App" />
+                                    </a>
+                            <div class="site-options site-options-mobile">
+                <div class="header-icon header-icon-search"></div>
+                <div class="header-icon header-icon-appearance"></div>
+                <a href="/dashboard" class="header-icon header-icon-user"></a>
+                <div class="header-icon header-icon-language"></div>            </div>
+        </div>
+
+        <nav>
+            <div class="primary-nav-category active">
+                <div class="category-name">News</div>
+                <div class="header-wrapper-secondary">
+                    <div class="header header-secondary">
+                        <nav>
+                                                            <a href="https://www.notateslaapp.com" class="latest-icon">Latest</a>
+                                <!-- <a href="https://www.notateslaapp.com/" class="flame-icon">Popular</a> -->
+                                <a href="https://www.notateslaapp.com/software-updates/upcoming-features" class="rocket-icon">Upcoming</a>
+                                
+                                <!-- <a href="https://www.notateslaapp.com/software-updates/news" class="software-icon">Software</a>  -->
+                                <!-- <a href="https://www.notateslaapp.com/hardware/" class="hardware-icon">Hardware</a> -->
+                                
+                                <a href="https://www.notateslaapp.com/fsd-beta/news" class="autopilot-wheel-icon">FSD News</a>
+
+                                <a href="https://www.notateslaapp.com/model-3-model-y/" class="model3-2024-icon">Model 3 / Y</a>
+                                <a href="https://www.notateslaapp.com/robotaxi/" class="robotaxi-icon">Robotaxi</a>
+                                <a href="https://www.notateslaapp.com/model-s-model-x/" class="models-icon">Model S / X</a>
+                                <a href="https://www.notateslaapp.com/cybertruck/" class="cybertruck-icon">Cybertruck</a>                              
+                                <a href="https://www.notateslaapp.com/charging/" class="charging-icon">Charging</a>
+                                <a href="https://www.notateslaapp.com/tesla-energy/" class="energy-icon">Tesla Energy</a>
+                                                                   
+                        </nav>
+                    </div>
+                </div>                    
+            </div>
+
+            <div class="primary-nav-category">
+                <div class="category-name">Software</div>
+                <div class="header-wrapper-secondary">
+                    <div class="header header-secondary">
+                        <nav>
+                                                            <a href="/software-updates/" class="updates-icon">Car Updates</a>
+                                <a href="https://www.notateslaapp.com/fsd-beta/" class="autopilot-wheel-icon">FSD Updates</a>
+                                <a href="https://www.notateslaapp.com/tesla-app-updates/" class="phone-icon">App Updates</a>
+                                <!-- <a href="https://www.notateslaapp.com/software-updates/news" class="software-icon">Software News</a> -->
+                                <a href="https://www.notateslaapp.com/software-updates/upcoming-features" class="rocket-icon">Upcoming Features</a>
+                                                        </nav>
+                    </div>
+                </div>
+            </div>
+
+            <div class="primary-nav-category">
+                <div class="category-name">Guides</div>
+                <div class="header-wrapper-secondary">
+                    <div class="header header-secondary">
+                        <nav>
+                                                            <a href="https://www.notateslaapp.com/tesla-reference/" class="guide-icon">Guides</a>
+                                <a href="https://www.notateslaapp.com/tesla-custom-lock-sounds/" class="lock-icon">Lock Sounds</a>
+                                <a href="https://www.notateslaapp.com/tesla-tips/" class="light-bulb-icon">Tesla Tips</a>
+                                <a href="https://www.notateslaapp.com/tesla-easter-eggs/" class="easter-egg-icon">Easter Eggs</a>
+                                <!-- <a href="https://www.notateslaapp.com/tesla-events/" class="calendar-icon">Events</a> -->
+                                <a href="https://www.notateslaapp.com/tesla-voice-commands/" class="mic-icon">Voice</a>
+                                <a href="https://www.notateslaapp.com/community/" class="community-icon">Forums</a>
+                                                                    
+
+                        </nav>
+                    </div>
+                </div>
+            </div>
+
+                            <div class="primary-nav-category mytesla">
+                    <div class="category-name">My Tesla</div>
+                    <div class="header-wrapper-secondary">
+                        <div class="header header-secondary">
+                            <nav>
+                                <a href="https://www.notateslaapp.com/vehicles/" class="model3-2024-icon">My Vehicles</a>
+                                <a href="https://www.notateslaapp.com/dashboard" class="add-car-icon">Add My Tesla</a>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+
+            
+            <div class="nav-indicator-wrapper">
+                <div class="nav-indicator"></div>
+            </div>
+        </nav>
+
+        <div class="site-options site-options-desktop">
+            <div class="header-icon header-icon-search"></div>
+            <div class="header-icon header-icon-appearance"></div>
+            <a href="/dashboard" class="header-icon header-icon-user"></a>
+            <div class="header-icon header-icon-language"></div>        </div>
+    </div>
+</header>
+<div class="col-fullwide ad-wrapper">
+    </div>
+
+		<div class="content">
+                        <div class="col-ab">
+                <div class="articles-container">
+                        <article class="release news article-container container" style="background: none; border: none;">
+        <h1><a href="https://www.notateslaapp.com/news/1645/tesla-update-2023-38-will-predict-supercharger-availability-and-wait-times">Tesla Update 2023.38 Shows Predicted Supercharger Wait Time and Number of Cars En Route</a></h1>
+                    <div class="attribution">
+                <time class="date" datetime="2023-11-13T21:49:09+00:00">
+                    Updated: November 13, 2023                </time>
+                                    <div class="date">By Kevin Armstrong</div>
+                                </div>
+                    <div class="share">
+        
+            <a class="facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.notateslaapp.com%2Fnews%2F1645%2Ftesla-update-2023-38-will-predict-supercharger-availability-and-wait-times&app_id=748096355847345" target="_blank">
+                            <img alt="Share on Facebook" src="/assets/networks/facebook_18w.png" />
+                        </a>
+
+            <a class="twitter" href="https://twitter.com/intent/tweet?lang=en&url=https%3A%2F%2Fwww.notateslaapp.com%2Fnews%2F1645%2Ftesla-update-2023-38-will-predict-supercharger-availability-and-wait-times%0A via @NotATeslaApp&text=Tesla%20Update%202023.38%20Shows%20Predicted%20Supercharger%20Wait%20Time%20and%20Number%20of%20Cars%20En%20Route" target="_blank">
+                            <img alt="Share on Twitter" src="/assets/networks/x-social_18w.png" />
+                        </a>
+
+            <a class="threads" href="https://threads.net/intent/post?text=Tesla%20Update%202023.38%20Shows%20Predicted%20Supercharger%20Wait%20Time%20and%20Number%20of%20Cars%20En%20Route%0Ahttps%3A%2F%2Fwww.notateslaapp.com%2Fnews%2F1645%2Ftesla-update-2023-38-will-predict-supercharger-availability-and-wait-times%0A%0A via @NotATeslaApp" target="_blank">
+                            <img alt="Share on Threads" src="/assets/networks/white/threads_18w.png" />
+                        </a>
+
+            <a class="bluesky" href="https://bsky.app/intent/compose?text=Tesla%20Update%202023.38%20Shows%20Predicted%20Supercharger%20Wait%20Time%20and%20Number%20of%20Cars%20En%20Route%0Ahttps%3A%2F%2Fwww.notateslaapp.com%2Fnews%2F1645%2Ftesla-update-2023-38-will-predict-supercharger-availability-and-wait-times%0A%0A via @NotATeslaApp.com" target="_blank">
+                            <img alt="Share on Bluesky" src="/assets/networks/white/bluesky_18w.png" />
+                        </a>
+
+            <a class="reddit" href="https://www.reddit.com/submit?url=https%3A%2F%2Fwww.notateslaapp.com%2Fnews%2F1645%2Ftesla-update-2023-38-will-predict-supercharger-availability-and-wait-times&title=Tesla%20Update%202023.38%20Shows%20Predicted%20Supercharger%20Wait%20Time%20and%20Number%20of%20Cars%20En%20Route" target="_blank">
+                            <img alt="Share on Reddit" src="/assets/networks/reddit_18w.png" />
+                        </a>
+
+            <a class="messenger" href="https://www.facebook.com/dialog/send?link=https%3A%2F%2Fwww.notateslaapp.com%2Fnews%2F1645%2Ftesla-update-2023-38-will-predict-supercharger-availability-and-wait-times&next=https%3A%2F%2Fwww.notateslaapp.com%2Fnews%2F1645%2Ftesla-update-2023-38-will-predict-supercharger-availability-and-wait-times&app_id=748096355847345" target="_blank">
+                            <img alt="Share on FB Messenger" src="/assets/networks/messenger_18w.png" />
+                        </a>
+
+            <a class="email" href="mailto:?to=&subject=Tesla%20Update%202023.38%20Shows%20Predicted%20Supercharger%20Wait%20Time%20and%20Number%20of%20Cars%20En%20Route&body=Tesla%20Update%202023.38%20Shows%20Predicted%20Supercharger%20Wait%20Time%20and%20Number%20of%20Cars%20En%20Route%0D%0Ahttps%3A%2F%2Fwww.notateslaapp.com%2Fnews%2F1645%2Ftesla-update-2023-38-will-predict-supercharger-availability-and-wait-times&text=Tesla%20Update%202023.38%20Shows%20Predicted%20Supercharger%20Wait%20Time%20and%20Number%20of%20Cars%20En%20Route" target="_blank">
+                            <img alt="Share via Email" src="/assets/networks/email_18w.png" />
+                        </a>                                                                                    
+        </div>
+        <div class="image-wrapper image-full"><img data-enlarge="true" src="https://www.notateslaapp.com/images/news/2023/predictive-wait-times.jpg" alt="Tesla will now predict Supercharger availability" style="aspect-ratio: 1152 / 1303;" /><div class="image-meta"><div class="caption">Tesla will now predict Supercharger availability</div><div class="credit">luizfl/X</div></div></div>
+
+<p>
+Tesla has now released <a href="https://www.notateslaapp.com/software-updates/version/2023.38/release-notes">update 2023.38</a> to roughly half of its fleet. Now that the update is in the wild, a couple additional enhancements have been spotted that are only available in certain regions.
+</p>
+
+
+<h2>Predictive Charger Availability</h2>
+
+<p>
+Tesla has continually improved Supercharger information in the vehicle. In the past couple years they've added the ability to view the number of chargers available at site Supercharger location, as well the number of stalls that are out of order. They also <a href="https://www.notateslaapp.com/software-updates/upcoming-features/id/991/a-closer-look-at-tesla-s-new-supercharger-popup-in-update-2022-36">show how busy the Supercharger</a> is at various points throughout the day.
+</p>
+
+<p>
+If you thought <a href="https://www.notateslaapp.com/news/1484/tesla-shows-off-how-they-monitor-their-supercharger-network">live data</a> was the best Tesla could do, they have a surprise in store in update 2023.38. If you're navigating to a Supercharger, Tesla will now predict how many Supercharger stalls will be available at your arrival, and display the predicted wait time, if any.
+</p>
+
+<p>
+Tesla says they will factor in your travel time to the Supercharger, as well as other Tesla vehicles' travel times, to predict the charger's availability when you arrive.
+</p>
+
+<p>
+Tesla continues to <a href="https://www.notateslaapp.com/news/1233/tesla-superchargers-in-the-u-s-open-to-other-evs-price-and-membership">open up Supercharger to other electric vehicles</a>, and while the number of non-Teslas charging at Superchargers may be a small percentage right now, that number is expected to increase as more <a href="https://www.notateslaapp.com/news/1489/rivian-jumps-onboard-adopts-tesla-s-nacs-charging-standard">manufacturers adopt Tesla's charging port</a>. It'll be interesting to see how well Tesla can predict Supercharger availability when they may not be aware of all vehicles routing to each charger.
+</p>
+
+
+<p>
+This feature is currently limited to the U.S., but is likely to expand to other regions as Tesla gathers more data and determines its accuracy.
+</p>
+
+
+
+
+<h2>Updated Hazard Lights Pattern</h2>
+
+<p>
+We recently talked about Tesla's <a href="https://www.notateslaapp.com/software-updates/upcoming-features/id/1644/tesla-updates-hazard-lights-frequency-to-improve-safety-in-software-update">upcoming update to hazard lights</a>. It looks like Tesla will use the updated light pattern, which <a href="https://www.notateslaapp.com/software-updates/upcoming-features/id/1644/tesla-updates-hazard-lights-frequency-to-improve-safety-in-software-update">flashes up to about three times quicker</a>, if the vehicle is involved in an accident.
+</p>
+
+<p>
+When Tesla officially announced the feature on X, it wasn't clear which update the feature would feature the updated feature, but it has now been spotted in <a href="https://www.notateslaapp.com/software-updates/version/2023.38.1/release-notes">update 2023.38</a>. The updated light pattern is currently only be available in select countries, including the U.S. It appears to not be available in most of Europe at this time, but that may change in a future update.
+</p>
+
+
+<h2>Vampire Survivors: Multiplayer Gaming</h2>
+
+<p>
+Update 2023.38 also brings other features, such as an update to Vampure Survivors. Just in time for Halloween, Tesla owners and their passengers can team up in a co-op mode, mowing down hordes of the undead. The gameplay allows up to four passengers to participate, turning your vehicle into a virtual battleground against zombies. This feature, however, has its prerequisites. 
+</p>
+
+<p>
+It <a href="https://www.notateslaapp.com/news/645/tesla-mcu-2-compared-to-mcu-3-in-video">requires MCU 3,</a> making it exclusive to the recent Model S/X and 3/Y models. For those ready to dive into this electrifying experience, shift the Tesla into Park (P), navigate to the Tesla Arcade, and then choose Vampire Survivors. Remember, each player needs their own controller, which can now be wired or Bluetooth.
+</p>
+
+<h2>Location Sharing: Enhanced Transparency</h2>
+
+<p>
+Update 2023.38 also notifies drivers if they are being crept on, known as location sharing. A new icon now appears at the top of the touchscreen when any app &mdash; including the official Tesla app &mdash; requests live location data from your vehicle. 
+</p>
+
+<p>
+This icon will also show up if <a href="https://www.notateslaapp.com/news/1548/tesla-launches-third-party-app-support-granular-sharing-options-and-support-for-tesla-solar">future third-party services</a> have access to your vehicle's location.
+</p>
+
+<h2>Windows Adjustment</h2>
+
+<p>
+Tesla also introduces a practical modification that could prevent window or door damage during a vehicle update. We know that the window goes down just a little bit when the door opens and closes because of the distinct frameless door design. However, the windows can not adjust during software updates, increasing the chances of window damage. This update brings down the windows just a little bit to facilitate door opening and closing. Once the update concludes, the windows revert to their former position.
+</p>
+
+<p>
+With every update, Tesla gets just a little bit better. We are just a few months away from the epic Christmas update. The countdown is on!
+</p>
+
+
+                <div class="mod-background in-article-mod newsletter-mod" data-referral="article">
+                    <div class="in-article-mod__header">
+                        <h2>Subscribe</h2>
+                        <div class="newsletter-close-icon"></div>
+                    </div>
+
+                    <div class="in-article-mod__content">
+                        <p>Subscribe to our newsletter to stay up to date on the latest Tesla news, upcoming features and software updates.</p>
+                    </div>
+
+                    <form class="input-wrapper subscribe-form" onsubmit="return tesla.releases.subscribe(this);">
+                        <input type="email" placeholder="Email address">
+                        <input name="source" value="article-newsletter-promo" type="hidden">
+                        <button class="button button-highlight" type="submit">Subscribe</button>
+                    </form>
+
+                </div>
+                            <div>
+                <div data-analytics="mod-follow-us">
+                    <div class="follow-us">
+                        <div class="follow-us">
+                            <a class="button-follow twitter" target="_blank" href="https://twitter.com/intent/user?screen_name=NotATeslaApp">
+                                <div>
+                                                <img alt="Follow us on X / Twitter" src="/assets/networks/x-follow_34h.png" loading="lazy" />
+                                            </div>
+                                <div class="button-follow-text">Follow</div>
+                            </a>
+                        </div>
+
+                        <div class="follow-us">
+                            <a class="button-follow facebook" target="_blank" href="https://www.facebook.com/NotATeslaApp">
+                                <div>
+                                                <img alt="Follow us on Facebook" src="/assets/networks/facebook-follow_34h.png" loading="lazy" />
+                                            </div>
+                                <div class="button-follow-text">Follow</div>
+                            </a>
+                        </div>
+
+                        <div class="follow-us">
+                            <a class="button-follow twitter" target="_blank" href="https://www.threads.net/@NotATeslaApp">
+                                <div>
+                                                <img alt="Follow us on Threads" src="/assets/networks/threads-follow_34h.png" loading="lazy" />
+                                            </div>
+                                <div class="button-follow-text">Follow</div>
+                            </a>
+                        </div>                        
+                    </div>
+                    
+                </div>
+            </div>
+                </article>
+        <article class="release news article-container container" style="background: none; border: none;">
+        <h1><a href="https://www.notateslaapp.com/news/4207/tesla-patents-self-cleaning-camera-lens-with-built-in-wiper">Tesla Patents Self-Cleaning Camera Lens With Built-In Wiper</a></h1>
+                    <div class="attribution">
+                <time class="date" datetime="2026-05-26T18:26:00+00:00">
+                    May 26, 2026                </time>
+                                    <div class="date">By Not a Tesla App Staff</div>
+                                </div>
+                    <div class="share">
+        
+            <a class="facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.notateslaapp.com%2Fnews%2F4207%2Ftesla-patents-self-cleaning-camera-lens-with-built-in-wiper&app_id=748096355847345" target="_blank">
+                            <img alt="Share on Facebook" src="/assets/networks/facebook_18w.png" />
+                        </a>
+
+            <a class="twitter" href="https://twitter.com/intent/tweet?lang=en&url=https%3A%2F%2Fwww.notateslaapp.com%2Fnews%2F4207%2Ftesla-patents-self-cleaning-camera-lens-with-built-in-wiper%0A via @NotATeslaApp&text=Tesla%20Patents%20Self-Cleaning%20Camera%20Lens%20With%20Built-In%20Wiper" target="_blank">
+                            <img alt="Share on Twitter" src="/assets/networks/x-social_18w.png" />
+                        </a>
+
+            <a class="threads" href="https://threads.net/intent/post?text=Tesla%20Patents%20Self-Cleaning%20Camera%20Lens%20With%20Built-In%20Wiper%0Ahttps%3A%2F%2Fwww.notateslaapp.com%2Fnews%2F4207%2Ftesla-patents-self-cleaning-camera-lens-with-built-in-wiper%0A%0A via @NotATeslaApp" target="_blank">
+                            <img alt="Share on Threads" src="/assets/networks/white/threads_18w.png" />
+                        </a>
+
+            <a class="bluesky" href="https://bsky.app/intent/compose?text=Tesla%20Patents%20Self-Cleaning%20Camera%20Lens%20With%20Built-In%20Wiper%0Ahttps%3A%2F%2Fwww.notateslaapp.com%2Fnews%2F4207%2Ftesla-patents-self-cleaning-camera-lens-with-built-in-wiper%0A%0A via @NotATeslaApp.com" target="_blank">
+                            <img alt="Share on Bluesky" src="/assets/networks/white/bluesky_18w.png" />
+                        </a>
+
+            <a class="reddit" href="https://www.reddit.com/submit?url=https%3A%2F%2Fwww.notateslaapp.com%2Fnews%2F4207%2Ftesla-patents-self-cleaning-camera-lens-with-built-in-wiper&title=Tesla%20Patents%20Self-Cleaning%20Camera%20Lens%20With%20Built-In%20Wiper" target="_blank">
+                            <img alt="Share on Reddit" src="/assets/networks/reddit_18w.png" />
+                        </a>
+
+            <a class="messenger" href="https://www.facebook.com/dialog/send?link=https%3A%2F%2Fwww.notateslaapp.com%2Fnews%2F4207%2Ftesla-patents-self-cleaning-camera-lens-with-built-in-wiper&next=https%3A%2F%2Fwww.notateslaapp.com%2Fnews%2F4207%2Ftesla-patents-self-cleaning-camera-lens-with-built-in-wiper&app_id=748096355847345" target="_blank">
+                            <img alt="Share on FB Messenger" src="/assets/networks/messenger_18w.png" />
+                        </a>
+
+            <a class="email" href="mailto:?to=&subject=Tesla%20Patents%20Self-Cleaning%20Camera%20Lens%20With%20Built-In%20Wiper&body=Tesla%20Patents%20Self-Cleaning%20Camera%20Lens%20With%20Built-In%20Wiper%0D%0Ahttps%3A%2F%2Fwww.notateslaapp.com%2Fnews%2F4207%2Ftesla-patents-self-cleaning-camera-lens-with-built-in-wiper&text=Tesla%20Patents%20Self-Cleaning%20Camera%20Lens%20With%20Built-In%20Wiper" target="_blank">
+                            <img alt="Share via Email" src="/assets/networks/email_18w.png" />
+                        </a>                                                                                    
+        </div>
+        <div class="image-wrapper image-full"><img data-enlarge="true" src="https://www.notateslaapp.com/img/containers/article_images/2026/camera-lens-wiper.webp/df719f8ddf8d4a46a15d074385f85644/camera-lens-wiper.jpg" alt="A render of Tesla's camera cleaning system based on the patent" loading="lazy" style="aspect-ratio: 1200 / 810;" /><div class="image-meta"><div class="caption">A render of Tesla's camera cleaning system based on the patent</div><div class="credit">Not a Tesla App</div></div></div><p>Tesla has been granted a new patent for a compact lens-cleaning system designed to keep vehicle cameras clear of dirt, water, mud, snow, and other debris. The <em>Lens Cleaning System </em>patent outlines a miniature cleaning assembly that combines a fluid dispenser and a mechanical wiper directly around the camera lens. &#x000000a0;</p><p>The patent offers a potential solution that works without requiring large washer nozzles or external cleaning hardware.</p><h2><strong>How Tesla&#x00002019;s Camera Cleaning System Works</strong></h2><p>The system centers around a camera lens housed within a protective assembly. Integrated into the housing is a small fluid reservoir and a dispensing mechanism capable of spraying cleaning liquid directly onto the lens surface. &#x000000a0;</p><p>After the fluid is applied, a small wiper blade moves across the lens to remove debris, similar to how an eyelid lubricates an eye. Unlike traditional windshield wipers that sweep across a relatively flat surface, Tesla&#x00002019;s design uses a compact blade that follows the lens&#039;s curve. Figures throughout the patent show the blade rotating around the lens while remaining in close contact with the surface.</p><h2><strong>Better Than Fluid-Only, More Compact</strong></h2><div class="image-wrapper image-full"><img data-enlarge="true" src="/img/containers/article_images/2026/b-pillar-camera-washers.jpeg/e4934af396971022b0f8b509f2ae1d6e/b-pillar-camera-washers.jpg" alt="" loading="lazy" style="aspect-ratio: 1200 / 683;" /><div class="image-meta"><div class="caption"></div><div class="credit">@niccruzpatane</div></div></div><p>As we&#x00002019;ve all experienced, automated camera cleaning needs to be solved for truly autonomous driving. The Model Y robotaxi and even the Cybercab are <a href="https://www.notateslaapp.com/news/3536/all-tesla-cameras-on-robotaxi-now-include-camera-washers-repeater-and-b-pillar-cameras-added-video">now using higher-pressure spray nozzles to help clear cameras</a>. However, this patent sounds like it could go one step further than those fluid-only solutions.</p><p>Tesla describes the possibility of using various cleaning fluids, including water, alcohol-based solutions, washer fluid, lubricants, or other cleaning agents, depending on environmental conditions. &#x000000a0;</p><p>Because the cleaning hardware is integrated into the camera assembly, the camera housing can remain compact, allowing Tesla to keep the same camera placements as today, even in tighter areas like the fender and B-pillar.</p><p>If this design is implemented for production vehicles or the Cybercab, it could improve how well the cameras can clear their lenses, especially for harder-to-remove debris, such as insects, or for cameras that may get dirtier, such as the front bumper camera.</p>            <div>
+                <div data-analytics="mod-follow-us">
+                    <div class="follow-us">
+                        <div class="follow-us">
+                            <a class="button-follow twitter" target="_blank" href="https://twitter.com/intent/user?screen_name=NotATeslaApp">
+                                <div>
+                                                <img alt="Follow us on X / Twitter" src="/assets/networks/x-follow_34h.png" loading="lazy" />
+                                            </div>
+                                <div class="button-follow-text">Follow</div>
+                            </a>
+                        </div>
+
+                        <div class="follow-us">
+                            <a class="button-follow facebook" target="_blank" href="https://www.facebook.com/NotATeslaApp">
+                                <div>
+                                                <img alt="Follow us on Facebook" src="/assets/networks/facebook-follow_34h.png" loading="lazy" />
+                                            </div>
+                                <div class="button-follow-text">Follow</div>
+                            </a>
+                        </div>
+
+                        <div class="follow-us">
+                            <a class="button-follow twitter" target="_blank" href="https://www.threads.net/@NotATeslaApp">
+                                <div>
+                                                <img alt="Follow us on Threads" src="/assets/networks/threads-follow_34h.png" loading="lazy" />
+                                            </div>
+                                <div class="button-follow-text">Follow</div>
+                            </a>
+                        </div>                        
+                    </div>
+                    
+                </div>
+            </div>
+                </article>
+        <article class="release news article-container container" style="background: none; border: none;">
+        <h1><a href="https://www.notateslaapp.com/news/4208/tesla-opens-supercharger-access-to-volvo-evs-in-europe">Tesla Opens Supercharger Access to Volvo EVs in Europe</a></h1>
+                    <div class="attribution">
+                <time class="date" datetime="2026-05-26T17:45:00+00:00">
+                    May 26, 2026                </time>
+                                    <div class="date">By Nehal Malik</div>
+                                </div>
+                    <div class="share">
+        
+            <a class="facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.notateslaapp.com%2Fnews%2F4208%2Ftesla-opens-supercharger-access-to-volvo-evs-in-europe&app_id=748096355847345" target="_blank">
+                            <img alt="Share on Facebook" src="/assets/networks/facebook_18w.png" />
+                        </a>
+
+            <a class="twitter" href="https://twitter.com/intent/tweet?lang=en&url=https%3A%2F%2Fwww.notateslaapp.com%2Fnews%2F4208%2Ftesla-opens-supercharger-access-to-volvo-evs-in-europe%0A via @NotATeslaApp&text=Tesla%20Opens%20Supercharger%20Access%20to%20Volvo%20EVs%20in%20Europe" target="_blank">
+                            <img alt="Share on Twitter" src="/assets/networks/x-social_18w.png" />
+                        </a>
+
+            <a class="threads" href="https://threads.net/intent/post?text=Tesla%20Opens%20Supercharger%20Access%20to%20Volvo%20EVs%20in%20Europe%0Ahttps%3A%2F%2Fwww.notateslaapp.com%2Fnews%2F4208%2Ftesla-opens-supercharger-access-to-volvo-evs-in-europe%0A%0A via @NotATeslaApp" target="_blank">
+                            <img alt="Share on Threads" src="/assets/networks/white/threads_18w.png" />
+                        </a>
+
+            <a class="bluesky" href="https://bsky.app/intent/compose?text=Tesla%20Opens%20Supercharger%20Access%20to%20Volvo%20EVs%20in%20Europe%0Ahttps%3A%2F%2Fwww.notateslaapp.com%2Fnews%2F4208%2Ftesla-opens-supercharger-access-to-volvo-evs-in-europe%0A%0A via @NotATeslaApp.com" target="_blank">
+                            <img alt="Share on Bluesky" src="/assets/networks/white/bluesky_18w.png" />
+                        </a>
+
+            <a class="reddit" href="https://www.reddit.com/submit?url=https%3A%2F%2Fwww.notateslaapp.com%2Fnews%2F4208%2Ftesla-opens-supercharger-access-to-volvo-evs-in-europe&title=Tesla%20Opens%20Supercharger%20Access%20to%20Volvo%20EVs%20in%20Europe" target="_blank">
+                            <img alt="Share on Reddit" src="/assets/networks/reddit_18w.png" />
+                        </a>
+
+            <a class="messenger" href="https://www.facebook.com/dialog/send?link=https%3A%2F%2Fwww.notateslaapp.com%2Fnews%2F4208%2Ftesla-opens-supercharger-access-to-volvo-evs-in-europe&next=https%3A%2F%2Fwww.notateslaapp.com%2Fnews%2F4208%2Ftesla-opens-supercharger-access-to-volvo-evs-in-europe&app_id=748096355847345" target="_blank">
+                            <img alt="Share on FB Messenger" src="/assets/networks/messenger_18w.png" />
+                        </a>
+
+            <a class="email" href="mailto:?to=&subject=Tesla%20Opens%20Supercharger%20Access%20to%20Volvo%20EVs%20in%20Europe&body=Tesla%20Opens%20Supercharger%20Access%20to%20Volvo%20EVs%20in%20Europe%0D%0Ahttps%3A%2F%2Fwww.notateslaapp.com%2Fnews%2F4208%2Ftesla-opens-supercharger-access-to-volvo-evs-in-europe&text=Tesla%20Opens%20Supercharger%20Access%20to%20Volvo%20EVs%20in%20Europe" target="_blank">
+                            <img alt="Share via Email" src="/assets/networks/email_18w.png" />
+                        </a>                                                                                    
+        </div>
+        <div class="image-wrapper image-full"><img data-enlarge="true" src="https://www.notateslaapp.com/img/containers/article_images/2026/volvo-tesla-supercharger-access-2.webp/66da9aa4c63846f6e28b8e079c7471b9/volvo-tesla-supercharger-access-2.jpg" alt="" loading="lazy" style="aspect-ratio: 1200 / 800;" /><div class="image-meta"><div class="caption"></div><div class="credit">Not a Tesla App</div></div></div><p>Tesla and Volvo Cars are making public charging significantly more convenient for the latter&#x00002019;s electric vehicle owners across Europe and the Asia-Pacific region. In a major infrastructure update, the automaker <a rel="noopener" target="_blank" href="https://www.volvocars.com/intl/media/press-releases/47059D66BF39AA8D/">announced</a> an expanded partnership with Tesla that integrates the sprawling Supercharger network directly into Volvo&#039;s native digital ecosystem.</p><p>Starting in the fourth quarter of 2026, Volvo EV drivers will gain seamless access to more than 20,000 Tesla Supercharger stations spread across 29 European countries. The integration removes the friction of maintaining multiple apps, allowing owners to locate Superchargers, verify stall availability, initiate charging, and settle payments directly through the official Volvo Cars app.</p><h2>Integrating the World&#039;s Densest Fast-Charging Network</h2><p>The continental expansion focuses heavily on major European electric vehicle adoption hubs. The majority of the newly accessible Supercharger locations are concentrated in key regional markets, including Germany, France, Norway, the United Kingdom, Sweden, Italy, and Spain.</p><p>According to details from Volvo&#x00002019;s official announcement, this software deployment heavily expands Volvo&#039;s existing infrastructure footprint. European customers already have access to more than 1.2 million public charging points via their mobile devices, but adding Tesla&#039;s hardware brings unmatched reliability to the mix.</p><div class="image-wrapper image-full"><img data-enlarge="true" src="/img/containers/article_images/2026/volvo-tesla-supercharger-access-1.webp/e4f7141bd9dd6e1495d5cfb529b6dff9/volvo-tesla-supercharger-access-1.jpg" alt="" loading="lazy" style="aspect-ratio: 1200 / 800;" /><div class="image-meta"><div class="caption"></div><div class="credit">Not a Tesla App</div></div></div><p>&#x0000201c;Volvo drivers already have access to over three million charging points globally through the Volvo app,&#x0000201d; said Alejandro Castro P&#x000000e9;rez, Head of Energy Solutions at Volvo Cars. &#x0000201c;Adding Tesla Superchargers in Europe means they now have even easier access to one of the most recognised fast charging networks. As we accelerate towards full electrification, our goal is to make charging simple and effortless, through a seamless ecosystem.&#x0000201d;</p><p>The over-the-air app integration will apply to Volvo&#039;s latest lineup of fully electric passenger vehicles, specifically covering the Volvo EX30, EX40, EC40, EX60, EX90, and the premium ES90 sedan.</p><h2>Standardizing Global Infrastructure Access</h2><p>This European milestone builds directly upon a long-term cross-company partnership. Volvo was the first European manufacturer to sign an agreement with Tesla to <a href="https://www.notateslaapp.com/news/1498/tesla-s-nacs-connector-standardization-sae-takes-the-wheel-volvo-join">adopt the North American Charging Standard (NACS)</a>, giving its North American drivers app-based access to roughly 120,000 charging points across Canada and the United States.</p><div class="image-wrapper image-full"><img data-enlarge="true" src="/img/containers/article_images/2026/volvo-tesla-supercharger-access-3.webp/1904ca5135ed1bfc248e20ed8bcc9665/volvo-tesla-supercharger-access-3.jpg" alt="" loading="lazy" style="aspect-ratio: 1200 / 800;" /><div class="image-meta"><div class="caption"></div><div class="credit">Not a Tesla App</div></div></div><p>Volvo is now using that same blueprint to reshape its presence in the Asia-Pacific region. The automaker confirmed plans to officially transition selected vehicle models over to the NACS (SAE J3400) plug standard in key Asian markets, specifically targeting Japan and South Korea by 2029. This long-term hardware adjustment will grant native, adapter-free Supercharger compatibility to Volvo drivers in those countries later this decade.</p><h2>Managing a Massive Shared Charging Moat</h2><p>By opening up its stations to third-party manufacturers, Tesla&#039;s network is rapidly shifting from a private competitive advantage into a highly lucrative global charging utility. The network&#039;s scale is staggering, with Tesla&#039;s global grid currently <a href="https://www.notateslaapp.com/news/3902/tesla-q1-supercharger-stats-53m-sessions-2500-new-stalls-and-more">facilitating more than 50 million individual charging sessions every quarter</a> while recently <a href="https://www.notateslaapp.com/news/3906/tesla-hits-80000-superchargers-with-huge-site-in-france">surpassing 80,000 physical stalls worldwide</a>.</p><p>To ensure that opening up these spots to non-Tesla vehicles doesn&#039;t ruin the experience for its core user base, Tesla has been <a href="https://www.notateslaapp.com/news/4168/first-look-at-teslas-virtual-queue-feature-for-superchargers-photosvideo">publicly testing a virtual waitlist feature</a>. This software architecture is designed to manage high-traffic congestion and eliminate driveway bottlenecks. Once it moves out of initial testing, it is expected to deploy internationally across all global stations.</p><p>By unifying hardware standards and consolidating regional networks under a single application pane, Volvo and Tesla are successfully removing the fragmented complexity that historically hindered mainstream EV adoption, making international clean transit more practical than ever before.</p>            <div>
+                <div data-analytics="mod-follow-us">
+                    <div class="follow-us">
+                        <div class="follow-us">
+                            <a class="button-follow twitter" target="_blank" href="https://twitter.com/intent/user?screen_name=NotATeslaApp">
+                                <div>
+                                                <img alt="Follow us on X / Twitter" src="/assets/networks/x-follow_34h.png" loading="lazy" />
+                                            </div>
+                                <div class="button-follow-text">Follow</div>
+                            </a>
+                        </div>
+
+                        <div class="follow-us">
+                            <a class="button-follow facebook" target="_blank" href="https://www.facebook.com/NotATeslaApp">
+                                <div>
+                                                <img alt="Follow us on Facebook" src="/assets/networks/facebook-follow_34h.png" loading="lazy" />
+                                            </div>
+                                <div class="button-follow-text">Follow</div>
+                            </a>
+                        </div>
+
+                        <div class="follow-us">
+                            <a class="button-follow twitter" target="_blank" href="https://www.threads.net/@NotATeslaApp">
+                                <div>
+                                                <img alt="Follow us on Threads" src="/assets/networks/threads-follow_34h.png" loading="lazy" />
+                                            </div>
+                                <div class="button-follow-text">Follow</div>
+                            </a>
+                        </div>                        
+                    </div>
+                    
+                </div>
+            </div>
+                </article>
+        
+                </div>
+                            <div class="container" data-analytics="mod-view-latest-release">
+                <div class="release">
+                    <h3>Latest Tesla Update</h3>
+                    <p class="fancy-links">
+                        See all the features included in Tesla's latest update, <a href="https://www.notateslaapp.com/software-updates/version/2026.14.100/release-notes">version 2026.14.100</a>.
+                    </p>
+                    <div class="button-container">
+                        <a class="button" href="https://www.notateslaapp.com/software-updates/version/2026.14.100/release-notes">View Release Notes</a>
+                    </div>
+
+                </div>
+            </div>
+                            <div class="self-book3 book3"></div>
+                                <div class="container" data-analytics="mod-list-news">
+                    <div class="release">
+                        <h3>Tesla News</h3>
+                                                            <div class="photo-text-mod">
+                                                                                                    <div class="photo-mod max-height">
+                                                        <a href="https://www.notateslaapp.com/news/4207/tesla-patents-self-cleaning-camera-lens-with-built-in-wiper">
+                                                                        <img alt="Tesla Patents Self-Cleaning Camera Lens With Built-In Wiper" src="https://www.notateslaapp.com/img/containers/article_images/2026/camera-lens-wiper.webp/a0af59b436f02df74ff21e8658ac2ecb/camera-lens-wiper.jpg" style="aspect-ratio: 300 / 169" loading="lazy" />
+                                                                    </a>
+                                                    </div>
+                                                                                                    <div class="text-mod">
+                                                    <h4><a href="https://www.notateslaapp.com/news/4207/tesla-patents-self-cleaning-camera-lens-with-built-in-wiper">Tesla Patents Self-Cleaning Camera Lens With Built-In Wiper</a></h4>
+                                                                                                            <p><a href="https://www.notateslaapp.com/news/4207/tesla-patents-self-cleaning-camera-lens-with-built-in-wiper">Tesla has been granted a new patent for a compact lens-cleaning system designed to keep vehicle cameras clear of dirt, w…</a></p>
+                                                                                                        </div>
+                                            </div>
+                                                                                        <div class="photo-text-mod">
+                                                                                                    <div class="photo-mod max-height">
+                                                        <a href="https://www.notateslaapp.com/news/4208/tesla-opens-supercharger-access-to-volvo-evs-in-europe">
+                                                                        <img alt="Tesla Opens Supercharger Access to Volvo EVs in Europe" src="https://www.notateslaapp.com/img/containers/article_images/2026/volvo-tesla-supercharger-access-2.webp/7bbd1cc4aa2be8eef8b6e97fd2a64873/volvo-tesla-supercharger-access-2.jpg" style="aspect-ratio: 300 / 169" loading="lazy" />
+                                                                    </a>
+                                                    </div>
+                                                                                                    <div class="text-mod">
+                                                    <h4><a href="https://www.notateslaapp.com/news/4208/tesla-opens-supercharger-access-to-volvo-evs-in-europe">Tesla Opens Supercharger Access to Volvo EVs in Europe</a></h4>
+                                                                                                            <p><a href="https://www.notateslaapp.com/news/4208/tesla-opens-supercharger-access-to-volvo-evs-in-europe">Tesla and Volvo Cars are making public charging significantly more convenient for the latter’s electric vehicle owners a…</a></p>
+                                                                                                        </div>
+                                            </div>
+                                                                                        <div class="photo-text-mod">
+                                                                                                    <div class="photo-mod max-height">
+                                                        <a href="https://www.notateslaapp.com/news/4202/tesla-reveals-the-real-reasons-behind-the-model-s-and-model-x-cancellation">
+                                                                        <img alt="Tesla Reveals the Real Reasons Behind the Model S and Model X Cancellation" src="https://www.notateslaapp.com/img/containers/article_images/multiple-models/model-s-model-x-cropped.webp/5ba40b309a127de06842023288bffa71/model-s-model-x-cropped.jpg" style="aspect-ratio: 300 / 169" loading="lazy" />
+                                                                    </a>
+                                                    </div>
+                                                                                                    <div class="text-mod">
+                                                    <h4><a href="https://www.notateslaapp.com/news/4202/tesla-reveals-the-real-reasons-behind-the-model-s-and-model-x-cancellation">Tesla Reveals the Real Reasons Behind the Model S and Model X Cancellation</a></h4>
+                                                                                                            <p><a href="https://www.notateslaapp.com/news/4202/tesla-reveals-the-real-reasons-behind-the-model-s-and-model-x-cancellation">When Tesla officially retired the Model S and Model X, many assumed it was a sudden decision based on declining sales. H…</a></p>
+                                                                                                        </div>
+                                            </div>
+                                                                                        <div class="photo-text-mod">
+                                                                                                    <div class="photo-mod max-height">
+                                                        <a href="https://www.notateslaapp.com/news/4162/how-tesla-vision-sees-through-inclement-weather">
+                                                                        <img alt="How Tesla Vision Sees Through Inclement Weather" src="https://www.notateslaapp.com/img/containers/article_images/2026/visibility_patent_grid.jpg/ae7c8cad5ee45f2f17f2130d7ba40522/visibility_patent_grid.jpg" style="aspect-ratio: 300 / 169" loading="lazy" />
+                                                                    </a>
+                                                    </div>
+                                                                                                    <div class="text-mod">
+                                                    <h4><a href="https://www.notateslaapp.com/news/4162/how-tesla-vision-sees-through-inclement-weather">How Tesla Vision Sees Through Inclement Weather</a></h4>
+                                                                                                            <p><a href="https://www.notateslaapp.com/news/4162/how-tesla-vision-sees-through-inclement-weather">One of the most persistent criticisms of Tesla’s reliance on camera-only autonomy has been its performance in extreme we…</a></p>
+                                                                                                        </div>
+                                            </div>
+                                                                                        <div class="photo-text-mod">
+                                                                                                    <div class="photo-mod max-height">
+                                                        <a href="https://www.notateslaapp.com/news/4174/teslas-dry-cathode-breakthrough-could-drastically-reduce-battery-costs">
+                                                                        <img alt="Tesla’s Dry Cathode Breakthrough Will Drastically Reduce Battery Costs [Musk Responds]" src="https://www.notateslaapp.com/img/containers/article_images/2022/4680-cells.jpg/6da3db6e1efa72ba750b35796eb660ce/4680-cells.jpg" style="aspect-ratio: 300 / 169" loading="lazy" />
+                                                                    </a>
+                                                    </div>
+                                                                                                    <div class="text-mod">
+                                                    <h4><a href="https://www.notateslaapp.com/news/4174/teslas-dry-cathode-breakthrough-could-drastically-reduce-battery-costs">Tesla’s Dry Cathode Breakthrough Will Drastically Reduce Battery Costs [Musk Responds]</a></h4>
+                                                                                                            <p><a href="https://www.notateslaapp.com/news/4174/teslas-dry-cathode-breakthrough-could-drastically-reduce-battery-costs">In a quiet patent filed with the USPTO, Tesla finally conquered one of its greatest challenges to date: the dry cathode.…</a></p>
+                                                                                                        </div>
+                                            </div>
+                                                                </div>
+                </div>
+                            <div class="container" data-analytics="mod-photo-text-upcoming-feature">
+                <div class="release">
+                    <h3><a href="/software-updates/upcoming-features">Coming Soon</a></h3>
+
+                    <div class="photo-text-mod">
+                        <div class="photo-mod max-height">
+                            <a href="https://www.notateslaapp.com/news/4024/tesla-app-update-reveals-upcoming-trailer-light-test-feature">            <img alt="Tesla App Update Reveals Upcoming Trailer Light Test Feature" src="https://www.notateslaapp.com/img/containers/article_images/2021/trailer1.jpg/0b750d53749a14516f770d7babeef61e/trailer1.jpg" style="aspect-ratio: 300 / 169" loading="lazy" />
+            </a>
+                        </div>
+
+                        <div class="text-mod">
+                            <h4><a href="https://www.notateslaapp.com/news/4024/tesla-app-update-reveals-upcoming-trailer-light-test-feature">Tesla App Update Reveals Upcoming Trailer Light Test Feature</a></h4>
+                                                            <p><a href="https://www.notateslaapp.com/news/4024/tesla-app-update-reveals-upcoming-trailer-light-test-feature">As Tesla continues to expand the utility of its vehicles, a recent update to the official mobile app has revealed a hidd…</a></p>
+                                                        </div>
+                    </div>
+                </div>
+            </div>
+                        <div class="container" data-analytics="mod-photo-text-tesla-reference">
+                <div class="release">
+                    <h3><a href="/tesla-reference/">Guides</a></h3>
+
+                    <div class="photo-text-mod">
+                        <div class="photo-mod max-height">
+                            <a href="https://www.notateslaapp.com/news/3623/why-doesnt-tesla-pay-federal-taxes">            <img alt="Why Doesn’t Tesla Pay Federal Taxes?" src="https://www.notateslaapp.com/img/containers/article_images/multiple-models/group_83.jpg/af72aaab11ebde6d98e7565f763ac54d/group_83.jpg" style="aspect-ratio: 300 / 169" loading="lazy" />
+            </a>
+                        </div>
+
+                        <div class="text-mod">
+                            <h4><a href="https://www.notateslaapp.com/news/3623/why-doesnt-tesla-pay-federal-taxes">Why Doesn’t Tesla Pay Federal Taxes?</a></h4>
+                                                            <p><a href="https://www.notateslaapp.com/news/3623/why-doesnt-tesla-pay-federal-taxes">Recent headlines designed to spark outrage have taken social media by storm: “Tesla Pays Zero Federal Income Taxes on $5…</a></p>
+                                                        </div>
+                    </div>
+                </div>
+            </div>
+                    <div class="container" data-analytics="mod-confirmed-by-elon">
+            <div class="release">
+                <h3>Confirmed by Elon</h3>
+                <p>Take a look at features that Elon Musk has said will be coming soon.</p>
+                <div class="button-container">
+                    <a class="button" href="https://www.notateslaapp.com/software-updates/upcoming-features">View Upcoming Features</a>
+                </div>
+
+            </div>
+        </div>
+                    <div class="container" data-analytics="mod-photo-text-tips">
+                <div class="release">
+                    <h3><a href="/tesla-tips/">Tip of the Day</a></h3>
+
+                    <div class="photo-text-mod">
+                        <div class="photo-mod max-height">
+                            <a href="https://www.notateslaapp.com/news/538/tesla-adjust-seat-heaters-check-charge-level-and-more-while-watching-full-screen-video-like-netflix-youtube-or-disney-plus">            <img alt="Tip: Turn on seat heaters, check charge level and more while watching Netflix" src="https://www.notateslaapp.com/images/news/2021/entertainment_300w.jpg" style="aspect-ratio: 300 / 146" loading="lazy" />
+            </a>
+                        </div>
+
+                        <div class="text-mod">
+                            <h4><a href="https://www.notateslaapp.com/news/538/tesla-adjust-seat-heaters-check-charge-level-and-more-while-watching-full-screen-video-like-netflix-youtube-or-disney-plus">Tip: Turn on seat heaters, check charge level and more while watching Netflix</a></h4>
+                                                            <p><a href="https://www.notateslaapp.com/news/538/tesla-adjust-seat-heaters-check-charge-level-and-more-while-watching-full-screen-video-like-netflix-youtube-or-disney-plus">
+So you’re relaxing while charging at a Supercharger and taking advantage of your premium connectivity by enjoying som&hellip;</a></p>
+                                                        </div>
+                    </div>
+                </div>
+            </div>
+                        <div class="container" data-analytics="mod-photo-text-easter-egg">
+                <div class="release">
+                    <h3><a href="/tesla-easter-eggs/">Easter Eggs</a></h3>
+
+                    <div class="photo-text-mod">
+                        <div class="photo-mod max-height">
+                            <a href="https://www.notateslaapp.com/news/37/tesla-monty-python-easter-egg">            <img alt="Tesla Monty Python Easter Egg" src="https://www.notateslaapp.com/images/news/2023/capture-monty-python_300w.jpg" style="aspect-ratio: 300 / 188" loading="lazy" />
+            </a>
+                        </div>
+
+                        <div class="text-mod">
+                            <h4><a href="https://www.notateslaapp.com/news/37/tesla-monty-python-easter-egg">Tesla Monty Python Easter Egg</a></h4>
+                                                            <p><a href="https://www.notateslaapp.com/news/37/tesla-monty-python-easter-egg">
+
+
+The Foot of Cupid will immediately drop down the length of the screen, pushing the "About your Tesla" menu out of the&hellip;</a></p>
+                                                        </div>
+                    </div>
+                </div>
+            </div>
+                    <div class="container list hide-if-in-col-a" data-analytics="mod-list-upcoming-features">
+            <div class="release">
+                <h3>Upcoming Features</h3>
+
+                <ul>
+                    <li><a href="https://www.notateslaapp.com/news/4168/first-look-at-teslas-virtual-queue-feature-for-superchargers-photosvideo">First Look at Tesla's Virtual Queue Feature for Superchargers [Photos/Video]</a></li><li><a href="https://www.notateslaapp.com/news/4163/exclusive-tesla-will-allow-blocking-browser-arcade-and-tesla-theater-in-new-parental-controls-update">Exclusive: Tesla Will Allow Blocking Browser, Arcade, and Tesla Theater in New Parental Controls Update</a></li><li><a href="https://www.notateslaapp.com/news/4024/tesla-app-update-reveals-upcoming-trailer-light-test-feature">Tesla App Update Reveals Upcoming Trailer Light Test Feature</a></li><li><a href="https://www.notateslaapp.com/news/3966/tesla-announces-spring-2026-software-update-heres-whats-coming">Tesla Announces Spring 2026 Software Update: New Self-Driving App, 'Hey Grok,' and More</a></li><li><a href="https://www.notateslaapp.com/news/3939/tesla-starts-using-cabin-cameras-to-assess-driver-age">Tesla Starts Using Cabin Cameras to Assess Driver Age</a></li><li><a href="https://www.notateslaapp.com/news/3891/tesla-unveils-new-ui-features-for-fsd-in-europe">Tesla Unveils New UI Features for FSD in Europe</a></li><li><a href="https://www.notateslaapp.com/news/3673/youll-be-able-to-control-teslas-fsd-with-grok">You'll Be Able to Control Tesla's FSD With Grok</a></li><li><a href="https://www.notateslaapp.com/news/3595/tesla-carplay-tesla-working-with-apple-on-better-integration">Tesla CarPlay: Tesla Working With Apple on Better Integration</a></li><li><a href="https://www.notateslaapp.com/news/3589/teslas-new-automations-feature-in-action-video">Tesla’s New Automations Feature in Action [VIDEO]</a></li><li><a href="https://www.notateslaapp.com/news/3559/tesla-carplay-support-still-in-the-works">Tesla CarPlay Support "Still in the Works"</a></li>                </ul>
+
+                <div class="button-container">
+                    <a class="button" href="https://www.notateslaapp.com/software-updates/upcoming-features">All Upcoming Features</a>
+                </div>
+
+            </div>
+        </div>
+                        <div class="container" data-analytics="mod-list-news">
+                    <div class="release">
+                        <h3>Tesla News</h3>
+                                                            <div class="photo-text-mod">
+                                                                                                    <div class="photo-mod max-height">
+                                                        <a href="https://www.notateslaapp.com/news/4207/tesla-patents-self-cleaning-camera-lens-with-built-in-wiper">
+                                                                        <img alt="Tesla Patents Self-Cleaning Camera Lens With Built-In Wiper" src="https://www.notateslaapp.com/img/containers/article_images/2026/camera-lens-wiper.webp/a0af59b436f02df74ff21e8658ac2ecb/camera-lens-wiper.jpg" style="aspect-ratio: 300 / 169" loading="lazy" />
+                                                                    </a>
+                                                    </div>
+                                                                                                    <div class="text-mod">
+                                                    <h4><a href="https://www.notateslaapp.com/news/4207/tesla-patents-self-cleaning-camera-lens-with-built-in-wiper">Tesla Patents Self-Cleaning Camera Lens With Built-In Wiper</a></h4>
+                                                                                                            <p><a href="https://www.notateslaapp.com/news/4207/tesla-patents-self-cleaning-camera-lens-with-built-in-wiper">Tesla has been granted a new patent for a compact lens-cleaning system designed to keep vehicle cameras clear of dirt, w…</a></p>
+                                                                                                        </div>
+                                            </div>
+                                                                                        <div class="photo-text-mod">
+                                                                                                    <div class="photo-mod max-height">
+                                                        <a href="https://www.notateslaapp.com/news/4208/tesla-opens-supercharger-access-to-volvo-evs-in-europe">
+                                                                        <img alt="Tesla Opens Supercharger Access to Volvo EVs in Europe" src="https://www.notateslaapp.com/img/containers/article_images/2026/volvo-tesla-supercharger-access-2.webp/7bbd1cc4aa2be8eef8b6e97fd2a64873/volvo-tesla-supercharger-access-2.jpg" style="aspect-ratio: 300 / 169" loading="lazy" />
+                                                                    </a>
+                                                    </div>
+                                                                                                    <div class="text-mod">
+                                                    <h4><a href="https://www.notateslaapp.com/news/4208/tesla-opens-supercharger-access-to-volvo-evs-in-europe">Tesla Opens Supercharger Access to Volvo EVs in Europe</a></h4>
+                                                                                                            <p><a href="https://www.notateslaapp.com/news/4208/tesla-opens-supercharger-access-to-volvo-evs-in-europe">Tesla and Volvo Cars are making public charging significantly more convenient for the latter’s electric vehicle owners a…</a></p>
+                                                                                                        </div>
+                                            </div>
+                                                                                        <div class="photo-text-mod">
+                                                                                                    <div class="photo-mod max-height">
+                                                        <a href="https://www.notateslaapp.com/news/4202/tesla-reveals-the-real-reasons-behind-the-model-s-and-model-x-cancellation">
+                                                                        <img alt="Tesla Reveals the Real Reasons Behind the Model S and Model X Cancellation" src="https://www.notateslaapp.com/img/containers/article_images/multiple-models/model-s-model-x-cropped.webp/5ba40b309a127de06842023288bffa71/model-s-model-x-cropped.jpg" style="aspect-ratio: 300 / 169" loading="lazy" />
+                                                                    </a>
+                                                    </div>
+                                                                                                    <div class="text-mod">
+                                                    <h4><a href="https://www.notateslaapp.com/news/4202/tesla-reveals-the-real-reasons-behind-the-model-s-and-model-x-cancellation">Tesla Reveals the Real Reasons Behind the Model S and Model X Cancellation</a></h4>
+                                                                                                            <p><a href="https://www.notateslaapp.com/news/4202/tesla-reveals-the-real-reasons-behind-the-model-s-and-model-x-cancellation">When Tesla officially retired the Model S and Model X, many assumed it was a sudden decision based on declining sales. H…</a></p>
+                                                                                                        </div>
+                                            </div>
+                                                                                        <div class="photo-text-mod">
+                                                                                                    <div class="photo-mod max-height">
+                                                        <a href="https://www.notateslaapp.com/news/4162/how-tesla-vision-sees-through-inclement-weather">
+                                                                        <img alt="How Tesla Vision Sees Through Inclement Weather" src="https://www.notateslaapp.com/img/containers/article_images/2026/visibility_patent_grid.jpg/ae7c8cad5ee45f2f17f2130d7ba40522/visibility_patent_grid.jpg" style="aspect-ratio: 300 / 169" loading="lazy" />
+                                                                    </a>
+                                                    </div>
+                                                                                                    <div class="text-mod">
+                                                    <h4><a href="https://www.notateslaapp.com/news/4162/how-tesla-vision-sees-through-inclement-weather">How Tesla Vision Sees Through Inclement Weather</a></h4>
+                                                                                                            <p><a href="https://www.notateslaapp.com/news/4162/how-tesla-vision-sees-through-inclement-weather">One of the most persistent criticisms of Tesla’s reliance on camera-only autonomy has been its performance in extreme we…</a></p>
+                                                                                                        </div>
+                                            </div>
+                                                                                        <div class="photo-text-mod">
+                                                                                                    <div class="photo-mod max-height">
+                                                        <a href="https://www.notateslaapp.com/news/4174/teslas-dry-cathode-breakthrough-could-drastically-reduce-battery-costs">
+                                                                        <img alt="Tesla’s Dry Cathode Breakthrough Will Drastically Reduce Battery Costs [Musk Responds]" src="https://www.notateslaapp.com/img/containers/article_images/2022/4680-cells.jpg/6da3db6e1efa72ba750b35796eb660ce/4680-cells.jpg" style="aspect-ratio: 300 / 169" loading="lazy" />
+                                                                    </a>
+                                                    </div>
+                                                                                                    <div class="text-mod">
+                                                    <h4><a href="https://www.notateslaapp.com/news/4174/teslas-dry-cathode-breakthrough-could-drastically-reduce-battery-costs">Tesla’s Dry Cathode Breakthrough Will Drastically Reduce Battery Costs [Musk Responds]</a></h4>
+                                                                                                            <p><a href="https://www.notateslaapp.com/news/4174/teslas-dry-cathode-breakthrough-could-drastically-reduce-battery-costs">In a quiet patent filed with the USPTO, Tesla finally conquered one of its greatest challenges to date: the dry cathode.…</a></p>
+                                                                                                        </div>
+                                            </div>
+                                                                </div>
+                </div>
+                            </div>
+            <div class="col-c">
+                                <div class="container" data-analytics="mod-list-news">
+                    <div class="release">
+                        <h3>Tesla News</h3>
+                                                            <div class="photo-text-mod">
+                                                                                                    <div class="photo-mod max-height">
+                                                        <a href="https://www.notateslaapp.com/news/4207/tesla-patents-self-cleaning-camera-lens-with-built-in-wiper">
+                                                                        <img alt="Tesla Patents Self-Cleaning Camera Lens With Built-In Wiper" src="https://www.notateslaapp.com/img/containers/article_images/2026/camera-lens-wiper.webp/a0af59b436f02df74ff21e8658ac2ecb/camera-lens-wiper.jpg" style="aspect-ratio: 300 / 169" loading="lazy" />
+                                                                    </a>
+                                                    </div>
+                                                                                                    <div class="text-mod">
+                                                    <h4><a href="https://www.notateslaapp.com/news/4207/tesla-patents-self-cleaning-camera-lens-with-built-in-wiper">Tesla Patents Self-Cleaning Camera Lens With Built-In Wiper</a></h4>
+                                                                                                    </div>
+                                            </div>
+                                                                                        <div class="photo-text-mod">
+                                                                                                    <div class="photo-mod max-height">
+                                                        <a href="https://www.notateslaapp.com/news/4208/tesla-opens-supercharger-access-to-volvo-evs-in-europe">
+                                                                        <img alt="Tesla Opens Supercharger Access to Volvo EVs in Europe" src="https://www.notateslaapp.com/img/containers/article_images/2026/volvo-tesla-supercharger-access-2.webp/7bbd1cc4aa2be8eef8b6e97fd2a64873/volvo-tesla-supercharger-access-2.jpg" style="aspect-ratio: 300 / 169" loading="lazy" />
+                                                                    </a>
+                                                    </div>
+                                                                                                    <div class="text-mod">
+                                                    <h4><a href="https://www.notateslaapp.com/news/4208/tesla-opens-supercharger-access-to-volvo-evs-in-europe">Tesla Opens Supercharger Access to Volvo EVs in Europe</a></h4>
+                                                                                                    </div>
+                                            </div>
+                                                                                        <div class="photo-text-mod">
+                                                                                                    <div class="photo-mod max-height">
+                                                        <a href="https://www.notateslaapp.com/news/4202/tesla-reveals-the-real-reasons-behind-the-model-s-and-model-x-cancellation">
+                                                                        <img alt="Tesla Reveals the Real Reasons Behind the Model S and Model X Cancellation" src="https://www.notateslaapp.com/img/containers/article_images/multiple-models/model-s-model-x-cropped.webp/5ba40b309a127de06842023288bffa71/model-s-model-x-cropped.jpg" style="aspect-ratio: 300 / 169" loading="lazy" />
+                                                                    </a>
+                                                    </div>
+                                                                                                    <div class="text-mod">
+                                                    <h4><a href="https://www.notateslaapp.com/news/4202/tesla-reveals-the-real-reasons-behind-the-model-s-and-model-x-cancellation">Tesla Reveals the Real Reasons Behind the Model S and Model X Cancellation</a></h4>
+                                                                                                    </div>
+                                            </div>
+                                                                                        <div class="photo-text-mod">
+                                                                                                    <div class="photo-mod max-height">
+                                                        <a href="https://www.notateslaapp.com/news/4162/how-tesla-vision-sees-through-inclement-weather">
+                                                                        <img alt="How Tesla Vision Sees Through Inclement Weather" src="https://www.notateslaapp.com/img/containers/article_images/2026/visibility_patent_grid.jpg/ae7c8cad5ee45f2f17f2130d7ba40522/visibility_patent_grid.jpg" style="aspect-ratio: 300 / 169" loading="lazy" />
+                                                                    </a>
+                                                    </div>
+                                                                                                    <div class="text-mod">
+                                                    <h4><a href="https://www.notateslaapp.com/news/4162/how-tesla-vision-sees-through-inclement-weather">How Tesla Vision Sees Through Inclement Weather</a></h4>
+                                                                                                    </div>
+                                            </div>
+                                                                                        <div class="photo-text-mod">
+                                                                                                    <div class="photo-mod max-height">
+                                                        <a href="https://www.notateslaapp.com/news/4174/teslas-dry-cathode-breakthrough-could-drastically-reduce-battery-costs">
+                                                                        <img alt="Tesla’s Dry Cathode Breakthrough Will Drastically Reduce Battery Costs [Musk Responds]" src="https://www.notateslaapp.com/img/containers/article_images/2022/4680-cells.jpg/6da3db6e1efa72ba750b35796eb660ce/4680-cells.jpg" style="aspect-ratio: 300 / 169" loading="lazy" />
+                                                                    </a>
+                                                    </div>
+                                                                                                    <div class="text-mod">
+                                                    <h4><a href="https://www.notateslaapp.com/news/4174/teslas-dry-cathode-breakthrough-could-drastically-reduce-battery-costs">Tesla’s Dry Cathode Breakthrough Will Drastically Reduce Battery Costs [Musk Responds]</a></h4>
+                                                                                                    </div>
+                                            </div>
+                                                                </div>
+                </div>
+                                <div class="self-book3 book3"></div>
+                            <div class="container video-player-module-wrapper">
+                <div class="release">
+                    <h3>Tesla Videos</h3>
+                    <div class="video-player-module"></div>
+                </div>
+            </div>    
+                        <div class="container" data-analytics="mod-view-latest-release">
+                <div class="release">
+                    <h3>Latest Tesla Update</h3>
+                    <p class="fancy-links">
+                        See all the features included in Tesla's latest update, <a href="https://www.notateslaapp.com/software-updates/version/2026.14.100/release-notes">version 2026.14.100</a>.
+                    </p>
+                    <div class="button-container">
+                        <a class="button" href="https://www.notateslaapp.com/software-updates/version/2026.14.100/release-notes">View Release Notes</a>
+                    </div>
+
+                </div>
+            </div>
+                        <div class="container" data-analytics="mod-photo-text-upcoming-feature">
+                <div class="release">
+                    <h3><a href="/software-updates/upcoming-features">Coming Soon</a></h3>
+
+                    <div class="photo-text-mod">
+                        <div class="photo-mod max-height">
+                            <a href="https://www.notateslaapp.com/news/3939/tesla-starts-using-cabin-cameras-to-assess-driver-age">            <img alt="Tesla Starts Using Cabin Cameras to Assess Driver Age" src="https://www.notateslaapp.com/img/containers/article_images/tesla-screen/cabin-preview.webp/f2eddcba4698a70f3b1b4f234fc55117/cabin-preview.jpg" style="aspect-ratio: 300 / 169" loading="lazy" />
+            </a>
+                        </div>
+
+                        <div class="text-mod">
+                            <h4><a href="https://www.notateslaapp.com/news/3939/tesla-starts-using-cabin-cameras-to-assess-driver-age">Tesla Starts Using Cabin Cameras to Assess Driver Age</a></h4>
+                                                    </div>
+                    </div>
+                </div>
+            </div>
+                        <div class="container" data-analytics="mod-photo-text-tesla-reference">
+                <div class="release">
+                    <h3><a href="/tesla-reference/">Guides</a></h3>
+
+                    <div class="photo-text-mod">
+                        <div class="photo-mod max-height">
+                            <a href="https://www.notateslaapp.com/tesla-reference/1146/fastest-car-motortrend-has-ever-tested-tesla-model-s-plaid-top-speed-and-specs">            <img alt="Tesla Model S Plaid: Price, Top speed and Specs" src="https://www.notateslaapp.com/images/news/2023/model-s-plaid_300w.jpg" style="aspect-ratio: 300 / 169" loading="lazy" />
+            </a>
+                        </div>
+
+                        <div class="text-mod">
+                            <h4><a href="https://www.notateslaapp.com/tesla-reference/1146/fastest-car-motortrend-has-ever-tested-tesla-model-s-plaid-top-speed-and-specs">Tesla Model S Plaid: Price, Top speed and Specs</a></h4>
+                                                    </div>
+                    </div>
+                </div>
+            </div>
+                    <div class="container list" data-analytics="mod-list-more-news">
+            <div class="release">
+                <h3>More News</h3>
+
+                <ul>
+                    <li><a href="https://www.notateslaapp.com/news/4188/tesla-is-planning-a-dedicated-robotaxi-hub-in-texas-video">Tesla is Planning a Dedicated Robotaxi Hub in Texas [VIDEO]</a></li><li><a href="https://www.notateslaapp.com/news/4201/tesla-says-roadster-is-currently-in-testing-will-be-built-in-texas">Tesla Says Roadster Is Currently in Testing, Will Be Built In Texas</a></li><li><a href="https://www.notateslaapp.com/news/4203/teslas-chief-engineer-teases-the-possibility-of-a-tri-motor-model-3-plaid">Tesla Teases the Possibility of Tri-Motor, Model 3 Plaid</a></li><li><a href="https://www.notateslaapp.com/news/4198/solving-tesla-fsd-parking-problem-a-look-at-community-concepts">Solving Tesla's FSD Parking Problem: A Look at Community Concepts</a></li><li><a href="https://www.notateslaapp.com/news/4197/tesla-fsd-learns-to-slow-down-for-police-video">Tesla FSD Learns to Slow Down for Police [VIDEO]</a></li><li><a href="https://www.notateslaapp.com/news/4195/tesla-quietly-lowers-acceleration-time-and-other-specs-for-canadian-model-3">Tesla Quietly Lowers Acceleration Time and Other Specs for Canadian Model 3</a></li>                </ul>
+                            </div>
+        </div>
+                <div class="container list hide-if-in-col-a" data-analytics="mod-list-upcoming-features">
+            <div class="release">
+                <h3>Upcoming Features</h3>
+
+                <ul>
+                    <li><a href="https://www.notateslaapp.com/news/4168/first-look-at-teslas-virtual-queue-feature-for-superchargers-photosvideo">First Look at Tesla's Virtual Queue Feature for Superchargers [Photos/Video]</a></li><li><a href="https://www.notateslaapp.com/news/4163/exclusive-tesla-will-allow-blocking-browser-arcade-and-tesla-theater-in-new-parental-controls-update">Exclusive: Tesla Will Allow Blocking Browser, Arcade, and Tesla Theater in New Parental Controls Update</a></li><li><a href="https://www.notateslaapp.com/news/4024/tesla-app-update-reveals-upcoming-trailer-light-test-feature">Tesla App Update Reveals Upcoming Trailer Light Test Feature</a></li><li><a href="https://www.notateslaapp.com/news/3966/tesla-announces-spring-2026-software-update-heres-whats-coming">Tesla Announces Spring 2026 Software Update: New Self-Driving App, 'Hey Grok,' and More</a></li><li><a href="https://www.notateslaapp.com/news/3939/tesla-starts-using-cabin-cameras-to-assess-driver-age">Tesla Starts Using Cabin Cameras to Assess Driver Age</a></li>                </ul>
+
+                <div class="button-container">
+                    <a class="button" href="https://www.notateslaapp.com/software-updates/upcoming-features">All Upcoming Features</a>
+                </div>
+
+            </div>
+        </div>
+                    <div class="container" data-analytics="mod-photo-text-tips">
+                <div class="release">
+                    <h3><a href="/tesla-tips/">Tip of the Day</a></h3>
+
+                    <div class="photo-text-mod">
+                        <div class="photo-mod max-height">
+                            <a href="https://www.notateslaapp.com/news/767/how-to-add-a-fifth-quick-control-icon-to-the-tesla-app">            <img alt="How to add more &#039;Quick Control&#039; icons to the Tesla app" src="https://www.notateslaapp.com/images/news/2022/tesla-app-five-icons_300w.jpg" style="aspect-ratio: 300 / 331" loading="lazy" />
+            </a>
+                        </div>
+
+                        <div class="text-mod">
+                            <h4><a href="https://www.notateslaapp.com/news/767/how-to-add-a-fifth-quick-control-icon-to-the-tesla-app">How to add more &#039;Quick Control&#039; icons to the Tesla app</a></h4>
+                                                    </div>
+                    </div>
+                </div>
+            </div>
+                        <div class="container" data-analytics="mod-photo-text-easter-egg">
+                <div class="release">
+                    <h3><a href="/tesla-easter-eggs/">Easter Eggs</a></h3>
+
+                    <div class="photo-text-mod">
+                        <div class="photo-mod max-height">
+                            <a href="https://www.notateslaapp.com/news/48/tesla-mario-kart-s-rainbow-road-and-don-t-fear-the-reaper-snl-more-cowbell-easter-egg">            <img alt="Tesla: Mario Kart&#039;s Rainbow Road / SNL Easter Egg" src="https://www.notateslaapp.com/images/news/2022/rainbow-road_300w.jpg" style="aspect-ratio: 300 / 338" loading="lazy" />
+            </a>
+                        </div>
+
+                        <div class="text-mod">
+                            <h4><a href="https://www.notateslaapp.com/news/48/tesla-mario-kart-s-rainbow-road-and-don-t-fear-the-reaper-snl-more-cowbell-easter-egg">Tesla: Mario Kart&#039;s Rainbow Road / SNL Easter Egg</a></h4>
+                                                    </div>
+                    </div>
+                </div>
+            </div>
+                    <div class="container mobile-only-on-col-ab hide-if-in-col-a">
+            <div class="release">
+                <h3>Subscribe</h3>
+                <p>Subscribe to our weekly newsletter</p>
+                <div style="margin-left: -5px; margin-right: -5px;">
+                    <form class="input-wrapper subscribe-form" style="padding: 2px; border-radius: 30px;" onsubmit="return tesla.releases.subscribe(this);">
+                        <input type="email" style="font-size: 1.1em; padding: 8px 0 8px 8px" placeholder="email" />
+                        <input name="source" value="newsletter-side-module" type="hidden" />
+                        <button class="button button-highlight" type="submit">Join</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+                        <div class="self-book3 book3"></div>
+                            </div>
+        </div>
+    </div>
+	<section class="site-footer">
+    <div class="site-footer__social">
+		<div class="site-section-social">
+			<h3>Follow Us</h3>
+                            <a href="https://www.x.com/NotATeslaApp" target="_blank"><img src="/assets/networks/white/x-social.png" loading="lazy" title="Follow us on X" alt="X" /></a>
+                                <a href="https://www.threads.net/@NotATeslaApp" target="_blank"><img src="/assets/networks/white/threads.png" loading="lazy" title="Follow us on Threads" alt="Threads" /></a>
+                                <a href="https://www.facebook.com/NotATeslaApp" target="_blank"><img src="/assets/networks/white/facebook.png" loading="lazy" title="Follow us on Facebook" alt="Facebook" /></a>
+                                <a href="https://www.instagram.com/notateslaapp/" target="_blank"><img src="/assets/networks/white/instagram.png" loading="lazy" title="Follow us on Instagram" alt="Instagram" /></a>
+                                <a href="https://www.linkedin.com/company/not-a-tesla-app/" target="_blank"><img src="/assets/networks/white/linkedin.png" loading="lazy" title="Follow us on LinkedIn" alt="LinkedIn" /></a>
+                                <a href="https://www.reddit.com/r/NotATeslaApp/" target="_blank"><img src="/assets/networks/white/reddit.png" loading="lazy" title="Follow us on Reddit" alt="Reddit" /></a>
+                                <a href="https://bsky.app/profile/notateslaapp.com" target="_blank"><img src="/assets/networks/white/bluesky.png" loading="lazy" title="Follow us on Bluesky" alt="Bluesky" /></a>
+                                <a href="https://mastodon.social/@NotATeslaApp" target="_blank"><img src="/assets/networks/white/mastodon.png" loading="lazy" title="Follow us on Mastodon" alt="Mastodon" /></a>
+                                <a href="https://www.youtube.com/channel/UCY7wm06qwU7mI2-cwR96MbA/videos?sub_confirmation=1" target="_blank"><img src="/assets/networks/white/youtube.png" loading="lazy" title="Follow us on YouTube" alt="YouTube" /></a>
+                                <a href="https://news.google.com/publications/CAAqBwgKMImMoQswoZa5Aw" target="_blank"><img src="/assets/networks/white/google-news.png" loading="lazy" title="Follow us on Google News" alt="Google News" /></a>
+                		</div>
+
+		<div class="site-section-newsletter">
+			<h3>Newsletter</h3>
+
+			<form class="input-wrapper subscribe-form" onsubmit="return tesla.releases.subscribe(this);">
+				<input type="email" placeholder="email">
+				<input name="source" value="newsletter-site-footer" type="hidden">
+				<button class="button button-highlight" type="submit">Join</button>
+			</form>
+		</div>        
+    </div>    
+
+	<div class="site-footer__links">
+		<div class="site-section">
+			<h3>About</h3>
+
+            <div class="site-section-links">
+                <a href="/contact-us">Contact Us</a><a href="/tesla-newsletter">Newsletter</a><a href="/rss">RSS Feed</a><a href="/sponsor">Advertise</a><a href="/privacy-policy">Privacy Policy</a>            </div>
+		</div>
+
+		<div class="site-section">
+			<h3>Software Updates</h3>
+            <div class="site-section-links">
+                <a href="/software-updates/">Software Updates</a><a href="/software-updates/news">Software News</a><a href="/tesla-app-updates/">Tesla App Updates</a><a href="/fsd-beta/">FSD Updates</a>            </div>
+		</div>	
+
+		<div class="site-section">
+			<h3>News</h3>
+            <div class="site-section-links">
+                <a href="/fsd-beta/news">FSD News</a><a href="/software-updates/upcoming-features">Upcoming Features</a><a href="/software-updates/news">Software</a><a href="/charging/">Charging</a><a href="/tesla-energy/">Tesla Energy</a><a href="/hardware/">Hardware</a><a href="/tesla-insurance/">Tesla Insurance</a><a href="/games/">Tesla Games</a><a href="/tesla-events/">Tesla Events</a>            </div>
+		</div>	
+                    <div class="site-section">
+                <h3>More News</h3>
+                <div class="site-section-links">
+                    <a href="/model-s-model-x/">Model S / Model X</a><a href="/model-3-model-y/">Model 3 / Model Y</a><a href="/cybertruck/">Cybertruck</a><a href="/next-gen-model/">Next Gen Model</a><a href="/robotaxi/">Robotaxi</a><a href="/tesla-roadster/">Tesla Roadster</a><a href="/tesla-semi/">Tesla Semi</a><a href="/software-updates/implemented-features">Implemented Features</a><a href="/tesla-interviews/">Tesla Interviews</a>                </div>
+            </div>
+            
+		<div class="site-section">
+			<h3>Guides</h3>
+            <div class="site-section-links">
+                <a href="/tesla-reference/">Guides</a><a href="/tesla-tips/">Tesla Tips</a><a href="/tesla-easter-eggs/">Easter Eggs</a><a href="/tesla-voice-commands/">Voice Commands</a><a href="/community/">Forums</a>            </div>
+		</div>
+	</div>
+
+	<div class="site-footer__about">	
+		<div class="site-section-logos">
+			<a href="https://www.rivianwave.com" rel="follow"><img loading="lazy" class="rivian-footer-logo" src="/assets/logo/rivian-wave-logo-white-1x.png" /></a>
+			<a href="https://www.notateslaapp.com" rel="follow"><img loading="lazy" class="tesla-footer-logo" src="/assets/logo/nata-logo-and-text-1x.png" /></a>
+		</div>
+
+		<span>Not a Tesla App &copy; 2026</span>
+	</div>
+</section>
+<script>!function(e){const r={"Europe/Brussels":"gdpr","Europe/Sofia":"gdpr","Europe/Prague":"gdpr","Europe/Copenhagen":"gdpr","Europe/Berlin":"gdpr","Europe/Tallinn":"gdpr","Europe/Dublin":"gdpr","Europe/Athens":"gdpr","Europe/Madrid":"gdpr","Africa/Ceuta":"gdpr","Europe/Paris":"gdpr","Europe/Zagreb":"gdpr","Europe/Rome":"gdpr","Asia/Nicosia":"gdpr","Europe/Nicosia":"gdpr","Europe/Riga":"gdpr","Europe/Vilnius":"gdpr","Europe/Luxembourg":"gdpr","Europe/Budapest":"gdpr","Europe/Malta":"gdpr","Europe/Amsterdam":"gdpr","Europe/Vienna":"gdpr","Europe/Warsaw":"gdpr","Europe/Lisbon":"gdpr","Atlantic/Madeira":"gdpr","Europe/Bucharest":"gdpr","Europe/Ljubljana":"gdpr","Europe/Bratislava":"gdpr","Europe/Helsinki":"gdpr","Europe/Stockholm":"gdpr","Europe/London":"gdpr","Europe/Vaduz":"gdpr","Atlantic/Reykjavik":"gdpr","Europe/Oslo":"gdpr","Europe/Istanbul":"gdpr","Europe/Zurich":"gdpr"},p=(()=>{const e=Intl.DateTimeFormat().resolvedOptions().timeZone;return r[e]||null})();if(null===p||"gdpr"!==p){const r="__adblocker";if(-1===e.cookie.indexOf(r)){const p=new XMLHttpRequest;p.open("GET","https://ads.adthrive.com/abd/abd.js",!0),p.onreadystatechange=function(){if(XMLHttpRequest.DONE===p.readyState)if(200===p.status){const r=e.createElement("script");r.innerHTML=p.responseText,e.getElementsByTagName("head")[0].appendChild(r)}else{const p=new Date;p.setTime(p.getTime()+3e5),e.cookie=r+"=true; expires="+p.toUTCString()+"; path=/"}},p.send()}}}(document);</script>
+<script>!function(){function e(){var e=document.cookie.match("(^|[^;]+)\s*__adblocker\s*=\s*([^;]+)");return e&&e.pop()}function t(){var e=document.createElement("script");e.async=!0,e.id="Tqgkgu",e.setAttribute("data-sdk","l/1.1.15"),e.setAttribute("data-cfasync","false"),e.src="https://html-load.com/loader.min.js",e.charset="UTF-8",e.setAttribute("data","kfpvgbrkab9r4a5rkrqrkwagrw6rzrv8rxag0asrka5abaoagrxa5srxrxabasrkrvabaoaxrx0asrkabrxfaba1raa5a5asrkr9wa1agrw6rzr9rkaia8"),e.setAttribute("onload","(async()=>{let e='html-load.com';const t=window,a=document,r=e=>new Promise((t=>{const a=.1*e,r=e+Math.floor(2*Math.random()*a)-a;setTimeout(t,r)})),o=t.addEventListener.bind(t),n=t.postMessage.bind(t),s=btoa,i='message',l=location,c=Math.random;try{const t=()=>new Promise(((e,t)=>{let a=c().toString(),r=c().toString();o(i,(e=>e.data===a&&n(r,'*'))),o(i,(t=>t.data===r&&e())),n(a,'*'),setTimeout((()=>{t(Error('Timeout'))}),1231)})),a=async()=>{try{let e=!1;const a=c().toString();if(o(i,(t=>{t.data===a+'_as_res'&&(e=!0)})),n(a+'_as_req','*'),await t(),await r(500),e)return!0}catch(e){}return!1},s=[100,500,1e3];for(let o=0;o<=s.length&&!await a();o++){if(o===s.length-1)throw'Failed to load website properly since '+e+' is tainted. Please allow '+e;await r(s[o])}}catch(d){try{const e=a.querySelector('script#Tqgkgu').getAttribute('onerror');t[s(l.hostname+'_show_bfa')]=d,await new Promise(((t,r)=>{o('message',(e=>{'as_modal_loaded'===e.data&&t()})),setTimeout((()=>r(d)),3e3);const n=a.createElement('script');n.innerText=e,a.head.appendChild(n),n.remove()}))}catch(m){(t=>{const a='https://report.error-report.com/modal';try{confirm('There was a problem loading the page. Please click OK to learn more.')?l.href=a+'?url='+s(l.href)+'&error='+s(t)+'&domain='+e:l.reload()}catch(d){location.href=a+'?eventId=&error=Vml0YWwgQVBJIGJsb2NrZWQ%3D&domain='+e}})(d)}}})();"),e.setAttribute("onerror","(async()=>{const e=window,t=document;let r=JSON.parse(atob('WyJodG1sLWxvYWQuY29tIiwiZmIuaHRtbC1sb2FkLmNvbSIsImQzN2o4cGZ4dTJpb2dpLmNsb3VkZnJvbnQubmV0IiwiY29udGVudC1sb2FkZXIuY29tIiwiZmIuY29udGVudC1sb2FkZXIuY29tIl0=')),o=r[0];const a='addEventListener',n='setAttribute',s='getAttribute',i=location,l=clearInterval,c='as_retry',d=i.hostname,h=e.addEventListener.bind(e),m=btoa,u='https://report.error-report.com/modal',b=e=>{try{confirm('There was a problem loading the page. Please click OK to learn more.')?i.href=u+'?url='+m(i.href)+'&error='+m(e)+'&domain='+o:i.reload()}catch(t){location.href=u+'?eventId=&error=Vml0YWwgQVBJIGJsb2NrZWQ%3D&domain='+o}},p=async e=>{try{localStorage.setItem(i.host+'_fa_'+m('last_bfa_at'),Date.now().toString())}catch(p){}setInterval((()=>t.querySelectorAll('link,style').forEach((e=>e.remove()))),100);const r=await fetch('https://error-report.com/report?type=loader_light&url='+m(i.href)+'&error='+m(e),{method:'POST'}).then((e=>e.text())),a=new Promise((e=>{h('message',(t=>{'as_modal_loaded'===t.data&&e()}))}));let s=t.createElement('iframe');s.src=u+'?url='+m(i.href)+'&eventId='+r+'&error='+m(e)+'&domain='+o,s[n]('style','width:100vw;height:100vh;z-index:2147483647;position:fixed;left:0;top:0;');const c=e=>{'close-error-report'===e.data&&(s.remove(),removeEventListener('message',c))};h('message',c),t.body.appendChild(s);const d=setInterval((()=>{if(!t.contains(s))return l(d);(()=>{const e=s.getBoundingClientRect();return'none'!==getComputedStyle(s).display&&0!==e.width&&0!==e.height})()||(l(d),b(e))}),1e3);await new Promise(((t,r)=>{a.then(t),setTimeout((()=>r(e)),3e3)}))},f=m(d+'_show_bfa');if(e[f])p(e[f]);else try{if(void 0===e[c]&&(e[c]=0),e[c]>=r.length)throw'Failed to load website properly since '+o+' is blocked. Please allow '+o;if((()=>{const t=e=>{let t=0;for(let r=0,o=e.length;o>r;r++)t=(t<<5)-t+e.charCodeAt(r),t|=0;return t},r=Date.now(),o=r-r%864e5,a=o-864e5,n=o+864e5,s='loader-check',i='as_'+t(s+'_'+o),l='as_'+t(s+'_'+a),c='as_'+t(s+'_'+n);return i!==l&&i!==c&&l!==c&&!!(e[i]||e[l]||e[c])})())return;const i=t.querySelector('#Tqgkgu'),l=t.createElement('script');for(let e=0;e<i.attributes.length;e++)l[n](i.attributes[e].name,i.attributes[e].value);const h=m(d+'_onload');e[h]&&l[a]('load',e[h]);const u=m(d+'_onerror');e[u]&&l[a]('error',e[u]);const b=new e.URL(i[s]('src'));b.host=r[e[c]++],l[n]('src',b.href),i[n]('id',i[s]('id')+'_'),i.parentNode.insertBefore(l,i),i.remove()}catch(w){try{await p(w)}catch(w){b(w)}}})();"),document.head.appendChild(e);var t=document.createElement("script");t.setAttribute("data-cfasync","false"),t.setAttribute("nowprocket",""),t.textContent="(async()=>{function t(t) { const e = t.length; let o = ''; for (let r = 0; e > r; r++) { o += t[2939 * (r + 20) % e] } return o }const e=window,o=t('Elementcreate'),r=t('pielnddaCph'),n=t('erdeLtedvtsnaEni'),c=t('tAtesetubirt'),a=document,i=a.head,s=a[o].bind(a),d=i[r].bind(i),l=location,m=l.hostname,h=btoa;e[n].bind(e);let u=t('oad.comhtml-l');(async()=>{try{const n=a.querySelector(t('#Tqgkguscript'));if(!n)throw t('onnaC dnif t')+u+t('i.cp rts');const i=n.getAttribute(t('nororre')),f=n.getAttribute(t('aolnod')),p=await new Promise((o=>{const r=t('x')+Math.floor(1e6*Math.random());e[r]=()=>o(!0);const n=s(t('pircst'));n.src=t(':atad;'),n[c](t('nororre'),t('iw.wodn')+r+t('()')),d(n),setTimeout((()=>{o(!1), n.remove()}),251)}));if(p)return;function o(){const e=s(t('pircst'));e.innerText=i,d(e),e.remove()}const b=h(m+t('o_daoln')),w=h(m+t('rrnr_eoo'));e[b]=function(){const e=s(t('pircst'));e.innerText=f,d(e),e.remove()},e[w]=o,o()}catch(r){(e => { const o = t('ro/treeol/t-.dsoormterpmh/.rca:rrtopp'); try { const r = t('cleopr   eges.eke aremtc. m Ta apdo ool t ahrOsaibwr iPhl enKegnlael'); confirm(r) ? l.href = o + t('?=lru') + h(l.href) + t('e&=rorr') + h(e) + t('a=oi&mnd') + u : l.reload() } catch (r) { location.href = o + t('J%ndVVNdvrYGQiI=Q2&ee0IWatrgbD?&lJZmnows3==mBroerW') + u } })(r)}})()})();",document.head.appendChild(t)}!function(){var r=e();if("true"===r)t();else var o=0,a=setInterval(function(){if(100!==o&&"false"!==r){if("true"===r)return t(),void clearInterval(a);r=e(),o++}else clearInterval(a)},50)}()}();</script>
+    <div id="lightboxOverlay"></div>
+    <div id="large-image"></div>    
+        <script src="https://www.notateslaapp.com/assets/js/core-astro.javascript.v67.js?lang=en"></script>
+                <style>
+                .uhfnzetfjya{background:rgb(245,245,245);background:linear-gradient(335deg,rgba(245,245,245,1) 0,rgba(255,255,255,1) 84%);border-radius:15px;margin:40px 0;position:relative;padding:10px 5px;border:1px solid #eee}.uhfnzetfjya.xinbdjamzppqwlc{background:rgb(30,30,30);background:linear-gradient(160deg,rgba(30,30,30,1) 0,rgba(39,39,39,1) 87%);border:1px solid #393939}.uhfnzetfjya.vtwjhpktrbfmw{max-width:800px;margin:40px auto}.uhfnzetfjya.ewmcdffyfs{position:fixed;bottom:0;left:0;width:100%;max-width:100%;margin-bottom:0;z-index:110;padding:1px;border-radius:0;border:0;border-top:1px solid #eee}.uhfnzetfjya .lfkzihqbgc img{border-radius:5px;display:block;max-height:120px;margin:auto;max-width:100%}.uhfnzetfjya.vtwjhpktrbfmw .lfkzihqbgc img{max-height:90px;min-width:85px;object-fit:contain}.uhfnzetfjya.ewmcdffyfs .lfkzihqbgc img{max-height:90px}.uhfnzetfjya .lfkzihqbgc{margin-right:5%}.uhfnzetfjya .lfkzihqbgc{flex-shrink:0;max-width:40%}.uhfnzetfjya.dgfxdcswwigobnu .lfkzihqbgc{max-width:100%}.uhfnzetfjya .qjvicijdkmtf{min-width:55%}.uhfnzetfjya h4{margin:0 0 8px 0;text-align:center;color:black!important;font-family:sans-serif;font-size:18px}.xinbdjamzppqwlc.uhfnzetfjya h4{color:white!important}.uhfnzetfjya.vtwjhpktrbfmw h4{padding-top:0;font-size:18px}.uhfnzetfjya.vtwjhpktrbfmw .umrndydutgizmg p{margin:0}.uhfnzetfjya.gbqvbiizptt.zbukxjatrracwy .umrndydutgizmg p{display:none}.uhfnzetfjya .umrndydutgizmg p{font-size:14px;color:#414141;margin:0;margin-bottom:10px;text-align:center;line-height:1.4}.xinbdjamzppqwlc.uhfnzetfjya .umrndydutgizmg p{color:white}.uhfnzetfjya .tmaiurmmtedm{bottom:5px;right:5px;position:absolute;height:14px}.uhfnzetfjya .tmaiurmmtedm img{height:14px;width:100px}.uhfnzetfjya .xencgvvropab{display:flex;justify-content:center;margin-bottom:18px}.uhfnzetfjya.dgfxdcswwigobnu .xencgvvropab{display:block}.uhfnzetfjya .umrndydutgizmg{margin-bottom:18px}.uhfnzetfjya .umrndydutgizmg>h4{display:none}.uhfnzetfjya.zbukxjatrracwy .umrndydutgizmg>h4,.uhfnzetfjya.dgfxdcswwigobnu .umrndydutgizmg>h4{display:block}.uhfnzetfjya.zbukxjatrracwy .qjvicijdkmtf h4,.uhfnzetfjya.dgfxdcswwigobnu .qjvicijdkmtf h4{display:none}.uhfnzetfjya a{text-decoration:none;color:black}.xinbdjamzppqwlc.uhfnzetfjya a{color:white}.uhfnzetfjya a:link{text-decoration:none;color:black;border-bottom:none}.xinbdjamzppqwlc.uhfnzetfjya a:link{color:white}.uhfnzetfjya a:hover{text-decoration:underline;color:black}.xinbdjamzppqwlc.uhfnzetfjya a:hover{color:white}            </style>
+
+            <script>
+            var elkuwswgusum = function (b) {var c = function (u) {return new Promise (function (res, rej) {var img = new Image();img.onerror = res;img.onload = rej;img.src = u;});};Promise.all([c('https://cm.g.doubleclick.net/pixel')]).then(b).catch(() => {});};let lfnniqoler=()=>{iyrpofukboido();let iespiisxmwndoa=(c,t)=>{let w,d;return()=>{d=+new Date();if(d<w)return;w=d+t;c()}}};elkuwswgusum(function(){let jyirzkkrdwaj=window.location&&window.location.href&&window.location.href;let okmejjfxet;if(typeof jyirzkkrdwaj==="string"&&jyirzkkrdwaj.indexOf('adf=0')===-1){okmejjfxet=document.querySelectorAll('.self-book3');let abztkxtunalnu=true;okmejjfxet.forEach(function(i){if(i.clientHeight>0){abztkxtunalnu=false}});if(abztkxtunalnu){lfnniqoler()}}});let yqrnpacqrucbyr=[];iyrpofukboido=function(blocked){let fhpqgoakfsrzxvo=[{"tzwxnqpvstognu":"<div class=\"uhfnzetfjya\"><div class=\"umrndydutgizmg\"><h4><a target=\"_blank\" href=\"https:\/\/geni.us\/Ga9s\">Best USB drive for Tesla<\/a><\/h4><div class=\"xencgvvropab\"><div class=\"lfkzihqbgc\"><a target=\"_blank\" href=\"https:\/\/geni.us\/Ga9s\"><img src=\"https:\/\/www.notateslaapp.com\/assets\/books\/usb-drive.jpg\"\/><\/a><\/div><div class=\"qjvicijdkmtf\"><h4><a target=\"_blank\" href=\"https:\/\/geni.us\/Ga9s\">Best USB drive for Tesla<\/a><\/h4><a target=\"_blank\" href=\"https:\/\/geni.us\/Ga9s\"><p>View one of the highest rated USB drives for Tesla's dashcam in a Model 3 or Model Y.<\/p><\/a><\/div><\/div><\/div><div class=\"tmaiurmmtedm\"><a target=\"_blank\" href=\"https:\/\/www.getAdfinity.com\"><img src=\"data:image\/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAAAcCAYAAAAk9\/CnAAALN0lEQVR42u1ci1cTZxan\/Wf8L1CPR0VXfCJrrVoVcdW6unioHh\/boqd2LVbrcX2u9QVWKtbKSwFfy0usRkEUUYsV8RkgLyCEkEDufr8vM2EymUkyMzHi2bnn3EOYx5fJfPf33fu7986kpMQSok+mn+pOTSvsyU8r6KmfVtBjZX+HmJKp70\/Zfabcahedb\/VQa5ePHIMj5B8hU\/TLEFMr03qm+UxTmX6Solfy8ujTtILuLDZZ7abBJhEYhT30Y2M\/vekbNk36\/Us70yymn2oCB\/MW49hkWUyDTa6uKHHQHza\/abbJFwvTcXGBY2phdxqbrH7TYJOr2671kscfME31w0k\/07R4wOEzDTb54DD5xZgQnypIhLBKs+dYdtFBh273c\/38V7thY8kqCY63kRHU92mUX1Y4+fesu+T84GGVXs\/xpMdP\/\/69n3IqnfSPy07OXR52+XRbx+OHPsrLcXEtPOpWPS4QCFBLSwuVl5fT7du3+bampiaqrq42bKGDg4N04cIFevny5Yf0JOMUCLk+zlH5x2Bo5OJWj2GD+b6+j491mY37Pg3zp3tBAyi8P\/BBCbkezjHC8ARwq437w80+XR6prWUUIAVH1AGyY8cOGj9+PC1cuJC2b9\/Ot+3evZv\/b1RsNhulpqbSlStXIvbduHGDGhsbk8VJRom7kK3SPMGzz9rI4wtQnzdAw2zSHJ4R+kuhCZB4FSu+HokGDvl91AuQQhWAvHr1ihvwpUuXwrYfPnyY1qxZY9gyHQ4HzZ49m2prayP2YfytW7cmy5NkheocelO5e4UJvvjYQ3deD\/HP2\/\/bawIkzjqHnlQuwirpOCtLHfRbm4cqng7yuol03703voQDBCs4APL27dukxz5JBkg7r5OwiRqvd5IfdQcn4O8sjhcN+zYDipYxPj9vp8+K7ZoAMrfIRssZ95n3iy2hAJlxpocWJYBHxaNfMWPWI1iUxDHWM94xNDzKX\/Apv6EvtH9HTW\/M8QJqAFHhINevX+cA6erq0nX9AwMD1NnZSX6\/f6wDBJKaIlTINU8wVi5Ip2s4FG4NMrKJ+DgWWQcgaju8PCQT5XXvMAdHNIDsZpP\/whm+6vYMjNDp5gEez+sFyIYqF7Xb\/aG4vdc7QrdeDdEXvznCzsH\/+D5r\/zDNK1IGJwzUxo4pfRydj6FCrkeyS0ev6e6bocgYnn239D4rxvnsmMN33Pz3TC8MLjhbrrno\/NUBVYDU1dVRZmYmzZw5kwMkIyOD\/19WVsb3Hzt2jNavXx92zrt37\/gxFouFk\/p169bRxIkT+fn4u3nzZs45pOJ0Ovk59fX1oW0bNmzg2yZNmkSTJ0\/mn6E49v79+\/xza2ur6j0rLi6mFStW0PCwZo+dn4L2ET0A+fVRcIJPNrlD267\/6eXbYLBq560ud5JNAAYAUvfCSw2dQyGwPLD6FAGCuJv3C7AVE8Zb9mSQ\/\/UJK2gsg1QDSPM7H3kZsHsZj2p8OcSBCxAEgRKgDZXhYYuYJfqxUZkHNL0N7t96LXqo2aoz25R5bhSY3W5lJi6CF4uGXACquSrgTt\/dQ9lZdvqGAeSMDCAIqa5evUr79u3jBo5ME\/7v6OhQJekiXykqKuL7KisruecBKKqqqigtLY2WL18ek6QjrMN3YYyVK1fyz1Cv18uNfu7cubRr1y7Ve7Zo0SLas2ePnttdnyL0VmkyLoQirsER7p4XX7CH5fP5ysFW2Gkq54oGVt\/p5eNIx7wmAEwJIPAwkM1Xww12VVkwzMDqP\/Nnm2aAQO4xo55zdvRcJBqq2oPZuZfMQ0q9EzwE5D4DlnzMBWzFhgeF4cbyaOit0iPSsNLmUR4jQ3KMVDqY9511Vv0eASCZi3rob9n2CIDECrGiAQSr\/vPnzyPGAtHHfqSI48liqYVYx48fp6lTp\/LwLYKzPXnCx2tra9Nzu60pehoPv60NGkmLNdxI4K7FiZcbsjTu7h8KKBozDLNLWBWlAAHYsJpDkPOXn3eIhQsXGVFdcsGuGSAICzMUuAwMXCTRu+pG43pcN64\/wC5HzlcOCF7u7IPYxF9vYXBBdg\/N\/yKoebku2rkpUhcsFY5ZGg6QbdfDvdoWNkdYlEDwwelEgEAP7e9LGEB27typOFZfXx\/fX1paaggguBaknSsqKiL27d+\/n5YsWaK7wVEXQCxC7LtXIcwoeRwMvRCqqBllZbs6AT\/TMqDoQa48C67obmacCOHWsFBtWqHxLBbCQrVjED5CEM5Jt18UfiPGkHtHwHipjLskFCDLR41423pniDNI9bPFo8eIAl4lvV\/yNDCKlUsP2EPnbf7WmTCAlJSUqP4e8IrTp08bAghk48aNtHr16rBtSATMmjWLh3i6AaI1xMIqHRBSH88dfp52lOpbYdUFN5DGy9DLQlHxRJNbc5oXYyEsk4rbF6DfGQ\/Ze7M\/LFzTApCCKGleMQuEdKlSggK\/P5SNY94koBJ6JTLEWpClDyCPusKv61VvJGH9qdwdOm\/tPx0JA4iUcMtlypQpdPLkScMAaWho4OeJnAhy69YtngyQJwK0hliaSDqyPvHKEYtbser+n7vqAPmuLnqaF1mcY+x8y+sh7k1EQTYt85z2EOtUc2yAPLBGGv0jgUutKgt6i6OW4HjSNOv7IOnScBDZKI5KmSpxEKTkpd+vxF8KL0sA8vXHBRCQ9Xnz5tHBgwfDKv6bNm0ykuat15TmnSbhCN\/c6OXZECU91TQQIoVKRomYN1ZYE0+hEJzlO8aH7MJkl2jIZInXUv1M\/XtEo69uV045Q849DH4nvCc8WryJAr1pXr0kHRxuuiTEwnXLJee4MwSQLTudHxVAeGRy4gRPQyO0AmFHcqCmpsYIQPJT+NOCcRoVcuWQWFkaHm4Iizua6MTtGwWSjgyYmiHBE8gBksUIJBICpU+UjfmgQI5brD7NAIEXmqOS2YHRq7V24PpxLhYMNGzyrMzT+Kv\/uToLhUayWF9LSDpCUvTOYXERa1Dp+aOh2ZED\/R8dQHBNEyZM4G0qSCnPmDGDfD6fEYCkamo1qX0R5ABFD2NnacR6QJVs9RVDC2RP5LwB4yqleXEcahXgNWsrIrNYvwiroR4PAqnpiLwW0XuAK6ilRksFsi4mLbR0ButtNTECEKSs50RL8woAWZVtp5+PucccQNauXUu5ublR7w9CKhD2nJwcXrMx3GoSb7Mi4nsx84IW7VjHo6NUzI5IJwVt5i6BoGLCkCFC0VHsam3r9iuGWAUC90HNAwaNTBb4kEXoAUPT5JcVTs0A6XAGvw\/Giu9E6CHWavB7\/1WnzinAP6Q1hmQ0KxoBiFi\/UWvRAUCyVwQLhWMRIHl5eZSenk7Nzc1ktVoVK+M3b97kXgRp36dPnyagWTHOdndxRX0sa5ZTU4DCKzznsE+WDkZxERVdaR8ROoIRKkVrNTlyxx3iQKFeokCw0Kf1uQ5pqwmItVg9h6DY98zuDwsP1VQE9FGLOynt7kYBInpFJDrw7E06CxWx+CH8Km\/w0PH9\/VyvlA2OOYCg2IeqOfZDlbJTIllftmyZEXCEt7sbeWDKiIJko\/VES4EPRgWAwXhxboaBhkV5yAPPCKBFqzbLFb1h8DR\/LdbX5Gjkgan\/V3G5XGS32\/mDW3IRax\/ov9IpkQ9MmY\/c6lM0OfJc4Auv+cjtGBFkrVD7QCOjDlF\/5NZ8aUN8iuwVUtnwYugAlmfqzJc2fDgBKBYvXhy1cTGG50gzX\/tjUFFFl5rxtT+9CRvbfO2PPrl79y7Nnz+ft62Af+ionMf\/2h\/zxXHmi+M+Rs+B9ne0xXs8mgqw+l4cJ3\/1KH\/q0Hz1aNIfyf3KfPVoIkXXq0f\/B0ym7DpSsJMXAAAAAElFTkSuQmCC\" height=\"14\" width=\"100\"\/><\/a><\/div><\/div>"},{"tzwxnqpvstognu":"<div class=\"uhfnzetfjya\"><div class=\"umrndydutgizmg\"><h4><a target=\"_blank\" href=\"https:\/\/geni.us\/9Lmk9\">Space X Shirt<\/a><\/h4><div class=\"xencgvvropab\"><div class=\"lfkzihqbgc\"><a target=\"_blank\" href=\"https:\/\/geni.us\/9Lmk9\"><img src=\"https:\/\/www.notateslaapp.com\/assets\/books\/spacex-shirt.jpg\"\/><\/a><\/div><div class=\"qjvicijdkmtf\"><h4><a target=\"_blank\" href=\"https:\/\/geni.us\/9Lmk9\">Space X Shirt<\/a><\/h4><a target=\"_blank\" href=\"https:\/\/geni.us\/9Lmk9\"><p>Show your support for Space X with this shirt on Amazon<\/p><\/a><\/div><\/div><\/div><div class=\"tmaiurmmtedm\"><a target=\"_blank\" href=\"https:\/\/www.getAdfinity.com\"><img src=\"data:image\/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAAAcCAYAAAAk9\/CnAAALN0lEQVR42u1ci1cTZxan\/Wf8L1CPR0VXfCJrrVoVcdW6unioHh\/boqd2LVbrcX2u9QVWKtbKSwFfy0usRkEUUYsV8RkgLyCEkEDufr8vM2EymUkyMzHi2bnn3EOYx5fJfPf33fu7986kpMQSok+mn+pOTSvsyU8r6KmfVtBjZX+HmJKp70\/Zfabcahedb\/VQa5ePHIMj5B8hU\/TLEFMr03qm+UxTmX6Solfy8ujTtILuLDZZ7abBJhEYhT30Y2M\/vekbNk36\/Us70yymn2oCB\/MW49hkWUyDTa6uKHHQHza\/abbJFwvTcXGBY2phdxqbrH7TYJOr2671kscfME31w0k\/07R4wOEzDTb54DD5xZgQnypIhLBKs+dYdtFBh273c\/38V7thY8kqCY63kRHU92mUX1Y4+fesu+T84GGVXs\/xpMdP\/\/69n3IqnfSPy07OXR52+XRbx+OHPsrLcXEtPOpWPS4QCFBLSwuVl5fT7du3+bampiaqrq42bKGDg4N04cIFevny5Yf0JOMUCLk+zlH5x2Bo5OJWj2GD+b6+j491mY37Pg3zp3tBAyi8P\/BBCbkezjHC8ARwq437w80+XR6prWUUIAVH1AGyY8cOGj9+PC1cuJC2b9\/Ot+3evZv\/b1RsNhulpqbSlStXIvbduHGDGhsbk8VJRom7kK3SPMGzz9rI4wtQnzdAw2zSHJ4R+kuhCZB4FSu+HokGDvl91AuQQhWAvHr1ihvwpUuXwrYfPnyY1qxZY9gyHQ4HzZ49m2prayP2YfytW7cmy5NkheocelO5e4UJvvjYQ3deD\/HP2\/\/bawIkzjqHnlQuwirpOCtLHfRbm4cqng7yuol03703voQDBCs4APL27dukxz5JBkg7r5OwiRqvd5IfdQcn4O8sjhcN+zYDipYxPj9vp8+K7ZoAMrfIRssZ95n3iy2hAJlxpocWJYBHxaNfMWPWI1iUxDHWM94xNDzKX\/Apv6EvtH9HTW\/M8QJqAFHhINevX+cA6erq0nX9AwMD1NnZSX6\/f6wDBJKaIlTINU8wVi5Ip2s4FG4NMrKJ+DgWWQcgaju8PCQT5XXvMAdHNIDsZpP\/whm+6vYMjNDp5gEez+sFyIYqF7Xb\/aG4vdc7QrdeDdEXvznCzsH\/+D5r\/zDNK1IGJwzUxo4pfRydj6FCrkeyS0ev6e6bocgYnn239D4rxvnsmMN33Pz3TC8MLjhbrrno\/NUBVYDU1dVRZmYmzZw5kwMkIyOD\/19WVsb3Hzt2jNavXx92zrt37\/gxFouFk\/p169bRxIkT+fn4u3nzZs45pOJ0Ovk59fX1oW0bNmzg2yZNmkSTJ0\/mn6E49v79+\/xza2ur6j0rLi6mFStW0PCwZo+dn4L2ET0A+fVRcIJPNrlD267\/6eXbYLBq560ud5JNAAYAUvfCSw2dQyGwPLD6FAGCuJv3C7AVE8Zb9mSQ\/\/UJK2gsg1QDSPM7H3kZsHsZj2p8OcSBCxAEgRKgDZXhYYuYJfqxUZkHNL0N7t96LXqo2aoz25R5bhSY3W5lJi6CF4uGXACquSrgTt\/dQ9lZdvqGAeSMDCAIqa5evUr79u3jBo5ME\/7v6OhQJekiXykqKuL7KisruecBKKqqqigtLY2WL18ek6QjrMN3YYyVK1fyz1Cv18uNfu7cubRr1y7Ve7Zo0SLas2ePnttdnyL0VmkyLoQirsER7p4XX7CH5fP5ysFW2Gkq54oGVt\/p5eNIx7wmAEwJIPAwkM1Xww12VVkwzMDqP\/Nnm2aAQO4xo55zdvRcJBqq2oPZuZfMQ0q9EzwE5D4DlnzMBWzFhgeF4cbyaOit0iPSsNLmUR4jQ3KMVDqY9511Vv0eASCZi3rob9n2CIDECrGiAQSr\/vPnzyPGAtHHfqSI48liqYVYx48fp6lTp\/LwLYKzPXnCx2tra9Nzu60pehoPv60NGkmLNdxI4K7FiZcbsjTu7h8KKBozDLNLWBWlAAHYsJpDkPOXn3eIhQsXGVFdcsGuGSAICzMUuAwMXCTRu+pG43pcN64\/wC5HzlcOCF7u7IPYxF9vYXBBdg\/N\/yKoebku2rkpUhcsFY5ZGg6QbdfDvdoWNkdYlEDwwelEgEAP7e9LGEB27typOFZfXx\/fX1paaggguBaknSsqKiL27d+\/n5YsWaK7wVEXQCxC7LtXIcwoeRwMvRCqqBllZbs6AT\/TMqDoQa48C67obmacCOHWsFBtWqHxLBbCQrVjED5CEM5Jt18UfiPGkHtHwHipjLskFCDLR41423pniDNI9bPFo8eIAl4lvV\/yNDCKlUsP2EPnbf7WmTCAlJSUqP4e8IrTp08bAghk48aNtHr16rBtSATMmjWLh3i6AaI1xMIqHRBSH88dfp52lOpbYdUFN5DGy9DLQlHxRJNbc5oXYyEsk4rbF6DfGQ\/Ze7M\/LFzTApCCKGleMQuEdKlSggK\/P5SNY94koBJ6JTLEWpClDyCPusKv61VvJGH9qdwdOm\/tPx0JA4iUcMtlypQpdPLkScMAaWho4OeJnAhy69YtngyQJwK0hliaSDqyPvHKEYtbser+n7vqAPmuLnqaF1mcY+x8y+sh7k1EQTYt85z2EOtUc2yAPLBGGv0jgUutKgt6i6OW4HjSNOv7IOnScBDZKI5KmSpxEKTkpd+vxF8KL0sA8vXHBRCQ9Xnz5tHBgwfDKv6bNm0ykuat15TmnSbhCN\/c6OXZECU91TQQIoVKRomYN1ZYE0+hEJzlO8aH7MJkl2jIZInXUv1M\/XtEo69uV045Q849DH4nvCc8WryJAr1pXr0kHRxuuiTEwnXLJee4MwSQLTudHxVAeGRy4gRPQyO0AmFHcqCmpsYIQPJT+NOCcRoVcuWQWFkaHm4Iizua6MTtGwWSjgyYmiHBE8gBksUIJBICpU+UjfmgQI5brD7NAIEXmqOS2YHRq7V24PpxLhYMNGzyrMzT+Kv\/uToLhUayWF9LSDpCUvTOYXERa1Dp+aOh2ZED\/R8dQHBNEyZM4G0qSCnPmDGDfD6fEYCkamo1qX0R5ABFD2NnacR6QJVs9RVDC2RP5LwB4yqleXEcahXgNWsrIrNYvwiroR4PAqnpiLwW0XuAK6ilRksFsi4mLbR0ButtNTECEKSs50RL8woAWZVtp5+PucccQNauXUu5ublR7w9CKhD2nJwcXrMx3GoSb7Mi4nsx84IW7VjHo6NUzI5IJwVt5i6BoGLCkCFC0VHsam3r9iuGWAUC90HNAwaNTBb4kEXoAUPT5JcVTs0A6XAGvw\/Giu9E6CHWavB7\/1WnzinAP6Q1hmQ0KxoBiFi\/UWvRAUCyVwQLhWMRIHl5eZSenk7Nzc1ktVoVK+M3b97kXgRp36dPnyagWTHOdndxRX0sa5ZTU4DCKzznsE+WDkZxERVdaR8ROoIRKkVrNTlyxx3iQKFeokCw0Kf1uQ5pqwmItVg9h6DY98zuDwsP1VQE9FGLOynt7kYBInpFJDrw7E06CxWx+CH8Km\/w0PH9\/VyvlA2OOYCg2IeqOfZDlbJTIllftmyZEXCEt7sbeWDKiIJko\/VES4EPRgWAwXhxboaBhkV5yAPPCKBFqzbLFb1h8DR\/LdbX5Gjkgan\/V3G5XGS32\/mDW3IRax\/ov9IpkQ9MmY\/c6lM0OfJc4Auv+cjtGBFkrVD7QCOjDlF\/5NZ8aUN8iuwVUtnwYugAlmfqzJc2fDgBKBYvXhy1cTGG50gzX\/tjUFFFl5rxtT+9CRvbfO2PPrl79y7Nnz+ft62Af+ionMf\/2h\/zxXHmi+M+Rs+B9ne0xXs8mgqw+l4cJ3\/1KH\/q0Hz1aNIfyf3KfPVoIkXXq0f\/B0ym7DpSsJMXAAAAAElFTkSuQmCC\" height=\"14\" width=\"100\"\/><\/a><\/div><\/div>"},{"tzwxnqpvstognu":"<div class=\"uhfnzetfjya\"><div class=\"umrndydutgizmg\"><h4><a target=\"_blank\" href=\"https:\/\/geni.us\/4s54\">Tesla Space X Badge<\/a><\/h4><div class=\"xencgvvropab\"><div class=\"lfkzihqbgc\"><a target=\"_blank\" href=\"https:\/\/geni.us\/4s54\"><img src=\"https:\/\/www.notateslaapp.com\/assets\/books\/spacex-badge.jpg\"\/><\/a><\/div><div class=\"qjvicijdkmtf\"><h4><a target=\"_blank\" href=\"https:\/\/geni.us\/4s54\">Tesla Space X Badge<\/a><\/h4><a target=\"_blank\" href=\"https:\/\/geni.us\/4s54\"><p>This Space X badge matches the badging on your Tesla. Get it on Amazon.<\/p><\/a><\/div><\/div><\/div><div class=\"tmaiurmmtedm\"><a target=\"_blank\" href=\"https:\/\/www.getAdfinity.com\"><img src=\"data:image\/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAAAcCAYAAAAk9\/CnAAALN0lEQVR42u1ci1cTZxan\/Wf8L1CPR0VXfCJrrVoVcdW6unioHh\/boqd2LVbrcX2u9QVWKtbKSwFfy0usRkEUUYsV8RkgLyCEkEDufr8vM2EymUkyMzHi2bnn3EOYx5fJfPf33fu7986kpMQSok+mn+pOTSvsyU8r6KmfVtBjZX+HmJKp70\/Zfabcahedb\/VQa5ePHIMj5B8hU\/TLEFMr03qm+UxTmX6Solfy8ujTtILuLDZZ7abBJhEYhT30Y2M\/vekbNk36\/Us70yymn2oCB\/MW49hkWUyDTa6uKHHQHza\/abbJFwvTcXGBY2phdxqbrH7TYJOr2671kscfME31w0k\/07R4wOEzDTb54DD5xZgQnypIhLBKs+dYdtFBh273c\/38V7thY8kqCY63kRHU92mUX1Y4+fesu+T84GGVXs\/xpMdP\/\/69n3IqnfSPy07OXR52+XRbx+OHPsrLcXEtPOpWPS4QCFBLSwuVl5fT7du3+bampiaqrq42bKGDg4N04cIFevny5Yf0JOMUCLk+zlH5x2Bo5OJWj2GD+b6+j491mY37Pg3zp3tBAyi8P\/BBCbkezjHC8ARwq437w80+XR6prWUUIAVH1AGyY8cOGj9+PC1cuJC2b9\/Ot+3evZv\/b1RsNhulpqbSlStXIvbduHGDGhsbk8VJRom7kK3SPMGzz9rI4wtQnzdAw2zSHJ4R+kuhCZB4FSu+HokGDvl91AuQQhWAvHr1ihvwpUuXwrYfPnyY1qxZY9gyHQ4HzZ49m2prayP2YfytW7cmy5NkheocelO5e4UJvvjYQ3deD\/HP2\/\/bawIkzjqHnlQuwirpOCtLHfRbm4cqng7yuol03703voQDBCs4APL27dukxz5JBkg7r5OwiRqvd5IfdQcn4O8sjhcN+zYDipYxPj9vp8+K7ZoAMrfIRssZ95n3iy2hAJlxpocWJYBHxaNfMWPWI1iUxDHWM94xNDzKX\/Apv6EvtH9HTW\/M8QJqAFHhINevX+cA6erq0nX9AwMD1NnZSX6\/f6wDBJKaIlTINU8wVi5Ip2s4FG4NMrKJ+DgWWQcgaju8PCQT5XXvMAdHNIDsZpP\/whm+6vYMjNDp5gEez+sFyIYqF7Xb\/aG4vdc7QrdeDdEXvznCzsH\/+D5r\/zDNK1IGJwzUxo4pfRydj6FCrkeyS0ev6e6bocgYnn239D4rxvnsmMN33Pz3TC8MLjhbrrno\/NUBVYDU1dVRZmYmzZw5kwMkIyOD\/19WVsb3Hzt2jNavXx92zrt37\/gxFouFk\/p169bRxIkT+fn4u3nzZs45pOJ0Ovk59fX1oW0bNmzg2yZNmkSTJ0\/mn6E49v79+\/xza2ur6j0rLi6mFStW0PCwZo+dn4L2ET0A+fVRcIJPNrlD267\/6eXbYLBq560ud5JNAAYAUvfCSw2dQyGwPLD6FAGCuJv3C7AVE8Zb9mSQ\/\/UJK2gsg1QDSPM7H3kZsHsZj2p8OcSBCxAEgRKgDZXhYYuYJfqxUZkHNL0N7t96LXqo2aoz25R5bhSY3W5lJi6CF4uGXACquSrgTt\/dQ9lZdvqGAeSMDCAIqa5evUr79u3jBo5ME\/7v6OhQJekiXykqKuL7KisruecBKKqqqigtLY2WL18ek6QjrMN3YYyVK1fyz1Cv18uNfu7cubRr1y7Ve7Zo0SLas2ePnttdnyL0VmkyLoQirsER7p4XX7CH5fP5ysFW2Gkq54oGVt\/p5eNIx7wmAEwJIPAwkM1Xww12VVkwzMDqP\/Nnm2aAQO4xo55zdvRcJBqq2oPZuZfMQ0q9EzwE5D4DlnzMBWzFhgeF4cbyaOit0iPSsNLmUR4jQ3KMVDqY9511Vv0eASCZi3rob9n2CIDECrGiAQSr\/vPnzyPGAtHHfqSI48liqYVYx48fp6lTp\/LwLYKzPXnCx2tra9Nzu60pehoPv60NGkmLNdxI4K7FiZcbsjTu7h8KKBozDLNLWBWlAAHYsJpDkPOXn3eIhQsXGVFdcsGuGSAICzMUuAwMXCTRu+pG43pcN64\/wC5HzlcOCF7u7IPYxF9vYXBBdg\/N\/yKoebku2rkpUhcsFY5ZGg6QbdfDvdoWNkdYlEDwwelEgEAP7e9LGEB27typOFZfXx\/fX1paaggguBaknSsqKiL27d+\/n5YsWaK7wVEXQCxC7LtXIcwoeRwMvRCqqBllZbs6AT\/TMqDoQa48C67obmacCOHWsFBtWqHxLBbCQrVjED5CEM5Jt18UfiPGkHtHwHipjLskFCDLR41423pniDNI9bPFo8eIAl4lvV\/yNDCKlUsP2EPnbf7WmTCAlJSUqP4e8IrTp08bAghk48aNtHr16rBtSATMmjWLh3i6AaI1xMIqHRBSH88dfp52lOpbYdUFN5DGy9DLQlHxRJNbc5oXYyEsk4rbF6DfGQ\/Ze7M\/LFzTApCCKGleMQuEdKlSggK\/P5SNY94koBJ6JTLEWpClDyCPusKv61VvJGH9qdwdOm\/tPx0JA4iUcMtlypQpdPLkScMAaWho4OeJnAhy69YtngyQJwK0hliaSDqyPvHKEYtbser+n7vqAPmuLnqaF1mcY+x8y+sh7k1EQTYt85z2EOtUc2yAPLBGGv0jgUutKgt6i6OW4HjSNOv7IOnScBDZKI5KmSpxEKTkpd+vxF8KL0sA8vXHBRCQ9Xnz5tHBgwfDKv6bNm0ykuat15TmnSbhCN\/c6OXZECU91TQQIoVKRomYN1ZYE0+hEJzlO8aH7MJkl2jIZInXUv1M\/XtEo69uV045Q849DH4nvCc8WryJAr1pXr0kHRxuuiTEwnXLJee4MwSQLTudHxVAeGRy4gRPQyO0AmFHcqCmpsYIQPJT+NOCcRoVcuWQWFkaHm4Iizua6MTtGwWSjgyYmiHBE8gBksUIJBICpU+UjfmgQI5brD7NAIEXmqOS2YHRq7V24PpxLhYMNGzyrMzT+Kv\/uToLhUayWF9LSDpCUvTOYXERa1Dp+aOh2ZED\/R8dQHBNEyZM4G0qSCnPmDGDfD6fEYCkamo1qX0R5ABFD2NnacR6QJVs9RVDC2RP5LwB4yqleXEcahXgNWsrIrNYvwiroR4PAqnpiLwW0XuAK6ilRksFsi4mLbR0ButtNTECEKSs50RL8woAWZVtp5+PucccQNauXUu5ublR7w9CKhD2nJwcXrMx3GoSb7Mi4nsx84IW7VjHo6NUzI5IJwVt5i6BoGLCkCFC0VHsam3r9iuGWAUC90HNAwaNTBb4kEXoAUPT5JcVTs0A6XAGvw\/Giu9E6CHWavB7\/1WnzinAP6Q1hmQ0KxoBiFi\/UWvRAUCyVwQLhWMRIHl5eZSenk7Nzc1ktVoVK+M3b97kXgRp36dPnyagWTHOdndxRX0sa5ZTU4DCKzznsE+WDkZxERVdaR8ROoIRKkVrNTlyxx3iQKFeokCw0Kf1uQ5pqwmItVg9h6DY98zuDwsP1VQE9FGLOynt7kYBInpFJDrw7E06CxWx+CH8Km\/w0PH9\/VyvlA2OOYCg2IeqOfZDlbJTIllftmyZEXCEt7sbeWDKiIJko\/VES4EPRgWAwXhxboaBhkV5yAPPCKBFqzbLFb1h8DR\/LdbX5Gjkgan\/V3G5XGS32\/mDW3IRax\/ov9IpkQ9MmY\/c6lM0OfJc4Auv+cjtGBFkrVD7QCOjDlF\/5NZ8aUN8iuwVUtnwYugAlmfqzJc2fDgBKBYvXhy1cTGG50gzX\/tjUFFFl5rxtT+9CRvbfO2PPrl79y7Nnz+ft62Af+ionMf\/2h\/zxXHmi+M+Rs+B9ne0xXs8mgqw+l4cJ3\/1KH\/q0Hz1aNIfyf3KfPVoIkXXq0f\/B0ym7DpSsJMXAAAAAElFTkSuQmCC\" height=\"14\" width=\"100\"\/><\/a><\/div><\/div>"},{"tzwxnqpvstognu":"<div class=\"uhfnzetfjya\"><div class=\"umrndydutgizmg\"><h4><a target=\"_blank\" href=\"https:\/\/www.tesmanian.com\/collections\/tesla-model-3-accessories?ref=iUMWeDUq4d-Ri\">Tesla Accessories<\/a><\/h4><div class=\"xencgvvropab\"><div class=\"lfkzihqbgc\"><a target=\"_blank\" href=\"https:\/\/www.tesmanian.com\/collections\/tesla-model-3-accessories?ref=iUMWeDUq4d-Ri\"><img src=\"https:\/\/www.notateslaapp.com\/assets\/tesmanian-model-3-floor-mats.jpg\"\/><\/a><\/div><div class=\"qjvicijdkmtf\"><h4><a target=\"_blank\" href=\"https:\/\/www.tesmanian.com\/collections\/tesla-model-3-accessories?ref=iUMWeDUq4d-Ri\">Tesla Accessories<\/a><\/h4><a target=\"_blank\" href=\"https:\/\/www.tesmanian.com\/collections\/tesla-model-3-accessories?ref=iUMWeDUq4d-Ri\"><p>10% off <b>Tesla<\/b> accessories at Tesmanian with promo code: <b>TeslaSoftwareUpdates<\/b><\/p><\/a><\/div><\/div><\/div><div class=\"tmaiurmmtedm\"><a target=\"_blank\" href=\"https:\/\/www.getAdfinity.com\"><img src=\"data:image\/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAAAcCAYAAAAk9\/CnAAALN0lEQVR42u1ci1cTZxan\/Wf8L1CPR0VXfCJrrVoVcdW6unioHh\/boqd2LVbrcX2u9QVWKtbKSwFfy0usRkEUUYsV8RkgLyCEkEDufr8vM2EymUkyMzHi2bnn3EOYx5fJfPf33fu7986kpMQSok+mn+pOTSvsyU8r6KmfVtBjZX+HmJKp70\/Zfabcahedb\/VQa5ePHIMj5B8hU\/TLEFMr03qm+UxTmX6Solfy8ujTtILuLDZZ7abBJhEYhT30Y2M\/vekbNk36\/Us70yymn2oCB\/MW49hkWUyDTa6uKHHQHza\/abbJFwvTcXGBY2phdxqbrH7TYJOr2671kscfME31w0k\/07R4wOEzDTb54DD5xZgQnypIhLBKs+dYdtFBh273c\/38V7thY8kqCY63kRHU92mUX1Y4+fesu+T84GGVXs\/xpMdP\/\/69n3IqnfSPy07OXR52+XRbx+OHPsrLcXEtPOpWPS4QCFBLSwuVl5fT7du3+bampiaqrq42bKGDg4N04cIFevny5Yf0JOMUCLk+zlH5x2Bo5OJWj2GD+b6+j491mY37Pg3zp3tBAyi8P\/BBCbkezjHC8ARwq437w80+XR6prWUUIAVH1AGyY8cOGj9+PC1cuJC2b9\/Ot+3evZv\/b1RsNhulpqbSlStXIvbduHGDGhsbk8VJRom7kK3SPMGzz9rI4wtQnzdAw2zSHJ4R+kuhCZB4FSu+HokGDvl91AuQQhWAvHr1ihvwpUuXwrYfPnyY1qxZY9gyHQ4HzZ49m2prayP2YfytW7cmy5NkheocelO5e4UJvvjYQ3deD\/HP2\/\/bawIkzjqHnlQuwirpOCtLHfRbm4cqng7yuol03703voQDBCs4APL27dukxz5JBkg7r5OwiRqvd5IfdQcn4O8sjhcN+zYDipYxPj9vp8+K7ZoAMrfIRssZ95n3iy2hAJlxpocWJYBHxaNfMWPWI1iUxDHWM94xNDzKX\/Apv6EvtH9HTW\/M8QJqAFHhINevX+cA6erq0nX9AwMD1NnZSX6\/f6wDBJKaIlTINU8wVi5Ip2s4FG4NMrKJ+DgWWQcgaju8PCQT5XXvMAdHNIDsZpP\/whm+6vYMjNDp5gEez+sFyIYqF7Xb\/aG4vdc7QrdeDdEXvznCzsH\/+D5r\/zDNK1IGJwzUxo4pfRydj6FCrkeyS0ev6e6bocgYnn239D4rxvnsmMN33Pz3TC8MLjhbrrno\/NUBVYDU1dVRZmYmzZw5kwMkIyOD\/19WVsb3Hzt2jNavXx92zrt37\/gxFouFk\/p169bRxIkT+fn4u3nzZs45pOJ0Ovk59fX1oW0bNmzg2yZNmkSTJ0\/mn6E49v79+\/xza2ur6j0rLi6mFStW0PCwZo+dn4L2ET0A+fVRcIJPNrlD267\/6eXbYLBq560ud5JNAAYAUvfCSw2dQyGwPLD6FAGCuJv3C7AVE8Zb9mSQ\/\/UJK2gsg1QDSPM7H3kZsHsZj2p8OcSBCxAEgRKgDZXhYYuYJfqxUZkHNL0N7t96LXqo2aoz25R5bhSY3W5lJi6CF4uGXACquSrgTt\/dQ9lZdvqGAeSMDCAIqa5evUr79u3jBo5ME\/7v6OhQJekiXykqKuL7KisruecBKKqqqigtLY2WL18ek6QjrMN3YYyVK1fyz1Cv18uNfu7cubRr1y7Ve7Zo0SLas2ePnttdnyL0VmkyLoQirsER7p4XX7CH5fP5ysFW2Gkq54oGVt\/p5eNIx7wmAEwJIPAwkM1Xww12VVkwzMDqP\/Nnm2aAQO4xo55zdvRcJBqq2oPZuZfMQ0q9EzwE5D4DlnzMBWzFhgeF4cbyaOit0iPSsNLmUR4jQ3KMVDqY9511Vv0eASCZi3rob9n2CIDECrGiAQSr\/vPnzyPGAtHHfqSI48liqYVYx48fp6lTp\/LwLYKzPXnCx2tra9Nzu60pehoPv60NGkmLNdxI4K7FiZcbsjTu7h8KKBozDLNLWBWlAAHYsJpDkPOXn3eIhQsXGVFdcsGuGSAICzMUuAwMXCTRu+pG43pcN64\/wC5HzlcOCF7u7IPYxF9vYXBBdg\/N\/yKoebku2rkpUhcsFY5ZGg6QbdfDvdoWNkdYlEDwwelEgEAP7e9LGEB27typOFZfXx\/fX1paaggguBaknSsqKiL27d+\/n5YsWaK7wVEXQCxC7LtXIcwoeRwMvRCqqBllZbs6AT\/TMqDoQa48C67obmacCOHWsFBtWqHxLBbCQrVjED5CEM5Jt18UfiPGkHtHwHipjLskFCDLR41423pniDNI9bPFo8eIAl4lvV\/yNDCKlUsP2EPnbf7WmTCAlJSUqP4e8IrTp08bAghk48aNtHr16rBtSATMmjWLh3i6AaI1xMIqHRBSH88dfp52lOpbYdUFN5DGy9DLQlHxRJNbc5oXYyEsk4rbF6DfGQ\/Ze7M\/LFzTApCCKGleMQuEdKlSggK\/P5SNY94koBJ6JTLEWpClDyCPusKv61VvJGH9qdwdOm\/tPx0JA4iUcMtlypQpdPLkScMAaWho4OeJnAhy69YtngyQJwK0hliaSDqyPvHKEYtbser+n7vqAPmuLnqaF1mcY+x8y+sh7k1EQTYt85z2EOtUc2yAPLBGGv0jgUutKgt6i6OW4HjSNOv7IOnScBDZKI5KmSpxEKTkpd+vxF8KL0sA8vXHBRCQ9Xnz5tHBgwfDKv6bNm0ykuat15TmnSbhCN\/c6OXZECU91TQQIoVKRomYN1ZYE0+hEJzlO8aH7MJkl2jIZInXUv1M\/XtEo69uV045Q849DH4nvCc8WryJAr1pXr0kHRxuuiTEwnXLJee4MwSQLTudHxVAeGRy4gRPQyO0AmFHcqCmpsYIQPJT+NOCcRoVcuWQWFkaHm4Iizua6MTtGwWSjgyYmiHBE8gBksUIJBICpU+UjfmgQI5brD7NAIEXmqOS2YHRq7V24PpxLhYMNGzyrMzT+Kv\/uToLhUayWF9LSDpCUvTOYXERa1Dp+aOh2ZED\/R8dQHBNEyZM4G0qSCnPmDGDfD6fEYCkamo1qX0R5ABFD2NnacR6QJVs9RVDC2RP5LwB4yqleXEcahXgNWsrIrNYvwiroR4PAqnpiLwW0XuAK6ilRksFsi4mLbR0ButtNTECEKSs50RL8woAWZVtp5+PucccQNauXUu5ublR7w9CKhD2nJwcXrMx3GoSb7Mi4nsx84IW7VjHo6NUzI5IJwVt5i6BoGLCkCFC0VHsam3r9iuGWAUC90HNAwaNTBb4kEXoAUPT5JcVTs0A6XAGvw\/Giu9E6CHWavB7\/1WnzinAP6Q1hmQ0KxoBiFi\/UWvRAUCyVwQLhWMRIHl5eZSenk7Nzc1ktVoVK+M3b97kXgRp36dPnyagWTHOdndxRX0sa5ZTU4DCKzznsE+WDkZxERVdaR8ROoIRKkVrNTlyxx3iQKFeokCw0Kf1uQ5pqwmItVg9h6DY98zuDwsP1VQE9FGLOynt7kYBInpFJDrw7E06CxWx+CH8Km\/w0PH9\/VyvlA2OOYCg2IeqOfZDlbJTIllftmyZEXCEt7sbeWDKiIJko\/VES4EPRgWAwXhxboaBhkV5yAPPCKBFqzbLFb1h8DR\/LdbX5Gjkgan\/V3G5XGS32\/mDW3IRax\/ov9IpkQ9MmY\/c6lM0OfJc4Auv+cjtGBFkrVD7QCOjDlF\/5NZ8aUN8iuwVUtnwYugAlmfqzJc2fDgBKBYvXhy1cTGG50gzX\/tjUFFFl5rxtT+9CRvbfO2PPrl79y7Nnz+ft62Af+ionMf\/2h\/zxXHmi+M+Rs+B9ne0xXs8mgqw+l4cJ3\/1KH\/q0Hz1aNIfyf3KfPVoIkXXq0f\/B0ym7DpSsJMXAAAAAElFTkSuQmCC\" height=\"14\" width=\"100\"\/><\/a><\/div><\/div>"},{"tzwxnqpvstognu":"<div class=\"uhfnzetfjya\"><div class=\"umrndydutgizmg\"><h4><a target=\"_blank\" href=\"https:\/\/geni.us\/ZCMPxX\">Tesla Cable Connector<\/a><\/h4><div class=\"xencgvvropab\"><div class=\"lfkzihqbgc\"><a target=\"_blank\" href=\"https:\/\/geni.us\/ZCMPxX\"><img src=\"https:\/\/images-na.ssl-images-amazon.com\/images\/I\/61rPk6KnPYL._AC_SX569_.jpg\"\/><\/a><\/div><div class=\"qjvicijdkmtf\"><h4><a target=\"_blank\" href=\"https:\/\/geni.us\/ZCMPxX\">Tesla Cable Connector<\/a><\/h4><a target=\"_blank\" href=\"https:\/\/geni.us\/ZCMPxX\"><p>A wall-mounted cable organizer and holder made for your Tesla charger. Get it on Amazon.<\/p><\/a><\/div><\/div><\/div><div class=\"tmaiurmmtedm\"><a target=\"_blank\" href=\"https:\/\/www.getAdfinity.com\"><img src=\"data:image\/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAAAcCAYAAAAk9\/CnAAALN0lEQVR42u1ci1cTZxan\/Wf8L1CPR0VXfCJrrVoVcdW6unioHh\/boqd2LVbrcX2u9QVWKtbKSwFfy0usRkEUUYsV8RkgLyCEkEDufr8vM2EymUkyMzHi2bnn3EOYx5fJfPf33fu7986kpMQSok+mn+pOTSvsyU8r6KmfVtBjZX+HmJKp70\/Zfabcahedb\/VQa5ePHIMj5B8hU\/TLEFMr03qm+UxTmX6Solfy8ujTtILuLDZZ7abBJhEYhT30Y2M\/vekbNk36\/Us70yymn2oCB\/MW49hkWUyDTa6uKHHQHza\/abbJFwvTcXGBY2phdxqbrH7TYJOr2671kscfME31w0k\/07R4wOEzDTb54DD5xZgQnypIhLBKs+dYdtFBh273c\/38V7thY8kqCY63kRHU92mUX1Y4+fesu+T84GGVXs\/xpMdP\/\/69n3IqnfSPy07OXR52+XRbx+OHPsrLcXEtPOpWPS4QCFBLSwuVl5fT7du3+bampiaqrq42bKGDg4N04cIFevny5Yf0JOMUCLk+zlH5x2Bo5OJWj2GD+b6+j491mY37Pg3zp3tBAyi8P\/BBCbkezjHC8ARwq437w80+XR6prWUUIAVH1AGyY8cOGj9+PC1cuJC2b9\/Ot+3evZv\/b1RsNhulpqbSlStXIvbduHGDGhsbk8VJRom7kK3SPMGzz9rI4wtQnzdAw2zSHJ4R+kuhCZB4FSu+HokGDvl91AuQQhWAvHr1ihvwpUuXwrYfPnyY1qxZY9gyHQ4HzZ49m2prayP2YfytW7cmy5NkheocelO5e4UJvvjYQ3deD\/HP2\/\/bawIkzjqHnlQuwirpOCtLHfRbm4cqng7yuol03703voQDBCs4APL27dukxz5JBkg7r5OwiRqvd5IfdQcn4O8sjhcN+zYDipYxPj9vp8+K7ZoAMrfIRssZ95n3iy2hAJlxpocWJYBHxaNfMWPWI1iUxDHWM94xNDzKX\/Apv6EvtH9HTW\/M8QJqAFHhINevX+cA6erq0nX9AwMD1NnZSX6\/f6wDBJKaIlTINU8wVi5Ip2s4FG4NMrKJ+DgWWQcgaju8PCQT5XXvMAdHNIDsZpP\/whm+6vYMjNDp5gEez+sFyIYqF7Xb\/aG4vdc7QrdeDdEXvznCzsH\/+D5r\/zDNK1IGJwzUxo4pfRydj6FCrkeyS0ev6e6bocgYnn239D4rxvnsmMN33Pz3TC8MLjhbrrno\/NUBVYDU1dVRZmYmzZw5kwMkIyOD\/19WVsb3Hzt2jNavXx92zrt37\/gxFouFk\/p169bRxIkT+fn4u3nzZs45pOJ0Ovk59fX1oW0bNmzg2yZNmkSTJ0\/mn6E49v79+\/xza2ur6j0rLi6mFStW0PCwZo+dn4L2ET0A+fVRcIJPNrlD267\/6eXbYLBq560ud5JNAAYAUvfCSw2dQyGwPLD6FAGCuJv3C7AVE8Zb9mSQ\/\/UJK2gsg1QDSPM7H3kZsHsZj2p8OcSBCxAEgRKgDZXhYYuYJfqxUZkHNL0N7t96LXqo2aoz25R5bhSY3W5lJi6CF4uGXACquSrgTt\/dQ9lZdvqGAeSMDCAIqa5evUr79u3jBo5ME\/7v6OhQJekiXykqKuL7KisruecBKKqqqigtLY2WL18ek6QjrMN3YYyVK1fyz1Cv18uNfu7cubRr1y7Ve7Zo0SLas2ePnttdnyL0VmkyLoQirsER7p4XX7CH5fP5ysFW2Gkq54oGVt\/p5eNIx7wmAEwJIPAwkM1Xww12VVkwzMDqP\/Nnm2aAQO4xo55zdvRcJBqq2oPZuZfMQ0q9EzwE5D4DlnzMBWzFhgeF4cbyaOit0iPSsNLmUR4jQ3KMVDqY9511Vv0eASCZi3rob9n2CIDECrGiAQSr\/vPnzyPGAtHHfqSI48liqYVYx48fp6lTp\/LwLYKzPXnCx2tra9Nzu60pehoPv60NGkmLNdxI4K7FiZcbsjTu7h8KKBozDLNLWBWlAAHYsJpDkPOXn3eIhQsXGVFdcsGuGSAICzMUuAwMXCTRu+pG43pcN64\/wC5HzlcOCF7u7IPYxF9vYXBBdg\/N\/yKoebku2rkpUhcsFY5ZGg6QbdfDvdoWNkdYlEDwwelEgEAP7e9LGEB27typOFZfXx\/fX1paaggguBaknSsqKiL27d+\/n5YsWaK7wVEXQCxC7LtXIcwoeRwMvRCqqBllZbs6AT\/TMqDoQa48C67obmacCOHWsFBtWqHxLBbCQrVjED5CEM5Jt18UfiPGkHtHwHipjLskFCDLR41423pniDNI9bPFo8eIAl4lvV\/yNDCKlUsP2EPnbf7WmTCAlJSUqP4e8IrTp08bAghk48aNtHr16rBtSATMmjWLh3i6AaI1xMIqHRBSH88dfp52lOpbYdUFN5DGy9DLQlHxRJNbc5oXYyEsk4rbF6DfGQ\/Ze7M\/LFzTApCCKGleMQuEdKlSggK\/P5SNY94koBJ6JTLEWpClDyCPusKv61VvJGH9qdwdOm\/tPx0JA4iUcMtlypQpdPLkScMAaWho4OeJnAhy69YtngyQJwK0hliaSDqyPvHKEYtbser+n7vqAPmuLnqaF1mcY+x8y+sh7k1EQTYt85z2EOtUc2yAPLBGGv0jgUutKgt6i6OW4HjSNOv7IOnScBDZKI5KmSpxEKTkpd+vxF8KL0sA8vXHBRCQ9Xnz5tHBgwfDKv6bNm0ykuat15TmnSbhCN\/c6OXZECU91TQQIoVKRomYN1ZYE0+hEJzlO8aH7MJkl2jIZInXUv1M\/XtEo69uV045Q849DH4nvCc8WryJAr1pXr0kHRxuuiTEwnXLJee4MwSQLTudHxVAeGRy4gRPQyO0AmFHcqCmpsYIQPJT+NOCcRoVcuWQWFkaHm4Iizua6MTtGwWSjgyYmiHBE8gBksUIJBICpU+UjfmgQI5brD7NAIEXmqOS2YHRq7V24PpxLhYMNGzyrMzT+Kv\/uToLhUayWF9LSDpCUvTOYXERa1Dp+aOh2ZED\/R8dQHBNEyZM4G0qSCnPmDGDfD6fEYCkamo1qX0R5ABFD2NnacR6QJVs9RVDC2RP5LwB4yqleXEcahXgNWsrIrNYvwiroR4PAqnpiLwW0XuAK6ilRksFsi4mLbR0ButtNTECEKSs50RL8woAWZVtp5+PucccQNauXUu5ublR7w9CKhD2nJwcXrMx3GoSb7Mi4nsx84IW7VjHo6NUzI5IJwVt5i6BoGLCkCFC0VHsam3r9iuGWAUC90HNAwaNTBb4kEXoAUPT5JcVTs0A6XAGvw\/Giu9E6CHWavB7\/1WnzinAP6Q1hmQ0KxoBiFi\/UWvRAUCyVwQLhWMRIHl5eZSenk7Nzc1ktVoVK+M3b97kXgRp36dPnyagWTHOdndxRX0sa5ZTU4DCKzznsE+WDkZxERVdaR8ROoIRKkVrNTlyxx3iQKFeokCw0Kf1uQ5pqwmItVg9h6DY98zuDwsP1VQE9FGLOynt7kYBInpFJDrw7E06CxWx+CH8Km\/w0PH9\/VyvlA2OOYCg2IeqOfZDlbJTIllftmyZEXCEt7sbeWDKiIJko\/VES4EPRgWAwXhxboaBhkV5yAPPCKBFqzbLFb1h8DR\/LdbX5Gjkgan\/V3G5XGS32\/mDW3IRax\/ov9IpkQ9MmY\/c6lM0OfJc4Auv+cjtGBFkrVD7QCOjDlF\/5NZ8aUN8iuwVUtnwYugAlmfqzJc2fDgBKBYvXhy1cTGG50gzX\/tjUFFFl5rxtT+9CRvbfO2PPrl79y7Nnz+ft62Af+ionMf\/2h\/zxXHmi+M+Rs+B9ne0xXs8mgqw+l4cJ3\/1KH\/q0Hz1aNIfyf3KfPVoIkXXq0f\/B0ym7DpSsJMXAAAAAElFTkSuQmCC\" height=\"14\" width=\"100\"\/><\/a><\/div><\/div>"},{"tzwxnqpvstognu":"<div class=\"uhfnzetfjya\"><div class=\"umrndydutgizmg\"><h4><a target=\"_blank\" href=\"https:\/\/geni.us\/5ryAJ\">Tesla Model 3 \/ Model Y Screen Protector<\/a><\/h4><div class=\"xencgvvropab\"><div class=\"lfkzihqbgc\"><a target=\"_blank\" href=\"https:\/\/geni.us\/5ryAJ\"><img src=\"https:\/\/images-na.ssl-images-amazon.com\/images\/I\/518XIvZA5kL._AC_SX522_.jpg\"\/><\/a><\/div><div class=\"qjvicijdkmtf\"><h4><a target=\"_blank\" href=\"https:\/\/geni.us\/5ryAJ\">Tesla Model 3 \/ Model Y Screen Protector<\/a><\/h4><a target=\"_blank\" href=\"https:\/\/geni.us\/5ryAJ\"><p>Tempered-Glass Screen Protector for Tesla Model 3 and Model Y. Get it on Amazon.<\/p><\/a><\/div><\/div><\/div><div class=\"tmaiurmmtedm\"><a target=\"_blank\" href=\"https:\/\/www.getAdfinity.com\"><img src=\"data:image\/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAAAcCAYAAAAk9\/CnAAALN0lEQVR42u1ci1cTZxan\/Wf8L1CPR0VXfCJrrVoVcdW6unioHh\/boqd2LVbrcX2u9QVWKtbKSwFfy0usRkEUUYsV8RkgLyCEkEDufr8vM2EymUkyMzHi2bnn3EOYx5fJfPf33fu7986kpMQSok+mn+pOTSvsyU8r6KmfVtBjZX+HmJKp70\/Zfabcahedb\/VQa5ePHIMj5B8hU\/TLEFMr03qm+UxTmX6Solfy8ujTtILuLDZZ7abBJhEYhT30Y2M\/vekbNk36\/Us70yymn2oCB\/MW49hkWUyDTa6uKHHQHza\/abbJFwvTcXGBY2phdxqbrH7TYJOr2671kscfME31w0k\/07R4wOEzDTb54DD5xZgQnypIhLBKs+dYdtFBh273c\/38V7thY8kqCY63kRHU92mUX1Y4+fesu+T84GGVXs\/xpMdP\/\/69n3IqnfSPy07OXR52+XRbx+OHPsrLcXEtPOpWPS4QCFBLSwuVl5fT7du3+bampiaqrq42bKGDg4N04cIFevny5Yf0JOMUCLk+zlH5x2Bo5OJWj2GD+b6+j491mY37Pg3zp3tBAyi8P\/BBCbkezjHC8ARwq437w80+XR6prWUUIAVH1AGyY8cOGj9+PC1cuJC2b9\/Ot+3evZv\/b1RsNhulpqbSlStXIvbduHGDGhsbk8VJRom7kK3SPMGzz9rI4wtQnzdAw2zSHJ4R+kuhCZB4FSu+HokGDvl91AuQQhWAvHr1ihvwpUuXwrYfPnyY1qxZY9gyHQ4HzZ49m2prayP2YfytW7cmy5NkheocelO5e4UJvvjYQ3deD\/HP2\/\/bawIkzjqHnlQuwirpOCtLHfRbm4cqng7yuol03703voQDBCs4APL27dukxz5JBkg7r5OwiRqvd5IfdQcn4O8sjhcN+zYDipYxPj9vp8+K7ZoAMrfIRssZ95n3iy2hAJlxpocWJYBHxaNfMWPWI1iUxDHWM94xNDzKX\/Apv6EvtH9HTW\/M8QJqAFHhINevX+cA6erq0nX9AwMD1NnZSX6\/f6wDBJKaIlTINU8wVi5Ip2s4FG4NMrKJ+DgWWQcgaju8PCQT5XXvMAdHNIDsZpP\/whm+6vYMjNDp5gEez+sFyIYqF7Xb\/aG4vdc7QrdeDdEXvznCzsH\/+D5r\/zDNK1IGJwzUxo4pfRydj6FCrkeyS0ev6e6bocgYnn239D4rxvnsmMN33Pz3TC8MLjhbrrno\/NUBVYDU1dVRZmYmzZw5kwMkIyOD\/19WVsb3Hzt2jNavXx92zrt37\/gxFouFk\/p169bRxIkT+fn4u3nzZs45pOJ0Ovk59fX1oW0bNmzg2yZNmkSTJ0\/mn6E49v79+\/xza2ur6j0rLi6mFStW0PCwZo+dn4L2ET0A+fVRcIJPNrlD267\/6eXbYLBq560ud5JNAAYAUvfCSw2dQyGwPLD6FAGCuJv3C7AVE8Zb9mSQ\/\/UJK2gsg1QDSPM7H3kZsHsZj2p8OcSBCxAEgRKgDZXhYYuYJfqxUZkHNL0N7t96LXqo2aoz25R5bhSY3W5lJi6CF4uGXACquSrgTt\/dQ9lZdvqGAeSMDCAIqa5evUr79u3jBo5ME\/7v6OhQJekiXykqKuL7KisruecBKKqqqigtLY2WL18ek6QjrMN3YYyVK1fyz1Cv18uNfu7cubRr1y7Ve7Zo0SLas2ePnttdnyL0VmkyLoQirsER7p4XX7CH5fP5ysFW2Gkq54oGVt\/p5eNIx7wmAEwJIPAwkM1Xww12VVkwzMDqP\/Nnm2aAQO4xo55zdvRcJBqq2oPZuZfMQ0q9EzwE5D4DlnzMBWzFhgeF4cbyaOit0iPSsNLmUR4jQ3KMVDqY9511Vv0eASCZi3rob9n2CIDECrGiAQSr\/vPnzyPGAtHHfqSI48liqYVYx48fp6lTp\/LwLYKzPXnCx2tra9Nzu60pehoPv60NGkmLNdxI4K7FiZcbsjTu7h8KKBozDLNLWBWlAAHYsJpDkPOXn3eIhQsXGVFdcsGuGSAICzMUuAwMXCTRu+pG43pcN64\/wC5HzlcOCF7u7IPYxF9vYXBBdg\/N\/yKoebku2rkpUhcsFY5ZGg6QbdfDvdoWNkdYlEDwwelEgEAP7e9LGEB27typOFZfXx\/fX1paaggguBaknSsqKiL27d+\/n5YsWaK7wVEXQCxC7LtXIcwoeRwMvRCqqBllZbs6AT\/TMqDoQa48C67obmacCOHWsFBtWqHxLBbCQrVjED5CEM5Jt18UfiPGkHtHwHipjLskFCDLR41423pniDNI9bPFo8eIAl4lvV\/yNDCKlUsP2EPnbf7WmTCAlJSUqP4e8IrTp08bAghk48aNtHr16rBtSATMmjWLh3i6AaI1xMIqHRBSH88dfp52lOpbYdUFN5DGy9DLQlHxRJNbc5oXYyEsk4rbF6DfGQ\/Ze7M\/LFzTApCCKGleMQuEdKlSggK\/P5SNY94koBJ6JTLEWpClDyCPusKv61VvJGH9qdwdOm\/tPx0JA4iUcMtlypQpdPLkScMAaWho4OeJnAhy69YtngyQJwK0hliaSDqyPvHKEYtbser+n7vqAPmuLnqaF1mcY+x8y+sh7k1EQTYt85z2EOtUc2yAPLBGGv0jgUutKgt6i6OW4HjSNOv7IOnScBDZKI5KmSpxEKTkpd+vxF8KL0sA8vXHBRCQ9Xnz5tHBgwfDKv6bNm0ykuat15TmnSbhCN\/c6OXZECU91TQQIoVKRomYN1ZYE0+hEJzlO8aH7MJkl2jIZInXUv1M\/XtEo69uV045Q849DH4nvCc8WryJAr1pXr0kHRxuuiTEwnXLJee4MwSQLTudHxVAeGRy4gRPQyO0AmFHcqCmpsYIQPJT+NOCcRoVcuWQWFkaHm4Iizua6MTtGwWSjgyYmiHBE8gBksUIJBICpU+UjfmgQI5brD7NAIEXmqOS2YHRq7V24PpxLhYMNGzyrMzT+Kv\/uToLhUayWF9LSDpCUvTOYXERa1Dp+aOh2ZED\/R8dQHBNEyZM4G0qSCnPmDGDfD6fEYCkamo1qX0R5ABFD2NnacR6QJVs9RVDC2RP5LwB4yqleXEcahXgNWsrIrNYvwiroR4PAqnpiLwW0XuAK6ilRksFsi4mLbR0ButtNTECEKSs50RL8woAWZVtp5+PucccQNauXUu5ublR7w9CKhD2nJwcXrMx3GoSb7Mi4nsx84IW7VjHo6NUzI5IJwVt5i6BoGLCkCFC0VHsam3r9iuGWAUC90HNAwaNTBb4kEXoAUPT5JcVTs0A6XAGvw\/Giu9E6CHWavB7\/1WnzinAP6Q1hmQ0KxoBiFi\/UWvRAUCyVwQLhWMRIHl5eZSenk7Nzc1ktVoVK+M3b97kXgRp36dPnyagWTHOdndxRX0sa5ZTU4DCKzznsE+WDkZxERVdaR8ROoIRKkVrNTlyxx3iQKFeokCw0Kf1uQ5pqwmItVg9h6DY98zuDwsP1VQE9FGLOynt7kYBInpFJDrw7E06CxWx+CH8Km\/w0PH9\/VyvlA2OOYCg2IeqOfZDlbJTIllftmyZEXCEt7sbeWDKiIJko\/VES4EPRgWAwXhxboaBhkV5yAPPCKBFqzbLFb1h8DR\/LdbX5Gjkgan\/V3G5XGS32\/mDW3IRax\/ov9IpkQ9MmY\/c6lM0OfJc4Auv+cjtGBFkrVD7QCOjDlF\/5NZ8aUN8iuwVUtnwYugAlmfqzJc2fDgBKBYvXhy1cTGG50gzX\/tjUFFFl5rxtT+9CRvbfO2PPrl79y7Nnz+ft62Af+ionMf\/2h\/zxXHmi+M+Rs+B9ne0xXs8mgqw+l4cJ3\/1KH\/q0Hz1aNIfyf3KfPVoIkXXq0f\/B0ym7DpSsJMXAAAAAElFTkSuQmCC\" height=\"14\" width=\"100\"\/><\/a><\/div><\/div>"},{"tzwxnqpvstognu":"<div class=\"uhfnzetfjya\"><div class=\"umrndydutgizmg\"><h4><a target=\"_blank\" href=\"https:\/\/geni.us\/7ldtYJ\">Tesla Model 3 Door Handle Wrap Kit (Matte Black and others)<\/a><\/h4><div class=\"xencgvvropab\"><div class=\"lfkzihqbgc\"><a target=\"_blank\" href=\"https:\/\/geni.us\/7ldtYJ\"><img src=\"https:\/\/m.media-amazon.com\/images\/I\/31-rEFB7-oL._SL300_.jpg\"\/><\/a><\/div><div class=\"qjvicijdkmtf\"><h4><a target=\"_blank\" href=\"https:\/\/geni.us\/7ldtYJ\">Tesla Model 3 Door Handle Wrap Kit (Matte Black and others)<\/a><\/h4><a target=\"_blank\" href=\"https:\/\/geni.us\/7ldtYJ\"><p>Complete set of 4 Tesla Model 3 door handle vinyl wraps. Each wrap is custom cut with precision for a perfect fit. Get it on Amazon.<\/p><\/a><\/div><\/div><\/div><div class=\"tmaiurmmtedm\"><a target=\"_blank\" href=\"https:\/\/www.getAdfinity.com\"><img src=\"data:image\/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAAAcCAYAAAAk9\/CnAAALN0lEQVR42u1ci1cTZxan\/Wf8L1CPR0VXfCJrrVoVcdW6unioHh\/boqd2LVbrcX2u9QVWKtbKSwFfy0usRkEUUYsV8RkgLyCEkEDufr8vM2EymUkyMzHi2bnn3EOYx5fJfPf33fu7986kpMQSok+mn+pOTSvsyU8r6KmfVtBjZX+HmJKp70\/Zfabcahedb\/VQa5ePHIMj5B8hU\/TLEFMr03qm+UxTmX6Solfy8ujTtILuLDZZ7abBJhEYhT30Y2M\/vekbNk36\/Us70yymn2oCB\/MW49hkWUyDTa6uKHHQHza\/abbJFwvTcXGBY2phdxqbrH7TYJOr2671kscfME31w0k\/07R4wOEzDTb54DD5xZgQnypIhLBKs+dYdtFBh273c\/38V7thY8kqCY63kRHU92mUX1Y4+fesu+T84GGVXs\/xpMdP\/\/69n3IqnfSPy07OXR52+XRbx+OHPsrLcXEtPOpWPS4QCFBLSwuVl5fT7du3+bampiaqrq42bKGDg4N04cIFevny5Yf0JOMUCLk+zlH5x2Bo5OJWj2GD+b6+j491mY37Pg3zp3tBAyi8P\/BBCbkezjHC8ARwq437w80+XR6prWUUIAVH1AGyY8cOGj9+PC1cuJC2b9\/Ot+3evZv\/b1RsNhulpqbSlStXIvbduHGDGhsbk8VJRom7kK3SPMGzz9rI4wtQnzdAw2zSHJ4R+kuhCZB4FSu+HokGDvl91AuQQhWAvHr1ihvwpUuXwrYfPnyY1qxZY9gyHQ4HzZ49m2prayP2YfytW7cmy5NkheocelO5e4UJvvjYQ3deD\/HP2\/\/bawIkzjqHnlQuwirpOCtLHfRbm4cqng7yuol03703voQDBCs4APL27dukxz5JBkg7r5OwiRqvd5IfdQcn4O8sjhcN+zYDipYxPj9vp8+K7ZoAMrfIRssZ95n3iy2hAJlxpocWJYBHxaNfMWPWI1iUxDHWM94xNDzKX\/Apv6EvtH9HTW\/M8QJqAFHhINevX+cA6erq0nX9AwMD1NnZSX6\/f6wDBJKaIlTINU8wVi5Ip2s4FG4NMrKJ+DgWWQcgaju8PCQT5XXvMAdHNIDsZpP\/whm+6vYMjNDp5gEez+sFyIYqF7Xb\/aG4vdc7QrdeDdEXvznCzsH\/+D5r\/zDNK1IGJwzUxo4pfRydj6FCrkeyS0ev6e6bocgYnn239D4rxvnsmMN33Pz3TC8MLjhbrrno\/NUBVYDU1dVRZmYmzZw5kwMkIyOD\/19WVsb3Hzt2jNavXx92zrt37\/gxFouFk\/p169bRxIkT+fn4u3nzZs45pOJ0Ovk59fX1oW0bNmzg2yZNmkSTJ0\/mn6E49v79+\/xza2ur6j0rLi6mFStW0PCwZo+dn4L2ET0A+fVRcIJPNrlD267\/6eXbYLBq560ud5JNAAYAUvfCSw2dQyGwPLD6FAGCuJv3C7AVE8Zb9mSQ\/\/UJK2gsg1QDSPM7H3kZsHsZj2p8OcSBCxAEgRKgDZXhYYuYJfqxUZkHNL0N7t96LXqo2aoz25R5bhSY3W5lJi6CF4uGXACquSrgTt\/dQ9lZdvqGAeSMDCAIqa5evUr79u3jBo5ME\/7v6OhQJekiXykqKuL7KisruecBKKqqqigtLY2WL18ek6QjrMN3YYyVK1fyz1Cv18uNfu7cubRr1y7Ve7Zo0SLas2ePnttdnyL0VmkyLoQirsER7p4XX7CH5fP5ysFW2Gkq54oGVt\/p5eNIx7wmAEwJIPAwkM1Xww12VVkwzMDqP\/Nnm2aAQO4xo55zdvRcJBqq2oPZuZfMQ0q9EzwE5D4DlnzMBWzFhgeF4cbyaOit0iPSsNLmUR4jQ3KMVDqY9511Vv0eASCZi3rob9n2CIDECrGiAQSr\/vPnzyPGAtHHfqSI48liqYVYx48fp6lTp\/LwLYKzPXnCx2tra9Nzu60pehoPv60NGkmLNdxI4K7FiZcbsjTu7h8KKBozDLNLWBWlAAHYsJpDkPOXn3eIhQsXGVFdcsGuGSAICzMUuAwMXCTRu+pG43pcN64\/wC5HzlcOCF7u7IPYxF9vYXBBdg\/N\/yKoebku2rkpUhcsFY5ZGg6QbdfDvdoWNkdYlEDwwelEgEAP7e9LGEB27typOFZfXx\/fX1paaggguBaknSsqKiL27d+\/n5YsWaK7wVEXQCxC7LtXIcwoeRwMvRCqqBllZbs6AT\/TMqDoQa48C67obmacCOHWsFBtWqHxLBbCQrVjED5CEM5Jt18UfiPGkHtHwHipjLskFCDLR41423pniDNI9bPFo8eIAl4lvV\/yNDCKlUsP2EPnbf7WmTCAlJSUqP4e8IrTp08bAghk48aNtHr16rBtSATMmjWLh3i6AaI1xMIqHRBSH88dfp52lOpbYdUFN5DGy9DLQlHxRJNbc5oXYyEsk4rbF6DfGQ\/Ze7M\/LFzTApCCKGleMQuEdKlSggK\/P5SNY94koBJ6JTLEWpClDyCPusKv61VvJGH9qdwdOm\/tPx0JA4iUcMtlypQpdPLkScMAaWho4OeJnAhy69YtngyQJwK0hliaSDqyPvHKEYtbser+n7vqAPmuLnqaF1mcY+x8y+sh7k1EQTYt85z2EOtUc2yAPLBGGv0jgUutKgt6i6OW4HjSNOv7IOnScBDZKI5KmSpxEKTkpd+vxF8KL0sA8vXHBRCQ9Xnz5tHBgwfDKv6bNm0ykuat15TmnSbhCN\/c6OXZECU91TQQIoVKRomYN1ZYE0+hEJzlO8aH7MJkl2jIZInXUv1M\/XtEo69uV045Q849DH4nvCc8WryJAr1pXr0kHRxuuiTEwnXLJee4MwSQLTudHxVAeGRy4gRPQyO0AmFHcqCmpsYIQPJT+NOCcRoVcuWQWFkaHm4Iizua6MTtGwWSjgyYmiHBE8gBksUIJBICpU+UjfmgQI5brD7NAIEXmqOS2YHRq7V24PpxLhYMNGzyrMzT+Kv\/uToLhUayWF9LSDpCUvTOYXERa1Dp+aOh2ZED\/R8dQHBNEyZM4G0qSCnPmDGDfD6fEYCkamo1qX0R5ABFD2NnacR6QJVs9RVDC2RP5LwB4yqleXEcahXgNWsrIrNYvwiroR4PAqnpiLwW0XuAK6ilRksFsi4mLbR0ButtNTECEKSs50RL8woAWZVtp5+PucccQNauXUu5ublR7w9CKhD2nJwcXrMx3GoSb7Mi4nsx84IW7VjHo6NUzI5IJwVt5i6BoGLCkCFC0VHsam3r9iuGWAUC90HNAwaNTBb4kEXoAUPT5JcVTs0A6XAGvw\/Giu9E6CHWavB7\/1WnzinAP6Q1hmQ0KxoBiFi\/UWvRAUCyVwQLhWMRIHl5eZSenk7Nzc1ktVoVK+M3b97kXgRp36dPnyagWTHOdndxRX0sa5ZTU4DCKzznsE+WDkZxERVdaR8ROoIRKkVrNTlyxx3iQKFeokCw0Kf1uQ5pqwmItVg9h6DY98zuDwsP1VQE9FGLOynt7kYBInpFJDrw7E06CxWx+CH8Km\/w0PH9\/VyvlA2OOYCg2IeqOfZDlbJTIllftmyZEXCEt7sbeWDKiIJko\/VES4EPRgWAwXhxboaBhkV5yAPPCKBFqzbLFb1h8DR\/LdbX5Gjkgan\/V3G5XGS32\/mDW3IRax\/ov9IpkQ9MmY\/c6lM0OfJc4Auv+cjtGBFkrVD7QCOjDlF\/5NZ8aUN8iuwVUtnwYugAlmfqzJc2fDgBKBYvXhy1cTGG50gzX\/tjUFFFl5rxtT+9CRvbfO2PPrl79y7Nnz+ft62Af+ionMf\/2h\/zxXHmi+M+Rs+B9ne0xXs8mgqw+l4cJ3\/1KH\/q0Hz1aNIfyf3KfPVoIkXXq0f\/B0ym7DpSsJMXAAAAAElFTkSuQmCC\" height=\"14\" width=\"100\"\/><\/a><\/div><\/div>"},{"tzwxnqpvstognu":"<div class=\"uhfnzetfjya\"><div class=\"umrndydutgizmg\"><h4><a target=\"_blank\" href=\"https:\/\/geni.us\/ns2gt5\">Reduce Wind Noise in Your Tesla<\/a><\/h4><div class=\"xencgvvropab\"><div class=\"lfkzihqbgc\"><a target=\"_blank\" href=\"https:\/\/geni.us\/ns2gt5\"><img src=\"https:\/\/m.media-amazon.com\/images\/I\/41PpYdA2MYL._SL300_.jpg\"\/><\/a><\/div><div class=\"qjvicijdkmtf\"><h4><a target=\"_blank\" href=\"https:\/\/geni.us\/ns2gt5\">Reduce Wind Noise in Your Tesla<\/a><\/h4><a target=\"_blank\" href=\"https:\/\/geni.us\/ns2gt5\"><p>Reduce wind and road noise in your Tesla with this door seal kit for Model 3, S and Y. Get it on Amazon.<\/p><\/a><\/div><\/div><\/div><div class=\"tmaiurmmtedm\"><a target=\"_blank\" href=\"https:\/\/www.getAdfinity.com\"><img src=\"data:image\/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAAAcCAYAAAAk9\/CnAAALN0lEQVR42u1ci1cTZxan\/Wf8L1CPR0VXfCJrrVoVcdW6unioHh\/boqd2LVbrcX2u9QVWKtbKSwFfy0usRkEUUYsV8RkgLyCEkEDufr8vM2EymUkyMzHi2bnn3EOYx5fJfPf33fu7986kpMQSok+mn+pOTSvsyU8r6KmfVtBjZX+HmJKp70\/Zfabcahedb\/VQa5ePHIMj5B8hU\/TLEFMr03qm+UxTmX6Solfy8ujTtILuLDZZ7abBJhEYhT30Y2M\/vekbNk36\/Us70yymn2oCB\/MW49hkWUyDTa6uKHHQHza\/abbJFwvTcXGBY2phdxqbrH7TYJOr2671kscfME31w0k\/07R4wOEzDTb54DD5xZgQnypIhLBKs+dYdtFBh273c\/38V7thY8kqCY63kRHU92mUX1Y4+fesu+T84GGVXs\/xpMdP\/\/69n3IqnfSPy07OXR52+XRbx+OHPsrLcXEtPOpWPS4QCFBLSwuVl5fT7du3+bampiaqrq42bKGDg4N04cIFevny5Yf0JOMUCLk+zlH5x2Bo5OJWj2GD+b6+j491mY37Pg3zp3tBAyi8P\/BBCbkezjHC8ARwq437w80+XR6prWUUIAVH1AGyY8cOGj9+PC1cuJC2b9\/Ot+3evZv\/b1RsNhulpqbSlStXIvbduHGDGhsbk8VJRom7kK3SPMGzz9rI4wtQnzdAw2zSHJ4R+kuhCZB4FSu+HokGDvl91AuQQhWAvHr1ihvwpUuXwrYfPnyY1qxZY9gyHQ4HzZ49m2prayP2YfytW7cmy5NkheocelO5e4UJvvjYQ3deD\/HP2\/\/bawIkzjqHnlQuwirpOCtLHfRbm4cqng7yuol03703voQDBCs4APL27dukxz5JBkg7r5OwiRqvd5IfdQcn4O8sjhcN+zYDipYxPj9vp8+K7ZoAMrfIRssZ95n3iy2hAJlxpocWJYBHxaNfMWPWI1iUxDHWM94xNDzKX\/Apv6EvtH9HTW\/M8QJqAFHhINevX+cA6erq0nX9AwMD1NnZSX6\/f6wDBJKaIlTINU8wVi5Ip2s4FG4NMrKJ+DgWWQcgaju8PCQT5XXvMAdHNIDsZpP\/whm+6vYMjNDp5gEez+sFyIYqF7Xb\/aG4vdc7QrdeDdEXvznCzsH\/+D5r\/zDNK1IGJwzUxo4pfRydj6FCrkeyS0ev6e6bocgYnn239D4rxvnsmMN33Pz3TC8MLjhbrrno\/NUBVYDU1dVRZmYmzZw5kwMkIyOD\/19WVsb3Hzt2jNavXx92zrt37\/gxFouFk\/p169bRxIkT+fn4u3nzZs45pOJ0Ovk59fX1oW0bNmzg2yZNmkSTJ0\/mn6E49v79+\/xza2ur6j0rLi6mFStW0PCwZo+dn4L2ET0A+fVRcIJPNrlD267\/6eXbYLBq560ud5JNAAYAUvfCSw2dQyGwPLD6FAGCuJv3C7AVE8Zb9mSQ\/\/UJK2gsg1QDSPM7H3kZsHsZj2p8OcSBCxAEgRKgDZXhYYuYJfqxUZkHNL0N7t96LXqo2aoz25R5bhSY3W5lJi6CF4uGXACquSrgTt\/dQ9lZdvqGAeSMDCAIqa5evUr79u3jBo5ME\/7v6OhQJekiXykqKuL7KisruecBKKqqqigtLY2WL18ek6QjrMN3YYyVK1fyz1Cv18uNfu7cubRr1y7Ve7Zo0SLas2ePnttdnyL0VmkyLoQirsER7p4XX7CH5fP5ysFW2Gkq54oGVt\/p5eNIx7wmAEwJIPAwkM1Xww12VVkwzMDqP\/Nnm2aAQO4xo55zdvRcJBqq2oPZuZfMQ0q9EzwE5D4DlnzMBWzFhgeF4cbyaOit0iPSsNLmUR4jQ3KMVDqY9511Vv0eASCZi3rob9n2CIDECrGiAQSr\/vPnzyPGAtHHfqSI48liqYVYx48fp6lTp\/LwLYKzPXnCx2tra9Nzu60pehoPv60NGkmLNdxI4K7FiZcbsjTu7h8KKBozDLNLWBWlAAHYsJpDkPOXn3eIhQsXGVFdcsGuGSAICzMUuAwMXCTRu+pG43pcN64\/wC5HzlcOCF7u7IPYxF9vYXBBdg\/N\/yKoebku2rkpUhcsFY5ZGg6QbdfDvdoWNkdYlEDwwelEgEAP7e9LGEB27typOFZfXx\/fX1paaggguBaknSsqKiL27d+\/n5YsWaK7wVEXQCxC7LtXIcwoeRwMvRCqqBllZbs6AT\/TMqDoQa48C67obmacCOHWsFBtWqHxLBbCQrVjED5CEM5Jt18UfiPGkHtHwHipjLskFCDLR41423pniDNI9bPFo8eIAl4lvV\/yNDCKlUsP2EPnbf7WmTCAlJSUqP4e8IrTp08bAghk48aNtHr16rBtSATMmjWLh3i6AaI1xMIqHRBSH88dfp52lOpbYdUFN5DGy9DLQlHxRJNbc5oXYyEsk4rbF6DfGQ\/Ze7M\/LFzTApCCKGleMQuEdKlSggK\/P5SNY94koBJ6JTLEWpClDyCPusKv61VvJGH9qdwdOm\/tPx0JA4iUcMtlypQpdPLkScMAaWho4OeJnAhy69YtngyQJwK0hliaSDqyPvHKEYtbser+n7vqAPmuLnqaF1mcY+x8y+sh7k1EQTYt85z2EOtUc2yAPLBGGv0jgUutKgt6i6OW4HjSNOv7IOnScBDZKI5KmSpxEKTkpd+vxF8KL0sA8vXHBRCQ9Xnz5tHBgwfDKv6bNm0ykuat15TmnSbhCN\/c6OXZECU91TQQIoVKRomYN1ZYE0+hEJzlO8aH7MJkl2jIZInXUv1M\/XtEo69uV045Q849DH4nvCc8WryJAr1pXr0kHRxuuiTEwnXLJee4MwSQLTudHxVAeGRy4gRPQyO0AmFHcqCmpsYIQPJT+NOCcRoVcuWQWFkaHm4Iizua6MTtGwWSjgyYmiHBE8gBksUIJBICpU+UjfmgQI5brD7NAIEXmqOS2YHRq7V24PpxLhYMNGzyrMzT+Kv\/uToLhUayWF9LSDpCUvTOYXERa1Dp+aOh2ZED\/R8dQHBNEyZM4G0qSCnPmDGDfD6fEYCkamo1qX0R5ABFD2NnacR6QJVs9RVDC2RP5LwB4yqleXEcahXgNWsrIrNYvwiroR4PAqnpiLwW0XuAK6ilRksFsi4mLbR0ButtNTECEKSs50RL8woAWZVtp5+PucccQNauXUu5ublR7w9CKhD2nJwcXrMx3GoSb7Mi4nsx84IW7VjHo6NUzI5IJwVt5i6BoGLCkCFC0VHsam3r9iuGWAUC90HNAwaNTBb4kEXoAUPT5JcVTs0A6XAGvw\/Giu9E6CHWavB7\/1WnzinAP6Q1hmQ0KxoBiFi\/UWvRAUCyVwQLhWMRIHl5eZSenk7Nzc1ktVoVK+M3b97kXgRp36dPnyagWTHOdndxRX0sa5ZTU4DCKzznsE+WDkZxERVdaR8ROoIRKkVrNTlyxx3iQKFeokCw0Kf1uQ5pqwmItVg9h6DY98zuDwsP1VQE9FGLOynt7kYBInpFJDrw7E06CxWx+CH8Km\/w0PH9\/VyvlA2OOYCg2IeqOfZDlbJTIllftmyZEXCEt7sbeWDKiIJko\/VES4EPRgWAwXhxboaBhkV5yAPPCKBFqzbLFb1h8DR\/LdbX5Gjkgan\/V3G5XGS32\/mDW3IRax\/ov9IpkQ9MmY\/c6lM0OfJc4Auv+cjtGBFkrVD7QCOjDlF\/5NZ8aUN8iuwVUtnwYugAlmfqzJc2fDgBKBYvXhy1cTGG50gzX\/tjUFFFl5rxtT+9CRvbfO2PPrl79y7Nnz+ft62Af+ionMf\/2h\/zxXHmi+M+Rs+B9ne0xXs8mgqw+l4cJ3\/1KH\/q0Hz1aNIfyf3KfPVoIkXXq0f\/B0ym7DpSsJMXAAAAAElFTkSuQmCC\" height=\"14\" width=\"100\"\/><\/a><\/div><\/div>"},{"tzwxnqpvstognu":"<div class=\"uhfnzetfjya\"><div class=\"umrndydutgizmg\"><h4><a target=\"_blank\" href=\"https:\/\/geni.us\/3zv5Gq\">Model 3 Glass Roof Sunshade<\/a><\/h4><div class=\"xencgvvropab\"><div class=\"lfkzihqbgc\"><a target=\"_blank\" href=\"https:\/\/geni.us\/3zv5Gq\"><img src=\"https:\/\/m.media-amazon.com\/images\/I\/412bq4AwWCL._SL300_.jpg\"\/><\/a><\/div><div class=\"qjvicijdkmtf\"><h4><a target=\"_blank\" href=\"https:\/\/geni.us\/3zv5Gq\">Model 3 Glass Roof Sunshade<\/a><\/h4><a target=\"_blank\" href=\"https:\/\/geni.us\/3zv5Gq\"><p>Prevent excessive sun and heat from entering your Model 3. Check out this custom-made sunshade for the Model 3. Get it on Amazon.<\/p><\/a><\/div><\/div><\/div><div class=\"tmaiurmmtedm\"><a target=\"_blank\" href=\"https:\/\/www.getAdfinity.com\"><img src=\"data:image\/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAAAcCAYAAAAk9\/CnAAALN0lEQVR42u1ci1cTZxan\/Wf8L1CPR0VXfCJrrVoVcdW6unioHh\/boqd2LVbrcX2u9QVWKtbKSwFfy0usRkEUUYsV8RkgLyCEkEDufr8vM2EymUkyMzHi2bnn3EOYx5fJfPf33fu7986kpMQSok+mn+pOTSvsyU8r6KmfVtBjZX+HmJKp70\/Zfabcahedb\/VQa5ePHIMj5B8hU\/TLEFMr03qm+UxTmX6Solfy8ujTtILuLDZZ7abBJhEYhT30Y2M\/vekbNk36\/Us70yymn2oCB\/MW49hkWUyDTa6uKHHQHza\/abbJFwvTcXGBY2phdxqbrH7TYJOr2671kscfME31w0k\/07R4wOEzDTb54DD5xZgQnypIhLBKs+dYdtFBh273c\/38V7thY8kqCY63kRHU92mUX1Y4+fesu+T84GGVXs\/xpMdP\/\/69n3IqnfSPy07OXR52+XRbx+OHPsrLcXEtPOpWPS4QCFBLSwuVl5fT7du3+bampiaqrq42bKGDg4N04cIFevny5Yf0JOMUCLk+zlH5x2Bo5OJWj2GD+b6+j491mY37Pg3zp3tBAyi8P\/BBCbkezjHC8ARwq437w80+XR6prWUUIAVH1AGyY8cOGj9+PC1cuJC2b9\/Ot+3evZv\/b1RsNhulpqbSlStXIvbduHGDGhsbk8VJRom7kK3SPMGzz9rI4wtQnzdAw2zSHJ4R+kuhCZB4FSu+HokGDvl91AuQQhWAvHr1ihvwpUuXwrYfPnyY1qxZY9gyHQ4HzZ49m2prayP2YfytW7cmy5NkheocelO5e4UJvvjYQ3deD\/HP2\/\/bawIkzjqHnlQuwirpOCtLHfRbm4cqng7yuol03703voQDBCs4APL27dukxz5JBkg7r5OwiRqvd5IfdQcn4O8sjhcN+zYDipYxPj9vp8+K7ZoAMrfIRssZ95n3iy2hAJlxpocWJYBHxaNfMWPWI1iUxDHWM94xNDzKX\/Apv6EvtH9HTW\/M8QJqAFHhINevX+cA6erq0nX9AwMD1NnZSX6\/f6wDBJKaIlTINU8wVi5Ip2s4FG4NMrKJ+DgWWQcgaju8PCQT5XXvMAdHNIDsZpP\/whm+6vYMjNDp5gEez+sFyIYqF7Xb\/aG4vdc7QrdeDdEXvznCzsH\/+D5r\/zDNK1IGJwzUxo4pfRydj6FCrkeyS0ev6e6bocgYnn239D4rxvnsmMN33Pz3TC8MLjhbrrno\/NUBVYDU1dVRZmYmzZw5kwMkIyOD\/19WVsb3Hzt2jNavXx92zrt37\/gxFouFk\/p169bRxIkT+fn4u3nzZs45pOJ0Ovk59fX1oW0bNmzg2yZNmkSTJ0\/mn6E49v79+\/xza2ur6j0rLi6mFStW0PCwZo+dn4L2ET0A+fVRcIJPNrlD267\/6eXbYLBq560ud5JNAAYAUvfCSw2dQyGwPLD6FAGCuJv3C7AVE8Zb9mSQ\/\/UJK2gsg1QDSPM7H3kZsHsZj2p8OcSBCxAEgRKgDZXhYYuYJfqxUZkHNL0N7t96LXqo2aoz25R5bhSY3W5lJi6CF4uGXACquSrgTt\/dQ9lZdvqGAeSMDCAIqa5evUr79u3jBo5ME\/7v6OhQJekiXykqKuL7KisruecBKKqqqigtLY2WL18ek6QjrMN3YYyVK1fyz1Cv18uNfu7cubRr1y7Ve7Zo0SLas2ePnttdnyL0VmkyLoQirsER7p4XX7CH5fP5ysFW2Gkq54oGVt\/p5eNIx7wmAEwJIPAwkM1Xww12VVkwzMDqP\/Nnm2aAQO4xo55zdvRcJBqq2oPZuZfMQ0q9EzwE5D4DlnzMBWzFhgeF4cbyaOit0iPSsNLmUR4jQ3KMVDqY9511Vv0eASCZi3rob9n2CIDECrGiAQSr\/vPnzyPGAtHHfqSI48liqYVYx48fp6lTp\/LwLYKzPXnCx2tra9Nzu60pehoPv60NGkmLNdxI4K7FiZcbsjTu7h8KKBozDLNLWBWlAAHYsJpDkPOXn3eIhQsXGVFdcsGuGSAICzMUuAwMXCTRu+pG43pcN64\/wC5HzlcOCF7u7IPYxF9vYXBBdg\/N\/yKoebku2rkpUhcsFY5ZGg6QbdfDvdoWNkdYlEDwwelEgEAP7e9LGEB27typOFZfXx\/fX1paaggguBaknSsqKiL27d+\/n5YsWaK7wVEXQCxC7LtXIcwoeRwMvRCqqBllZbs6AT\/TMqDoQa48C67obmacCOHWsFBtWqHxLBbCQrVjED5CEM5Jt18UfiPGkHtHwHipjLskFCDLR41423pniDNI9bPFo8eIAl4lvV\/yNDCKlUsP2EPnbf7WmTCAlJSUqP4e8IrTp08bAghk48aNtHr16rBtSATMmjWLh3i6AaI1xMIqHRBSH88dfp52lOpbYdUFN5DGy9DLQlHxRJNbc5oXYyEsk4rbF6DfGQ\/Ze7M\/LFzTApCCKGleMQuEdKlSggK\/P5SNY94koBJ6JTLEWpClDyCPusKv61VvJGH9qdwdOm\/tPx0JA4iUcMtlypQpdPLkScMAaWho4OeJnAhy69YtngyQJwK0hliaSDqyPvHKEYtbser+n7vqAPmuLnqaF1mcY+x8y+sh7k1EQTYt85z2EOtUc2yAPLBGGv0jgUutKgt6i6OW4HjSNOv7IOnScBDZKI5KmSpxEKTkpd+vxF8KL0sA8vXHBRCQ9Xnz5tHBgwfDKv6bNm0ykuat15TmnSbhCN\/c6OXZECU91TQQIoVKRomYN1ZYE0+hEJzlO8aH7MJkl2jIZInXUv1M\/XtEo69uV045Q849DH4nvCc8WryJAr1pXr0kHRxuuiTEwnXLJee4MwSQLTudHxVAeGRy4gRPQyO0AmFHcqCmpsYIQPJT+NOCcRoVcuWQWFkaHm4Iizua6MTtGwWSjgyYmiHBE8gBksUIJBICpU+UjfmgQI5brD7NAIEXmqOS2YHRq7V24PpxLhYMNGzyrMzT+Kv\/uToLhUayWF9LSDpCUvTOYXERa1Dp+aOh2ZED\/R8dQHBNEyZM4G0qSCnPmDGDfD6fEYCkamo1qX0R5ABFD2NnacR6QJVs9RVDC2RP5LwB4yqleXEcahXgNWsrIrNYvwiroR4PAqnpiLwW0XuAK6ilRksFsi4mLbR0ButtNTECEKSs50RL8woAWZVtp5+PucccQNauXUu5ublR7w9CKhD2nJwcXrMx3GoSb7Mi4nsx84IW7VjHo6NUzI5IJwVt5i6BoGLCkCFC0VHsam3r9iuGWAUC90HNAwaNTBb4kEXoAUPT5JcVTs0A6XAGvw\/Giu9E6CHWavB7\/1WnzinAP6Q1hmQ0KxoBiFi\/UWvRAUCyVwQLhWMRIHl5eZSenk7Nzc1ktVoVK+M3b97kXgRp36dPnyagWTHOdndxRX0sa5ZTU4DCKzznsE+WDkZxERVdaR8ROoIRKkVrNTlyxx3iQKFeokCw0Kf1uQ5pqwmItVg9h6DY98zuDwsP1VQE9FGLOynt7kYBInpFJDrw7E06CxWx+CH8Km\/w0PH9\/VyvlA2OOYCg2IeqOfZDlbJTIllftmyZEXCEt7sbeWDKiIJko\/VES4EPRgWAwXhxboaBhkV5yAPPCKBFqzbLFb1h8DR\/LdbX5Gjkgan\/V3G5XGS32\/mDW3IRax\/ov9IpkQ9MmY\/c6lM0OfJc4Auv+cjtGBFkrVD7QCOjDlF\/5NZ8aUN8iuwVUtnwYugAlmfqzJc2fDgBKBYvXhy1cTGG50gzX\/tjUFFFl5rxtT+9CRvbfO2PPrl79y7Nnz+ft62Af+ionMf\/2h\/zxXHmi+M+Rs+B9ne0xXs8mgqw+l4cJ3\/1KH\/q0Hz1aNIfyf3KfPVoIkXXq0f\/B0ym7DpSsJMXAAAAAElFTkSuQmCC\" height=\"14\" width=\"100\"\/><\/a><\/div><\/div>"},{"tzwxnqpvstognu":"<div class=\"uhfnzetfjya\"><div class=\"umrndydutgizmg\"><h4><a target=\"_blank\" href=\"https:\/\/geni.us\/ZrCcK\">No Drilling Required Mud Flaps for Tesla Model 3 or Model Y<\/a><\/h4><div class=\"xencgvvropab\"><div class=\"lfkzihqbgc\"><a target=\"_blank\" href=\"https:\/\/geni.us\/ZrCcK\"><img src=\"https:\/\/m.media-amazon.com\/images\/I\/51cQNVn7y6L._SL300_.jpg\"\/><\/a><\/div><div class=\"qjvicijdkmtf\"><h4><a target=\"_blank\" href=\"https:\/\/geni.us\/ZrCcK\">No Drilling Required Mud Flaps for Tesla Model 3 or Model Y<\/a><\/h4><a target=\"_blank\" href=\"https:\/\/geni.us\/ZrCcK\"><p>Custom-designed, no-drill mud flaps for a Tesla Model 3 or Model Y. Get it on Amazon.<\/p><\/a><\/div><\/div><\/div><div class=\"tmaiurmmtedm\"><a target=\"_blank\" href=\"https:\/\/www.getAdfinity.com\"><img src=\"data:image\/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAAAcCAYAAAAk9\/CnAAALN0lEQVR42u1ci1cTZxan\/Wf8L1CPR0VXfCJrrVoVcdW6unioHh\/boqd2LVbrcX2u9QVWKtbKSwFfy0usRkEUUYsV8RkgLyCEkEDufr8vM2EymUkyMzHi2bnn3EOYx5fJfPf33fu7986kpMQSok+mn+pOTSvsyU8r6KmfVtBjZX+HmJKp70\/Zfabcahedb\/VQa5ePHIMj5B8hU\/TLEFMr03qm+UxTmX6Solfy8ujTtILuLDZZ7abBJhEYhT30Y2M\/vekbNk36\/Us70yymn2oCB\/MW49hkWUyDTa6uKHHQHza\/abbJFwvTcXGBY2phdxqbrH7TYJOr2671kscfME31w0k\/07R4wOEzDTb54DD5xZgQnypIhLBKs+dYdtFBh273c\/38V7thY8kqCY63kRHU92mUX1Y4+fesu+T84GGVXs\/xpMdP\/\/69n3IqnfSPy07OXR52+XRbx+OHPsrLcXEtPOpWPS4QCFBLSwuVl5fT7du3+bampiaqrq42bKGDg4N04cIFevny5Yf0JOMUCLk+zlH5x2Bo5OJWj2GD+b6+j491mY37Pg3zp3tBAyi8P\/BBCbkezjHC8ARwq437w80+XR6prWUUIAVH1AGyY8cOGj9+PC1cuJC2b9\/Ot+3evZv\/b1RsNhulpqbSlStXIvbduHGDGhsbk8VJRom7kK3SPMGzz9rI4wtQnzdAw2zSHJ4R+kuhCZB4FSu+HokGDvl91AuQQhWAvHr1ihvwpUuXwrYfPnyY1qxZY9gyHQ4HzZ49m2prayP2YfytW7cmy5NkheocelO5e4UJvvjYQ3deD\/HP2\/\/bawIkzjqHnlQuwirpOCtLHfRbm4cqng7yuol03703voQDBCs4APL27dukxz5JBkg7r5OwiRqvd5IfdQcn4O8sjhcN+zYDipYxPj9vp8+K7ZoAMrfIRssZ95n3iy2hAJlxpocWJYBHxaNfMWPWI1iUxDHWM94xNDzKX\/Apv6EvtH9HTW\/M8QJqAFHhINevX+cA6erq0nX9AwMD1NnZSX6\/f6wDBJKaIlTINU8wVi5Ip2s4FG4NMrKJ+DgWWQcgaju8PCQT5XXvMAdHNIDsZpP\/whm+6vYMjNDp5gEez+sFyIYqF7Xb\/aG4vdc7QrdeDdEXvznCzsH\/+D5r\/zDNK1IGJwzUxo4pfRydj6FCrkeyS0ev6e6bocgYnn239D4rxvnsmMN33Pz3TC8MLjhbrrno\/NUBVYDU1dVRZmYmzZw5kwMkIyOD\/19WVsb3Hzt2jNavXx92zrt37\/gxFouFk\/p169bRxIkT+fn4u3nzZs45pOJ0Ovk59fX1oW0bNmzg2yZNmkSTJ0\/mn6E49v79+\/xza2ur6j0rLi6mFStW0PCwZo+dn4L2ET0A+fVRcIJPNrlD267\/6eXbYLBq560ud5JNAAYAUvfCSw2dQyGwPLD6FAGCuJv3C7AVE8Zb9mSQ\/\/UJK2gsg1QDSPM7H3kZsHsZj2p8OcSBCxAEgRKgDZXhYYuYJfqxUZkHNL0N7t96LXqo2aoz25R5bhSY3W5lJi6CF4uGXACquSrgTt\/dQ9lZdvqGAeSMDCAIqa5evUr79u3jBo5ME\/7v6OhQJekiXykqKuL7KisruecBKKqqqigtLY2WL18ek6QjrMN3YYyVK1fyz1Cv18uNfu7cubRr1y7Ve7Zo0SLas2ePnttdnyL0VmkyLoQirsER7p4XX7CH5fP5ysFW2Gkq54oGVt\/p5eNIx7wmAEwJIPAwkM1Xww12VVkwzMDqP\/Nnm2aAQO4xo55zdvRcJBqq2oPZuZfMQ0q9EzwE5D4DlnzMBWzFhgeF4cbyaOit0iPSsNLmUR4jQ3KMVDqY9511Vv0eASCZi3rob9n2CIDECrGiAQSr\/vPnzyPGAtHHfqSI48liqYVYx48fp6lTp\/LwLYKzPXnCx2tra9Nzu60pehoPv60NGkmLNdxI4K7FiZcbsjTu7h8KKBozDLNLWBWlAAHYsJpDkPOXn3eIhQsXGVFdcsGuGSAICzMUuAwMXCTRu+pG43pcN64\/wC5HzlcOCF7u7IPYxF9vYXBBdg\/N\/yKoebku2rkpUhcsFY5ZGg6QbdfDvdoWNkdYlEDwwelEgEAP7e9LGEB27typOFZfXx\/fX1paaggguBaknSsqKiL27d+\/n5YsWaK7wVEXQCxC7LtXIcwoeRwMvRCqqBllZbs6AT\/TMqDoQa48C67obmacCOHWsFBtWqHxLBbCQrVjED5CEM5Jt18UfiPGkHtHwHipjLskFCDLR41423pniDNI9bPFo8eIAl4lvV\/yNDCKlUsP2EPnbf7WmTCAlJSUqP4e8IrTp08bAghk48aNtHr16rBtSATMmjWLh3i6AaI1xMIqHRBSH88dfp52lOpbYdUFN5DGy9DLQlHxRJNbc5oXYyEsk4rbF6DfGQ\/Ze7M\/LFzTApCCKGleMQuEdKlSggK\/P5SNY94koBJ6JTLEWpClDyCPusKv61VvJGH9qdwdOm\/tPx0JA4iUcMtlypQpdPLkScMAaWho4OeJnAhy69YtngyQJwK0hliaSDqyPvHKEYtbser+n7vqAPmuLnqaF1mcY+x8y+sh7k1EQTYt85z2EOtUc2yAPLBGGv0jgUutKgt6i6OW4HjSNOv7IOnScBDZKI5KmSpxEKTkpd+vxF8KL0sA8vXHBRCQ9Xnz5tHBgwfDKv6bNm0ykuat15TmnSbhCN\/c6OXZECU91TQQIoVKRomYN1ZYE0+hEJzlO8aH7MJkl2jIZInXUv1M\/XtEo69uV045Q849DH4nvCc8WryJAr1pXr0kHRxuuiTEwnXLJee4MwSQLTudHxVAeGRy4gRPQyO0AmFHcqCmpsYIQPJT+NOCcRoVcuWQWFkaHm4Iizua6MTtGwWSjgyYmiHBE8gBksUIJBICpU+UjfmgQI5brD7NAIEXmqOS2YHRq7V24PpxLhYMNGzyrMzT+Kv\/uToLhUayWF9LSDpCUvTOYXERa1Dp+aOh2ZED\/R8dQHBNEyZM4G0qSCnPmDGDfD6fEYCkamo1qX0R5ABFD2NnacR6QJVs9RVDC2RP5LwB4yqleXEcahXgNWsrIrNYvwiroR4PAqnpiLwW0XuAK6ilRksFsi4mLbR0ButtNTECEKSs50RL8woAWZVtp5+PucccQNauXUu5ublR7w9CKhD2nJwcXrMx3GoSb7Mi4nsx84IW7VjHo6NUzI5IJwVt5i6BoGLCkCFC0VHsam3r9iuGWAUC90HNAwaNTBb4kEXoAUPT5JcVTs0A6XAGvw\/Giu9E6CHWavB7\/1WnzinAP6Q1hmQ0KxoBiFi\/UWvRAUCyVwQLhWMRIHl5eZSenk7Nzc1ktVoVK+M3b97kXgRp36dPnyagWTHOdndxRX0sa5ZTU4DCKzznsE+WDkZxERVdaR8ROoIRKkVrNTlyxx3iQKFeokCw0Kf1uQ5pqwmItVg9h6DY98zuDwsP1VQE9FGLOynt7kYBInpFJDrw7E06CxWx+CH8Km\/w0PH9\/VyvlA2OOYCg2IeqOfZDlbJTIllftmyZEXCEt7sbeWDKiIJko\/VES4EPRgWAwXhxboaBhkV5yAPPCKBFqzbLFb1h8DR\/LdbX5Gjkgan\/V3G5XGS32\/mDW3IRax\/ov9IpkQ9MmY\/c6lM0OfJc4Auv+cjtGBFkrVD7QCOjDlF\/5NZ8aUN8iuwVUtnwYugAlmfqzJc2fDgBKBYvXhy1cTGG50gzX\/tjUFFFl5rxtT+9CRvbfO2PPrl79y7Nnz+ft62Af+ionMf\/2h\/zxXHmi+M+Rs+B9ne0xXs8mgqw+l4cJ3\/1KH\/q0Hz1aNIfyf3KfPVoIkXXq0f\/B0ym7DpSsJMXAAAAAElFTkSuQmCC\" height=\"14\" width=\"100\"\/><\/a><\/div><\/div>"},{"tzwxnqpvstognu":"<div class=\"uhfnzetfjya\"><div class=\"umrndydutgizmg\"><h4><a target=\"_blank\" href=\"https:\/\/getjeda.com\/tesla-wireless-phone-charger\/ref\/65\/\">Tesla Wireless Charger by Jeda<\/a><\/h4><div class=\"xencgvvropab\"><div class=\"lfkzihqbgc\"><a target=\"_blank\" href=\"https:\/\/getjeda.com\/tesla-wireless-phone-charger\/ref\/65\/\"><img src=\"https:\/\/www.notateslaapp.com\/assets\/jeda-wireless-charging_300w.jpg\"\/><\/a><\/div><div class=\"qjvicijdkmtf\"><h4><a target=\"_blank\" href=\"https:\/\/getjeda.com\/tesla-wireless-phone-charger\/ref\/65\/\">Tesla Wireless Charger by Jeda<\/a><\/h4><a target=\"_blank\" href=\"https:\/\/getjeda.com\/tesla-wireless-phone-charger\/ref\/65\/\"><p>The best Tesla Model 3 and Model Y Wireless Phone Charger  \u2014 now, even better. Get <b>$10 off any product with promo<\/b>: NotATeslaApp10<\/p><\/a><\/div><\/div><\/div><div class=\"tmaiurmmtedm\"><a target=\"_blank\" href=\"https:\/\/www.getAdfinity.com\"><img src=\"data:image\/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAAAcCAYAAAAk9\/CnAAALN0lEQVR42u1ci1cTZxan\/Wf8L1CPR0VXfCJrrVoVcdW6unioHh\/boqd2LVbrcX2u9QVWKtbKSwFfy0usRkEUUYsV8RkgLyCEkEDufr8vM2EymUkyMzHi2bnn3EOYx5fJfPf33fu7986kpMQSok+mn+pOTSvsyU8r6KmfVtBjZX+HmJKp70\/Zfabcahedb\/VQa5ePHIMj5B8hU\/TLEFMr03qm+UxTmX6Solfy8ujTtILuLDZZ7abBJhEYhT30Y2M\/vekbNk36\/Us70yymn2oCB\/MW49hkWUyDTa6uKHHQHza\/abbJFwvTcXGBY2phdxqbrH7TYJOr2671kscfME31w0k\/07R4wOEzDTb54DD5xZgQnypIhLBKs+dYdtFBh273c\/38V7thY8kqCY63kRHU92mUX1Y4+fesu+T84GGVXs\/xpMdP\/\/69n3IqnfSPy07OXR52+XRbx+OHPsrLcXEtPOpWPS4QCFBLSwuVl5fT7du3+bampiaqrq42bKGDg4N04cIFevny5Yf0JOMUCLk+zlH5x2Bo5OJWj2GD+b6+j491mY37Pg3zp3tBAyi8P\/BBCbkezjHC8ARwq437w80+XR6prWUUIAVH1AGyY8cOGj9+PC1cuJC2b9\/Ot+3evZv\/b1RsNhulpqbSlStXIvbduHGDGhsbk8VJRom7kK3SPMGzz9rI4wtQnzdAw2zSHJ4R+kuhCZB4FSu+HokGDvl91AuQQhWAvHr1ihvwpUuXwrYfPnyY1qxZY9gyHQ4HzZ49m2prayP2YfytW7cmy5NkheocelO5e4UJvvjYQ3deD\/HP2\/\/bawIkzjqHnlQuwirpOCtLHfRbm4cqng7yuol03703voQDBCs4APL27dukxz5JBkg7r5OwiRqvd5IfdQcn4O8sjhcN+zYDipYxPj9vp8+K7ZoAMrfIRssZ95n3iy2hAJlxpocWJYBHxaNfMWPWI1iUxDHWM94xNDzKX\/Apv6EvtH9HTW\/M8QJqAFHhINevX+cA6erq0nX9AwMD1NnZSX6\/f6wDBJKaIlTINU8wVi5Ip2s4FG4NMrKJ+DgWWQcgaju8PCQT5XXvMAdHNIDsZpP\/whm+6vYMjNDp5gEez+sFyIYqF7Xb\/aG4vdc7QrdeDdEXvznCzsH\/+D5r\/zDNK1IGJwzUxo4pfRydj6FCrkeyS0ev6e6bocgYnn239D4rxvnsmMN33Pz3TC8MLjhbrrno\/NUBVYDU1dVRZmYmzZw5kwMkIyOD\/19WVsb3Hzt2jNavXx92zrt37\/gxFouFk\/p169bRxIkT+fn4u3nzZs45pOJ0Ovk59fX1oW0bNmzg2yZNmkSTJ0\/mn6E49v79+\/xza2ur6j0rLi6mFStW0PCwZo+dn4L2ET0A+fVRcIJPNrlD267\/6eXbYLBq560ud5JNAAYAUvfCSw2dQyGwPLD6FAGCuJv3C7AVE8Zb9mSQ\/\/UJK2gsg1QDSPM7H3kZsHsZj2p8OcSBCxAEgRKgDZXhYYuYJfqxUZkHNL0N7t96LXqo2aoz25R5bhSY3W5lJi6CF4uGXACquSrgTt\/dQ9lZdvqGAeSMDCAIqa5evUr79u3jBo5ME\/7v6OhQJekiXykqKuL7KisruecBKKqqqigtLY2WL18ek6QjrMN3YYyVK1fyz1Cv18uNfu7cubRr1y7Ve7Zo0SLas2ePnttdnyL0VmkyLoQirsER7p4XX7CH5fP5ysFW2Gkq54oGVt\/p5eNIx7wmAEwJIPAwkM1Xww12VVkwzMDqP\/Nnm2aAQO4xo55zdvRcJBqq2oPZuZfMQ0q9EzwE5D4DlnzMBWzFhgeF4cbyaOit0iPSsNLmUR4jQ3KMVDqY9511Vv0eASCZi3rob9n2CIDECrGiAQSr\/vPnzyPGAtHHfqSI48liqYVYx48fp6lTp\/LwLYKzPXnCx2tra9Nzu60pehoPv60NGkmLNdxI4K7FiZcbsjTu7h8KKBozDLNLWBWlAAHYsJpDkPOXn3eIhQsXGVFdcsGuGSAICzMUuAwMXCTRu+pG43pcN64\/wC5HzlcOCF7u7IPYxF9vYXBBdg\/N\/yKoebku2rkpUhcsFY5ZGg6QbdfDvdoWNkdYlEDwwelEgEAP7e9LGEB27typOFZfXx\/fX1paaggguBaknSsqKiL27d+\/n5YsWaK7wVEXQCxC7LtXIcwoeRwMvRCqqBllZbs6AT\/TMqDoQa48C67obmacCOHWsFBtWqHxLBbCQrVjED5CEM5Jt18UfiPGkHtHwHipjLskFCDLR41423pniDNI9bPFo8eIAl4lvV\/yNDCKlUsP2EPnbf7WmTCAlJSUqP4e8IrTp08bAghk48aNtHr16rBtSATMmjWLh3i6AaI1xMIqHRBSH88dfp52lOpbYdUFN5DGy9DLQlHxRJNbc5oXYyEsk4rbF6DfGQ\/Ze7M\/LFzTApCCKGleMQuEdKlSggK\/P5SNY94koBJ6JTLEWpClDyCPusKv61VvJGH9qdwdOm\/tPx0JA4iUcMtlypQpdPLkScMAaWho4OeJnAhy69YtngyQJwK0hliaSDqyPvHKEYtbser+n7vqAPmuLnqaF1mcY+x8y+sh7k1EQTYt85z2EOtUc2yAPLBGGv0jgUutKgt6i6OW4HjSNOv7IOnScBDZKI5KmSpxEKTkpd+vxF8KL0sA8vXHBRCQ9Xnz5tHBgwfDKv6bNm0ykuat15TmnSbhCN\/c6OXZECU91TQQIoVKRomYN1ZYE0+hEJzlO8aH7MJkl2jIZInXUv1M\/XtEo69uV045Q849DH4nvCc8WryJAr1pXr0kHRxuuiTEwnXLJee4MwSQLTudHxVAeGRy4gRPQyO0AmFHcqCmpsYIQPJT+NOCcRoVcuWQWFkaHm4Iizua6MTtGwWSjgyYmiHBE8gBksUIJBICpU+UjfmgQI5brD7NAIEXmqOS2YHRq7V24PpxLhYMNGzyrMzT+Kv\/uToLhUayWF9LSDpCUvTOYXERa1Dp+aOh2ZED\/R8dQHBNEyZM4G0qSCnPmDGDfD6fEYCkamo1qX0R5ABFD2NnacR6QJVs9RVDC2RP5LwB4yqleXEcahXgNWsrIrNYvwiroR4PAqnpiLwW0XuAK6ilRksFsi4mLbR0ButtNTECEKSs50RL8woAWZVtp5+PucccQNauXUu5ublR7w9CKhD2nJwcXrMx3GoSb7Mi4nsx84IW7VjHo6NUzI5IJwVt5i6BoGLCkCFC0VHsam3r9iuGWAUC90HNAwaNTBb4kEXoAUPT5JcVTs0A6XAGvw\/Giu9E6CHWavB7\/1WnzinAP6Q1hmQ0KxoBiFi\/UWvRAUCyVwQLhWMRIHl5eZSenk7Nzc1ktVoVK+M3b97kXgRp36dPnyagWTHOdndxRX0sa5ZTU4DCKzznsE+WDkZxERVdaR8ROoIRKkVrNTlyxx3iQKFeokCw0Kf1uQ5pqwmItVg9h6DY98zuDwsP1VQE9FGLOynt7kYBInpFJDrw7E06CxWx+CH8Km\/w0PH9\/VyvlA2OOYCg2IeqOfZDlbJTIllftmyZEXCEt7sbeWDKiIJko\/VES4EPRgWAwXhxboaBhkV5yAPPCKBFqzbLFb1h8DR\/LdbX5Gjkgan\/V3G5XGS32\/mDW3IRax\/ov9IpkQ9MmY\/c6lM0OfJc4Auv+cjtGBFkrVD7QCOjDlF\/5NZ8aUN8iuwVUtnwYugAlmfqzJc2fDgBKBYvXhy1cTGG50gzX\/tjUFFFl5rxtT+9CRvbfO2PPrl79y7Nnz+ft62Af+ionMf\/2h\/zxXHmi+M+Rs+B9ne0xXs8mgqw+l4cJ3\/1KH\/q0Hz1aNIfyf3KfPVoIkXXq0f\/B0ym7DpSsJMXAAAAAElFTkSuQmCC\" height=\"14\" width=\"100\"\/><\/a><\/div><\/div>"},{"tzwxnqpvstognu":"<div class=\"uhfnzetfjya\"><div class=\"umrndydutgizmg\"><h4><a target=\"_blank\" href=\"https:\/\/getjeda.com\/tesla-ssd\/ref\/65\/\">256GB SSD Drive for Tesla by Jeda<\/a><\/h4><div class=\"xencgvvropab\"><div class=\"lfkzihqbgc\"><a target=\"_blank\" href=\"https:\/\/getjeda.com\/tesla-ssd\/ref\/65\/\"><img src=\"https:\/\/www.notateslaapp.com\/assets\/jeda-ssd_300w.jpg\"\/><\/a><\/div><div class=\"qjvicijdkmtf\"><h4><a target=\"_blank\" href=\"https:\/\/getjeda.com\/tesla-ssd\/ref\/65\/\">256GB SSD Drive for Tesla by Jeda<\/a><\/h4><a target=\"_blank\" href=\"https:\/\/getjeda.com\/tesla-ssd\/ref\/65\/\"><p>The Jeda 256GB SSD drive custom-made for Teslas. Get <b>$10 off with promo<\/b>: NotATeslaApp<\/p><\/a><\/div><\/div><\/div><div class=\"tmaiurmmtedm\"><a target=\"_blank\" href=\"https:\/\/www.getAdfinity.com\"><img src=\"data:image\/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAAAcCAYAAAAk9\/CnAAALN0lEQVR42u1ci1cTZxan\/Wf8L1CPR0VXfCJrrVoVcdW6unioHh\/boqd2LVbrcX2u9QVWKtbKSwFfy0usRkEUUYsV8RkgLyCEkEDufr8vM2EymUkyMzHi2bnn3EOYx5fJfPf33fu7986kpMQSok+mn+pOTSvsyU8r6KmfVtBjZX+HmJKp70\/Zfabcahedb\/VQa5ePHIMj5B8hU\/TLEFMr03qm+UxTmX6Solfy8ujTtILuLDZZ7abBJhEYhT30Y2M\/vekbNk36\/Us70yymn2oCB\/MW49hkWUyDTa6uKHHQHza\/abbJFwvTcXGBY2phdxqbrH7TYJOr2671kscfME31w0k\/07R4wOEzDTb54DD5xZgQnypIhLBKs+dYdtFBh273c\/38V7thY8kqCY63kRHU92mUX1Y4+fesu+T84GGVXs\/xpMdP\/\/69n3IqnfSPy07OXR52+XRbx+OHPsrLcXEtPOpWPS4QCFBLSwuVl5fT7du3+bampiaqrq42bKGDg4N04cIFevny5Yf0JOMUCLk+zlH5x2Bo5OJWj2GD+b6+j491mY37Pg3zp3tBAyi8P\/BBCbkezjHC8ARwq437w80+XR6prWUUIAVH1AGyY8cOGj9+PC1cuJC2b9\/Ot+3evZv\/b1RsNhulpqbSlStXIvbduHGDGhsbk8VJRom7kK3SPMGzz9rI4wtQnzdAw2zSHJ4R+kuhCZB4FSu+HokGDvl91AuQQhWAvHr1ihvwpUuXwrYfPnyY1qxZY9gyHQ4HzZ49m2prayP2YfytW7cmy5NkheocelO5e4UJvvjYQ3deD\/HP2\/\/bawIkzjqHnlQuwirpOCtLHfRbm4cqng7yuol03703voQDBCs4APL27dukxz5JBkg7r5OwiRqvd5IfdQcn4O8sjhcN+zYDipYxPj9vp8+K7ZoAMrfIRssZ95n3iy2hAJlxpocWJYBHxaNfMWPWI1iUxDHWM94xNDzKX\/Apv6EvtH9HTW\/M8QJqAFHhINevX+cA6erq0nX9AwMD1NnZSX6\/f6wDBJKaIlTINU8wVi5Ip2s4FG4NMrKJ+DgWWQcgaju8PCQT5XXvMAdHNIDsZpP\/whm+6vYMjNDp5gEez+sFyIYqF7Xb\/aG4vdc7QrdeDdEXvznCzsH\/+D5r\/zDNK1IGJwzUxo4pfRydj6FCrkeyS0ev6e6bocgYnn239D4rxvnsmMN33Pz3TC8MLjhbrrno\/NUBVYDU1dVRZmYmzZw5kwMkIyOD\/19WVsb3Hzt2jNavXx92zrt37\/gxFouFk\/p169bRxIkT+fn4u3nzZs45pOJ0Ovk59fX1oW0bNmzg2yZNmkSTJ0\/mn6E49v79+\/xza2ur6j0rLi6mFStW0PCwZo+dn4L2ET0A+fVRcIJPNrlD267\/6eXbYLBq560ud5JNAAYAUvfCSw2dQyGwPLD6FAGCuJv3C7AVE8Zb9mSQ\/\/UJK2gsg1QDSPM7H3kZsHsZj2p8OcSBCxAEgRKgDZXhYYuYJfqxUZkHNL0N7t96LXqo2aoz25R5bhSY3W5lJi6CF4uGXACquSrgTt\/dQ9lZdvqGAeSMDCAIqa5evUr79u3jBo5ME\/7v6OhQJekiXykqKuL7KisruecBKKqqqigtLY2WL18ek6QjrMN3YYyVK1fyz1Cv18uNfu7cubRr1y7Ve7Zo0SLas2ePnttdnyL0VmkyLoQirsER7p4XX7CH5fP5ysFW2Gkq54oGVt\/p5eNIx7wmAEwJIPAwkM1Xww12VVkwzMDqP\/Nnm2aAQO4xo55zdvRcJBqq2oPZuZfMQ0q9EzwE5D4DlnzMBWzFhgeF4cbyaOit0iPSsNLmUR4jQ3KMVDqY9511Vv0eASCZi3rob9n2CIDECrGiAQSr\/vPnzyPGAtHHfqSI48liqYVYx48fp6lTp\/LwLYKzPXnCx2tra9Nzu60pehoPv60NGkmLNdxI4K7FiZcbsjTu7h8KKBozDLNLWBWlAAHYsJpDkPOXn3eIhQsXGVFdcsGuGSAICzMUuAwMXCTRu+pG43pcN64\/wC5HzlcOCF7u7IPYxF9vYXBBdg\/N\/yKoebku2rkpUhcsFY5ZGg6QbdfDvdoWNkdYlEDwwelEgEAP7e9LGEB27typOFZfXx\/fX1paaggguBaknSsqKiL27d+\/n5YsWaK7wVEXQCxC7LtXIcwoeRwMvRCqqBllZbs6AT\/TMqDoQa48C67obmacCOHWsFBtWqHxLBbCQrVjED5CEM5Jt18UfiPGkHtHwHipjLskFCDLR41423pniDNI9bPFo8eIAl4lvV\/yNDCKlUsP2EPnbf7WmTCAlJSUqP4e8IrTp08bAghk48aNtHr16rBtSATMmjWLh3i6AaI1xMIqHRBSH88dfp52lOpbYdUFN5DGy9DLQlHxRJNbc5oXYyEsk4rbF6DfGQ\/Ze7M\/LFzTApCCKGleMQuEdKlSggK\/P5SNY94koBJ6JTLEWpClDyCPusKv61VvJGH9qdwdOm\/tPx0JA4iUcMtlypQpdPLkScMAaWho4OeJnAhy69YtngyQJwK0hliaSDqyPvHKEYtbser+n7vqAPmuLnqaF1mcY+x8y+sh7k1EQTYt85z2EOtUc2yAPLBGGv0jgUutKgt6i6OW4HjSNOv7IOnScBDZKI5KmSpxEKTkpd+vxF8KL0sA8vXHBRCQ9Xnz5tHBgwfDKv6bNm0ykuat15TmnSbhCN\/c6OXZECU91TQQIoVKRomYN1ZYE0+hEJzlO8aH7MJkl2jIZInXUv1M\/XtEo69uV045Q849DH4nvCc8WryJAr1pXr0kHRxuuiTEwnXLJee4MwSQLTudHxVAeGRy4gRPQyO0AmFHcqCmpsYIQPJT+NOCcRoVcuWQWFkaHm4Iizua6MTtGwWSjgyYmiHBE8gBksUIJBICpU+UjfmgQI5brD7NAIEXmqOS2YHRq7V24PpxLhYMNGzyrMzT+Kv\/uToLhUayWF9LSDpCUvTOYXERa1Dp+aOh2ZED\/R8dQHBNEyZM4G0qSCnPmDGDfD6fEYCkamo1qX0R5ABFD2NnacR6QJVs9RVDC2RP5LwB4yqleXEcahXgNWsrIrNYvwiroR4PAqnpiLwW0XuAK6ilRksFsi4mLbR0ButtNTECEKSs50RL8woAWZVtp5+PucccQNauXUu5ublR7w9CKhD2nJwcXrMx3GoSb7Mi4nsx84IW7VjHo6NUzI5IJwVt5i6BoGLCkCFC0VHsam3r9iuGWAUC90HNAwaNTBb4kEXoAUPT5JcVTs0A6XAGvw\/Giu9E6CHWavB7\/1WnzinAP6Q1hmQ0KxoBiFi\/UWvRAUCyVwQLhWMRIHl5eZSenk7Nzc1ktVoVK+M3b97kXgRp36dPnyagWTHOdndxRX0sa5ZTU4DCKzznsE+WDkZxERVdaR8ROoIRKkVrNTlyxx3iQKFeokCw0Kf1uQ5pqwmItVg9h6DY98zuDwsP1VQE9FGLOynt7kYBInpFJDrw7E06CxWx+CH8Km\/w0PH9\/VyvlA2OOYCg2IeqOfZDlbJTIllftmyZEXCEt7sbeWDKiIJko\/VES4EPRgWAwXhxboaBhkV5yAPPCKBFqzbLFb1h8DR\/LdbX5Gjkgan\/V3G5XGS32\/mDW3IRax\/ov9IpkQ9MmY\/c6lM0OfJc4Auv+cjtGBFkrVD7QCOjDlF\/5NZ8aUN8iuwVUtnwYugAlmfqzJc2fDgBKBYvXhy1cTGG50gzX\/tjUFFFl5rxtT+9CRvbfO2PPrl79y7Nnz+ft62Af+ionMf\/2h\/zxXHmi+M+Rs+B9ne0xXs8mgqw+l4cJ3\/1KH\/q0Hz1aNIfyf3KfPVoIkXXq0f\/B0ym7DpSsJMXAAAAAElFTkSuQmCC\" height=\"14\" width=\"100\"\/><\/a><\/div><\/div>"},{"tzwxnqpvstognu":"<div class=\"uhfnzetfjya\"><div class=\"umrndydutgizmg\"><h4><a target=\"_blank\" href=\"https:\/\/geni.us\/KZzFFl\">Tesla Uberturbine Wheel Covers<\/a><\/h4><div class=\"xencgvvropab\"><div class=\"lfkzihqbgc\"><a target=\"_blank\" href=\"https:\/\/geni.us\/KZzFFl\"><img src=\"https:\/\/m.media-amazon.com\/images\/I\/51-5qAkRzaL._SL160_.jpg\"\/><\/a><\/div><div class=\"qjvicijdkmtf\"><h4><a target=\"_blank\" href=\"https:\/\/geni.us\/KZzFFl\">Tesla Uberturbine Wheel Covers<\/a><\/h4><a target=\"_blank\" href=\"https:\/\/geni.us\/KZzFFl\"><p>These Uberturbine wheel covers for the Model 3 and Model Y cost a fraction of new wheels and help improve range.<\/p><\/a><\/div><\/div><\/div><div class=\"tmaiurmmtedm\"><a target=\"_blank\" href=\"https:\/\/www.getAdfinity.com\"><img src=\"data:image\/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAAAcCAYAAAAk9\/CnAAALN0lEQVR42u1ci1cTZxan\/Wf8L1CPR0VXfCJrrVoVcdW6unioHh\/boqd2LVbrcX2u9QVWKtbKSwFfy0usRkEUUYsV8RkgLyCEkEDufr8vM2EymUkyMzHi2bnn3EOYx5fJfPf33fu7986kpMQSok+mn+pOTSvsyU8r6KmfVtBjZX+HmJKp70\/Zfabcahedb\/VQa5ePHIMj5B8hU\/TLEFMr03qm+UxTmX6Solfy8ujTtILuLDZZ7abBJhEYhT30Y2M\/vekbNk36\/Us70yymn2oCB\/MW49hkWUyDTa6uKHHQHza\/abbJFwvTcXGBY2phdxqbrH7TYJOr2671kscfME31w0k\/07R4wOEzDTb54DD5xZgQnypIhLBKs+dYdtFBh273c\/38V7thY8kqCY63kRHU92mUX1Y4+fesu+T84GGVXs\/xpMdP\/\/69n3IqnfSPy07OXR52+XRbx+OHPsrLcXEtPOpWPS4QCFBLSwuVl5fT7du3+bampiaqrq42bKGDg4N04cIFevny5Yf0JOMUCLk+zlH5x2Bo5OJWj2GD+b6+j491mY37Pg3zp3tBAyi8P\/BBCbkezjHC8ARwq437w80+XR6prWUUIAVH1AGyY8cOGj9+PC1cuJC2b9\/Ot+3evZv\/b1RsNhulpqbSlStXIvbduHGDGhsbk8VJRom7kK3SPMGzz9rI4wtQnzdAw2zSHJ4R+kuhCZB4FSu+HokGDvl91AuQQhWAvHr1ihvwpUuXwrYfPnyY1qxZY9gyHQ4HzZ49m2prayP2YfytW7cmy5NkheocelO5e4UJvvjYQ3deD\/HP2\/\/bawIkzjqHnlQuwirpOCtLHfRbm4cqng7yuol03703voQDBCs4APL27dukxz5JBkg7r5OwiRqvd5IfdQcn4O8sjhcN+zYDipYxPj9vp8+K7ZoAMrfIRssZ95n3iy2hAJlxpocWJYBHxaNfMWPWI1iUxDHWM94xNDzKX\/Apv6EvtH9HTW\/M8QJqAFHhINevX+cA6erq0nX9AwMD1NnZSX6\/f6wDBJKaIlTINU8wVi5Ip2s4FG4NMrKJ+DgWWQcgaju8PCQT5XXvMAdHNIDsZpP\/whm+6vYMjNDp5gEez+sFyIYqF7Xb\/aG4vdc7QrdeDdEXvznCzsH\/+D5r\/zDNK1IGJwzUxo4pfRydj6FCrkeyS0ev6e6bocgYnn239D4rxvnsmMN33Pz3TC8MLjhbrrno\/NUBVYDU1dVRZmYmzZw5kwMkIyOD\/19WVsb3Hzt2jNavXx92zrt37\/gxFouFk\/p169bRxIkT+fn4u3nzZs45pOJ0Ovk59fX1oW0bNmzg2yZNmkSTJ0\/mn6E49v79+\/xza2ur6j0rLi6mFStW0PCwZo+dn4L2ET0A+fVRcIJPNrlD267\/6eXbYLBq560ud5JNAAYAUvfCSw2dQyGwPLD6FAGCuJv3C7AVE8Zb9mSQ\/\/UJK2gsg1QDSPM7H3kZsHsZj2p8OcSBCxAEgRKgDZXhYYuYJfqxUZkHNL0N7t96LXqo2aoz25R5bhSY3W5lJi6CF4uGXACquSrgTt\/dQ9lZdvqGAeSMDCAIqa5evUr79u3jBo5ME\/7v6OhQJekiXykqKuL7KisruecBKKqqqigtLY2WL18ek6QjrMN3YYyVK1fyz1Cv18uNfu7cubRr1y7Ve7Zo0SLas2ePnttdnyL0VmkyLoQirsER7p4XX7CH5fP5ysFW2Gkq54oGVt\/p5eNIx7wmAEwJIPAwkM1Xww12VVkwzMDqP\/Nnm2aAQO4xo55zdvRcJBqq2oPZuZfMQ0q9EzwE5D4DlnzMBWzFhgeF4cbyaOit0iPSsNLmUR4jQ3KMVDqY9511Vv0eASCZi3rob9n2CIDECrGiAQSr\/vPnzyPGAtHHfqSI48liqYVYx48fp6lTp\/LwLYKzPXnCx2tra9Nzu60pehoPv60NGkmLNdxI4K7FiZcbsjTu7h8KKBozDLNLWBWlAAHYsJpDkPOXn3eIhQsXGVFdcsGuGSAICzMUuAwMXCTRu+pG43pcN64\/wC5HzlcOCF7u7IPYxF9vYXBBdg\/N\/yKoebku2rkpUhcsFY5ZGg6QbdfDvdoWNkdYlEDwwelEgEAP7e9LGEB27typOFZfXx\/fX1paaggguBaknSsqKiL27d+\/n5YsWaK7wVEXQCxC7LtXIcwoeRwMvRCqqBllZbs6AT\/TMqDoQa48C67obmacCOHWsFBtWqHxLBbCQrVjED5CEM5Jt18UfiPGkHtHwHipjLskFCDLR41423pniDNI9bPFo8eIAl4lvV\/yNDCKlUsP2EPnbf7WmTCAlJSUqP4e8IrTp08bAghk48aNtHr16rBtSATMmjWLh3i6AaI1xMIqHRBSH88dfp52lOpbYdUFN5DGy9DLQlHxRJNbc5oXYyEsk4rbF6DfGQ\/Ze7M\/LFzTApCCKGleMQuEdKlSggK\/P5SNY94koBJ6JTLEWpClDyCPusKv61VvJGH9qdwdOm\/tPx0JA4iUcMtlypQpdPLkScMAaWho4OeJnAhy69YtngyQJwK0hliaSDqyPvHKEYtbser+n7vqAPmuLnqaF1mcY+x8y+sh7k1EQTYt85z2EOtUc2yAPLBGGv0jgUutKgt6i6OW4HjSNOv7IOnScBDZKI5KmSpxEKTkpd+vxF8KL0sA8vXHBRCQ9Xnz5tHBgwfDKv6bNm0ykuat15TmnSbhCN\/c6OXZECU91TQQIoVKRomYN1ZYE0+hEJzlO8aH7MJkl2jIZInXUv1M\/XtEo69uV045Q849DH4nvCc8WryJAr1pXr0kHRxuuiTEwnXLJee4MwSQLTudHxVAeGRy4gRPQyO0AmFHcqCmpsYIQPJT+NOCcRoVcuWQWFkaHm4Iizua6MTtGwWSjgyYmiHBE8gBksUIJBICpU+UjfmgQI5brD7NAIEXmqOS2YHRq7V24PpxLhYMNGzyrMzT+Kv\/uToLhUayWF9LSDpCUvTOYXERa1Dp+aOh2ZED\/R8dQHBNEyZM4G0qSCnPmDGDfD6fEYCkamo1qX0R5ABFD2NnacR6QJVs9RVDC2RP5LwB4yqleXEcahXgNWsrIrNYvwiroR4PAqnpiLwW0XuAK6ilRksFsi4mLbR0ButtNTECEKSs50RL8woAWZVtp5+PucccQNauXUu5ublR7w9CKhD2nJwcXrMx3GoSb7Mi4nsx84IW7VjHo6NUzI5IJwVt5i6BoGLCkCFC0VHsam3r9iuGWAUC90HNAwaNTBb4kEXoAUPT5JcVTs0A6XAGvw\/Giu9E6CHWavB7\/1WnzinAP6Q1hmQ0KxoBiFi\/UWvRAUCyVwQLhWMRIHl5eZSenk7Nzc1ktVoVK+M3b97kXgRp36dPnyagWTHOdndxRX0sa5ZTU4DCKzznsE+WDkZxERVdaR8ROoIRKkVrNTlyxx3iQKFeokCw0Kf1uQ5pqwmItVg9h6DY98zuDwsP1VQE9FGLOynt7kYBInpFJDrw7E06CxWx+CH8Km\/w0PH9\/VyvlA2OOYCg2IeqOfZDlbJTIllftmyZEXCEt7sbeWDKiIJko\/VES4EPRgWAwXhxboaBhkV5yAPPCKBFqzbLFb1h8DR\/LdbX5Gjkgan\/V3G5XGS32\/mDW3IRax\/ov9IpkQ9MmY\/c6lM0OfJc4Auv+cjtGBFkrVD7QCOjDlF\/5NZ8aUN8iuwVUtnwYugAlmfqzJc2fDgBKBYvXhy1cTGG50gzX\/tjUFFFl5rxtT+9CRvbfO2PPrl79y7Nnz+ft62Af+ionMf\/2h\/zxXHmi+M+Rs+B9ne0xXs8mgqw+l4cJ3\/1KH\/q0Hz1aNIfyf3KfPVoIkXXq0f\/B0ym7DpSsJMXAAAAAElFTkSuQmCC\" height=\"14\" width=\"100\"\/><\/a><\/div><\/div>"},{"tzwxnqpvstognu":"<div class=\"uhfnzetfjya\"><div class=\"umrndydutgizmg\"><h4><a target=\"_blank\" href=\"https:\/\/geni.us\/dN82\">Elon Musk Biography by Walter Isaacson<\/a><\/h4><div class=\"xencgvvropab\"><div class=\"lfkzihqbgc\"><a target=\"_blank\" href=\"https:\/\/geni.us\/dN82\"><img src=\"https:\/\/m.media-amazon.com\/images\/I\/41YMXMqcqtL._SL160_.jpg\"\/><\/a><\/div><div class=\"qjvicijdkmtf\"><h4><a target=\"_blank\" href=\"https:\/\/geni.us\/dN82\">Elon Musk Biography by Walter Isaacson<\/a><\/h4><a target=\"_blank\" href=\"https:\/\/geni.us\/dN82\"><p>Pre-order Elon Musk's biography by Walter Isaacson. Available now for pre-order on Amazon in hard cover or Kindle formats.<\/p><\/a><\/div><\/div><\/div><div class=\"tmaiurmmtedm\"><a target=\"_blank\" href=\"https:\/\/www.getAdfinity.com\"><img src=\"data:image\/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAAAcCAYAAAAk9\/CnAAALN0lEQVR42u1ci1cTZxan\/Wf8L1CPR0VXfCJrrVoVcdW6unioHh\/boqd2LVbrcX2u9QVWKtbKSwFfy0usRkEUUYsV8RkgLyCEkEDufr8vM2EymUkyMzHi2bnn3EOYx5fJfPf33fu7986kpMQSok+mn+pOTSvsyU8r6KmfVtBjZX+HmJKp70\/Zfabcahedb\/VQa5ePHIMj5B8hU\/TLEFMr03qm+UxTmX6Solfy8ujTtILuLDZZ7abBJhEYhT30Y2M\/vekbNk36\/Us70yymn2oCB\/MW49hkWUyDTa6uKHHQHza\/abbJFwvTcXGBY2phdxqbrH7TYJOr2671kscfME31w0k\/07R4wOEzDTb54DD5xZgQnypIhLBKs+dYdtFBh273c\/38V7thY8kqCY63kRHU92mUX1Y4+fesu+T84GGVXs\/xpMdP\/\/69n3IqnfSPy07OXR52+XRbx+OHPsrLcXEtPOpWPS4QCFBLSwuVl5fT7du3+bampiaqrq42bKGDg4N04cIFevny5Yf0JOMUCLk+zlH5x2Bo5OJWj2GD+b6+j491mY37Pg3zp3tBAyi8P\/BBCbkezjHC8ARwq437w80+XR6prWUUIAVH1AGyY8cOGj9+PC1cuJC2b9\/Ot+3evZv\/b1RsNhulpqbSlStXIvbduHGDGhsbk8VJRom7kK3SPMGzz9rI4wtQnzdAw2zSHJ4R+kuhCZB4FSu+HokGDvl91AuQQhWAvHr1ihvwpUuXwrYfPnyY1qxZY9gyHQ4HzZ49m2prayP2YfytW7cmy5NkheocelO5e4UJvvjYQ3deD\/HP2\/\/bawIkzjqHnlQuwirpOCtLHfRbm4cqng7yuol03703voQDBCs4APL27dukxz5JBkg7r5OwiRqvd5IfdQcn4O8sjhcN+zYDipYxPj9vp8+K7ZoAMrfIRssZ95n3iy2hAJlxpocWJYBHxaNfMWPWI1iUxDHWM94xNDzKX\/Apv6EvtH9HTW\/M8QJqAFHhINevX+cA6erq0nX9AwMD1NnZSX6\/f6wDBJKaIlTINU8wVi5Ip2s4FG4NMrKJ+DgWWQcgaju8PCQT5XXvMAdHNIDsZpP\/whm+6vYMjNDp5gEez+sFyIYqF7Xb\/aG4vdc7QrdeDdEXvznCzsH\/+D5r\/zDNK1IGJwzUxo4pfRydj6FCrkeyS0ev6e6bocgYnn239D4rxvnsmMN33Pz3TC8MLjhbrrno\/NUBVYDU1dVRZmYmzZw5kwMkIyOD\/19WVsb3Hzt2jNavXx92zrt37\/gxFouFk\/p169bRxIkT+fn4u3nzZs45pOJ0Ovk59fX1oW0bNmzg2yZNmkSTJ0\/mn6E49v79+\/xza2ur6j0rLi6mFStW0PCwZo+dn4L2ET0A+fVRcIJPNrlD267\/6eXbYLBq560ud5JNAAYAUvfCSw2dQyGwPLD6FAGCuJv3C7AVE8Zb9mSQ\/\/UJK2gsg1QDSPM7H3kZsHsZj2p8OcSBCxAEgRKgDZXhYYuYJfqxUZkHNL0N7t96LXqo2aoz25R5bhSY3W5lJi6CF4uGXACquSrgTt\/dQ9lZdvqGAeSMDCAIqa5evUr79u3jBo5ME\/7v6OhQJekiXykqKuL7KisruecBKKqqqigtLY2WL18ek6QjrMN3YYyVK1fyz1Cv18uNfu7cubRr1y7Ve7Zo0SLas2ePnttdnyL0VmkyLoQirsER7p4XX7CH5fP5ysFW2Gkq54oGVt\/p5eNIx7wmAEwJIPAwkM1Xww12VVkwzMDqP\/Nnm2aAQO4xo55zdvRcJBqq2oPZuZfMQ0q9EzwE5D4DlnzMBWzFhgeF4cbyaOit0iPSsNLmUR4jQ3KMVDqY9511Vv0eASCZi3rob9n2CIDECrGiAQSr\/vPnzyPGAtHHfqSI48liqYVYx48fp6lTp\/LwLYKzPXnCx2tra9Nzu60pehoPv60NGkmLNdxI4K7FiZcbsjTu7h8KKBozDLNLWBWlAAHYsJpDkPOXn3eIhQsXGVFdcsGuGSAICzMUuAwMXCTRu+pG43pcN64\/wC5HzlcOCF7u7IPYxF9vYXBBdg\/N\/yKoebku2rkpUhcsFY5ZGg6QbdfDvdoWNkdYlEDwwelEgEAP7e9LGEB27typOFZfXx\/fX1paaggguBaknSsqKiL27d+\/n5YsWaK7wVEXQCxC7LtXIcwoeRwMvRCqqBllZbs6AT\/TMqDoQa48C67obmacCOHWsFBtWqHxLBbCQrVjED5CEM5Jt18UfiPGkHtHwHipjLskFCDLR41423pniDNI9bPFo8eIAl4lvV\/yNDCKlUsP2EPnbf7WmTCAlJSUqP4e8IrTp08bAghk48aNtHr16rBtSATMmjWLh3i6AaI1xMIqHRBSH88dfp52lOpbYdUFN5DGy9DLQlHxRJNbc5oXYyEsk4rbF6DfGQ\/Ze7M\/LFzTApCCKGleMQuEdKlSggK\/P5SNY94koBJ6JTLEWpClDyCPusKv61VvJGH9qdwdOm\/tPx0JA4iUcMtlypQpdPLkScMAaWho4OeJnAhy69YtngyQJwK0hliaSDqyPvHKEYtbser+n7vqAPmuLnqaF1mcY+x8y+sh7k1EQTYt85z2EOtUc2yAPLBGGv0jgUutKgt6i6OW4HjSNOv7IOnScBDZKI5KmSpxEKTkpd+vxF8KL0sA8vXHBRCQ9Xnz5tHBgwfDKv6bNm0ykuat15TmnSbhCN\/c6OXZECU91TQQIoVKRomYN1ZYE0+hEJzlO8aH7MJkl2jIZInXUv1M\/XtEo69uV045Q849DH4nvCc8WryJAr1pXr0kHRxuuiTEwnXLJee4MwSQLTudHxVAeGRy4gRPQyO0AmFHcqCmpsYIQPJT+NOCcRoVcuWQWFkaHm4Iizua6MTtGwWSjgyYmiHBE8gBksUIJBICpU+UjfmgQI5brD7NAIEXmqOS2YHRq7V24PpxLhYMNGzyrMzT+Kv\/uToLhUayWF9LSDpCUvTOYXERa1Dp+aOh2ZED\/R8dQHBNEyZM4G0qSCnPmDGDfD6fEYCkamo1qX0R5ABFD2NnacR6QJVs9RVDC2RP5LwB4yqleXEcahXgNWsrIrNYvwiroR4PAqnpiLwW0XuAK6ilRksFsi4mLbR0ButtNTECEKSs50RL8woAWZVtp5+PucccQNauXUu5ublR7w9CKhD2nJwcXrMx3GoSb7Mi4nsx84IW7VjHo6NUzI5IJwVt5i6BoGLCkCFC0VHsam3r9iuGWAUC90HNAwaNTBb4kEXoAUPT5JcVTs0A6XAGvw\/Giu9E6CHWavB7\/1WnzinAP6Q1hmQ0KxoBiFi\/UWvRAUCyVwQLhWMRIHl5eZSenk7Nzc1ktVoVK+M3b97kXgRp36dPnyagWTHOdndxRX0sa5ZTU4DCKzznsE+WDkZxERVdaR8ROoIRKkVrNTlyxx3iQKFeokCw0Kf1uQ5pqwmItVg9h6DY98zuDwsP1VQE9FGLOynt7kYBInpFJDrw7E06CxWx+CH8Km\/w0PH9\/VyvlA2OOYCg2IeqOfZDlbJTIllftmyZEXCEt7sbeWDKiIJko\/VES4EPRgWAwXhxboaBhkV5yAPPCKBFqzbLFb1h8DR\/LdbX5Gjkgan\/V3G5XGS32\/mDW3IRax\/ov9IpkQ9MmY\/c6lM0OfJc4Auv+cjtGBFkrVD7QCOjDlF\/5NZ8aUN8iuwVUtnwYugAlmfqzJc2fDgBKBYvXhy1cTGG50gzX\/tjUFFFl5rxtT+9CRvbfO2PPrl79y7Nnz+ft62Af+ionMf\/2h\/zxXHmi+M+Rs+B9ne0xXs8mgqw+l4cJ3\/1KH\/q0Hz1aNIfyf3KfPVoIkXXq0f\/B0ym7DpSsJMXAAAAAElFTkSuQmCC\" height=\"14\" width=\"100\"\/><\/a><\/div><\/div>"},{"tzwxnqpvstognu":"<div class=\"uhfnzetfjya\"><div class=\"umrndydutgizmg\"><h4><a target=\"_blank\" href=\"https:\/\/geni.us\/c3BKmKX\">Experience Tesla Android<\/a><\/h4><div class=\"xencgvvropab\"><div class=\"lfkzihqbgc\"><a target=\"_blank\" href=\"https:\/\/geni.us\/c3BKmKX\"><img src=\"https:\/\/notateslaapp.com\/assets\/books\/tesla-android.jpg\"\/><\/a><\/div><div class=\"qjvicijdkmtf\"><h4><a target=\"_blank\" href=\"https:\/\/geni.us\/c3BKmKX\">Experience Tesla Android<\/a><\/h4><a target=\"_blank\" href=\"https:\/\/geni.us\/c3BKmKX\"><p>Beyond CarPlay & Android Auto: Run Android apps in your Tesla seamlessly. Get $20 off our hardware bundles with code: notateslaapp<\/p><\/a><\/div><\/div><\/div><div class=\"tmaiurmmtedm\"><a target=\"_blank\" href=\"https:\/\/www.getAdfinity.com\"><img src=\"data:image\/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAAAcCAYAAAAk9\/CnAAALN0lEQVR42u1ci1cTZxan\/Wf8L1CPR0VXfCJrrVoVcdW6unioHh\/boqd2LVbrcX2u9QVWKtbKSwFfy0usRkEUUYsV8RkgLyCEkEDufr8vM2EymUkyMzHi2bnn3EOYx5fJfPf33fu7986kpMQSok+mn+pOTSvsyU8r6KmfVtBjZX+HmJKp70\/Zfabcahedb\/VQa5ePHIMj5B8hU\/TLEFMr03qm+UxTmX6Solfy8ujTtILuLDZZ7abBJhEYhT30Y2M\/vekbNk36\/Us70yymn2oCB\/MW49hkWUyDTa6uKHHQHza\/abbJFwvTcXGBY2phdxqbrH7TYJOr2671kscfME31w0k\/07R4wOEzDTb54DD5xZgQnypIhLBKs+dYdtFBh273c\/38V7thY8kqCY63kRHU92mUX1Y4+fesu+T84GGVXs\/xpMdP\/\/69n3IqnfSPy07OXR52+XRbx+OHPsrLcXEtPOpWPS4QCFBLSwuVl5fT7du3+bampiaqrq42bKGDg4N04cIFevny5Yf0JOMUCLk+zlH5x2Bo5OJWj2GD+b6+j491mY37Pg3zp3tBAyi8P\/BBCbkezjHC8ARwq437w80+XR6prWUUIAVH1AGyY8cOGj9+PC1cuJC2b9\/Ot+3evZv\/b1RsNhulpqbSlStXIvbduHGDGhsbk8VJRom7kK3SPMGzz9rI4wtQnzdAw2zSHJ4R+kuhCZB4FSu+HokGDvl91AuQQhWAvHr1ihvwpUuXwrYfPnyY1qxZY9gyHQ4HzZ49m2prayP2YfytW7cmy5NkheocelO5e4UJvvjYQ3deD\/HP2\/\/bawIkzjqHnlQuwirpOCtLHfRbm4cqng7yuol03703voQDBCs4APL27dukxz5JBkg7r5OwiRqvd5IfdQcn4O8sjhcN+zYDipYxPj9vp8+K7ZoAMrfIRssZ95n3iy2hAJlxpocWJYBHxaNfMWPWI1iUxDHWM94xNDzKX\/Apv6EvtH9HTW\/M8QJqAFHhINevX+cA6erq0nX9AwMD1NnZSX6\/f6wDBJKaIlTINU8wVi5Ip2s4FG4NMrKJ+DgWWQcgaju8PCQT5XXvMAdHNIDsZpP\/whm+6vYMjNDp5gEez+sFyIYqF7Xb\/aG4vdc7QrdeDdEXvznCzsH\/+D5r\/zDNK1IGJwzUxo4pfRydj6FCrkeyS0ev6e6bocgYnn239D4rxvnsmMN33Pz3TC8MLjhbrrno\/NUBVYDU1dVRZmYmzZw5kwMkIyOD\/19WVsb3Hzt2jNavXx92zrt37\/gxFouFk\/p169bRxIkT+fn4u3nzZs45pOJ0Ovk59fX1oW0bNmzg2yZNmkSTJ0\/mn6E49v79+\/xza2ur6j0rLi6mFStW0PCwZo+dn4L2ET0A+fVRcIJPNrlD267\/6eXbYLBq560ud5JNAAYAUvfCSw2dQyGwPLD6FAGCuJv3C7AVE8Zb9mSQ\/\/UJK2gsg1QDSPM7H3kZsHsZj2p8OcSBCxAEgRKgDZXhYYuYJfqxUZkHNL0N7t96LXqo2aoz25R5bhSY3W5lJi6CF4uGXACquSrgTt\/dQ9lZdvqGAeSMDCAIqa5evUr79u3jBo5ME\/7v6OhQJekiXykqKuL7KisruecBKKqqqigtLY2WL18ek6QjrMN3YYyVK1fyz1Cv18uNfu7cubRr1y7Ve7Zo0SLas2ePnttdnyL0VmkyLoQirsER7p4XX7CH5fP5ysFW2Gkq54oGVt\/p5eNIx7wmAEwJIPAwkM1Xww12VVkwzMDqP\/Nnm2aAQO4xo55zdvRcJBqq2oPZuZfMQ0q9EzwE5D4DlnzMBWzFhgeF4cbyaOit0iPSsNLmUR4jQ3KMVDqY9511Vv0eASCZi3rob9n2CIDECrGiAQSr\/vPnzyPGAtHHfqSI48liqYVYx48fp6lTp\/LwLYKzPXnCx2tra9Nzu60pehoPv60NGkmLNdxI4K7FiZcbsjTu7h8KKBozDLNLWBWlAAHYsJpDkPOXn3eIhQsXGVFdcsGuGSAICzMUuAwMXCTRu+pG43pcN64\/wC5HzlcOCF7u7IPYxF9vYXBBdg\/N\/yKoebku2rkpUhcsFY5ZGg6QbdfDvdoWNkdYlEDwwelEgEAP7e9LGEB27typOFZfXx\/fX1paaggguBaknSsqKiL27d+\/n5YsWaK7wVEXQCxC7LtXIcwoeRwMvRCqqBllZbs6AT\/TMqDoQa48C67obmacCOHWsFBtWqHxLBbCQrVjED5CEM5Jt18UfiPGkHtHwHipjLskFCDLR41423pniDNI9bPFo8eIAl4lvV\/yNDCKlUsP2EPnbf7WmTCAlJSUqP4e8IrTp08bAghk48aNtHr16rBtSATMmjWLh3i6AaI1xMIqHRBSH88dfp52lOpbYdUFN5DGy9DLQlHxRJNbc5oXYyEsk4rbF6DfGQ\/Ze7M\/LFzTApCCKGleMQuEdKlSggK\/P5SNY94koBJ6JTLEWpClDyCPusKv61VvJGH9qdwdOm\/tPx0JA4iUcMtlypQpdPLkScMAaWho4OeJnAhy69YtngyQJwK0hliaSDqyPvHKEYtbser+n7vqAPmuLnqaF1mcY+x8y+sh7k1EQTYt85z2EOtUc2yAPLBGGv0jgUutKgt6i6OW4HjSNOv7IOnScBDZKI5KmSpxEKTkpd+vxF8KL0sA8vXHBRCQ9Xnz5tHBgwfDKv6bNm0ykuat15TmnSbhCN\/c6OXZECU91TQQIoVKRomYN1ZYE0+hEJzlO8aH7MJkl2jIZInXUv1M\/XtEo69uV045Q849DH4nvCc8WryJAr1pXr0kHRxuuiTEwnXLJee4MwSQLTudHxVAeGRy4gRPQyO0AmFHcqCmpsYIQPJT+NOCcRoVcuWQWFkaHm4Iizua6MTtGwWSjgyYmiHBE8gBksUIJBICpU+UjfmgQI5brD7NAIEXmqOS2YHRq7V24PpxLhYMNGzyrMzT+Kv\/uToLhUayWF9LSDpCUvTOYXERa1Dp+aOh2ZED\/R8dQHBNEyZM4G0qSCnPmDGDfD6fEYCkamo1qX0R5ABFD2NnacR6QJVs9RVDC2RP5LwB4yqleXEcahXgNWsrIrNYvwiroR4PAqnpiLwW0XuAK6ilRksFsi4mLbR0ButtNTECEKSs50RL8woAWZVtp5+PucccQNauXUu5ublR7w9CKhD2nJwcXrMx3GoSb7Mi4nsx84IW7VjHo6NUzI5IJwVt5i6BoGLCkCFC0VHsam3r9iuGWAUC90HNAwaNTBb4kEXoAUPT5JcVTs0A6XAGvw\/Giu9E6CHWavB7\/1WnzinAP6Q1hmQ0KxoBiFi\/UWvRAUCyVwQLhWMRIHl5eZSenk7Nzc1ktVoVK+M3b97kXgRp36dPnyagWTHOdndxRX0sa5ZTU4DCKzznsE+WDkZxERVdaR8ROoIRKkVrNTlyxx3iQKFeokCw0Kf1uQ5pqwmItVg9h6DY98zuDwsP1VQE9FGLOynt7kYBInpFJDrw7E06CxWx+CH8Km\/w0PH9\/VyvlA2OOYCg2IeqOfZDlbJTIllftmyZEXCEt7sbeWDKiIJko\/VES4EPRgWAwXhxboaBhkV5yAPPCKBFqzbLFb1h8DR\/LdbX5Gjkgan\/V3G5XGS32\/mDW3IRax\/ov9IpkQ9MmY\/c6lM0OfJc4Auv+cjtGBFkrVD7QCOjDlF\/5NZ8aUN8iuwVUtnwYugAlmfqzJc2fDgBKBYvXhy1cTGG50gzX\/tjUFFFl5rxtT+9CRvbfO2PPrl79y7Nnz+ft62Af+ionMf\/2h\/zxXHmi+M+Rs+B9ne0xXs8mgqw+l4cJ3\/1KH\/q0Hz1aNIfyf3KfPVoIkXXq0f\/B0ym7DpSsJMXAAAAAElFTkSuQmCC\" height=\"14\" width=\"100\"\/><\/a><\/div><\/div>"}];const fhpqgoakfsrzxvoOriginal=[...fhpqgoakfsrzxvo];const d=document;let rdzokagvlvqqdso=(s)=>(d&&d[String('qu e'+'r yS el e '+'ct or'+'A ll').replace(/( )+/g,'')](s));const auzxxlawpn=['LmFydGljbGUtY29udGFpbmVyID4gKg==','YXJ0aWNsZS5tb2QtdXBkYXRlLWZlYXR1cmVzID4gKg=='];const hmweqsbuhdg=['p','section'];const c="pitkyipqptvs";let wreshdjbvfrefup=[];let vuxwgzcdnms=0;auzxxlawpn.forEach(function(n){try{let tndzezmfhir=Array.from(rdzokagvlvqqdso(atob(n)));wreshdjbvfrefup=wreshdjbvfrefup.concat(tndzezmfhir)}catch(err){}});const vplimezydyandd=document.documentElement.clientHeight;const puxhbbvlybjc=vplimezydyandd*2;let vsilwmpknugl;wreshdjbvfrefup.forEach(function(n){if(hmweqsbuhdg.includes(n.nodeName.toLowerCase())){vuxwgzcdnms++;if(vuxwgzcdnms>2){let ctyvxgclwe=window.pageYOffset+n.getBoundingClientRect().top;if(!vsilwmpknugl||ctyvxgclwe>vsilwmpknugl+puxhbbvlybjc){vsilwmpknugl=ctyvxgclwe;if(fhpqgoakfsrzxvo.length==0){fhpqgoakfsrzxvo=[...fhpqgoakfsrzxvoOriginal]}let ri=Math.floor(Math.random()*fhpqgoakfsrzxvo.length);rb=fhpqgoakfsrzxvo.splice(ri,1);let div=document.createElement('div');div.innerHTML=rb[0].tzwxnqpvstognu;n.insertAdjacentElement('beforebegin',div);if(document.body.classList.contains('dark')&&div.childNodes&&div.childNodes.length){div.childNodes[0].classList.add('xinbdjamzppqwlc')}if(c=="rtvxpndgyk"){if(div.firstElementChild){div.firstElementChild.classList.add('gbqvbiizptt')}}if(div.clientWidth>350){if(div.firstElementChild){div.firstElementChild.classList.add('vtwjhpktrbfmw')}}else if(div.clientWidth>250){if(div.firstElementChild){div.firstElementChild.classList.add('zbukxjatrracwy')}}else if(div.clientWidth<=250){if(div.firstElementChild){div.firstElementChild.classList.add('dgfxdcswwigobnu')}}if(n.tagName==='BODY'){if(div.firstElementChild){div.firstElementChild.classList.add('ewmcdffyfs')}}}}}})}</script><!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "b58e97fb2cb748e2b270faa285d08d81"}'></script><!-- End Cloudflare Web Analytics -->
+    <!-- start webpushr code -->
+    <script>(function(w,d, s, id) {if(typeof(w.webpushr)!=='undefined') return;w.webpushr=w.webpushr||function(){(w.webpushr.q=w.webpushr.q||[]).push(arguments)};var js, fjs = d.getElementsByTagName(s)[0];js = d.createElement(s); js.id = id;js.async=1;js.src = "https://cdn.webpushr.com/app.min.js";fjs.parentNode.appendChild(js);}(window,document, 'script', 'webpushr-jssdk'));webpushr('setup',{'key':'BB77JmGgCP5m560TojxGcuXXFXjsmSmrKqLcl4o55Iee1vKax2xEEdilMyXPtB3_NxwJZmJ9Dnfo4cFuqxoNNxU' });</script>
+    <!-- end webpushr code -->
+    </body>
+</html>

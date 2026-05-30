@@ -1,0 +1,155 @@
+Tesla Power Windows May Pinch/FMVSS 118 Recall
+
+Resources: [Tesla Official Support](https://www.tesla.com/support) | [Wiki/FAQ](https://www.reddit.com/r/teslamotors/wiki/index) | [Discord Chat](https://discord.gg/tesla) | [Support Thread](https://www.reddit.com/r/teslamotors/comments/vp075g/your_tesla_support_thread_q3_2022/) | r/TeslaLounge for personal content | Help the Mods by **reporting posts and comments** which break [rules](https://www.reddit.com/r/teslamotors/wiki/rules).
+
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/teslamotors) if you have any questions or concerns.*
+
+This is a non-issue since it has affected zero people other than the engineer that pinched his finger and can be fixed while everyone sleeps.
+
+We need to update this law so the notification can be sent electronically. Preferably in the Tesla app
+
+&gt;	Remedy:
+     Tesla will perform an over-the-air (OTA) software update of the automatic window reversal system, free of charge. Owner notification letters are expected to be mailed November 15, 2022.
+
+Important part
+
+For this one in particular at least they aren’t forcing Tesla to do anything. This was a self reported issue from Tesla.
+
+I think they may have to call it a recall so they can actually Force Tesla to do it. The laws and rules probably haven't caught up to reality yet which is a common problem with a lot of technology.
+
+It's called Alert Fatigue and it's a real thing. If everything is a "recall", the term has no weight anymore and the average person will stop paying attention to these, they'll stop opening recall letters, they'll just assume it's going to be fixed for them and not care. Historically, "recall" has required action needing to be taken by the customer in some way. If the next "recall" for a Tesla *isn't* something that can be fixed over the air, but no one cares to even look, it could cause people to get hurt. The NHSTA needs a new term for this before people stop caring.
+
+Once again, who cares?
+
+[deleted]
+
+It's safety related so it's a recall. why does it matter? It doesn't effect Tesla.
+
+Right. This is a patch, not a recall.
+
+Just putting on my devil’s advocate hat: a safety defect is a safety defect whether it’s hardware or software or OTA. 
+
+It just is unfortunate usually “recall” means your car is a death box until you schedule a lengthy backlogged appointment to repair your car, but these kinds of OTA recalls are not a big deal because the car literally fixes itself overnight parked in your garage. 
+
+I would love different terms for OTA vs hardware, as well as different terms for recalls. My Audi had a “recall” for “door panel has sharp stickers that may poke you”, and one for exploding Takata air bags. Those should not both be called the exact same thing.
+
+When the law(s) are changed.
+
+https://uscode.house.gov/view.xhtml?req=granuleid%3AUSC-prelim-title49-chapter301&amp;edition=prelim
+
+A "recall" has very specific legal language that means NHTSA identified a safety issue that is legally required to be fixed on all cars, and that the public has a right to know about, and NHTSA now has some legal authority over. The way it is fixed is irrelevant. The purpose is to inform the public that their vehicle has a safety defect that is present until a specific event occurs that repairs it.
+
+If Tesla pre-fixed these issues, there would be no recall. Also, historically, Tesla has fought some of these very hard, even ones that are just OTA's, so some of this is on Tesla too as they and NHTSA don't exactly get along.
+
+When will the NHTSA recall the word "recall"?
+
+&gt;Description of Remedy Program :  
+&gt;  
+&gt;At no cost to the customer, T**esla will deploy an over-the-air (“OTA”) firmware update** to affected vehicles that enhances the calibration of the vehicle’s automatic window reversal system behavior to ensure compliance with FMVSS 118, Section 5, in all loading conditions.
+
+It's a safety related issue so it's a recall.
+
+Other than short term traders, who cares?
+
+Customers need to be made aware of any known safety issues, and they need to be informed that an update is being made to their cars. A safety issue is a safety issue regardless of how easy it is to fix it. I don’t understand why the aversion to the word “recall”.
+
+For cell phone i believe the term is “security patch” and its not a standard update. 
+
+I was informed of the biggest and deadliest recalls of all time from Chevrolet, didn’t even need to bring the vehicle to the dealership, just my key, where they put a tiny piece of plastic in to hold the keyring in place.
+
+We really need to use a different word from OTA updates the people that just read headlines don't understand the difference between a recall that needs to be brought in to service vs a simple software update.
+
+Are we going to refer to everything OTA updated as a recall now? My cell phone gets recalled monthly....
+
+Thanks! Didn't know that was a thing!
+
+Have you calibrated the windows?  I haven't experienced this problem but I read about how to calibrated them in the manual https://www.tesla.com/ownersmanual/modely/en_us/GUID-B4E78C91-BCD3-4713-90AA-F3E2406158CC.html
+
+Hopefully that helps
+
+Issue fixed after the regulator replacement. 
+Tesla service tried to make adjustments initially and that didn't help.
+
+No more issues since the repair?
+
+Mine has the regulator replaced to fix it.
+
+Mine reverses all the time when I use the auto roll up feature. I’ve have three separate appointments (lubed the rubber, replaced the seals) and it still happens. Seems like mine is too sensitive and maybe the pinch thinks it’s an obstruction. I hope they figure it out soon. It’s very annoying for a brand new car.
+
+Yep, thats the car I have
+
+I've had this on my 3 since July 2018, had something replaced under warranty early on but the problem is still there.
+
+Same. Do you have a MY? The front windows are dual pane which I think contributes to this
+
+I just had that and was told that first by mobile service, then was in service and the guy was playing with it and couldn’t get it to happen to him until he went over a bump. They then diagnosed it as the actuator in the door and charged me 250 bucks to replace it (out of warranty). 
+
+So far so good.
+
+when i start to drive fast out of my gate, and raise the windows so i don't get a punch of air to my face, it halfway goes up and then goes down like 'nah, ur gonna get air punched'. like wtf mayne
+
+Thanks. Now I can speak more intelligently about it. Appreciate the info.
+
+After bringing it up with the SC and mobile service a combined 5 times they fixed it by replacing the actuator. Now the window slams against the "ceiling" every time it closes instead.
+
+So it sounds like you are stuck with the same issue still and nobody knows what the fix is. Sweet!
+
+They told me mine was dirty as well, and even took apart the door and cleaned/oiled the inside, to avoid replacing parts. The problem came back immediately after the next calibration though.
+
+My X had this window problem the other day. A recalibration fixed it right up. My old Audi had the same problem, fixed exactly the same way.
+
+Doh!! Same damn issue with my 17 MX. Not encouraging but at least I know I’m not alone! 🙃
+
+Can’t even use them since it’s been in the shop for half the time I’ve owned it the past 6 months 😂
+
+congrats on the refreshed X with perfectly working windows. 😆😆
+
+Had a 17 X with this issue. They tried to pull the dirty thing on me. They finally admitted after ripping open the door frame and re-assembling it 7 times that the fit &amp; finish was just shit and it would never work properly without fitting a whole new door. Eventually I returned the car at end of lease and now have a refresh X with a hundred other problems, but my windows work great!
+
+OK that’s interesting. let me try cleaning the window, my driver side window does the same. goes up half way and comes back down. closes on the second try most of the times.
+
+Mainly the driver side window, but happens to all.
+
+Is this on a certain window or all of them?  I have a similar problem on my driver side window and have been told it’s because the window is dirty. Service basically told me to clean the window. I can’t be the only one.
+
+I had this same issue and they told me window was dirty also lol 😂, happens since day one of car. and still happens so I hope this update fixes it
+
+This happens to me too. The SC told me that it's caused by dust that accumulates in the window frame. Advised using a silicon spray along the rubber parts to ensure window doesn't auto-roll down once it hits these dusty areas.
+
+I can't even hold the button to make it go up.
+
+This is nice that it is an OTA, but i'd say 40% of the time my windows don't even auto close properly.
+
+Click up all the way on the window button, the window auto rolls up, stops a quarter of the way, rolls down, I try it again. Same thing. Then I just give up and hold the button up until it's closed.....
+
+I pinched my thumb when i closed the door on a Lexus, that should be recalled
+
+The difference between that car rental and a Tesla is that the Tesla has anti-pinch detection and wasn't working correctly, while that rental didn't have it to begin with.
+
+Can't fix something that doesn't exist.
+
+I rented a car once, not a Tesla some years back. It had no auto rollback in it. I know because my daughter's hand was on the window top when it was closed. Hurt the crap out of her hand. Yet, never heard of a similar "recall" for that car. 🤔
+
+So NHTSA and others are suing Tesla for using the term FSD cause Tesla's are not yet autonomy level 5, but the NHTSA is fine with calling a software update a recall where no owner has ever been harmed?
+
+https://static.nhtsa.gov/odi/rcl/2022/RCLRPT-22V702-4365.PDF
+
+Don’t put your fingers in the windows problem solved is this really how ignorant our society is? We can’t figure out not to put our fingers in a window when it’s closing. 😂 that’s why aliens (if they existed) aren’t showing themselves because we are so dumb they are like nope fuck that.
+
+I'm a teetotaler and I think this is a terrible idea.
+
+
+https://www.npr.org/2022/09/20/1124171320/autos-drunk-driving-blood-alcohol-system-ntsb
+
+What?
+
+My favorite one is they're now talking about putting breathalyzers in every car so that when the driver breathes it will not start if they think he's drunk. I'm wondering what happens if you spill alcohol on your shirt at a bar or something. This isn't really a problem for me since I don't drink but I was just imagining having to blow your car to get it to do anything for you. Now I know how a lot of women feel!
+
+My 22 MYLR pinched my son’s hand hard before. I wonder why they didn’t add the 22 models in there as well…
+
+I just took delivery of a 22 MYLR from Austin and it seems like the fix for new cars is to no longer have the feature.  Hopefully it will be activated to the 22’s.
+
+Software update. Talk about crying wolf!
+
+I heard the software “fix” was to disable the ability to remotely close the windows.  I’m guess that would also include disabling the window auto close when leaving the vehicle.   I hope I heard wrong as I enjoy that last feature.

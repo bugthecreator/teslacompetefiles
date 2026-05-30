@@ -1,0 +1,97 @@
+Weird window issue - anyone else see this? Tesla service recalibrated the windows to no avail.
+
+Hic sunt leones
+
+Recommend purchasing a bible, jar of holy water and a big cross… how is your Latin?
+
+Agree. This happens to me when going over a bump. It’s def the sensor thinking an object is blocking the window.
+
+This. Window sensor detects the force from going over a bump (and assumes it might be an object stuck in the window).
+
+Yes.  Usually when going over bumps when it’s rolling up.  Can only figure there is a sensorthat maybe detects an object in the path of the window rolling up?  An overly sensitive safety mechanism to keep an arm from getting pinched?
+
+My rear passenger window also does this at times. The process to recalibrate the windows is to have the window completely open, then close the window while holding the window switch up for 30 seconds past the window closing, then open the window by holding down the switch in the close position for 30 seconds after it closes, then close it again while holding the switch down for 30 seconds past the window completely closing.
+
+Did you try your own calibration in the owners manual?
+
+My window does that when trying to close it while going over bumps.
+
+It happens every time I drive through the gate and over speed bumps after showing my I'd. I learned to just wait 5 seconds
+
+This. Same here
+
+Was happening to mine, they replaced power window assembly and hasn't happened since.
+
+Same
+
+Happens all the time in my MY. I’ve just gotten used to it.
+
+My shit does this about 1 or 2 times per week. It takes me a couple of times then it’ll go back up.  Sucks.
+
+Nah, it happens with single pane too. And I'm not going over bumps...
+
+I don’t own a tesla yet but have seen my fair share of YouTube videos. 
+
+One guys suggested that Tesla is using the same window motor from the single pane models. 
+
+Now that they come with a double pane window, the motor struggles with the extra weight WHEN going over bumps. He specifically mentioned it almost always happens when going over a pump, and I think that’s what I see in the video.
+
+I was thinking the same thing. Wtf is wrong with people
+
+Take off your mask. Did you hear his "really"? Oh man get some testosterone dawg
+
+Had it happen with the passenger side window in my S.  Had someone grab the window from outside as it was rising and exert a gentle pull to help it get all the way up.  Solved the issue.
+
+Yep, happen every one in ten times on a early M.Y.
+
+Happens a lot in the Y. I think it's the flex of the frame vs. the sensitivity of the sensor to not trap your fingers in the window when it closes.
+
+Model X I presume had everything including this issue with the vehicle.
+From invoice:
+
+Concern: Customer States: Driver front window goes up and then down automatically. Won't close.
+
+
+
+
+Confirmed reported concern. Found window regulator to have an mechanical fault, impairing correct operation. Removed and replaced left front window regulator assembly and performed additional function testing. Verified left front window is now operating as expected.
+Correction: General Diagnosis
+Correction: Window Regulator - Front - LH (Remove &amp; Replace)
+
+Operator error.  You're closing the window wrong.
+
+Keep trying, you will figure it out.
+
+Yeah, me too. What sucks is that it kills the "roll up on lock" feature.
+
+Earlier this year, my window switch broke. I said "Oh, I'll just activate 'close windows' in the app"
+
+Didn't work. Rolled up, then down. And wouldn't try again because it figured it must have closed, right? 
+
+Over 100K miles, so not having Tesla futz with it and not fix it and still charge me. 
+
+&amp;#x200B;
+
+And re-calibration doesn't work, because I can't close the window from the fully open position.
+
+It's the anti-pinch sensor is registering resistance and putting the window down. It happens to my Subaru when it rains. Happens to the model Y when going over bumps.
+
+Yes I had this issue a service appointment and they fixed it for free at my location.
+
+Your electrically-adjustable window can be moved into pre-set positions at the push of a button. 
+
+Good luck
+
+Same thing happens to mine, and I agree that it might be the motor not being able to handle the weight during a bump, but i think it might be the dual pane getting squished by the door, adding more friction which in turn the motor can’t handle. I believe the safety sensor is being triggered because of that.
+
+What is happening is the bumps you hit increase load on the window motor. This is detected by the system as an obstruction and thus it lowers the window to avoid damage/injury. This is an unfortunate side effect to the sportier ride character of MY.
+
+Happens on my Tesla and other cars that I have owned. Short story it is a Sensor.
+
+Happened to me too rolling the window up/down to badge in and out of a garage when raining.  The moisture caused enough friction for the car to read it as a meaningful impediment and auto roll the window back down.  Svc did make a minor adjustment to help, but recommended a trim treatment compound that’s also an effective lubricant.  No issues since
+
+My 2021 MY LR does this sometimes
+
+Mine does this sometimes
+
+Mine was doing the same. Brought it to the SC and they said smth needs to be replaced. Never had the issue since

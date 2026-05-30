@@ -1,0 +1,3385 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>US10273739B2 - Automated system for closing a closure of a motor vehicle based upon transmission state 
+        - Google Patents</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta name="referrer" content="origin-when-crossorigin">
+    <link rel="canonical" href="https://patents.google.com/patent/US10273739B2/en">
+    <meta name="description" content="
+     An automated system is provided for closing a closure of a motor vehicle. That automated system includes a plurality of closures, a plurality of closure modules for opening and closing that plurality of closures and a control module. The control module is configured to monitor a transmission state of the motor vehicle and an open/close state of the plurality of closures and then close an open closure of the plurality of closures when the transmission is shifted out of park and the open closure is detected. A related method is also provided. 
+   
+   ">
+    <meta name="DC.type" content="patent">
+    <meta name="DC.title" content="Automated system for closing a closure of a motor vehicle based upon transmission state 
+       ">
+    <meta name="DC.date" content="2016-05-31" scheme="dateSubmitted">
+    <meta name="DC.description" content="
+     An automated system is provided for closing a closure of a motor vehicle. That automated system includes a plurality of closures, a plurality of closure modules for opening and closing that plurality of closures and a control module. The control module is configured to monitor a transmission state of the motor vehicle and an open/close state of the plurality of closures and then close an open closure of the plurality of closures when the transmission is shifted out of park and the open closure is detected. A related method is also provided. 
+   
+   ">
+    <meta name="citation_patent_application_number" content="US:15/168,627">
+    <meta name="citation_pdf_url" content="https://patentimages.storage.googleapis.com/2f/f6/50/aa60141f60e336/US10273739.pdf">
+    <meta name="citation_patent_number" content="US:10273739">
+    <meta name="DC.date" content="2019-04-30" scheme="issue">
+    <meta name="DC.contributor" content="Tuan Anh Be" scheme="inventor">
+    <meta name="DC.contributor" content="Nicholas Colella" scheme="inventor">
+    <meta name="DC.contributor" content="Allen R. MURRAY" scheme="inventor">
+    <meta name="DC.contributor" content="Ford Global Technologies LLC" scheme="assignee">
+    <meta name="DC.relation" content="US:3629817" scheme="references">
+    <meta name="DC.relation" content="KR:0157819:B1" scheme="references">
+    <meta name="DC.relation" content="US:6727806" scheme="references">
+    <meta name="DC.relation" content="JP:2005054466:A" scheme="references">
+    <meta name="DC.relation" content="US:7118155" scheme="references">
+    <meta name="DC.relation" content="US:8606467" scheme="references">
+    <meta name="DC.relation" content="CN:201677813:U" scheme="references">
+    <meta name="DC.relation" content="US:8755975" scheme="references">
+    <meta name="DC.relation" content="CN:102602367:A" scheme="references">
+    <meta name="DC.relation" content="US:20130332033:A1" scheme="references">
+    <meta name="DC.relation" content="US:20160159369:A1" scheme="references">
+    <meta name="citation_reference" content="English Machine Translation of CN102602367A." scheme="references">
+    <meta name="citation_reference" content="English Machine Translation of CN201677813U." scheme="references">
+    <meta name="citation_reference" content="English Machine Translation of JP2005054466A." scheme="references">
+    <meta name="citation_reference" content="English Machine Translation of KR0157819B1." scheme="references">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,400italic,500,500italic,700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Product+Sans">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;700">
+
+    <style>
+      
+      #gb { top: 15px; left: auto; right: 0; width: auto; min-width: 135px !important; }   
+      body { transition: none; }
+    </style>
+    <script></script>
+
+    <script>
+      window.version = 'patent-search.search_20250707_RC00';
+
+      function sendFeedback() {
+        userfeedback.api.startFeedback({
+          'productId': '713680',
+          'bucket': 'patent-search-web',
+          'productVersion': window.version,
+        });
+      }
+
+      window.experiments = {};
+      window.experiments.patentCountries = "ae,ag,al,am,ao,ap,ar,at,au,aw,az,ba,bb,bd,be,bf,bg,bh,bj,bn,bo,br,bw,bx,by,bz,ca,cf,cg,ch,ci,cl,cm,cn,co,cr,cs,cu,cy,cz,dd,de,dj,dk,dm,do,dz,ea,ec,ee,eg,em,ep,es,fi,fr,ga,gb,gc,gd,ge,gh,gm,gn,gq,gr,gt,gw,hk,hn,hr,hu,ib,id,ie,il,in,ir,is,it,jo,jp,ke,kg,kh,km,kn,kp,kr,kw,kz,la,lc,li,lk,lr,ls,lt,lu,lv,ly,ma,mc,md,me,mg,mk,ml,mn,mo,mr,mt,mw,mx,my,mz,na,ne,ng,ni,nl,no,nz,oa,om,pa,pe,pg,ph,pl,pt,py,qa,ro,rs,ru,rw,sa,sc,sd,se,sg,si,sk,sl,sm,sn,st,su,sv,sy,sz,td,tg,th,tj,tm,tn,tr,tt,tw,tz,ua,ug,us,uy,uz,vc,ve,vn,wo,yu,za,zm,zw";
+      
+      
+      window.experiments.keywordWizard = true;
+      
+      
+      
+      window.experiments.definitions = true;
+      window.experiments.plogs = true;
+
+      window.Polymer = {
+        dom: 'shady',
+        lazyRegister: true,
+      };
+    </script>
+
+    <script src="//www.gstatic.com/patent-search/frontend/patent-search.search_20250707_RC00/scs/compiled_dir/webcomponentsjs/webcomponents-lite.min.js"></script>
+    <link rel="import" href="//www.gstatic.com/patent-search/frontend/patent-search.search_20250707_RC00/scs/compiled_dir/search-app-vulcanized.html">
+  </head>
+  <body unresolved>
+    
+    
+    <script></script>
+    <script src="//www.gstatic.com/patent-search/frontend/patent-search.search_20250707_RC00/scs/compiled_dir/search-app-vulcanized.js"></script>
+    <search-app>
+      
+      
+
+      <article class="result" itemscope itemtype="http://schema.org/ScholarlyArticle">
+  <h1 itemprop="pageTitle">US10273739B2 - Automated system for closing a closure of a motor vehicle based upon transmission state 
+        - Google Patents</h1>
+  <span itemprop="title">Automated system for closing a closure of a motor vehicle based upon transmission state 
+       </span>
+
+  <meta itemprop="type" content="patent">
+  <a href="https://patentimages.storage.googleapis.com/2f/f6/50/aa60141f60e336/US10273739.pdf" itemprop="pdfLink">Download PDF</a>
+  <h2>Info</h2>
+
+  <dl>
+    <dt>Publication number</dt>
+    <dd itemprop="publicationNumber">US10273739B2</dd>
+    <meta itemprop="numberWithoutCodes" content="10273739">
+    <meta itemprop="kindCode" content="B2">
+    <meta itemprop="publicationDescription" content="Patent ( having previously published pre-grant publication)">
+    <span>US10273739B2</span>
+    <span>US15/168,627</span>
+    <span>US201615168627A</span>
+    <span>US10273739B2</span>
+    <span>US 10273739 B2</span>
+    <span>US10273739 B2</span>
+    <span>US 10273739B2</span>
+    <span>  </span>
+    <span> </span>
+    <span> </span>
+    <span>US 201615168627 A</span>
+    <span>US201615168627 A</span>
+    <span>US 201615168627A</span>
+    <span>US 10273739 B2</span>
+    <span>US10273739 B2</span>
+    <span>US 10273739B2</span>
+
+    <dt>Authority</dt>
+    <dd itemprop="countryCode">US</dd>
+    <dd itemprop="countryName">United States</dd>
+
+    <dt>Prior art keywords</dt>
+    <dd itemprop="priorArtKeywords" repeat>closure</dd>
+    <dd itemprop="priorArtKeywords" repeat>motor vehicle</dd>
+    <dd itemprop="priorArtKeywords" repeat>open</dd>
+    <dd itemprop="priorArtKeywords" repeat>closing</dd>
+    <dd itemprop="priorArtKeywords" repeat>control module</dd>
+
+    <dt>Prior art date</dt>
+    <dd><time itemprop="priorArtDate" datetime="2016-05-31">2016-05-31</time></dd>
+
+    <dt>Legal status (The legal status is an assumption and is not a legal conclusion. Google has not performed a legal analysis and makes no representation as to the accuracy of the status listed.)</dt>
+    <dd itemprop="legalStatusIfi" itemscope>
+      <span itemprop="status">Active</span>, expires <time itemprop="expiration" datetime="2036-07-25">2036-07-25</time>
+    </dd>
+  </dl>
+
+  <dt>Application number</dt>
+  <dd itemprop="applicationNumber">US15/168,627</dd>
+
+  
+
+  <dt>Other versions</dt>
+  <dd itemprop="directAssociations" itemscope repeat>
+    <a href="/patent/US20170342760A1/en">
+      <span itemprop="publicationNumber">US20170342760A1</span>
+      (<span itemprop="primaryLanguage">en</span>
+    </a>
+  </dd>
+
+  <dt>Inventor</dt>
+  <dd itemprop="inventor" repeat>Tuan Anh Be</dd>
+  <dd itemprop="inventor" repeat>Nicholas Colella</dd>
+  <dd itemprop="inventor" repeat>Allen R. MURRAY</dd>
+
+  <dt>Current Assignee (The listed assignees may be inaccurate. Google has not performed a legal analysis and makes no representation or warranty as to the accuracy of the list.)</dt>
+  <dd itemprop="assigneeCurrent" repeat>
+    Ford Global Technologies LLC
+  </dd>
+
+  <dt>Original Assignee</dt>
+  <dd itemprop="assigneeOriginal" repeat>Ford Global Technologies LLC</dd>
+
+  <dt>Priority date (The priority date is an assumption and is not a legal conclusion. Google has not performed a legal analysis and makes no representation as to the accuracy of the date listed.)</dt>
+  <dd><time itemprop="priorityDate" datetime="2016-05-31">2016-05-31</time></dd>
+
+  <dt>Filing date</dt>
+  <dd><time itemprop="filingDate" datetime="2016-05-31">2016-05-31</time></dd>
+
+  <dt>Publication date</dt>
+  <dd><time itemprop="publicationDate" datetime="2019-04-30">2019-04-30</time></dd>
+
+  
+  <dd itemprop="events" itemscope repeat>
+    <time itemprop="date" datetime="2016-05-31">2016-05-31</time>
+    <span itemprop="title">Application filed by Ford Global Technologies LLC</span>
+    <span itemprop="type">filed</span>
+    <span itemprop="critical" content="true" bool>Critical</span>
+    
+    
+    
+    <span itemprop="assigneeSearch">Ford Global Technologies LLC</span>
+  </dd>
+  <dd itemprop="events" itemscope repeat>
+    <time itemprop="date" datetime="2016-05-31">2016-05-31</time>
+    <span itemprop="title">Priority to US15/168,627</span>
+    <span itemprop="type">priority</span>
+    <span itemprop="critical" content="true" bool>Critical</span>
+    
+    
+    <span itemprop="documentId">patent/US10273739B2/en</span>
+    
+  </dd>
+  <dd itemprop="events" itemscope repeat>
+    <time itemprop="date" datetime="2016-05-31">2016-05-31</time>
+    <span itemprop="title">Assigned to FORD GLOBAL TECHNOLOGIES, LLC</span>
+    <span itemprop="type">reassignment</span>
+    
+    
+    
+    
+    <span itemprop="assigneeSearch">FORD GLOBAL TECHNOLOGIES, LLC</span>
+    <span itemprop="description" repeat>ASSIGNMENT OF ASSIGNORS INTEREST (SEE DOCUMENT FOR DETAILS).</span>
+    <span itemprop="description" repeat>Assignors: Murray, Allen R., BE, TUAN ANH, COLELLA, NICHOLAS</span>
+  </dd>
+  <dd itemprop="events" itemscope repeat>
+    <time itemprop="date" datetime="2017-05-23">2017-05-23</time>
+    <span itemprop="title">Priority to MX2017006743A</span>
+    <span itemprop="type">priority</span>
+    
+    
+    
+    <span itemprop="documentId">patent/MX369722B/en</span>
+    
+  </dd>
+  <dd itemprop="events" itemscope repeat>
+    <time itemprop="date" datetime="2017-05-26">2017-05-26</time>
+    <span itemprop="title">Priority to DE102017111564.1A</span>
+    <span itemprop="type">priority</span>
+    
+    
+    
+    <span itemprop="documentId">patent/DE102017111564A1/en</span>
+    
+  </dd>
+  <dd itemprop="events" itemscope repeat>
+    <time itemprop="date" datetime="2017-05-26">2017-05-26</time>
+    <span itemprop="title">Priority to CN201710385011.XA</span>
+    <span itemprop="type">priority</span>
+    
+    
+    
+    <span itemprop="documentId">patent/CN107461106A/en</span>
+    
+  </dd>
+  <dd itemprop="events" itemscope repeat>
+    <time itemprop="date" datetime="2017-11-30">2017-11-30</time>
+    <span itemprop="title">Publication of US20170342760A1</span>
+    <span itemprop="type">publication</span>
+    <span itemprop="critical" content="true" bool>Critical</span>
+    
+    
+    <span itemprop="documentId">patent/US20170342760A1/en</span>
+    
+  </dd>
+  <dd itemprop="events" itemscope repeat>
+    <time itemprop="date" datetime="2019-04-30">2019-04-30</time>
+    <span itemprop="title">Application granted</span>
+    <span itemprop="type">granted</span>
+    <span itemprop="critical" content="true" bool>Critical</span>
+    
+    
+    
+    
+  </dd>
+  <dd itemprop="events" itemscope repeat>
+    <time itemprop="date" datetime="2019-04-30">2019-04-30</time>
+    <span itemprop="title">Publication of US10273739B2</span>
+    <span itemprop="type">publication</span>
+    <span itemprop="critical" content="true" bool>Critical</span>
+    
+    
+    <span itemprop="documentId">patent/US10273739B2/en</span>
+    
+  </dd>
+  <dd itemprop="events" itemscope repeat>
+    <time itemprop="date">Status</time>
+    <span itemprop="title">Active</span>
+    <span itemprop="type">legal-status</span>
+    <span itemprop="critical" content="true" bool>Critical</span>
+    <span itemprop="current" content="true" bool>Current</span>
+    
+    
+    
+  </dd>
+  <dd itemprop="events" itemscope repeat>
+    <time itemprop="date" datetime="2036-07-25">2036-07-25</time>
+    <span itemprop="title">Adjusted expiration</span>
+    <span itemprop="type">legal-status</span>
+    <span itemprop="critical" content="true" bool>Critical</span>
+    
+    
+    
+    
+  </dd>
+
+  <h2>Links</h2>
+  <ul>
+    
+        <li itemprop="links" itemscope repeat>
+          <meta itemprop="id" content="usptoLink">
+          <a href="https://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&Sect2=HITOFF&p=1&u=/netahtml/PTO/srchnum.html&r=1&f=G&l=50&d=PALL&s1=10273739.PN." itemprop="url" target="_blank"><span itemprop="text">USPTO</span></a>
+        </li>
+        <li itemprop="links" itemscope repeat>
+          <meta itemprop="id" content="usptoPatentCenterLink">
+          <a href="https://patentcenter.uspto.gov/applications/15168627" itemprop="url" target="_blank"><span itemprop="text">USPTO PatentCenter</span></a>
+        </li>
+        <li itemprop="links" itemscope repeat>
+          <meta itemprop="id" content="usptoAssignmentLink">
+          <a href="https://assignment.uspto.gov/patent/index.html#/patent/search/resultFilter?searchInput=10273739" itemprop="url" target="_blank"><span itemprop="text">USPTO Assignment</span></a>
+        </li>
+
+    <li itemprop="links" itemscope repeat>
+        <meta itemprop="id" content="espacenetLink">
+        <a href="https://worldwide.espacenet.com/publicationDetails/biblio?CC=US&amp;NR=10273739B2&amp;KC=B2&amp;FT=D" itemprop="url" target="_blank"><span itemprop="text">Espacenet</span></a>
+      </li>
+      
+
+    
+
+    <li itemprop="links" itemscope repeat>
+      <meta itemprop="id" content="globalDossierLink">
+      <a href="https://globaldossier.uspto.gov/result/application/US/15168627/1" itemprop="url" target="_blank"><span itemprop="text">Global Dossier</span></a>
+    </li>
+
+    
+
+      
+
+      
+
+      <li itemprop="links" itemscope repeat>
+        <meta itemprop="id" content="stackexchangeLink">
+        <a href="https://patents.stackexchange.com/questions/tagged/US10273739" itemprop="url"><span itemprop="text">Discuss</span></a>
+      </li>
+      
+  </ul>
+
+  
+
+  <section>
+    <h2>Images</h2>
+    <ul>
+      <li itemprop="images" itemscope repeat>
+        <img itemprop="thumbnail" src="https://patentimages.storage.googleapis.com/13/6e/19/a33be393dfe34f/US10273739-20190430-D00000.png">
+        <meta itemprop="full" content="https://patentimages.storage.googleapis.com/b8/b2/db/1f6a57927ca18c/US10273739-20190430-D00000.png">
+        <ul>
+          <li itemprop="callouts" itemscope repeat>
+            <meta itemprop="figurePage" content="0">
+            <meta itemprop="id" content="70">
+            <meta itemprop="label" content="Box">
+            <span itemprop="bounds" itemscope>
+              <meta itemprop="left" content="967">
+              <meta itemprop="top" content="706">
+              <meta itemprop="right" content="1037">
+              <meta itemprop="bottom" content="749">
+            </span>
+          </li>
+          <li itemprop="callouts" itemscope repeat>
+            <meta itemprop="figurePage" content="0">
+            <meta itemprop="id" content="72">
+            <meta itemprop="label" content="Box">
+            <span itemprop="bounds" itemscope>
+              <meta itemprop="left" content="1021">
+              <meta itemprop="top" content="1088">
+              <meta itemprop="right" content="1089">
+              <meta itemprop="bottom" content="1130">
+            </span>
+          </li>
+          <li itemprop="callouts" itemscope repeat>
+            <meta itemprop="figurePage" content="0">
+            <meta itemprop="id" content="74">
+            <meta itemprop="label" content="Box">
+            <span itemprop="bounds" itemscope>
+              <meta itemprop="left" content="262">
+              <meta itemprop="top" content="1474">
+              <meta itemprop="right" content="338">
+              <meta itemprop="bottom" content="1516">
+            </span>
+          </li>
+          <li itemprop="callouts" itemscope repeat>
+            <meta itemprop="figurePage" content="0">
+            <meta itemprop="id" content="76">
+            <meta itemprop="label" content="Box">
+            <span itemprop="bounds" itemscope>
+              <meta itemprop="left" content="952">
+              <meta itemprop="top" content="2568">
+              <meta itemprop="right" content="1026">
+              <meta itemprop="bottom" content="2612">
+            </span>
+          </li>
+          <li itemprop="callouts" itemscope repeat>
+            <meta itemprop="figurePage" content="0">
+            <meta itemprop="id" content="78">
+            <meta itemprop="label" content="Box">
+            <span itemprop="bounds" itemscope>
+              <meta itemprop="left" content="840">
+              <meta itemprop="top" content="2771">
+              <meta itemprop="right" content="918">
+              <meta itemprop="bottom" content="2814">
+            </span>
+          </li>
+          <li itemprop="callouts" itemscope repeat>
+            <meta itemprop="figurePage" content="0">
+            <meta itemprop="id" content="82">
+            <meta itemprop="label" content="Box">
+            <span itemprop="bounds" itemscope>
+              <meta itemprop="left" content="1004">
+              <meta itemprop="top" content="1955">
+              <meta itemprop="right" content="1081">
+              <meta itemprop="bottom" content="1996">
+            </span>
+          </li>
+        </ul>
+      </li>
+      <li itemprop="images" itemscope repeat>
+        <img itemprop="thumbnail" src="https://patentimages.storage.googleapis.com/11/26/26/c7daa64f8e2a39/US10273739-20190430-D00001.png">
+        <meta itemprop="full" content="https://patentimages.storage.googleapis.com/5f/7c/f0/8be25aeeeaf03a/US10273739-20190430-D00001.png">
+        <ul>
+          <li itemprop="callouts" itemscope repeat>
+            <meta itemprop="figurePage" content="1">
+            <meta itemprop="id" content="10">
+            <meta itemprop="label" content="system">
+            <span itemprop="bounds" itemscope>
+              <meta itemprop="left" content="115">
+              <meta itemprop="top" content="460">
+              <meta itemprop="right" content="165">
+              <meta itemprop="bottom" content="526">
+            </span>
+          </li>
+          <li itemprop="callouts" itemscope repeat>
+            <meta itemprop="figurePage" content="1">
+            <meta itemprop="id" content="12">
+            <meta itemprop="label" content="closures">
+            <span itemprop="bounds" itemscope>
+              <meta itemprop="left" content="498">
+              <meta itemprop="top" content="2781">
+              <meta itemprop="right" content="539">
+              <meta itemprop="bottom" content="2840">
+            </span>
+          </li>
+          <li itemprop="callouts" itemscope repeat>
+            <meta itemprop="figurePage" content="1">
+            <meta itemprop="id" content="14">
+            <meta itemprop="label" content="closures">
+            <span itemprop="bounds" itemscope>
+              <meta itemprop="left" content="510">
+              <meta itemprop="top" content="134">
+              <meta itemprop="right" content="552">
+              <meta itemprop="bottom" content="197">
+            </span>
+          </li>
+          <li itemprop="callouts" itemscope repeat>
+            <meta itemprop="figurePage" content="1">
+            <meta itemprop="id" content="16">
+            <meta itemprop="label" content="closures">
+            <span itemprop="bounds" itemscope>
+              <meta itemprop="left" content="1238">
+              <meta itemprop="top" content="2775">
+              <meta itemprop="right" content="1281">
+              <meta itemprop="bottom" content="2846">
+            </span>
+          </li>
+          <li itemprop="callouts" itemscope repeat>
+            <meta itemprop="figurePage" content="1">
+            <meta itemprop="id" content="18">
+            <meta itemprop="label" content="closures">
+            <span itemprop="bounds" itemscope>
+              <meta itemprop="left" content="1223">
+              <meta itemprop="top" content="138">
+              <meta itemprop="right" content="1266">
+              <meta itemprop="bottom" content="201">
+            </span>
+          </li>
+          <li itemprop="callouts" itemscope repeat>
+            <meta itemprop="figurePage" content="1">
+            <meta itemprop="id" content="20">
+            <meta itemprop="label" content="closures">
+            <span itemprop="bounds" itemscope>
+              <meta itemprop="left" content="1792">
+              <meta itemprop="top" content="1041">
+              <meta itemprop="right" content="1834">
+              <meta itemprop="bottom" content="1105">
+            </span>
+          </li>
+          <li itemprop="callouts" itemscope repeat>
+            <meta itemprop="figurePage" content="1">
+            <meta itemprop="id" content="22">
+            <meta itemprop="label" content="closure modules">
+            <span itemprop="bounds" itemscope>
+              <meta itemprop="left" content="290">
+              <meta itemprop="top" content="2014">
+              <meta itemprop="right" content="327">
+              <meta itemprop="bottom" content="2079">
+            </span>
+          </li>
+          <li itemprop="callouts" itemscope repeat>
+            <meta itemprop="figurePage" content="1">
+            <meta itemprop="id" content="24">
+            <meta itemprop="label" content="closure modules">
+            <span itemprop="bounds" itemscope>
+              <meta itemprop="left" content="301">
+              <meta itemprop="top" content="909">
+              <meta itemprop="right" content="342">
+              <meta itemprop="bottom" content="973">
+            </span>
+          </li>
+          <li itemprop="callouts" itemscope repeat>
+            <meta itemprop="figurePage" content="1">
+            <meta itemprop="id" content="26">
+            <meta itemprop="label" content="closure modules">
+            <span itemprop="bounds" itemscope>
+              <meta itemprop="left" content="1297">
+              <meta itemprop="top" content="2353">
+              <meta itemprop="right" content="1336">
+              <meta itemprop="bottom" content="2430">
+            </span>
+          </li>
+          <li itemprop="callouts" itemscope repeat>
+            <meta itemprop="figurePage" content="1">
+            <meta itemprop="id" content="28">
+            <meta itemprop="label" content="closure modules">
+            <span itemprop="bounds" itemscope>
+              <meta itemprop="left" content="1286">
+              <meta itemprop="top" content="862">
+              <meta itemprop="right" content="1329">
+              <meta itemprop="bottom" content="929">
+            </span>
+          </li>
+          <li itemprop="callouts" itemscope repeat>
+            <meta itemprop="figurePage" content="1">
+            <meta itemprop="id" content="30">
+            <meta itemprop="label" content="closure module">
+            <span itemprop="bounds" itemscope>
+              <meta itemprop="left" content="1511">
+              <meta itemprop="top" content="1969">
+              <meta itemprop="right" content="1555">
+              <meta itemprop="bottom" content="2037">
+            </span>
+          </li>
+          <li itemprop="callouts" itemscope repeat>
+            <meta itemprop="figurePage" content="1">
+            <meta itemprop="id" content="32">
+            <meta itemprop="label" content="controller">
+            <span itemprop="bounds" itemscope>
+              <meta itemprop="left" content="1271">
+              <meta itemprop="top" content="1027">
+              <meta itemprop="right" content="1311">
+              <meta itemprop="bottom" content="1093">
+            </span>
+          </li>
+          <li itemprop="callouts" itemscope repeat>
+            <meta itemprop="figurePage" content="1">
+            <meta itemprop="id" content="32">
+            <meta itemprop="label" content="controller">
+            <span itemprop="bounds" itemscope>
+              <meta itemprop="left" content="336">
+              <meta itemprop="top" content="491">
+              <meta itemprop="right" content="378">
+              <meta itemprop="bottom" content="568">
+            </span>
+          </li>
+          <li itemprop="callouts" itemscope repeat>
+            <meta itemprop="figurePage" content="1">
+            <meta itemprop="id" content="32">
+            <meta itemprop="label" content="controller">
+            <span itemprop="bounds" itemscope>
+              <meta itemprop="left" content="867">
+              <meta itemprop="top" content="318">
+              <meta itemprop="right" content="907">
+              <meta itemprop="bottom" content="382">
+            </span>
+          </li>
+          <li itemprop="callouts" itemscope repeat>
+            <meta itemprop="figurePage" content="1">
+            <meta itemprop="id" content="32">
+            <meta itemprop="label" content="controller">
+            <span itemprop="bounds" itemscope>
+              <meta itemprop="left" content="323">
+              <meta itemprop="top" content="2349">
+              <meta itemprop="right" content="361">
+              <meta itemprop="bottom" content="2423">
+            </span>
+          </li>
+          <li itemprop="callouts" itemscope repeat>
+            <meta itemprop="figurePage" content="1">
+            <meta itemprop="id" content="32">
+            <meta itemprop="label" content="controller">
+            <span itemprop="bounds" itemscope>
+              <meta itemprop="left" content="860">
+              <meta itemprop="top" content="2601">
+              <meta itemprop="right" content="901">
+              <meta itemprop="bottom" content="2666">
+            </span>
+          </li>
+          <li itemprop="callouts" itemscope repeat>
+            <meta itemprop="figurePage" content="1">
+            <meta itemprop="id" content="34">
+            <meta itemprop="label" content="mechanical actuator">
+            <span itemprop="bounds" itemscope>
+              <meta itemprop="left" content="708">
+              <meta itemprop="top" content="1774">
+              <meta itemprop="right" content="753">
+              <meta itemprop="bottom" content="1839">
+            </span>
+          </li>
+          <li itemprop="callouts" itemscope repeat>
+            <meta itemprop="figurePage" content="1">
+            <meta itemprop="id" content="34">
+            <meta itemprop="label" content="mechanical actuator">
+            <span itemprop="bounds" itemscope>
+              <meta itemprop="left" content="553">
+              <meta itemprop="top" content="347">
+              <meta itemprop="right" content="593">
+              <meta itemprop="bottom" content="422">
+            </span>
+          </li>
+          <li itemprop="callouts" itemscope repeat>
+            <meta itemprop="figurePage" content="1">
+            <meta itemprop="id" content="34">
+            <meta itemprop="label" content="mechanical actuator">
+            <span itemprop="bounds" itemscope>
+              <meta itemprop="left" content="1244">
+              <meta itemprop="top" content="518">
+              <meta itemprop="right" content="1288">
+              <meta itemprop="bottom" content="578">
+            </span>
+          </li>
+          <li itemprop="callouts" itemscope repeat>
+            <meta itemprop="figurePage" content="1">
+            <meta itemprop="id" content="34">
+            <meta itemprop="label" content="mechanical actuator">
+            <span itemprop="bounds" itemscope>
+              <meta itemprop="left" content="1252">
+              <meta itemprop="top" content="1947">
+              <meta itemprop="right" content="1296">
+              <meta itemprop="bottom" content="2022">
+            </span>
+          </li>
+          <li itemprop="callouts" itemscope repeat>
+            <meta itemprop="figurePage" content="1">
+            <meta itemprop="id" content="34">
+            <meta itemprop="label" content="mechanical actuator">
+            <span itemprop="bounds" itemscope>
+              <meta itemprop="left" content="1512">
+              <meta itemprop="top" content="1037">
+              <meta itemprop="right" content="1556">
+              <meta itemprop="bottom" content="1111">
+            </span>
+          </li>
+          <li itemprop="callouts" itemscope repeat>
+            <meta itemprop="figurePage" content="1">
+            <meta itemprop="id" content="36">
+            <meta itemprop="label" content="BCM">
+            <span itemprop="bounds" itemscope>
+              <meta itemprop="left" content="416">
+              <meta itemprop="top" content="1702">
+              <meta itemprop="right" content="456">
+              <meta itemprop="bottom" content="1775">
+            </span>
+          </li>
+          <li itemprop="callouts" itemscope repeat>
+            <meta itemprop="figurePage" content="1">
+            <meta itemprop="id" content="54">
+            <meta itemprop="label" content="data input">
+            <span itemprop="bounds" itemscope>
+              <meta itemprop="left" content="453">
+              <meta itemprop="top" content="1312">
+              <meta itemprop="right" content="494">
+              <meta itemprop="bottom" content="1376">
+            </span>
+          </li>
+          <li itemprop="callouts" itemscope repeat>
+            <meta itemprop="figurePage" content="1">
+            <meta itemprop="id" content="56">
+            <meta itemprop="label" content="device">
+            <span itemprop="bounds" itemscope>
+              <meta itemprop="left" content="149">
+              <meta itemprop="top" content="1578">
+              <meta itemprop="right" content="190">
+              <meta itemprop="bottom" content="1650">
+            </span>
+          </li>
+          <li itemprop="callouts" itemscope repeat>
+            <meta itemprop="figurePage" content="1">
+            <meta itemprop="id" content="58">
+            <meta itemprop="label" content="additional data inputs">
+            <span itemprop="bounds" itemscope>
+              <meta itemprop="left" content="521">
+              <meta itemprop="top" content="1818">
+              <meta itemprop="right" content="565">
+              <meta itemprop="bottom" content="1892">
+            </span>
+          </li>
+          <li itemprop="callouts" itemscope repeat>
+            <meta itemprop="figurePage" content="1">
+            <meta itemprop="id" content="60">
+            <meta itemprop="label" content="additional data inputs">
+            <span itemprop="bounds" itemscope>
+              <meta itemprop="left" content="453">
+              <meta itemprop="top" content="1135">
+              <meta itemprop="right" content="498">
+              <meta itemprop="bottom" content="1200">
+            </span>
+          </li>
+          <li itemprop="callouts" itemscope repeat>
+            <meta itemprop="figurePage" content="1">
+            <meta itemprop="id" content="62">
+            <meta itemprop="label" content="additional data inputs">
+            <span itemprop="bounds" itemscope>
+              <meta itemprop="left" content="1117">
+              <meta itemprop="top" content="1790">
+              <meta itemprop="right" content="1160">
+              <meta itemprop="bottom" content="1856">
+            </span>
+          </li>
+          <li itemprop="callouts" itemscope repeat>
+            <meta itemprop="figurePage" content="1">
+            <meta itemprop="id" content="64">
+            <meta itemprop="label" content="additional data inputs">
+            <span itemprop="bounds" itemscope>
+              <meta itemprop="left" content="1131">
+              <meta itemprop="top" content="1125">
+              <meta itemprop="right" content="1171">
+              <meta itemprop="bottom" content="1189">
+            </span>
+          </li>
+          <li itemprop="callouts" itemscope repeat>
+            <meta itemprop="figurePage" content="1">
+            <meta itemprop="id" content="66">
+            <meta itemprop="label" content="additional data inputs">
+            <span itemprop="bounds" itemscope>
+              <meta itemprop="left" content="1150">
+              <meta itemprop="top" content="1576">
+              <meta itemprop="right" content="1194">
+              <meta itemprop="bottom" content="1639">
+            </span>
+          </li>
+        </ul>
+      </li>
+      <li itemprop="images" itemscope repeat>
+        <img itemprop="thumbnail" src="https://patentimages.storage.googleapis.com/55/ce/a6/bdb3dd23159714/US10273739-20190430-D00002.png">
+        <meta itemprop="full" content="https://patentimages.storage.googleapis.com/12/b6/dc/44a75e0a387ed6/US10273739-20190430-D00002.png">
+        <ul>
+          <li itemprop="callouts" itemscope repeat>
+            <meta itemprop="figurePage" content="2">
+            <meta itemprop="id" content="36">
+            <meta itemprop="label" content="BCM">
+            <span itemprop="bounds" itemscope>
+              <meta itemprop="left" content="181">
+              <meta itemprop="top" content="371">
+              <meta itemprop="right" content="225">
+              <meta itemprop="bottom" content="438">
+            </span>
+          </li>
+          <li itemprop="callouts" itemscope repeat>
+            <meta itemprop="figurePage" content="2">
+            <meta itemprop="id" content="38">
+            <meta itemprop="label" content="more processors">
+            <span itemprop="bounds" itemscope>
+              <meta itemprop="left" content="307">
+              <meta itemprop="top" content="2089">
+              <meta itemprop="right" content="349">
+              <meta itemprop="bottom" content="2163">
+            </span>
+          </li>
+          <li itemprop="callouts" itemscope repeat>
+            <meta itemprop="figurePage" content="2">
+            <meta itemprop="id" content="40">
+            <meta itemprop="label" content="more memories">
+            <span itemprop="bounds" itemscope>
+              <meta itemprop="left" content="310">
+              <meta itemprop="top" content="1325">
+              <meta itemprop="right" content="358">
+              <meta itemprop="bottom" content="1398">
+            </span>
+          </li>
+          <li itemprop="callouts" itemscope repeat>
+            <meta itemprop="figurePage" content="2">
+            <meta itemprop="id" content="42">
+            <meta itemprop="label" content="more network interfaces">
+            <span itemprop="bounds" itemscope>
+              <meta itemprop="left" content="314">
+              <meta itemprop="top" content="169">
+              <meta itemprop="right" content="352">
+              <meta itemprop="bottom" content="235">
+            </span>
+          </li>
+          <li itemprop="callouts" itemscope repeat>
+            <meta itemprop="figurePage" content="2">
+            <meta itemprop="id" content="44">
+            <meta itemprop="label" content="human interface">
+            <span itemprop="bounds" itemscope>
+              <meta itemprop="left" content="1514">
+              <meta itemprop="top" content="2084">
+              <meta itemprop="right" content="1553">
+              <meta itemprop="bottom" content="2153">
+            </span>
+          </li>
+          <li itemprop="callouts" itemscope repeat>
+            <meta itemprop="figurePage" content="2">
+            <meta itemprop="id" content="46">
+            <meta itemprop="label" content="geolocator">
+            <span itemprop="bounds" itemscope>
+              <meta itemprop="left" content="1504">
+              <meta itemprop="top" content="1538">
+              <meta itemprop="right" content="1546">
+              <meta itemprop="bottom" content="1610">
+            </span>
+          </li>
+          <li itemprop="callouts" itemscope repeat>
+            <meta itemprop="figurePage" content="2">
+            <meta itemprop="id" content="48">
+            <meta itemprop="label" content="display device">
+            <span itemprop="bounds" itemscope>
+              <meta itemprop="left" content="1498">
+              <meta itemprop="top" content="684">
+              <meta itemprop="right" content="1540">
+              <meta itemprop="bottom" content="747">
+            </span>
+          </li>
+          <li itemprop="callouts" itemscope repeat>
+            <meta itemprop="figurePage" content="2">
+            <meta itemprop="id" content="50">
+            <meta itemprop="label" content="speech processor">
+            <span itemprop="bounds" itemscope>
+              <meta itemprop="left" content="1496">
+              <meta itemprop="top" content="222">
+              <meta itemprop="right" content="1539">
+              <meta itemprop="bottom" content="287">
+            </span>
+          </li>
+          <li itemprop="callouts" itemscope repeat>
+            <meta itemprop="figurePage" content="2">
+            <meta itemprop="id" content="52">
+            <meta itemprop="label" content="communication bus">
+            <span itemprop="bounds" itemscope>
+              <meta itemprop="left" content="983">
+              <meta itemprop="top" content="2387">
+              <meta itemprop="right" content="1024">
+              <meta itemprop="bottom" content="2460">
+            </span>
+          </li>
+        </ul>
+      </li>
+      <li itemprop="images" itemscope repeat>
+        <img itemprop="thumbnail" src="https://patentimages.storage.googleapis.com/5b/e4/24/50082978663e20/US10273739-20190430-D00003.png">
+        <meta itemprop="full" content="https://patentimages.storage.googleapis.com/ea/a9/01/ca3e89fcc401cc/US10273739-20190430-D00003.png">
+        <ul>
+          <li itemprop="callouts" itemscope repeat>
+            <meta itemprop="figurePage" content="3">
+            <meta itemprop="id" content="70">
+            <meta itemprop="label" content="Box">
+            <span itemprop="bounds" itemscope>
+              <meta itemprop="left" content="1008">
+              <meta itemprop="top" content="750">
+              <meta itemprop="right" content="1087">
+              <meta itemprop="bottom" content="796">
+            </span>
+          </li>
+          <li itemprop="callouts" itemscope repeat>
+            <meta itemprop="figurePage" content="3">
+            <meta itemprop="id" content="72">
+            <meta itemprop="label" content="Box">
+            <span itemprop="bounds" itemscope>
+              <meta itemprop="left" content="1059">
+              <meta itemprop="top" content="1135">
+              <meta itemprop="right" content="1131">
+              <meta itemprop="bottom" content="1175">
+            </span>
+          </li>
+          <li itemprop="callouts" itemscope repeat>
+            <meta itemprop="figurePage" content="3">
+            <meta itemprop="id" content="74">
+            <meta itemprop="label" content="Box">
+            <span itemprop="bounds" itemscope>
+              <meta itemprop="left" content="305">
+              <meta itemprop="top" content="1520">
+              <meta itemprop="right" content="373">
+              <meta itemprop="bottom" content="1562">
+            </span>
+          </li>
+          <li itemprop="callouts" itemscope repeat>
+            <meta itemprop="figurePage" content="3">
+            <meta itemprop="id" content="76">
+            <meta itemprop="label" content="Box">
+            <span itemprop="bounds" itemscope>
+              <meta itemprop="left" content="996">
+              <meta itemprop="top" content="2613">
+              <meta itemprop="right" content="1071">
+              <meta itemprop="bottom" content="2656">
+            </span>
+          </li>
+          <li itemprop="callouts" itemscope repeat>
+            <meta itemprop="figurePage" content="3">
+            <meta itemprop="id" content="78">
+            <meta itemprop="label" content="Box">
+            <span itemprop="bounds" itemscope>
+              <meta itemprop="left" content="890">
+              <meta itemprop="top" content="2815">
+              <meta itemprop="right" content="963">
+              <meta itemprop="bottom" content="2860">
+            </span>
+          </li>
+          <li itemprop="callouts" itemscope repeat>
+            <meta itemprop="figurePage" content="3">
+            <meta itemprop="id" content="82">
+            <meta itemprop="label" content="Box">
+            <span itemprop="bounds" itemscope>
+              <meta itemprop="left" content="1050">
+              <meta itemprop="top" content="2000">
+              <meta itemprop="right" content="1127">
+              <meta itemprop="bottom" content="2042">
+            </span>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Classifications</h2>
+    <ul>
+      <li>
+        <ul itemprop="classifications" itemscope repeat>
+          <li itemprop="classifications" itemscope repeat>
+            <span itemprop="Code">E</span>&mdash;<span itemprop="Description">FIXED CONSTRUCTIONS</span>
+            <meta itemprop="IsCPC" content="true">
+          </li>
+          <li itemprop="classifications" itemscope repeat>
+            <span itemprop="Code">E05</span>&mdash;<span itemprop="Description">LOCKS; KEYS; WINDOW OR DOOR FITTINGS; SAFES</span>
+            <meta itemprop="IsCPC" content="true">
+          </li>
+          <li itemprop="classifications" itemscope repeat>
+            <span itemprop="Code">E05F</span>&mdash;<span itemprop="Description">DEVICES FOR MOVING WINGS INTO OPEN OR CLOSED POSITION; CHECKS FOR WINGS; WING FITTINGS NOT OTHERWISE PROVIDED FOR, CONCERNED WITH THE FUNCTIONING OF THE WING</span>
+            <meta itemprop="IsCPC" content="true">
+          </li>
+          <li itemprop="classifications" itemscope repeat>
+            <span itemprop="Code">E05F15/00</span>&mdash;<span itemprop="Description">Power-operated mechanisms for wings</span>
+            <meta itemprop="IsCPC" content="true">
+          </li>
+          <li itemprop="classifications" itemscope repeat>
+            <span itemprop="Code">E05F15/70</span>&mdash;<span itemprop="Description">Power-operated mechanisms for wings with automatic actuation</span>
+            <meta itemprop="Leaf" content="true"><meta itemprop="FirstCode" content="true"><meta itemprop="IsCPC" content="true">
+          </li>
+        </ul>
+      </li>
+      <li>
+        <ul itemprop="classifications" itemscope repeat>
+          <li itemprop="classifications" itemscope repeat>
+            <span itemprop="Code">B</span>&mdash;<span itemprop="Description">PERFORMING OPERATIONS; TRANSPORTING</span>
+            <meta itemprop="IsCPC" content="true">
+          </li>
+          <li itemprop="classifications" itemscope repeat>
+            <span itemprop="Code">B60</span>&mdash;<span itemprop="Description">VEHICLES IN GENERAL</span>
+            <meta itemprop="IsCPC" content="true">
+          </li>
+          <li itemprop="classifications" itemscope repeat>
+            <span itemprop="Code">B60K</span>&mdash;<span itemprop="Description">ARRANGEMENT OR MOUNTING OF PROPULSION UNITS OR OF TRANSMISSIONS IN VEHICLES; ARRANGEMENT OR MOUNTING OF PLURAL DIVERSE PRIME-MOVERS IN VEHICLES; AUXILIARY DRIVES FOR VEHICLES; INSTRUMENTATION OR DASHBOARDS FOR VEHICLES; ARRANGEMENTS IN CONNECTION WITH COOLING, AIR INTAKE, GAS EXHAUST OR FUEL SUPPLY OF PROPULSION UNITS IN VEHICLES</span>
+            <meta itemprop="IsCPC" content="true">
+          </li>
+          <li itemprop="classifications" itemscope repeat>
+            <span itemprop="Code">B60K35/00</span>&mdash;<span itemprop="Description">Instruments specially adapted for vehicles; Arrangement of instruments in or on vehicles</span>
+            <meta itemprop="Leaf" content="true"><meta itemprop="IsCPC" content="true">
+          </li>
+        </ul>
+      </li>
+      <li>
+        <ul itemprop="classifications" itemscope repeat>
+          <li itemprop="classifications" itemscope repeat>
+            <span itemprop="Code">B</span>&mdash;<span itemprop="Description">PERFORMING OPERATIONS; TRANSPORTING</span>
+            <meta itemprop="IsCPC" content="true">
+          </li>
+          <li itemprop="classifications" itemscope repeat>
+            <span itemprop="Code">B60</span>&mdash;<span itemprop="Description">VEHICLES IN GENERAL</span>
+            <meta itemprop="IsCPC" content="true">
+          </li>
+          <li itemprop="classifications" itemscope repeat>
+            <span itemprop="Code">B60K</span>&mdash;<span itemprop="Description">ARRANGEMENT OR MOUNTING OF PROPULSION UNITS OR OF TRANSMISSIONS IN VEHICLES; ARRANGEMENT OR MOUNTING OF PLURAL DIVERSE PRIME-MOVERS IN VEHICLES; AUXILIARY DRIVES FOR VEHICLES; INSTRUMENTATION OR DASHBOARDS FOR VEHICLES; ARRANGEMENTS IN CONNECTION WITH COOLING, AIR INTAKE, GAS EXHAUST OR FUEL SUPPLY OF PROPULSION UNITS IN VEHICLES</span>
+            <meta itemprop="IsCPC" content="true">
+          </li>
+          <li itemprop="classifications" itemscope repeat>
+            <span itemprop="Code">B60K35/00</span>&mdash;<span itemprop="Description">Instruments specially adapted for vehicles; Arrangement of instruments in or on vehicles</span>
+            <meta itemprop="IsCPC" content="true">
+          </li>
+          <li itemprop="classifications" itemscope repeat>
+            <span itemprop="Code">B60K35/20</span>&mdash;<span itemprop="Description">Output arrangements, i.e. from vehicle to user, associated with vehicle functions or specially adapted therefor</span>
+            <meta itemprop="IsCPC" content="true">
+          </li>
+          <li itemprop="classifications" itemscope repeat>
+            <span itemprop="Code">B60K35/21</span>&mdash;<span itemprop="Description">Output arrangements, i.e. from vehicle to user, associated with vehicle functions or specially adapted therefor using visual output, e.g. blinking lights or matrix displays</span>
+            <meta itemprop="IsCPC" content="true">
+          </li>
+          <li itemprop="classifications" itemscope repeat>
+            <span itemprop="Code">B60K35/22</span>&mdash;<span itemprop="Description">Display screens</span>
+            <meta itemprop="Leaf" content="true"><meta itemprop="IsCPC" content="true">
+          </li>
+        </ul>
+      </li>
+      <li>
+        <ul itemprop="classifications" itemscope repeat>
+          <li itemprop="classifications" itemscope repeat>
+            <span itemprop="Code">B</span>&mdash;<span itemprop="Description">PERFORMING OPERATIONS; TRANSPORTING</span>
+            <meta itemprop="IsCPC" content="true">
+          </li>
+          <li itemprop="classifications" itemscope repeat>
+            <span itemprop="Code">B60</span>&mdash;<span itemprop="Description">VEHICLES IN GENERAL</span>
+            <meta itemprop="IsCPC" content="true">
+          </li>
+          <li itemprop="classifications" itemscope repeat>
+            <span itemprop="Code">B60K</span>&mdash;<span itemprop="Description">ARRANGEMENT OR MOUNTING OF PROPULSION UNITS OR OF TRANSMISSIONS IN VEHICLES; ARRANGEMENT OR MOUNTING OF PLURAL DIVERSE PRIME-MOVERS IN VEHICLES; AUXILIARY DRIVES FOR VEHICLES; INSTRUMENTATION OR DASHBOARDS FOR VEHICLES; ARRANGEMENTS IN CONNECTION WITH COOLING, AIR INTAKE, GAS EXHAUST OR FUEL SUPPLY OF PROPULSION UNITS IN VEHICLES</span>
+            <meta itemprop="IsCPC" content="true">
+          </li>
+          <li itemprop="classifications" itemscope repeat>
+            <span itemprop="Code">B60K35/00</span>&mdash;<span itemprop="Description">Instruments specially adapted for vehicles; Arrangement of instruments in or on vehicles</span>
+            <meta itemprop="IsCPC" content="true">
+          </li>
+          <li itemprop="classifications" itemscope repeat>
+            <span itemprop="Code">B60K35/50</span>&mdash;<span itemprop="Description">Instruments characterised by their means of attachment to or integration in the vehicle</span>
+            <meta itemprop="Leaf" content="true"><meta itemprop="IsCPC" content="true">
+          </li>
+        </ul>
+      </li>
+      <li>
+        <ul itemprop="classifications" itemscope repeat>
+          <li itemprop="classifications" itemscope repeat>
+            <span itemprop="Code">B</span>&mdash;<span itemprop="Description">PERFORMING OPERATIONS; TRANSPORTING</span>
+            <meta itemprop="IsCPC" content="true">
+          </li>
+          <li itemprop="classifications" itemscope repeat>
+            <span itemprop="Code">B60</span>&mdash;<span itemprop="Description">VEHICLES IN GENERAL</span>
+            <meta itemprop="IsCPC" content="true">
+          </li>
+          <li itemprop="classifications" itemscope repeat>
+            <span itemprop="Code">B60K</span>&mdash;<span itemprop="Description">ARRANGEMENT OR MOUNTING OF PROPULSION UNITS OR OF TRANSMISSIONS IN VEHICLES; ARRANGEMENT OR MOUNTING OF PLURAL DIVERSE PRIME-MOVERS IN VEHICLES; AUXILIARY DRIVES FOR VEHICLES; INSTRUMENTATION OR DASHBOARDS FOR VEHICLES; ARRANGEMENTS IN CONNECTION WITH COOLING, AIR INTAKE, GAS EXHAUST OR FUEL SUPPLY OF PROPULSION UNITS IN VEHICLES</span>
+            <meta itemprop="IsCPC" content="true">
+          </li>
+          <li itemprop="classifications" itemscope repeat>
+            <span itemprop="Code">B60K35/00</span>&mdash;<span itemprop="Description">Instruments specially adapted for vehicles; Arrangement of instruments in or on vehicles</span>
+            <meta itemprop="IsCPC" content="true">
+          </li>
+          <li itemprop="classifications" itemscope repeat>
+            <span itemprop="Code">B60K35/80</span>&mdash;<span itemprop="Description">Arrangements for controlling instruments</span>
+            <meta itemprop="Leaf" content="true"><meta itemprop="IsCPC" content="true">
+          </li>
+        </ul>
+      </li>
+      <li>
+        <ul itemprop="classifications" itemscope repeat>
+          <li itemprop="classifications" itemscope repeat>
+            <span itemprop="Code">B</span>&mdash;<span itemprop="Description">PERFORMING OPERATIONS; TRANSPORTING</span>
+            <meta itemprop="IsCPC" content="true">
+          </li>
+          <li itemprop="classifications" itemscope repeat>
+            <span itemprop="Code">B60</span>&mdash;<span itemprop="Description">VEHICLES IN GENERAL</span>
+            <meta itemprop="IsCPC" content="true">
+          </li>
+          <li itemprop="classifications" itemscope repeat>
+            <span itemprop="Code">B60K</span>&mdash;<span itemprop="Description">ARRANGEMENT OR MOUNTING OF PROPULSION UNITS OR OF TRANSMISSIONS IN VEHICLES; ARRANGEMENT OR MOUNTING OF PLURAL DIVERSE PRIME-MOVERS IN VEHICLES; AUXILIARY DRIVES FOR VEHICLES; INSTRUMENTATION OR DASHBOARDS FOR VEHICLES; ARRANGEMENTS IN CONNECTION WITH COOLING, AIR INTAKE, GAS EXHAUST OR FUEL SUPPLY OF PROPULSION UNITS IN VEHICLES</span>
+            <meta itemprop="IsCPC" content="true">
+          </li>
+          <li itemprop="classifications" itemscope repeat>
+            <span itemprop="Code">B60K35/00</span>&mdash;<span itemprop="Description">Instruments specially adapted for vehicles; Arrangement of instruments in or on vehicles</span>
+            <meta itemprop="IsCPC" content="true">
+          </li>
+          <li itemprop="classifications" itemscope repeat>
+            <span itemprop="Code">B60K35/90</span>&mdash;<span itemprop="Description">Calibration of instruments, e.g. setting initial or reference parameters; Testing of instruments, e.g. detecting malfunction</span>
+            <meta itemprop="Leaf" content="true"><meta itemprop="IsCPC" content="true">
+          </li>
+        </ul>
+      </li>
+      <li>
+        <ul itemprop="classifications" itemscope repeat>
+          <li itemprop="classifications" itemscope repeat>
+            <span itemprop="Code">B</span>&mdash;<span itemprop="Description">PERFORMING OPERATIONS; TRANSPORTING</span>
+            <meta itemprop="IsCPC" content="true">
+          </li>
+          <li itemprop="classifications" itemscope repeat>
+            <span itemprop="Code">B60</span>&mdash;<span itemprop="Description">VEHICLES IN GENERAL</span>
+            <meta itemprop="IsCPC" content="true">
+          </li>
+          <li itemprop="classifications" itemscope repeat>
+            <span itemprop="Code">B60Q</span>&mdash;<span itemprop="Description">ARRANGEMENT OF SIGNALLING OR LIGHTING DEVICES, THE MOUNTING OR SUPPORTING THEREOF OR CIRCUITS THEREFOR, FOR VEHICLES IN GENERAL</span>
+            <meta itemprop="IsCPC" content="true">
+          </li>
+          <li itemprop="classifications" itemscope repeat>
+            <span itemprop="Code">B60Q9/00</span>&mdash;<span itemprop="Description">Arrangement or adaptation of signal devices not provided for in one of main groups B60Q1/00 - B60Q7/00, e.g. haptic signalling</span>
+            <meta itemprop="Leaf" content="true"><meta itemprop="IsCPC" content="true">
+          </li>
+        </ul>
+      </li>
+      <li>
+        <ul itemprop="classifications" itemscope repeat>
+          <li itemprop="classifications" itemscope repeat>
+            <span itemprop="Code">B</span>&mdash;<span itemprop="Description">PERFORMING OPERATIONS; TRANSPORTING</span>
+            <meta itemprop="IsCPC" content="true">
+          </li>
+          <li itemprop="classifications" itemscope repeat>
+            <span itemprop="Code">B60</span>&mdash;<span itemprop="Description">VEHICLES IN GENERAL</span>
+            <meta itemprop="IsCPC" content="true">
+          </li>
+          <li itemprop="classifications" itemscope repeat>
+            <span itemprop="Code">B60R</span>&mdash;<span itemprop="Description">VEHICLES, VEHICLE FITTINGS, OR VEHICLE PARTS, NOT OTHERWISE PROVIDED FOR</span>
+            <meta itemprop="IsCPC" content="true">
+          </li>
+          <li itemprop="classifications" itemscope repeat>
+            <span itemprop="Code">B60R16/00</span>&mdash;<span itemprop="Description">Electric or fluid circuits specially adapted for vehicles and not otherwise provided for; Arrangement of elements of electric or fluid circuits specially adapted for vehicles and not otherwise provided for</span>
+            <meta itemprop="IsCPC" content="true">
+          </li>
+          <li itemprop="classifications" itemscope repeat>
+            <span itemprop="Code">B60R16/02</span>&mdash;<span itemprop="Description">Electric or fluid circuits specially adapted for vehicles and not otherwise provided for; Arrangement of elements of electric or fluid circuits specially adapted for vehicles and not otherwise provided for electric constitutive elements</span>
+            <meta itemprop="IsCPC" content="true">
+          </li>
+          <li itemprop="classifications" itemscope repeat>
+            <span itemprop="Code">B60R16/023</span>&mdash;<span itemprop="Description">Electric or fluid circuits specially adapted for vehicles and not otherwise provided for; Arrangement of elements of electric or fluid circuits specially adapted for vehicles and not otherwise provided for electric constitutive elements for transmission of signals between vehicle parts or subsystems</span>
+            <meta itemprop="IsCPC" content="true">
+          </li>
+          <li itemprop="classifications" itemscope repeat>
+            <span itemprop="Code">B60R16/0231</span>&mdash;<span itemprop="Description">Circuits relating to the driving or the functioning of the vehicle</span>
+            <meta itemprop="IsCPC" content="true">
+          </li>
+          <li itemprop="classifications" itemscope repeat>
+            <span itemprop="Code">B60R16/0232</span>&mdash;<span itemprop="Description">Circuits relating to the driving or the functioning of the vehicle for measuring vehicle parameters and indicating critical, abnormal or dangerous conditions</span>
+            <meta itemprop="Leaf" content="true"><meta itemprop="IsCPC" content="true">
+          </li>
+        </ul>
+      </li>
+      <li>
+        <ul itemprop="classifications" itemscope repeat>
+          <li itemprop="classifications" itemscope repeat>
+            <span itemprop="Code">E</span>&mdash;<span itemprop="Description">FIXED CONSTRUCTIONS</span>
+            <meta itemprop="IsCPC" content="true">
+          </li>
+          <li itemprop="classifications" itemscope repeat>
+            <span itemprop="Code">E05</span>&mdash;<span itemprop="Description">LOCKS; KEYS; WINDOW OR DOOR FITTINGS; SAFES</span>
+            <meta itemprop="IsCPC" content="true">
+          </li>
+          <li itemprop="classifications" itemscope repeat>
+            <span itemprop="Code">E05Y</span>&mdash;<span itemprop="Description">INDEXING SCHEME ASSOCIATED WITH SUBCLASSES E05D AND E05F, RELATING TO CONSTRUCTION ELEMENTS, ELECTRIC CONTROL, POWER SUPPLY, POWER SIGNAL OR TRANSMISSION, USER INTERFACES, MOUNTING OR COUPLING, DETAILS, ACCESSORIES, AUXILIARY OPERATIONS NOT OTHERWISE PROVIDED FOR, APPLICATION THEREOF</span>
+            <meta itemprop="IsCPC" content="true">
+          </li>
+          <li itemprop="classifications" itemscope repeat>
+            <span itemprop="Code">E05Y2400/00</span>&mdash;<span itemprop="Description">Electronic control; Electrical power; Power supply; Power or signal transmission; User interfaces</span>
+            <meta itemprop="IsCPC" content="true">
+          </li>
+          <li itemprop="classifications" itemscope repeat>
+            <span itemprop="Code">E05Y2400/10</span>&mdash;<span itemprop="Description">Electronic control</span>
+            <meta itemprop="IsCPC" content="true">
+          </li>
+          <li itemprop="classifications" itemscope repeat>
+            <span itemprop="Code">E05Y2400/40</span>&mdash;<span itemprop="Description">Control units therefor</span>
+            <meta itemprop="IsCPC" content="true">
+          </li>
+          <li itemprop="classifications" itemscope repeat>
+            <span itemprop="Code">E05Y2400/41</span>&mdash;<span itemprop="Description">Control units therefor for multiple motors</span>
+            <meta itemprop="IsCPC" content="true">
+          </li>
+          <li itemprop="classifications" itemscope repeat>
+            <span itemprop="Code">E05Y2400/415</span>&mdash;<span itemprop="Description">Control units therefor for multiple motors for multiple wings</span>
+            <meta itemprop="IsCPC" content="true">
+          </li>
+          <li itemprop="classifications" itemscope repeat>
+            <span itemprop="Code">E05Y2400/42</span>&mdash;<span itemprop="Description">Control units therefor for multiple motors for multiple wings for multiple openings</span>
+            <meta itemprop="Leaf" content="true"><meta itemprop="Additional" content="true"><meta itemprop="IsCPC" content="true">
+          </li>
+        </ul>
+      </li>
+      <li>
+        <ul itemprop="classifications" itemscope repeat>
+          <li itemprop="classifications" itemscope repeat>
+            <span itemprop="Code">E</span>&mdash;<span itemprop="Description">FIXED CONSTRUCTIONS</span>
+            <meta itemprop="IsCPC" content="true">
+          </li>
+          <li itemprop="classifications" itemscope repeat>
+            <span itemprop="Code">E05</span>&mdash;<span itemprop="Description">LOCKS; KEYS; WINDOW OR DOOR FITTINGS; SAFES</span>
+            <meta itemprop="IsCPC" content="true">
+          </li>
+          <li itemprop="classifications" itemscope repeat>
+            <span itemprop="Code">E05Y</span>&mdash;<span itemprop="Description">INDEXING SCHEME ASSOCIATED WITH SUBCLASSES E05D AND E05F, RELATING TO CONSTRUCTION ELEMENTS, ELECTRIC CONTROL, POWER SUPPLY, POWER SIGNAL OR TRANSMISSION, USER INTERFACES, MOUNTING OR COUPLING, DETAILS, ACCESSORIES, AUXILIARY OPERATIONS NOT OTHERWISE PROVIDED FOR, APPLICATION THEREOF</span>
+            <meta itemprop="IsCPC" content="true">
+          </li>
+          <li itemprop="classifications" itemscope repeat>
+            <span itemprop="Code">E05Y2400/00</span>&mdash;<span itemprop="Description">Electronic control; Electrical power; Power supply; Power or signal transmission; User interfaces</span>
+            <meta itemprop="IsCPC" content="true">
+          </li>
+          <li itemprop="classifications" itemscope repeat>
+            <span itemprop="Code">E05Y2400/80</span>&mdash;<span itemprop="Description">User interfaces</span>
+            <meta itemprop="IsCPC" content="true">
+          </li>
+          <li itemprop="classifications" itemscope repeat>
+            <span itemprop="Code">E05Y2400/81</span>&mdash;<span itemprop="Description">Feedback to user, e.g. tactile</span>
+            <meta itemprop="IsCPC" content="true">
+          </li>
+          <li itemprop="classifications" itemscope repeat>
+            <span itemprop="Code">E05Y2400/812</span>&mdash;<span itemprop="Description">Acoustic</span>
+            <meta itemprop="IsCPC" content="true">
+          </li>
+          <li itemprop="classifications" itemscope repeat>
+            <span itemprop="Code">E05Y2400/814</span>&mdash;<span itemprop="Description">Sound emitters, e.g. loudspeakers</span>
+            <meta itemprop="Leaf" content="true"><meta itemprop="Additional" content="true"><meta itemprop="IsCPC" content="true">
+          </li>
+        </ul>
+      </li>
+      <li>
+        <ul itemprop="classifications" itemscope repeat>
+          <li itemprop="classifications" itemscope repeat>
+            <span itemprop="Code">E</span>&mdash;<span itemprop="Description">FIXED CONSTRUCTIONS</span>
+            <meta itemprop="IsCPC" content="true">
+          </li>
+          <li itemprop="classifications" itemscope repeat>
+            <span itemprop="Code">E05</span>&mdash;<span itemprop="Description">LOCKS; KEYS; WINDOW OR DOOR FITTINGS; SAFES</span>
+            <meta itemprop="IsCPC" content="true">
+          </li>
+          <li itemprop="classifications" itemscope repeat>
+            <span itemprop="Code">E05Y</span>&mdash;<span itemprop="Description">INDEXING SCHEME ASSOCIATED WITH SUBCLASSES E05D AND E05F, RELATING TO CONSTRUCTION ELEMENTS, ELECTRIC CONTROL, POWER SUPPLY, POWER SIGNAL OR TRANSMISSION, USER INTERFACES, MOUNTING OR COUPLING, DETAILS, ACCESSORIES, AUXILIARY OPERATIONS NOT OTHERWISE PROVIDED FOR, APPLICATION THEREOF</span>
+            <meta itemprop="IsCPC" content="true">
+          </li>
+          <li itemprop="classifications" itemscope repeat>
+            <span itemprop="Code">E05Y2400/00</span>&mdash;<span itemprop="Description">Electronic control; Electrical power; Power supply; Power or signal transmission; User interfaces</span>
+            <meta itemprop="IsCPC" content="true">
+          </li>
+          <li itemprop="classifications" itemscope repeat>
+            <span itemprop="Code">E05Y2400/80</span>&mdash;<span itemprop="Description">User interfaces</span>
+            <meta itemprop="IsCPC" content="true">
+          </li>
+          <li itemprop="classifications" itemscope repeat>
+            <span itemprop="Code">E05Y2400/81</span>&mdash;<span itemprop="Description">Feedback to user, e.g. tactile</span>
+            <meta itemprop="IsCPC" content="true">
+          </li>
+          <li itemprop="classifications" itemscope repeat>
+            <span itemprop="Code">E05Y2400/818</span>&mdash;<span itemprop="Description">Visual</span>
+            <meta itemprop="Leaf" content="true"><meta itemprop="Additional" content="true"><meta itemprop="IsCPC" content="true">
+          </li>
+        </ul>
+      </li>
+      <li>
+        <ul itemprop="classifications" itemscope repeat>
+          <li itemprop="classifications" itemscope repeat>
+            <span itemprop="Code">E</span>&mdash;<span itemprop="Description">FIXED CONSTRUCTIONS</span>
+            <meta itemprop="IsCPC" content="true">
+          </li>
+          <li itemprop="classifications" itemscope repeat>
+            <span itemprop="Code">E05</span>&mdash;<span itemprop="Description">LOCKS; KEYS; WINDOW OR DOOR FITTINGS; SAFES</span>
+            <meta itemprop="IsCPC" content="true">
+          </li>
+          <li itemprop="classifications" itemscope repeat>
+            <span itemprop="Code">E05Y</span>&mdash;<span itemprop="Description">INDEXING SCHEME ASSOCIATED WITH SUBCLASSES E05D AND E05F, RELATING TO CONSTRUCTION ELEMENTS, ELECTRIC CONTROL, POWER SUPPLY, POWER SIGNAL OR TRANSMISSION, USER INTERFACES, MOUNTING OR COUPLING, DETAILS, ACCESSORIES, AUXILIARY OPERATIONS NOT OTHERWISE PROVIDED FOR, APPLICATION THEREOF</span>
+            <meta itemprop="IsCPC" content="true">
+          </li>
+          <li itemprop="classifications" itemscope repeat>
+            <span itemprop="Code">E05Y2900/00</span>&mdash;<span itemprop="Description">Application of doors, windows, wings or fittings thereof</span>
+            <meta itemprop="IsCPC" content="true">
+          </li>
+          <li itemprop="classifications" itemscope repeat>
+            <span itemprop="Code">E05Y2900/50</span>&mdash;<span itemprop="Description">Application of doors, windows, wings or fittings thereof for vehicles</span>
+            <meta itemprop="IsCPC" content="true">
+          </li>
+          <li itemprop="classifications" itemscope repeat>
+            <span itemprop="Code">E05Y2900/53</span>&mdash;<span itemprop="Description">Type of wing</span>
+            <meta itemprop="IsCPC" content="true">
+          </li>
+          <li itemprop="classifications" itemscope repeat>
+            <span itemprop="Code">E05Y2900/531</span>&mdash;<span itemprop="Description">Doors</span>
+            <meta itemprop="Leaf" content="true"><meta itemprop="Additional" content="true"><meta itemprop="IsCPC" content="true">
+          </li>
+        </ul>
+      </li>
+      <li>
+        <ul itemprop="classifications" itemscope repeat>
+          <li itemprop="classifications" itemscope repeat>
+            <span itemprop="Code">E</span>&mdash;<span itemprop="Description">FIXED CONSTRUCTIONS</span>
+            <meta itemprop="IsCPC" content="true">
+          </li>
+          <li itemprop="classifications" itemscope repeat>
+            <span itemprop="Code">E05</span>&mdash;<span itemprop="Description">LOCKS; KEYS; WINDOW OR DOOR FITTINGS; SAFES</span>
+            <meta itemprop="IsCPC" content="true">
+          </li>
+          <li itemprop="classifications" itemscope repeat>
+            <span itemprop="Code">E05Y</span>&mdash;<span itemprop="Description">INDEXING SCHEME ASSOCIATED WITH SUBCLASSES E05D AND E05F, RELATING TO CONSTRUCTION ELEMENTS, ELECTRIC CONTROL, POWER SUPPLY, POWER SIGNAL OR TRANSMISSION, USER INTERFACES, MOUNTING OR COUPLING, DETAILS, ACCESSORIES, AUXILIARY OPERATIONS NOT OTHERWISE PROVIDED FOR, APPLICATION THEREOF</span>
+            <meta itemprop="IsCPC" content="true">
+          </li>
+          <li itemprop="classifications" itemscope repeat>
+            <span itemprop="Code">E05Y2900/00</span>&mdash;<span itemprop="Description">Application of doors, windows, wings or fittings thereof</span>
+            <meta itemprop="IsCPC" content="true">
+          </li>
+          <li itemprop="classifications" itemscope repeat>
+            <span itemprop="Code">E05Y2900/50</span>&mdash;<span itemprop="Description">Application of doors, windows, wings or fittings thereof for vehicles</span>
+            <meta itemprop="IsCPC" content="true">
+          </li>
+          <li itemprop="classifications" itemscope repeat>
+            <span itemprop="Code">E05Y2900/53</span>&mdash;<span itemprop="Description">Type of wing</span>
+            <meta itemprop="IsCPC" content="true">
+          </li>
+          <li itemprop="classifications" itemscope repeat>
+            <span itemprop="Code">E05Y2900/536</span>&mdash;<span itemprop="Description">Hoods</span>
+            <meta itemprop="Leaf" content="true"><meta itemprop="Additional" content="true"><meta itemprop="IsCPC" content="true">
+          </li>
+        </ul>
+      </li>
+      <li>
+        <ul itemprop="classifications" itemscope repeat>
+          <li itemprop="classifications" itemscope repeat>
+            <span itemprop="Code">E</span>&mdash;<span itemprop="Description">FIXED CONSTRUCTIONS</span>
+            <meta itemprop="IsCPC" content="true">
+          </li>
+          <li itemprop="classifications" itemscope repeat>
+            <span itemprop="Code">E05</span>&mdash;<span itemprop="Description">LOCKS; KEYS; WINDOW OR DOOR FITTINGS; SAFES</span>
+            <meta itemprop="IsCPC" content="true">
+          </li>
+          <li itemprop="classifications" itemscope repeat>
+            <span itemprop="Code">E05Y</span>&mdash;<span itemprop="Description">INDEXING SCHEME ASSOCIATED WITH SUBCLASSES E05D AND E05F, RELATING TO CONSTRUCTION ELEMENTS, ELECTRIC CONTROL, POWER SUPPLY, POWER SIGNAL OR TRANSMISSION, USER INTERFACES, MOUNTING OR COUPLING, DETAILS, ACCESSORIES, AUXILIARY OPERATIONS NOT OTHERWISE PROVIDED FOR, APPLICATION THEREOF</span>
+            <meta itemprop="IsCPC" content="true">
+          </li>
+          <li itemprop="classifications" itemscope repeat>
+            <span itemprop="Code">E05Y2900/00</span>&mdash;<span itemprop="Description">Application of doors, windows, wings or fittings thereof</span>
+            <meta itemprop="IsCPC" content="true">
+          </li>
+          <li itemprop="classifications" itemscope repeat>
+            <span itemprop="Code">E05Y2900/50</span>&mdash;<span itemprop="Description">Application of doors, windows, wings or fittings thereof for vehicles</span>
+            <meta itemprop="IsCPC" content="true">
+          </li>
+          <li itemprop="classifications" itemscope repeat>
+            <span itemprop="Code">E05Y2900/53</span>&mdash;<span itemprop="Description">Type of wing</span>
+            <meta itemprop="IsCPC" content="true">
+          </li>
+          <li itemprop="classifications" itemscope repeat>
+            <span itemprop="Code">E05Y2900/546</span>&mdash;<span itemprop="Description">Tailboards, tailgates or sideboards opening upwards</span>
+            <meta itemprop="Leaf" content="true"><meta itemprop="Additional" content="true"><meta itemprop="IsCPC" content="true">
+          </li>
+        </ul>
+      </li>
+      <li>
+        <ul itemprop="classifications" itemscope repeat>
+          <li itemprop="classifications" itemscope repeat>
+            <span itemprop="Code">E</span>&mdash;<span itemprop="Description">FIXED CONSTRUCTIONS</span>
+            <meta itemprop="IsCPC" content="true">
+          </li>
+          <li itemprop="classifications" itemscope repeat>
+            <span itemprop="Code">E05</span>&mdash;<span itemprop="Description">LOCKS; KEYS; WINDOW OR DOOR FITTINGS; SAFES</span>
+            <meta itemprop="IsCPC" content="true">
+          </li>
+          <li itemprop="classifications" itemscope repeat>
+            <span itemprop="Code">E05Y</span>&mdash;<span itemprop="Description">INDEXING SCHEME ASSOCIATED WITH SUBCLASSES E05D AND E05F, RELATING TO CONSTRUCTION ELEMENTS, ELECTRIC CONTROL, POWER SUPPLY, POWER SIGNAL OR TRANSMISSION, USER INTERFACES, MOUNTING OR COUPLING, DETAILS, ACCESSORIES, AUXILIARY OPERATIONS NOT OTHERWISE PROVIDED FOR, APPLICATION THEREOF</span>
+            <meta itemprop="IsCPC" content="true">
+          </li>
+          <li itemprop="classifications" itemscope repeat>
+            <span itemprop="Code">E05Y2900/00</span>&mdash;<span itemprop="Description">Application of doors, windows, wings or fittings thereof</span>
+            <meta itemprop="IsCPC" content="true">
+          </li>
+          <li itemprop="classifications" itemscope repeat>
+            <span itemprop="Code">E05Y2900/50</span>&mdash;<span itemprop="Description">Application of doors, windows, wings or fittings thereof for vehicles</span>
+            <meta itemprop="IsCPC" content="true">
+          </li>
+          <li itemprop="classifications" itemscope repeat>
+            <span itemprop="Code">E05Y2900/53</span>&mdash;<span itemprop="Description">Type of wing</span>
+            <meta itemprop="IsCPC" content="true">
+          </li>
+          <li itemprop="classifications" itemscope repeat>
+            <span itemprop="Code">E05Y2900/548</span>&mdash;<span itemprop="Description">Trunk lids</span>
+            <meta itemprop="Leaf" content="true"><meta itemprop="Additional" content="true"><meta itemprop="IsCPC" content="true">
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </section>
+
+  
+
+  
+
+  <section>
+    <h2>Definitions</h2>
+    <ul>
+      <li itemprop="definitions" itemscope repeat>
+        <span itemprop="subject">This document</span>
+        <span itemprop="definition">relates generally to the motor vehicle equipment field and, more particularly, to an automated system for closing a closure of the motor vehicle based upon a transmission state of the motor vehicle.</span>
+        <meta itemprop="num_attr" content="0001">
+      </li>
+      <li itemprop="definitions" itemscope repeat>
+        <span itemprop="subject">This document</span>
+        <span itemprop="definition">relates to a new and improved automated system and related method for closing a closure of a motor vehicle in these situations.</span>
+        <meta itemprop="num_attr" content="0003">
+      </li>
+      <li itemprop="definitions" itemscope repeat>
+        <span itemprop="subject">the system and method</span>
+        <span itemprop="definition">also accommodate those times when a driver intentionally leaves a certain door or closure open such as when backing the motor vehicle to dock his boat or carrying oversized cargo in the motor vehicle trunk.</span>
+        <meta itemprop="num_attr" content="0003">
+      </li>
+      <li itemprop="definitions" itemscope repeat>
+        <span itemprop="subject">an automated system</span>
+        <span itemprop="definition">for closing a closure of the motor vehicle.</span>
+        <meta itemprop="num_attr" content="0004">
+      </li>
+      <li itemprop="definitions" itemscope repeat>
+        <span itemprop="subject">That automated system</span>
+        <span itemprop="definition">comprises a plurality of closures, a plurality of closure modules for opening and closing the plurality of closures and a control module.</span>
+        <meta itemprop="num_attr" content="0004">
+      </li>
+      <li itemprop="definitions" itemscope repeat>
+        <span itemprop="subject">the control module</span>
+        <span itemprop="definition">is configured to (a) monitor a transmission state of the motor vehicle and the open/close status of the plurality of closures and (b) close an open closure of the plurality of closures when the transmission is shifted out of park and an open closure is detected.</span>
+        <meta itemprop="num_attr" content="0004">
+      </li>
+      <li itemprop="definitions" itemscope repeat>
+        <span itemprop="subject">the control module</span>
+        <span itemprop="definition">may be further configured to alert an occupant of the motor vehicle to detection of the open closure and request instructions from the occupant to close the open closure before actually issuing a command to close the open closure.</span>
+        <meta itemprop="num_attr" content="0005">
+      </li>
+      <li itemprop="definitions" itemscope repeat>
+        <span itemprop="subject">a method</span>
+        <span itemprop="definition">is provided of closing an open closure of a motor vehicle. That method may be broadly described as comprising the steps of (a) monitoring, by a first device, a transmission state of the motor vehicle, (b) monitoring, by a second device, an open/close status of a closure of the motor vehicle and (c) closing, by a control module, an open closure when the transmission is shifted out of park and the open closure is detected.</span>
+        <meta itemprop="num_attr" content="0006">
+      </li>
+      <li itemprop="definitions" itemscope repeat>
+        <span itemprop="subject">the method</span>
+        <span itemprop="definition">may further include the step of alerting, by the control module, an occupant of the motor vehicle to the open closure. That alerting may be done by display screen message or voice message via a voice processor.</span>
+        <meta itemprop="num_attr" content="0007">
+      </li>
+      <li itemprop="definitions" itemscope repeat>
+        <span itemprop="subject">the method</span>
+        <span itemprop="definition">may further include the step of requesting, by the control module, instructions from the occupant to close the open closure before actually closing the open closure. Those instructions may be requested via display screen message or voice message via a voice processor.</span>
+        <meta itemprop="num_attr" content="0008">
+      </li>
+      <li itemprop="definitions" itemscope repeat>
+        <span itemprop="subject">the method</span>
+        <span itemprop="definition">may include monitoring, by a plurality of second devices, the open/close status of a plurality of closures of the motor vehicle including, for example, all of the doors of the motor vehicle that allow passengers access to the motor vehicle passenger compartment as well as a lift gate, hatch back or trunk lid which allows access to a storage area. Further, the engine compartment hood may also be monitored.</span>
+        <meta itemprop="num_attr" content="0008">
+      </li>
+      <li itemprop="definitions" itemscope repeat>
+        <span itemprop="subject">FIG. 1</span>
+        <span itemprop="definition">is a schematic block diagram of the automated system for closing a closure of a motor vehicle.</span>
+        <meta itemprop="num_attr" content="0011">
+      </li>
+      <li itemprop="definitions" itemscope repeat>
+        <span itemprop="subject">FIG. 2</span>
+        <span itemprop="definition">is a schematic block diagram of a body control module of the type that may be incorporated into the automated system demonstrated in FIG. 1 .</span>
+        <meta itemprop="num_attr" content="0012">
+      </li>
+      <li itemprop="definitions" itemscope repeat>
+        <span itemprop="subject">FIG. 3</span>
+        <span itemprop="definition">is a control logic flow diagram for the system and method.</span>
+        <meta itemprop="num_attr" content="0013">
+      </li>
+      <li itemprop="definitions" itemscope repeat>
+        <span itemprop="subject">the automated closure system 10</span>
+        <span itemprop="definition">includes a plurality of closures including a right front door 12 , a left front door 14 , a right rear door 16 , a left rear door 18 , and a storage compartment closure 20 such as a tail gate, lift gate, hatch back or trunk lid depending upon the type of motor vehicle.</span>
+        <meta itemprop="num_attr" content="0015">
+      </li>
+      <li itemprop="definitions" itemscope repeat>
+        <span itemprop="subject">closure module 22 , 24 , 26 , 28 , 30</span>
+        <span itemprop="definition">are provided for opening and closing each of the closures 12 , 14 , 16 , 18 , 20 .</span>
+        <meta itemprop="num_attr" content="0016">
+      </li>
+      <li itemprop="definitions" itemscope repeat>
+        <span itemprop="subject">closure module 22</span>
+        <span itemprop="definition">is provided to open and close the right front door 12 .</span>
+        <meta itemprop="num_attr" content="0016">
+      </li>
+      <li itemprop="definitions" itemscope repeat>
+        <span itemprop="subject">Closure module 24</span>
+        <span itemprop="definition">is provided to open and close the left front door 14 .</span>
+        <meta itemprop="num_attr" content="0016">
+      </li>
+      <li itemprop="definitions" itemscope repeat>
+        <span itemprop="subject">Closure module 26</span>
+        <span itemprop="definition">is provided to open and close the right rear door 16 .</span>
+        <meta itemprop="num_attr" content="0016">
+      </li>
+      <li itemprop="definitions" itemscope repeat>
+        <span itemprop="subject">Closure module 28</span>
+        <span itemprop="definition">is provided to open and close the left rear door 20 .</span>
+        <meta itemprop="num_attr" content="0016">
+      </li>
+      <li itemprop="definitions" itemscope repeat>
+        <span itemprop="subject">closure module 30</span>
+        <span itemprop="definition">is provided to open and close the storage compartment closure 20 .</span>
+        <meta itemprop="num_attr" content="0016">
+      </li>
+      <li itemprop="definitions" itemscope repeat>
+        <span itemprop="subject">each closure module 22 , 24 , 26 , 28 , 30</span>
+        <span itemprop="definition">includes a controller 32 and a mechanical actuator 34 for opening and closing the associated closure 12 , 14 , 16 , 18 , 20 in accordance with command instructions received from the associated controller 32 .</span>
+        <meta itemprop="num_attr" content="0017">
+      </li>
+      <li itemprop="definitions" itemscope repeat>
+        <span itemprop="subject">Each controller 32</span>
+        <span itemprop="definition">may comprise a computing device such as a dedicated micro-processor or electronic control unit (ECU) operating in accordance with instructions received from appropriate control software.</span>
+        <meta itemprop="num_attr" content="0018">
+      </li>
+      <li itemprop="definitions" itemscope repeat>
+        <span itemprop="subject">a computing device</span>
+        <span itemprop="definition">such as a dedicated micro-processor or electronic control unit (ECU) operating in accordance with instructions received from appropriate control software.</span>
+        <meta itemprop="num_attr" content="0018">
+      </li>
+      <li itemprop="definitions" itemscope repeat>
+        <span itemprop="subject">ECU</span>
+        <span itemprop="definition">electronice control unit</span>
+        <meta itemprop="num_attr" content="0018">
+      </li>
+      <li itemprop="definitions" itemscope repeat>
+        <span itemprop="subject">the automated system 10</span>
+        <span itemprop="definition">includes a control module 36 .</span>
+        <meta itemprop="num_attr" content="0019">
+      </li>
+      <li itemprop="definitions" itemscope repeat>
+        <span itemprop="subject">the control module 36</span>
+        <span itemprop="definition">comprises a body control module or BCM.</span>
+        <meta itemprop="num_attr" content="0019">
+      </li>
+      <li itemprop="definitions" itemscope repeat>
+        <span itemprop="subject">a BCM 36</span>
+        <span itemprop="definition">may comprise a computing device having one or more processors 38 , one or more memories 40 , one or more network interfaces 42 , a human interface 44 , a GPS/geolocator 46 , a display device such as a multi-function display with touchscreen capability 48 and a speech processor 50 that all communicate with each other over a communication bus 52 .</span>
+        <meta itemprop="num_attr" content="0020">
+      </li>
+      <li itemprop="definitions" itemscope repeat>
+        <span itemprop="subject">the BCM 36</span>
+        <span itemprop="definition">may perform a number of interior body electrically based functions including, for example, interior locking, remote key entry, interior lighting, exterior lighting, windshield wiper control and the like.</span>
+        <meta itemprop="num_attr" content="0020">
+      </li>
+      <li itemprop="definitions" itemscope repeat>
+        <span itemprop="subject">the BCM 36</span>
+        <span itemprop="definition">may also function to control entertainment functions (e.g. radio, CD player and communications such as telephone and internet communications over a wireless network.</span>
+        <meta itemprop="num_attr" content="0020">
+      </li>
+      <li itemprop="definitions" itemscope repeat>
+        <span itemprop="subject">the BCM 36</span>
+        <span itemprop="definition">is connected by a communication bus (not shown) to other control modules that provide one or more of these additional functions.</span>
+        <meta itemprop="num_attr" content="0020">
+      </li>
+      <li itemprop="definitions" itemscope repeat>
+        <span itemprop="subject">a control module or BCM 36 of the automated system 10</span>
+        <span itemprop="definition">is configured to monitor a transmission state of the motor vehicle and the open/close status of the plurality of closures 12 , 14 , 16 , 18 , 20 .</span>
+        <meta itemprop="num_attr" content="0021">
+      </li>
+      <li itemprop="definitions" itemscope repeat>
+        <span itemprop="subject">the body control module 36</span>
+        <span itemprop="definition">includes a data input 54 connected to a device 56 , such as a sensor or control module capable of providing data respecting the transmission state of the motor vehicle.</span>
+        <meta itemprop="num_attr" content="0021">
+      </li>
+      <li itemprop="definitions" itemscope repeat>
+        <span itemprop="subject">the control module/BCM 36</span>
+        <span itemprop="definition">includes additional data inputs 58 , 60 , 62 , 64 and 66 connected, respectively to the closure modules 22 , 24 , 26 , 28 , 30 which provide data respecting the open/close status of the closure 12 , 14 , 16 , 18 , 20 to which the closure modules are associated.</span>
+        <meta itemprop="num_attr" content="0021">
+      </li>
+      <li itemprop="definitions" itemscope repeat>
+        <span itemprop="subject">FIG. 3</span>
+        <span itemprop="definition">illustrating a method of operation of the system 10 .</span>
+        <meta itemprop="num_attr" content="0022">
+      </li>
+      <li itemprop="definitions" itemscope repeat>
+        <span itemprop="subject">the control module/BCM 36</span>
+        <span itemprop="definition">monitors the transmission state of the motor vehicle to determine whether the transmission has been shifted out of park (Box 70 ). If the motor vehicle transmission has been shifted out of park as indicated by data received from the device 56 at data input 54 , the control module/BCM 36 then monitors the open/close status of the various closures 12 , 14 , 16 , 18 , 20 to determine if any of the closures are open (Box 72 ).</span>
+        <meta itemprop="num_attr" content="0022">
+      </li>
+      <li itemprop="definitions" itemscope repeat>
+        <span itemprop="subject">the control module/BCM 36</span>
+        <span itemprop="definition">goes to Box 74 . If the system 10 is operating in automated closing action mode, the control module/BCM 36 sends an appropriate command signal to the closure module 22 , 24 , 26 , 28 , 30 associated with the open closure 12 , 14 , 16 , 18 , 20 commanding the controller 32 of that closure module to activate the mechanical actuator 34 of that closure module and close the open closure. See Box 76 . The system 10 then ends operation at Box 78 .</span>
+        <meta itemprop="num_attr" content="0022">
+      </li>
+      <li itemprop="definitions" itemscope repeat>
+        <span itemprop="subject">the request</span>
+        <span itemprop="definition">may be provided via voice message through the speech processor 50 or by display screen message via the display device 48 .</span>
+        <meta itemprop="num_attr" content="0023">
+      </li>
+      <li itemprop="definitions" itemscope repeat>
+        <span itemprop="subject">the control module/BCM 36</span>
+        <span itemprop="definition">provides a command to the appropriate closure module 22 , 24 , 26 , 28 , 30 associated with the open closure 12 , 14 , 16 , 18 , 20 causing the controller 32 of that closure module to direct the associated mechanical actuator 34 to complete the closing of the closure at Box 76 .</span>
+        <meta itemprop="num_attr" content="0023">
+      </li>
+      <li itemprop="definitions" itemscope repeat>
+        <span itemprop="subject">the system cycle</span>
+        <span itemprop="definition">then ends at Box 78 .</span>
+        <meta itemprop="num_attr" content="0023">
+      </li>
+      <li itemprop="definitions" itemscope repeat>
+        <span itemprop="subject">control module/BCM 36</span>
+        <span itemprop="definition">goes directly to the end of the operating cycle at Box 78 and the closure remains open until the motor vehicle operator enters a command to close the closure via voice command, human interface 44 or other means.</span>
+        <meta itemprop="num_attr" content="0023">
+      </li>
+      <li itemprop="definitions" itemscope repeat>
+        <span itemprop="subject">automated closure system 10</span>
+        <span itemprop="definition">may be easily adapted for use with a motor vehicle equipped with a manual transmission. In one possible embodiment, this may be accomplished by treating such a manual transmission state in “neutral” like an automatic transmission state in “park”. See FIG. 3 . All such modifications and variations are within the scope of the appended claims when interpreted in accordance with the breadth to which they are fairly, legally and equitably entitled.</span>
+        <meta itemprop="num_attr" content="0025">
+      </li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Landscapes</h2>
+    <ul>
+      <li itemprop="landscapes" itemscope repeat>
+        <span itemprop="name">Engineering &amp; Computer Science</span>
+        (<span itemprop="type">AREA</span>)
+      </li>
+      <li itemprop="landscapes" itemscope repeat>
+        <span itemprop="name">Mechanical Engineering</span>
+        (<span itemprop="type">AREA</span>)
+      </li>
+      <li itemprop="landscapes" itemscope repeat>
+        <span itemprop="name">Chemical &amp; Material Sciences</span>
+        (<span itemprop="type">AREA</span>)
+      </li>
+      <li itemprop="landscapes" itemscope repeat>
+        <span itemprop="name">Combustion &amp; Propulsion</span>
+        (<span itemprop="type">AREA</span>)
+      </li>
+      <li itemprop="landscapes" itemscope repeat>
+        <span itemprop="name">Transportation</span>
+        (<span itemprop="type">AREA</span>)
+      </li>
+      <li itemprop="landscapes" itemscope repeat>
+        <span itemprop="name">Automation &amp; Control Theory</span>
+        (<span itemprop="type">AREA</span>)
+      </li>
+      <li itemprop="landscapes" itemscope repeat>
+        <span itemprop="name">Human Computer Interaction</span>
+        (<span itemprop="type">AREA</span>)
+      </li>
+      <li itemprop="landscapes" itemscope repeat>
+        <span itemprop="name">Power-Operated Mechanisms For Wings</span>
+        (<span itemprop="type">AREA</span>)
+      </li>
+    </ul>
+  </section>
+
+
+  <section itemprop="abstract" itemscope>
+    <h2>Abstract</h2>
+    
+    <div itemprop="content" html><abstract mxw-id="PA293586950" lang="EN" load-source="patent-office">
+    <div id="p-0001" num="0000" class="abstract">An automated system is provided for closing a closure of a motor vehicle. That automated system includes a plurality of closures, a plurality of closure modules for opening and closing that plurality of closures and a control module. The control module is configured to monitor a transmission state of the motor vehicle and an open/close state of the plurality of closures and then close an open closure of the plurality of closures when the transmission is shifted out of park and the open closure is detected. A related method is also provided.</div>
+  </abstract>
+  </div>
+  </section>
+
+  <section itemprop="description" itemscope>
+    <h2>Description</h2>
+    
+    <div itemprop="content" html><div mxw-id="PDES190508878" lang="EN" load-source="patent-office" class="description">
+    
+    <heading id="h-0001">TECHNICAL FIELD</heading>
+    <div id="p-0002" num="0001" class="description-paragraph">This document relates generally to the motor vehicle equipment field and, more particularly, to an automated system for closing a closure of the motor vehicle based upon a transmission state of the motor vehicle.</div>
+    <heading id="h-0002">BACKGROUND</heading>
+    <div id="p-0003" num="0002" class="description-paragraph">At some point in time, virtually every driver of a motor vehicle has placed the transmission of the motor vehicle in gear and started the motor vehicle in motion only to subsequently find that one closure of the motor vehicle, be it a door, a hood or a trunk lid, is not properly closed. Thus, there are times when a driver needs to, for example, stop a vehicle and get out in order to close the trunk lid. This raises the prospect of leaving the vehicle in a high traffic area and the safety risks involved with that situation. At other times a driver may need to open and close a door in order to shut it tight. Many times a driver tries to do this while driving the vehicle thereby becoming distracted and losing focus on his driving.</div>
+    <div id="p-0004" num="0003" class="description-paragraph">This document relates to a new and improved automated system and related method for closing a closure of a motor vehicle in these situations. Advantageously, the system and method also accommodate those times when a driver intentionally leaves a certain door or closure open such as when backing the motor vehicle to dock his boat or carrying oversized cargo in the motor vehicle trunk.</div>
+    <heading id="h-0003">SUMMARY</heading>
+    <div id="p-0005" num="0004" class="description-paragraph">In accordance with the purposes and benefits described herein, an automated system is provided for closing a closure of the motor vehicle. That automated system comprises a plurality of closures, a plurality of closure modules for opening and closing the plurality of closures and a control module. The control module is configured to (a) monitor a transmission state of the motor vehicle and the open/close status of the plurality of closures and (b) close an open closure of the plurality of closures when the transmission is shifted out of park and an open closure is detected.</div>
+    <div id="p-0006" num="0005" class="description-paragraph">The control module may be further configured to alert an occupant of the motor vehicle to detection of the open closure and request instructions from the occupant to close the open closure before actually issuing a command to close the open closure.</div>
+    <div id="p-0007" num="0006" class="description-paragraph">In accordance with an additional aspect, a method is provided of closing an open closure of a motor vehicle. That method may be broadly described as comprising the steps of (a) monitoring, by a first device, a transmission state of the motor vehicle, (b) monitoring, by a second device, an open/close status of a closure of the motor vehicle and (c) closing, by a control module, an open closure when the transmission is shifted out of park and the open closure is detected.</div>
+    <div id="p-0008" num="0007" class="description-paragraph">The method may further include the step of alerting, by the control module, an occupant of the motor vehicle to the open closure. That alerting may be done by display screen message or voice message via a voice processor.</div>
+    <div id="p-0009" num="0008" class="description-paragraph">In addition, the method may further include the step of requesting, by the control module, instructions from the occupant to close the open closure before actually closing the open closure. Those instructions may be requested via display screen message or voice message via a voice processor. In accordance with still another aspect, the method may include monitoring, by a plurality of second devices, the open/close status of a plurality of closures of the motor vehicle including, for example, all of the doors of the motor vehicle that allow passengers access to the motor vehicle passenger compartment as well as a lift gate, hatch back or trunk lid which allows access to a storage area. Further, the engine compartment hood may also be monitored.</div>
+    <div id="p-0010" num="0009" class="description-paragraph">In the following description, there are shown and described several preferred embodiments of the automated system and the related method for closing a closure of a motor vehicle. As it should be realized, the system and method are capable of other, different embodiments and their several details are capable of modification in various, obvious aspects all without departing from the system and method as set forth and described in the following claims. Accordingly, the drawings and descriptions should be regarded as illustrative in nature and not as restrictive.</div>
+    
+    
+    <description-of-drawings>
+      <heading id="h-0004">BRIEF DESCRIPTION OF THE DRAWING FIGURES</heading>
+      <div id="p-0011" num="0010" class="description-paragraph">The accompanying drawing figures incorporated herein and forming a part of the specification, illustrate several aspects of the automated system and related method and together with the description serve to explain certain principles thereof. In the drawing figures:</div>
+      <div id="p-0012" num="0011" class="description-paragraph"> <figref idrefs="DRAWINGS">FIG. 1</figref> is a schematic block diagram of the automated system for closing a closure of a motor vehicle.</div>
+      <div id="p-0013" num="0012" class="description-paragraph"> <figref idrefs="DRAWINGS">FIG. 2</figref> is a schematic block diagram of a body control module of the type that may be incorporated into the automated system demonstrated in <figref idrefs="DRAWINGS">FIG. 1</figref>.</div>
+      <div id="p-0014" num="0013" class="description-paragraph"> <figref idrefs="DRAWINGS">FIG. 3</figref> is a control logic flow diagram for the system and method.</div>
+    </description-of-drawings>
+    
+    
+    <div id="p-0015" num="0014" class="description-paragraph">Reference will now be made in detail to the present preferred embodiments of the automated system and method, examples of which are illustrated in the accompanying drawing figures.</div>
+    <heading id="h-0005">DETAILED DESCRIPTION</heading>
+    <div id="p-0016" num="0015" class="description-paragraph">Reference is now made to <figref idrefs="DRAWINGS">FIG. 1</figref> illustrating the <figure-callout id="10" label="automated closure system" filenames="US10273739-20190430-D00001.png" state="{{state}}">automated closure system</figure-callout> <b>10</b> particularly adapted for use with a motor vehicle. As illustrated in <figref idrefs="DRAWINGS">FIG. 1</figref>, the <figure-callout id="10" label="automated closure system" filenames="US10273739-20190430-D00001.png" state="{{state}}">automated closure system</figure-callout> <b>10</b> includes a plurality of closures including a <figure-callout id="12" label="right front door" filenames="US10273739-20190430-D00001.png" state="{{state}}">right front door</figure-callout> <b>12</b>, a <figure-callout id="14" label="left front door" filenames="US10273739-20190430-D00001.png" state="{{state}}">left front door</figure-callout> <b>14</b>, a right <figure-callout id="16" label="rear door" filenames="US10273739-20190430-D00001.png" state="{{state}}">rear door</figure-callout> <b>16</b>, a left <figure-callout id="18" label="rear door" filenames="US10273739-20190430-D00001.png" state="{{state}}">rear door</figure-callout> <b>18</b>, and a <figure-callout id="20" label="storage compartment closure" filenames="US10273739-20190430-D00001.png" state="{{state}}">storage compartment closure</figure-callout> <b>20</b> such as a tail gate, lift gate, hatch back or trunk lid depending upon the type of motor vehicle.</div>
+    <div id="p-0017" num="0016" class="description-paragraph">A plurality of <figure-callout id="22" label="closure modules" filenames="US10273739-20190430-D00001.png" state="{{state}}"> <figure-callout id="24" label="closure modules" filenames="US10273739-20190430-D00001.png" state="{{state}}"> <figure-callout id="26" label="closure modules" filenames="US10273739-20190430-D00001.png" state="{{state}}"> <figure-callout id="28" label="closure modules" filenames="US10273739-20190430-D00001.png" state="{{state}}"> <figure-callout id="30" label="closure modules" filenames="US10273739-20190430-D00001.png" state="{{state}}">closure modules</figure-callout> </figure-callout> </figure-callout> </figure-callout> </figure-callout> <b>22</b>, <b>24</b>, <b>26</b>, <b>28</b>, <b>30</b> are provided for opening and closing each of the <figure-callout id="12" label="closures" filenames="US10273739-20190430-D00001.png" state="{{state}}"> <figure-callout id="14" label="closures" filenames="US10273739-20190430-D00001.png" state="{{state}}"> <figure-callout id="16" label="closures" filenames="US10273739-20190430-D00001.png" state="{{state}}"> <figure-callout id="18" label="closures" filenames="US10273739-20190430-D00001.png" state="{{state}}"> <figure-callout id="20" label="closures" filenames="US10273739-20190430-D00001.png" state="{{state}}">closures</figure-callout> </figure-callout> </figure-callout> </figure-callout> </figure-callout> <b>12</b>, <b>14</b>, <b>16</b>, <b>18</b>, <b>20</b>. Thus, <figure-callout id="22" label="closure module" filenames="US10273739-20190430-D00001.png" state="{{state}}">closure module</figure-callout> <b>22</b> is provided to open and close the <figure-callout id="12" label="right front door" filenames="US10273739-20190430-D00001.png" state="{{state}}">right front door</figure-callout> <b>12</b>. <figure-callout id="24" label="Closure module" filenames="US10273739-20190430-D00001.png" state="{{state}}">Closure module</figure-callout> <b>24</b> is provided to open and close the <figure-callout id="14" label="left front door" filenames="US10273739-20190430-D00001.png" state="{{state}}">left front door</figure-callout> <b>14</b>. <figure-callout id="26" label="Closure module" filenames="US10273739-20190430-D00001.png" state="{{state}}">Closure module</figure-callout> <b>26</b> is provided to open and close the right <figure-callout id="16" label="rear door" filenames="US10273739-20190430-D00001.png" state="{{state}}">rear door</figure-callout> <b>16</b>. <figure-callout id="28" label="Closure module" filenames="US10273739-20190430-D00001.png" state="{{state}}">Closure module</figure-callout> <b>28</b> is provided to open and close the left <figure-callout id="20" label="rear door" filenames="US10273739-20190430-D00001.png" state="{{state}}">rear door</figure-callout> <b>20</b>. Finally, <figure-callout id="30" label="closure module" filenames="US10273739-20190430-D00001.png" state="{{state}}">closure module</figure-callout> <b>30</b> is provided to open and close the <figure-callout id="20" label="storage compartment closure" filenames="US10273739-20190430-D00001.png" state="{{state}}">storage compartment closure</figure-callout> <b>20</b>.</div>
+    <div id="p-0018" num="0017" class="description-paragraph">As is known in the art, each <figure-callout id="22" label="closure module" filenames="US10273739-20190430-D00001.png" state="{{state}}"> <figure-callout id="24" label="closure module" filenames="US10273739-20190430-D00001.png" state="{{state}}"> <figure-callout id="26" label="closure module" filenames="US10273739-20190430-D00001.png" state="{{state}}"> <figure-callout id="28" label="closure module" filenames="US10273739-20190430-D00001.png" state="{{state}}"> <figure-callout id="30" label="closure module" filenames="US10273739-20190430-D00001.png" state="{{state}}">closure module</figure-callout> </figure-callout> </figure-callout> </figure-callout> </figure-callout> <b>22</b>, <b>24</b>, <b>26</b>, <b>28</b>, <b>30</b> includes a <figure-callout id="32" label="controller" filenames="US10273739-20190430-D00001.png" state="{{state}}">controller</figure-callout> <b>32</b> and a <figure-callout id="34" label="mechanical actuator" filenames="US10273739-20190430-D00001.png" state="{{state}}">mechanical actuator</figure-callout> <b>34</b> for opening and closing the associated <figure-callout id="12" label="closure" filenames="US10273739-20190430-D00001.png" state="{{state}}"> <figure-callout id="14" label="closure" filenames="US10273739-20190430-D00001.png" state="{{state}}"> <figure-callout id="16" label="closure" filenames="US10273739-20190430-D00001.png" state="{{state}}"> <figure-callout id="18" label="closure" filenames="US10273739-20190430-D00001.png" state="{{state}}"> <figure-callout id="20" label="closure" filenames="US10273739-20190430-D00001.png" state="{{state}}">closure</figure-callout> </figure-callout> </figure-callout> </figure-callout> </figure-callout> <b>12</b>, <b>14</b>, <b>16</b>, <b>18</b>, <b>20</b> in accordance with command instructions received from the associated <figure-callout id="32" label="controller" filenames="US10273739-20190430-D00001.png" state="{{state}}">controller</figure-callout> <b>32</b>.</div>
+    <div id="p-0019" num="0018" class="description-paragraph">Each <figure-callout id="32" label="controller" filenames="US10273739-20190430-D00001.png" state="{{state}}">controller</figure-callout> <b>32</b> may comprise a computing device such as a dedicated micro-processor or electronic control unit (ECU) operating in accordance with instructions received from appropriate control software.</div>
+    <div id="p-0020" num="0019" class="description-paragraph">As further illustrated in <figref idrefs="DRAWINGS">FIG. 1</figref>, the <figure-callout id="10" label="automated system" filenames="US10273739-20190430-D00001.png" state="{{state}}">automated system</figure-callout> <b>10</b> includes a <figure-callout id="36" label="control module" filenames="US10273739-20190430-D00001.png,US10273739-20190430-D00002.png" state="{{state}}">control module</figure-callout> <b>36</b>. In the illustrated embodiment, the <figure-callout id="36" label="control module" filenames="US10273739-20190430-D00001.png,US10273739-20190430-D00002.png" state="{{state}}">control module</figure-callout> <b>36</b> comprises a body control module or BCM.</div>
+    <div id="p-0021" num="0020" class="description-paragraph">As best illustrated in <figref idrefs="DRAWINGS">FIG. 2</figref>, a BCM <b>36</b> may comprise a computing device having one or <figure-callout id="38" label="more processors" filenames="US10273739-20190430-D00002.png" state="{{state}}">more processors</figure-callout> <b>38</b>, one or <figure-callout id="40" label="more memories" filenames="US10273739-20190430-D00002.png" state="{{state}}">more memories</figure-callout> <b>40</b>, one or <figure-callout id="42" label="more network interfaces" filenames="US10273739-20190430-D00002.png" state="{{state}}">more network interfaces</figure-callout> <b>42</b>, a <figure-callout id="44" label="human interface" filenames="US10273739-20190430-D00002.png" state="{{state}}">human interface</figure-callout> <b>44</b>, a GPS/<figure-callout id="46" label="geolocator" filenames="US10273739-20190430-D00002.png" state="{{state}}">geolocator</figure-callout> <b>46</b>, a display device such as a multi-function display with <figure-callout id="48" label="touchscreen capability" filenames="US10273739-20190430-D00002.png" state="{{state}}">touchscreen capability</figure-callout> <b>48</b> and a <figure-callout id="50" label="speech processor" filenames="US10273739-20190430-D00002.png" state="{{state}}">speech processor</figure-callout> <b>50</b> that all communicate with each other over a <figure-callout id="52" label="communication bus" filenames="US10273739-20190430-D00002.png" state="{{state}}">communication bus</figure-callout> <b>52</b>. The BCM <b>36</b> may perform a number of interior body electrically based functions including, for example, interior locking, remote key entry, interior lighting, exterior lighting, windshield wiper control and the like. In some embodiments the BCM <b>36</b> may also function to control entertainment functions (e.g. radio, CD player and communications such as telephone and internet communications over a wireless network. In some embodiments, the BCM <b>36</b> is connected by a communication bus (not shown) to other control modules that provide one or more of these additional functions.</div>
+    <div id="p-0022" num="0021" class="description-paragraph">A control module or <figure-callout id="36" label="BCM" filenames="US10273739-20190430-D00001.png,US10273739-20190430-D00002.png" state="{{state}}">BCM</figure-callout> <b>36</b> of the <figure-callout id="10" label="automated system" filenames="US10273739-20190430-D00001.png" state="{{state}}">automated system</figure-callout> <b>10</b> is configured to monitor a transmission state of the motor vehicle and the open/close status of the plurality of <figure-callout id="12" label="closures" filenames="US10273739-20190430-D00001.png" state="{{state}}"> <figure-callout id="14" label="closures" filenames="US10273739-20190430-D00001.png" state="{{state}}"> <figure-callout id="16" label="closures" filenames="US10273739-20190430-D00001.png" state="{{state}}"> <figure-callout id="18" label="closures" filenames="US10273739-20190430-D00001.png" state="{{state}}"> <figure-callout id="20" label="closures" filenames="US10273739-20190430-D00001.png" state="{{state}}">closures</figure-callout> </figure-callout> </figure-callout> </figure-callout> </figure-callout> <b>12</b>, <b>14</b>, <b>16</b>, <b>18</b>, <b>20</b>. Thus, the <figure-callout id="36" label="body control module" filenames="US10273739-20190430-D00001.png,US10273739-20190430-D00002.png" state="{{state}}">body control module</figure-callout> <b>36</b> includes a <figure-callout id="54" label="data input" filenames="US10273739-20190430-D00001.png" state="{{state}}">data input</figure-callout> <b>54</b> connected to a <figure-callout id="56" label="device" filenames="US10273739-20190430-D00001.png" state="{{state}}">device</figure-callout> <b>56</b>, such as a sensor or control module capable of providing data respecting the transmission state of the motor vehicle. Further, the control module/<figure-callout id="36" label="BCM" filenames="US10273739-20190430-D00001.png,US10273739-20190430-D00002.png" state="{{state}}">BCM</figure-callout> <b>36</b> includes <figure-callout id="58" label="additional data inputs" filenames="US10273739-20190430-D00001.png" state="{{state}}"> <figure-callout id="60" label="additional data inputs" filenames="US10273739-20190430-D00001.png" state="{{state}}"> <figure-callout id="62" label="additional data inputs" filenames="US10273739-20190430-D00001.png" state="{{state}}"> <figure-callout id="64" label="additional data inputs" filenames="US10273739-20190430-D00001.png" state="{{state}}"> <figure-callout id="66" label="additional data inputs" filenames="US10273739-20190430-D00001.png" state="{{state}}">additional data inputs</figure-callout> </figure-callout> </figure-callout> </figure-callout> </figure-callout> <b>58</b>, <b>60</b>, <b>62</b>, <b>64</b> and <b>66</b> connected, respectively to the <figure-callout id="22" label="closure modules" filenames="US10273739-20190430-D00001.png" state="{{state}}"> <figure-callout id="24" label="closure modules" filenames="US10273739-20190430-D00001.png" state="{{state}}"> <figure-callout id="26" label="closure modules" filenames="US10273739-20190430-D00001.png" state="{{state}}"> <figure-callout id="28" label="closure modules" filenames="US10273739-20190430-D00001.png" state="{{state}}"> <figure-callout id="30" label="closure modules" filenames="US10273739-20190430-D00001.png" state="{{state}}">closure modules</figure-callout> </figure-callout> </figure-callout> </figure-callout> </figure-callout> <b>22</b>, <b>24</b>, <b>26</b>, <b>28</b>, <b>30</b> which provide data respecting the open/close status of the <figure-callout id="12" label="closure" filenames="US10273739-20190430-D00001.png" state="{{state}}"> <figure-callout id="14" label="closure" filenames="US10273739-20190430-D00001.png" state="{{state}}"> <figure-callout id="16" label="closure" filenames="US10273739-20190430-D00001.png" state="{{state}}"> <figure-callout id="18" label="closure" filenames="US10273739-20190430-D00001.png" state="{{state}}"> <figure-callout id="20" label="closure" filenames="US10273739-20190430-D00001.png" state="{{state}}">closure</figure-callout> </figure-callout> </figure-callout> </figure-callout> </figure-callout> <b>12</b>, <b>14</b>, <b>16</b>, <b>18</b>, <b>20</b> to which the closure modules are associated.</div>
+    <div id="p-0023" num="0022" class="description-paragraph">Reference is now made to <figref idrefs="DRAWINGS">FIG. 3</figref> illustrating a method of operation of the <figure-callout id="10" label="system" filenames="US10273739-20190430-D00001.png" state="{{state}}">system</figure-callout> <b>10</b>. Upon system initiation (Box <b>68</b>), the control module/<figure-callout id="36" label="BCM" filenames="US10273739-20190430-D00001.png,US10273739-20190430-D00002.png" state="{{state}}">BCM</figure-callout> <b>36</b> monitors the transmission state of the motor vehicle to determine whether the transmission has been shifted out of park (Box <b>70</b>). If the motor vehicle transmission has been shifted out of park as indicated by data received from the <figure-callout id="56" label="device" filenames="US10273739-20190430-D00001.png" state="{{state}}">device</figure-callout> <b>56</b> at <figure-callout id="54" label="data input" filenames="US10273739-20190430-D00001.png" state="{{state}}">data input</figure-callout> <b>54</b>, the control module/<figure-callout id="36" label="BCM" filenames="US10273739-20190430-D00001.png,US10273739-20190430-D00002.png" state="{{state}}">BCM</figure-callout> <b>36</b> then monitors the open/close status of the <figure-callout id="12" label="various closures" filenames="US10273739-20190430-D00001.png" state="{{state}}"> <figure-callout id="14" label="various closures" filenames="US10273739-20190430-D00001.png" state="{{state}}"> <figure-callout id="16" label="various closures" filenames="US10273739-20190430-D00001.png" state="{{state}}"> <figure-callout id="18" label="various closures" filenames="US10273739-20190430-D00001.png" state="{{state}}"> <figure-callout id="20" label="various closures" filenames="US10273739-20190430-D00001.png" state="{{state}}">various closures</figure-callout> </figure-callout> </figure-callout> </figure-callout> </figure-callout> <b>12</b>, <b>14</b>, <b>16</b>, <b>18</b>, <b>20</b> to determine if any of the closures are open (Box <b>72</b>). If one or more of the <figure-callout id="12" label="closures" filenames="US10273739-20190430-D00001.png" state="{{state}}"> <figure-callout id="14" label="closures" filenames="US10273739-20190430-D00001.png" state="{{state}}"> <figure-callout id="16" label="closures" filenames="US10273739-20190430-D00001.png" state="{{state}}"> <figure-callout id="18" label="closures" filenames="US10273739-20190430-D00001.png" state="{{state}}"> <figure-callout id="20" label="closures" filenames="US10273739-20190430-D00001.png" state="{{state}}">closures</figure-callout> </figure-callout> </figure-callout> </figure-callout> </figure-callout> <b>12</b>, <b>14</b>, <b>16</b>, <b>18</b>, <b>20</b> is indicated as being open (by data received by the control module/<figure-callout id="36" label="BCM" filenames="US10273739-20190430-D00001.png,US10273739-20190430-D00002.png" state="{{state}}">BCM</figure-callout> <b>36</b> at the <figure-callout id="58" label="data inputs" filenames="US10273739-20190430-D00001.png" state="{{state}}"> <figure-callout id="60" label="data inputs" filenames="US10273739-20190430-D00001.png" state="{{state}}"> <figure-callout id="62" label="data inputs" filenames="US10273739-20190430-D00001.png" state="{{state}}"> <figure-callout id="64" label="data inputs" filenames="US10273739-20190430-D00001.png" state="{{state}}"> <figure-callout id="66" label="data inputs" filenames="US10273739-20190430-D00001.png" state="{{state}}">data inputs</figure-callout> </figure-callout> </figure-callout> </figure-callout> </figure-callout> <b>58</b>, <b>60</b>, <b>62</b>, <b>64</b>, <b>66</b> from the <figure-callout id="22" label="closure modules" filenames="US10273739-20190430-D00001.png" state="{{state}}"> <figure-callout id="24" label="closure modules" filenames="US10273739-20190430-D00001.png" state="{{state}}"> <figure-callout id="26" label="closure modules" filenames="US10273739-20190430-D00001.png" state="{{state}}"> <figure-callout id="28" label="closure modules" filenames="US10273739-20190430-D00001.png" state="{{state}}">closure modules</figure-callout> </figure-callout> </figure-callout> </figure-callout> <b>22</b>, <b>24</b>, <b>26</b>, <b>28</b>, <b>30</b>) then the control module/<figure-callout id="36" label="BCM" filenames="US10273739-20190430-D00001.png,US10273739-20190430-D00002.png" state="{{state}}">BCM</figure-callout> <b>36</b> goes to <figure-callout id="74" label="Box" filenames="US10273739-20190430-D00000.png,US10273739-20190430-D00003.png" state="{{state}}">Box</figure-callout> <b>74</b>. If the <figure-callout id="10" label="system" filenames="US10273739-20190430-D00001.png" state="{{state}}">system</figure-callout> <b>10</b> is operating in automated closing action mode, the control module/<figure-callout id="36" label="BCM" filenames="US10273739-20190430-D00001.png,US10273739-20190430-D00002.png" state="{{state}}">BCM</figure-callout> <b>36</b> sends an appropriate command signal to the <figure-callout id="22" label="closure module" filenames="US10273739-20190430-D00001.png" state="{{state}}"> <figure-callout id="24" label="closure module" filenames="US10273739-20190430-D00001.png" state="{{state}}"> <figure-callout id="26" label="closure module" filenames="US10273739-20190430-D00001.png" state="{{state}}"> <figure-callout id="28" label="closure module" filenames="US10273739-20190430-D00001.png" state="{{state}}"> <figure-callout id="30" label="closure module" filenames="US10273739-20190430-D00001.png" state="{{state}}">closure module</figure-callout> </figure-callout> </figure-callout> </figure-callout> </figure-callout> <b>22</b>, <b>24</b>, <b>26</b>, <b>28</b>, <b>30</b> associated with the <figure-callout id="12" label="open closure" filenames="US10273739-20190430-D00001.png" state="{{state}}"> <figure-callout id="14" label="open closure" filenames="US10273739-20190430-D00001.png" state="{{state}}"> <figure-callout id="16" label="open closure" filenames="US10273739-20190430-D00001.png" state="{{state}}"> <figure-callout id="18" label="open closure" filenames="US10273739-20190430-D00001.png" state="{{state}}"> <figure-callout id="20" label="open closure" filenames="US10273739-20190430-D00001.png" state="{{state}}">open closure</figure-callout> </figure-callout> </figure-callout> </figure-callout> </figure-callout> <b>12</b>, <b>14</b>, <b>16</b>, <b>18</b>, <b>20</b> commanding the <figure-callout id="32" label="controller" filenames="US10273739-20190430-D00001.png" state="{{state}}">controller</figure-callout> <b>32</b> of that closure module to activate the <figure-callout id="34" label="mechanical actuator" filenames="US10273739-20190430-D00001.png" state="{{state}}">mechanical actuator</figure-callout> <b>34</b> of that closure module and close the open closure. See <figure-callout id="76" label="Box" filenames="US10273739-20190430-D00000.png,US10273739-20190430-D00003.png" state="{{state}}">Box</figure-callout> <b>76</b>. The <figure-callout id="10" label="system" filenames="US10273739-20190430-D00001.png" state="{{state}}">system</figure-callout> <b>10</b> then ends operation at <figure-callout id="78" label="Box" filenames="US10273739-20190430-D00000.png,US10273739-20190430-D00003.png" state="{{state}}">Box</figure-callout> <b>78</b>.</div>
+    <div id="p-0024" num="0023" class="description-paragraph">In contrast, there are times when the motor vehicle operator will wish to move the motor vehicle with the intention to have a closure open for a particular reason. This may occur when, for example, backing up a trailer or transporting an oversized load in the trunk. Toward this end, the motor vehicle operator will switch <figure-callout id="10" label="system" filenames="US10273739-20190430-D00001.png" state="{{state}}">system</figure-callout> <b>10</b> out of automated closing action mode. When the <figure-callout id="10" label="system" filenames="US10273739-20190430-D00001.png" state="{{state}}">system</figure-callout> <b>10</b> is not in automated closing action mode as queried at <figure-callout id="74" label="Box" filenames="US10273739-20190430-D00000.png,US10273739-20190430-D00003.png" state="{{state}}">Box</figure-callout> <b>74</b>, the control module/<figure-callout id="36" label="BCM" filenames="US10273739-20190430-D00001.png,US10273739-20190430-D00002.png" state="{{state}}">BCM</figure-callout> <b>36</b> goes to <figure-callout id="78" label="Box" filenames="US10273739-20190430-D00000.png,US10273739-20190430-D00003.png" state="{{state}}">Box</figure-callout> <b>78</b> and alerts the driver or other occupant of the motor vehicle to the open closure and then requests confirmation or instructions to close the open closure (Box <b>80</b>). The alert may be provided via a voice message through the <figure-callout id="50" label="voice processor" filenames="US10273739-20190430-D00002.png" state="{{state}}">voice processor</figure-callout> <b>50</b> and/or via a display screen message through the <figure-callout id="48" label="display device" filenames="US10273739-20190430-D00002.png" state="{{state}}">display device</figure-callout> <b>48</b>. Similarly, the request may be provided via voice message through the <figure-callout id="50" label="speech processor" filenames="US10273739-20190430-D00002.png" state="{{state}}">speech processor</figure-callout> <b>50</b> or by display screen message via the <figure-callout id="48" label="display device" filenames="US10273739-20190430-D00002.png" state="{{state}}">display device</figure-callout> <b>48</b>. If the driver provides confirmation or instructions to close the open closure at <figure-callout id="82" label="Box" filenames="US10273739-20190430-D00000.png,US10273739-20190430-D00003.png" state="{{state}}">Box</figure-callout> <b>82</b>, the control module/<figure-callout id="36" label="BCM" filenames="US10273739-20190430-D00001.png,US10273739-20190430-D00002.png" state="{{state}}">BCM</figure-callout> <b>36</b> provides a command to the <figure-callout id="22" label="appropriate closure module" filenames="US10273739-20190430-D00001.png" state="{{state}}"> <figure-callout id="24" label="appropriate closure module" filenames="US10273739-20190430-D00001.png" state="{{state}}"> <figure-callout id="26" label="appropriate closure module" filenames="US10273739-20190430-D00001.png" state="{{state}}"> <figure-callout id="28" label="appropriate closure module" filenames="US10273739-20190430-D00001.png" state="{{state}}"> <figure-callout id="30" label="appropriate closure module" filenames="US10273739-20190430-D00001.png" state="{{state}}">appropriate closure module</figure-callout> </figure-callout> </figure-callout> </figure-callout> </figure-callout> <b>22</b>, <b>24</b>, <b>26</b>, <b>28</b>, <b>30</b> associated with the <figure-callout id="12" label="open closure" filenames="US10273739-20190430-D00001.png" state="{{state}}"> <figure-callout id="14" label="open closure" filenames="US10273739-20190430-D00001.png" state="{{state}}"> <figure-callout id="16" label="open closure" filenames="US10273739-20190430-D00001.png" state="{{state}}"> <figure-callout id="18" label="open closure" filenames="US10273739-20190430-D00001.png" state="{{state}}"> <figure-callout id="20" label="open closure" filenames="US10273739-20190430-D00001.png" state="{{state}}">open closure</figure-callout> </figure-callout> </figure-callout> </figure-callout> </figure-callout> <b>12</b>, <b>14</b>, <b>16</b>, <b>18</b>, <b>20</b> causing the <figure-callout id="32" label="controller" filenames="US10273739-20190430-D00001.png" state="{{state}}">controller</figure-callout> <b>32</b> of that closure module to direct the associated <figure-callout id="34" label="mechanical actuator" filenames="US10273739-20190430-D00001.png" state="{{state}}">mechanical actuator</figure-callout> <b>34</b> to complete the closing of the closure at <figure-callout id="76" label="Box" filenames="US10273739-20190430-D00000.png,US10273739-20190430-D00003.png" state="{{state}}">Box</figure-callout> <b>76</b>. The system cycle then ends at <figure-callout id="78" label="Box" filenames="US10273739-20190430-D00000.png,US10273739-20190430-D00003.png" state="{{state}}">Box</figure-callout> <b>78</b>. In contrast, if the driver or occupant does not provide confirmation or instruction to close the open closure, the control module/<figure-callout id="36" label="BCM" filenames="US10273739-20190430-D00001.png,US10273739-20190430-D00002.png" state="{{state}}">BCM</figure-callout> <b>36</b> goes directly to the end of the operating cycle at <figure-callout id="78" label="Box" filenames="US10273739-20190430-D00000.png,US10273739-20190430-D00003.png" state="{{state}}">Box</figure-callout> <b>78</b> and the closure remains open until the motor vehicle operator enters a command to close the closure via voice command, <figure-callout id="44" label="human interface" filenames="US10273739-20190430-D00002.png" state="{{state}}">human interface</figure-callout> <b>44</b> or other means.</div>
+    <div id="p-0025" num="0024" class="description-paragraph">As should be appreciated from viewing <figref idrefs="DRAWINGS">FIG. 3</figref>, if after system initiation (Box <b>68</b>) the transmission is maintained in park, as indicated at <figure-callout id="70" label="Box" filenames="US10273739-20190430-D00000.png,US10273739-20190430-D00003.png" state="{{state}}">Box</figure-callout> <b>70</b>, the <figure-callout id="10" label="system" filenames="US10273739-20190430-D00001.png" state="{{state}}">system</figure-callout> <b>10</b> re-initializes the control logic process. Similarly, if none of the <figure-callout id="12" label="closures" filenames="US10273739-20190430-D00001.png" state="{{state}}"> <figure-callout id="14" label="closures" filenames="US10273739-20190430-D00001.png" state="{{state}}"> <figure-callout id="16" label="closures" filenames="US10273739-20190430-D00001.png" state="{{state}}"> <figure-callout id="18" label="closures" filenames="US10273739-20190430-D00001.png" state="{{state}}"> <figure-callout id="20" label="closures" filenames="US10273739-20190430-D00001.png" state="{{state}}">closures</figure-callout> </figure-callout> </figure-callout> </figure-callout> </figure-callout> <b>12</b>, <b>14</b>, <b>16</b>, <b>18</b>, <b>20</b> are open at <figure-callout id="72" label="Box" filenames="US10273739-20190430-D00000.png,US10273739-20190430-D00003.png" state="{{state}}">Box</figure-callout> <b>72</b>, the <figure-callout id="10" label="automated system" filenames="US10273739-20190430-D00001.png" state="{{state}}">automated system</figure-callout> <b>10</b> re-initializes the control logic process.</div>
+    <div id="p-0026" num="0025" class="description-paragraph">The foregoing has been presented for purposes of illustration and description. It is not intended to be exhaustive or to limit the embodiments to the precise form disclosed. Obvious modifications and variations are possible in light of the above teachings. For example, <figure-callout id="10" label="automated closure system" filenames="US10273739-20190430-D00001.png" state="{{state}}">automated closure system</figure-callout> <b>10</b> may be easily adapted for use with a motor vehicle equipped with a manual transmission. In one possible embodiment, this may be accomplished by treating such a manual transmission state in “neutral” like an automatic transmission state in “park”. See <figref idrefs="DRAWINGS">FIG. 3</figref>. All such modifications and variations are within the scope of the appended claims when interpreted in accordance with the breadth to which they are fairly, legally and equitably entitled.</div>
+    
+  </div>
+  </div>
+  </section>
+
+  <section itemprop="claims" itemscope>
+    <h2>Claims (<span itemprop="count">8</span>)</h2>
+    
+    <div itemprop="content" html><div mxw-id="PCLM184253165" lang="EN" load-source="patent-office" class="claims">
+    <claim-statement>What is claimed:</claim-statement>
+    <div class="claim"> <div id="CLM-00001" num="00001" class="claim">
+      <div class="claim-text">1. An automated system for closing a closure of a motor vehicle, comprising:
+<div class="claim-text">a plurality of closures;</div>
+<div class="claim-text">a plurality of closure modules for opening and closing said plurality of closures; and</div>
+<div class="claim-text">a control module configured to monitor a transmission state of said motor vehicle and open/close status of said plurality of closures and close an open closure of said plurality of closures when said transmission is shifted out of park and said open closure is detected.</div>
+</div>
+    </div>
+    </div> <div class="claim-dependent"> <div id="CLM-00002" num="00002" class="claim">
+      <div class="claim-text">2. The automated system of <claim-ref idref="CLM-00001">claim 1</claim-ref>, wherein said control module is further configured to alert an occupant of said motor vehicle to detection of said open closure and request instructions from said occupant to close said open closure before actually closing said open closure.</div>
+    </div>
+    </div> <div class="claim"> <div id="CLM-00003" num="00003" class="claim">
+      <div class="claim-text">3. A method of closing an open closure of a motor vehicle, comprising:
+<div class="claim-text">monitoring, by a first device, a transmission state of said motor vehicle;</div>
+<div class="claim-text">monitoring, by a second device, an open/close status of a closure of the motor vehicle;</div>
+<div class="claim-text">closing, by command of a control module, an open closure when said transmission is shifted out of park and said open closure is detected; and</div>
+<div class="claim-text">alerting said occupant to the open closure by voice message via a voice processor.</div>
+</div>
+    </div>
+    </div> <div class="claim"> <div id="CLM-00004" num="00004" class="claim">
+      <div class="claim-text">4. A method of closing an open closure of a motor vehicle, comprising:
+<div class="claim-text">monitoring, by a first device, a transmission state of said motor vehicle;</div>
+<div class="claim-text">monitoring, by a plurality of second devices, an open/close status of a plurality of closures of said motor vehicle;</div>
+<div class="claim-text">closing, by command of a control module, an open closure when said transmission is shifted out of park and said open closure is detected from said plurality of closures; and</div>
+<div class="claim-text">alerting, by voice message via a voice processor, an occupant of said motor vehicle to said open closure.</div>
+</div>
+    </div>
+    </div> <div class="claim-dependent"> <div id="CLM-00005" num="00005" class="claim">
+      <div class="claim-text">5. The method of <claim-ref idref="CLM-00004">claim 4</claim-ref>, further including requesting, by said control module, instructions from said occupant to close said closure before actually closing said closure.</div>
+    </div>
+    </div> <div class="claim-dependent"> <div id="CLM-00006" num="00006" class="claim">
+      <div class="claim-text">6. The method of <claim-ref idref="CLM-00005">claim 5</claim-ref>, including alerting said occupant by a display screen message.</div>
+    </div>
+    </div> <div class="claim-dependent"> <div id="CLM-00007" num="00007" class="claim">
+      <div class="claim-text">7. The method of <claim-ref idref="CLM-00005">claim 5</claim-ref>, including requesting, by said control module, instructions from said occupant by a display screen message.</div>
+    </div>
+    </div> <div class="claim-dependent"> <div id="CLM-00008" num="00008" class="claim">
+      <div class="claim-text">8. The method of <claim-ref idref="CLM-00005">claim 5</claim-ref>, including requesting, by said control module, instructions from said occupant by voice message via a voice processor.</div>
+    </div>
+  </div> </div>
+  </div>
+  </section>
+
+  <section itemprop="application" itemscope>
+
+    <section itemprop="metadata" itemscope>
+      <span itemprop="applicationNumber">US15/168,627</span>
+      <span itemprop="priorityDate">2016-05-31</span>
+      <span itemprop="filingDate">2016-05-31</span>
+      <span itemprop="title">Automated system for closing a closure of a motor vehicle based upon transmission state 
+       </span>
+      <span itemprop="ifiStatus">Active</span>
+      <span itemprop="ifiExpiration">2036-07-25</span>
+      <a href="/patent/US10273739B2/en">
+        <span itemprop="representativePublication">US10273739B2</span>
+        (<span itemprop="primaryLanguage">en</span>)
+      </a>
+    </section>
+
+    <h2>Priority Applications (4)</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Application Number</th>
+          <th>Priority Date</th>
+          <th>Filing Date</th>
+          <th>Title</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr itemprop="priorityApps" itemscope repeat>
+          <td>
+            <span itemprop="applicationNumber">US15/168,627</span>
+            
+            <a href="/patent/US10273739B2/en">
+              <span itemprop="representativePublication">US10273739B2</span>
+                (<span itemprop="primaryLanguage">en</span>)
+            </a>
+          </td>
+          <td itemprop="priorityDate">2016-05-31</td>
+          <td itemprop="filingDate">2016-05-31</td>
+          <td itemprop="title">Automated system for closing a closure of a motor vehicle based upon transmission state 
+       </td>
+        </tr>
+        <tr itemprop="priorityApps" itemscope repeat>
+          <td>
+            <span itemprop="applicationNumber">MX2017006743A</span>
+            
+            <a href="/patent/MX369722B/en">
+              <span itemprop="representativePublication">MX369722B</span>
+                (<span itemprop="primaryLanguage">en</span>)
+            </a>
+          </td>
+          <td itemprop="priorityDate">2016-05-31</td>
+          <td itemprop="filingDate">2017-05-23</td>
+          <td itemprop="title">
+        AUTOMATED SYSTEM FOR CLOSING A LOCK ON A MOTOR VEHICLE ACCORDING TO THE TRANSMISSION STATE.
+       
+       </td>
+        </tr>
+        <tr itemprop="priorityApps" itemscope repeat>
+          <td>
+            <span itemprop="applicationNumber">DE102017111564.1A</span>
+            
+            <a href="/patent/DE102017111564A1/en">
+              <span itemprop="representativePublication">DE102017111564A1</span>
+                (<span itemprop="primaryLanguage">en</span>)
+            </a>
+          </td>
+          <td itemprop="priorityDate">2016-05-31</td>
+          <td itemprop="filingDate">2017-05-26</td>
+          <td itemprop="title">
+        AUTOMATED SYSTEM FOR CLOSING A SHOCK OF A MOTOR VEHICLE ON THE BASIS OF THE GEARBOX CONDITION
+       
+       </td>
+        </tr>
+        <tr itemprop="priorityApps" itemscope repeat>
+          <td>
+            <span itemprop="applicationNumber">CN201710385011.XA</span>
+            
+            <a href="/patent/CN107461106A/en">
+              <span itemprop="representativePublication">CN107461106A</span>
+                (<span itemprop="primaryLanguage">en</span>)
+            </a>
+          </td>
+          <td itemprop="priorityDate">2016-05-31</td>
+          <td itemprop="filingDate">2017-05-26</td>
+          <td itemprop="title">The automated system of the closing device of motor vehicles is closed according to transmission state 
+       </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>Applications Claiming Priority (1)</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Application Number</th>
+          <th>Priority Date</th>
+          <th>Filing Date</th>
+          <th>Title</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr itemprop="appsClaimingPriority" itemscope repeat>
+          <td>
+            <span itemprop="applicationNumber">US15/168,627</span>
+            <a href="/patent/US10273739B2/en">
+              <span itemprop="representativePublication">US10273739B2</span>
+                (<span itemprop="primaryLanguage">en</span>)
+            </a>
+          </td>
+          <td itemprop="priorityDate">2016-05-31</td>
+          <td itemprop="filingDate">2016-05-31</td>
+          <td itemprop="title">Automated system for closing a closure of a motor vehicle based upon transmission state 
+       </td>
+        </tr>
+      </tbody>
+    </table>
+
+    
+
+    
+
+    <h2>Publications (2)</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Publication Number</th>
+          <th>Publication Date</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr itemprop="pubs" itemscope repeat>
+          <td>
+            <span itemprop="publicationNumber">US20170342760A1</span>
+            
+            <a href="/patent/US20170342760A1/en">
+              US20170342760A1
+              (<span itemprop="primaryLanguage">en</span>)
+            </a>
+          </td>
+          <td itemprop="publicationDate">2017-11-30</td>
+        </tr>
+        <tr itemprop="pubs" itemscope repeat>
+          <td>
+            <span itemprop="publicationNumber">US10273739B2</span>
+            
+            <span itemprop="thisPatent">true</span>
+            <a href="/patent/US10273739B2/en">
+              US10273739B2
+              (<span itemprop="primaryLanguage">en</span>)
+            </a>
+          </td>
+          <td itemprop="publicationDate">2019-04-30</td>
+        </tr>
+      </tbody>
+    </table>
+
+  </section>
+
+  <section itemprop="family" itemscope>
+    <h1>Family</h1>
+    <h2>ID=60268809</h2>
+
+    <h2>Family Applications (1)</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Application Number</th>
+          <th>Title</th>
+          <th>Priority Date</th>
+          <th>Filing Date</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr itemprop="applications" itemscope repeat>
+          <td>
+            <span itemprop="applicationNumber">US15/168,627</span>
+            <span itemprop="ifiStatus">Active</span>
+            <span itemprop="ifiExpiration">2036-07-25</span>
+            <a href="/patent/US10273739B2/en">
+              <span itemprop="representativePublication">US10273739B2</span>
+                (<span itemprop="primaryLanguage">en</span>)
+            </a>
+          </td>
+          <td itemprop="priorityDate">2016-05-31</td>
+          <td itemprop="filingDate">2016-05-31</td>
+          <td itemprop="title">Automated system for closing a closure of a motor vehicle based upon transmission state 
+       </td>
+        </tr>
+      </tbody>
+    </table>
+
+    
+
+    
+
+    <h2>Country Status (4)</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Country</th>
+          <th>Link</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr itemprop="countryStatus" itemscope repeat>
+          <td>
+            <span itemprop="countryCode">US</span>
+            (<span itemprop="num">1</span>)
+            <meta itemprop="thisCountry" content="true">
+          </td>
+          <td>
+            <a href="/patent/US10273739B2/en">
+              <span itemprop="representativePublication">US10273739B2</span>
+              (<span itemprop="primaryLanguage">en</span>)
+            </a>
+          </td>
+        </tr>
+        <tr itemprop="countryStatus" itemscope repeat>
+          <td>
+            <span itemprop="countryCode">CN</span>
+            (<span itemprop="num">1</span>)
+            
+          </td>
+          <td>
+            <a href="/patent/CN107461106A/en">
+              <span itemprop="representativePublication">CN107461106A</span>
+              (<span itemprop="primaryLanguage">en</span>)
+            </a>
+          </td>
+        </tr>
+        <tr itemprop="countryStatus" itemscope repeat>
+          <td>
+            <span itemprop="countryCode">DE</span>
+            (<span itemprop="num">1</span>)
+            
+          </td>
+          <td>
+            <a href="/patent/DE102017111564A1/en">
+              <span itemprop="representativePublication">DE102017111564A1</span>
+              (<span itemprop="primaryLanguage">en</span>)
+            </a>
+          </td>
+        </tr>
+        <tr itemprop="countryStatus" itemscope repeat>
+          <td>
+            <span itemprop="countryCode">MX</span>
+            (<span itemprop="num">1</span>)
+            
+          </td>
+          <td>
+            <a href="/patent/MX369722B/en">
+              <span itemprop="representativePublication">MX369722B</span>
+              (<span itemprop="primaryLanguage">en</span>)
+            </a>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    
+
+    <h2>Families Citing this family (4)</h2>
+    <table>
+      <caption>* Cited by examiner, † Cited by third party</caption>
+      <thead>
+        <tr>
+          <th>Publication number</th>
+          <th>Priority date</th>
+          <th>Publication date</th>
+          <th>Assignee</th>
+          <th>Title</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr itemprop="forwardReferencesFamily" itemscope repeat>
+          <td>
+            <a href="/patent/FR3072334B1/en">
+              <span itemprop="publicationNumber">FR3072334B1</span>
+              (<span itemprop="primaryLanguage">en</span>)
+            </a>
+            <span itemprop="examinerCited">*</span>
+            
+          </td>
+          <td itemprop="priorityDate">2017-10-16</td>
+          <td itemprop="publicationDate">2019-11-01</td>
+          <td><span itemprop="assigneeOriginal">Innovaction Technologies</span></td>
+          <td itemprop="title">
+        SYSTEM AND METHOD FOR CONTROLLING A MOTOR VEHICLE WITH AT LEAST ONE REMOVABLE COVER.
+       
+     </td>
+        </tr>
+        <tr itemprop="forwardReferencesFamily" itemscope repeat>
+          <td>
+            <a href="/patent/US11085225B2/en">
+              <span itemprop="publicationNumber">US11085225B2</span>
+              (<span itemprop="primaryLanguage">en</span>)
+            </a>
+            <span itemprop="examinerCited">*</span>
+            
+          </td>
+          <td itemprop="priorityDate">2019-07-30</td>
+          <td itemprop="publicationDate">2021-08-10</td>
+          <td><span itemprop="assigneeOriginal">Karma Automotive Llc</span></td>
+          <td itemprop="title">Method of scissor door window operation 
+       </td>
+        </tr>
+        <tr itemprop="forwardReferencesFamily" itemscope repeat>
+          <td>
+            <a href="/patent/US11667335B2/en">
+              <span itemprop="publicationNumber">US11667335B2</span>
+              (<span itemprop="primaryLanguage">en</span>)
+            </a>
+            <span itemprop="examinerCited">*</span>
+            
+          </td>
+          <td itemprop="priorityDate">2021-03-18</td>
+          <td itemprop="publicationDate">2023-06-06</td>
+          <td><span itemprop="assigneeOriginal">AISIN Technical Center of America, Inc.</span></td>
+          <td itemprop="title">Counteracting backdrive in a power tailgate system 
+       </td>
+        </tr>
+        <tr itemprop="forwardReferencesFamily" itemscope repeat>
+          <td>
+            <a href="/patent/DE102022113732A1/en">
+              <span itemprop="publicationNumber">DE102022113732A1</span>
+              (<span itemprop="primaryLanguage">en</span>)
+            </a>
+            
+            
+          </td>
+          <td itemprop="priorityDate">2022-05-31</td>
+          <td itemprop="publicationDate">2023-11-30</td>
+          <td><span itemprop="assigneeOriginal">Bode - Die Tür Gmbh</span></td>
+          <td itemprop="title">
+  Assembly for a vehicle with a door lock
+ 
+       </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>Citations (11)</h2>
+    <table>
+      <caption>* Cited by examiner, † Cited by third party</caption>
+      <thead>
+        <tr>
+          <th>Publication number</th>
+          <th>Priority date</th>
+          <th>Publication date</th>
+          <th>Assignee</th>
+          <th>Title</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr itemprop="backwardReferencesOrig" itemscope repeat>
+          <td>
+            <a href="/patent/US3629817A/en">
+              <span itemprop="publicationNumber">US3629817A</span>
+              (<span itemprop="primaryLanguage">en</span>)
+            </a>
+            
+            
+          </td>
+          <td itemprop="priorityDate">1968-07-25</td>
+          <td itemprop="publicationDate">1971-12-21</td>
+          <td>
+            <span itemprop="assigneeOriginal">Lucas Industries Ltd</span>
+          </td>
+          <td itemprop="title">Warning systems for road vehicles 
+       </td>
+        </tr>
+        <tr itemprop="backwardReferencesOrig" itemscope repeat>
+          <td>
+            <a href="/patent/KR0157819B1/en">
+              <span itemprop="publicationNumber">KR0157819B1</span>
+              (<span itemprop="primaryLanguage">en</span>)
+            </a>
+            
+            
+          </td>
+          <td itemprop="priorityDate">1995-12-29</td>
+          <td itemprop="publicationDate">1998-10-15</td>
+          <td>
+            <span itemprop="assigneeOriginal">김태구</span>
+          </td>
+          <td itemprop="title">A warning device for trunk lead opening of a car 
+       </td>
+        </tr>
+        <tr itemprop="backwardReferencesOrig" itemscope repeat>
+          <td>
+            <a href="/patent/US6727806B1/en">
+              <span itemprop="publicationNumber">US6727806B1</span>
+              (<span itemprop="primaryLanguage">en</span>)
+            </a>
+            
+            
+          </td>
+          <td itemprop="priorityDate">2002-10-18</td>
+          <td itemprop="publicationDate">2004-04-27</td>
+          <td>
+            <span itemprop="assigneeOriginal">Jerold L. Massie</span>
+          </td>
+          <td itemprop="title">Truck tailgate position indicator 
+       </td>
+        </tr>
+        <tr itemprop="backwardReferencesOrig" itemscope repeat>
+          <td>
+            <a href="/patent/JP2005054466A/en">
+              <span itemprop="publicationNumber">JP2005054466A</span>
+              (<span itemprop="primaryLanguage">en</span>)
+            </a>
+            
+            
+          </td>
+          <td itemprop="priorityDate">2003-08-05</td>
+          <td itemprop="publicationDate">2005-03-03</td>
+          <td>
+            <span itemprop="assigneeOriginal">Honda Motor Co Ltd</span>
+          </td>
+          <td itemprop="title">
+        Open / close control device for automotive opening / closing body
+       
+       </td>
+        </tr>
+        <tr itemprop="backwardReferencesOrig" itemscope repeat>
+          <td>
+            <a href="/patent/US7118155B2/en">
+              <span itemprop="publicationNumber">US7118155B2</span>
+              (<span itemprop="primaryLanguage">en</span>)
+            </a>
+            
+            
+          </td>
+          <td itemprop="priorityDate">2004-10-01</td>
+          <td itemprop="publicationDate">2006-10-10</td>
+          <td>
+            <span itemprop="assigneeOriginal">Honda Motor Co., Ltd.</span>
+          </td>
+          <td itemprop="title">Automatic opening and closing device 
+       </td>
+        </tr>
+        <tr itemprop="backwardReferencesOrig" itemscope repeat>
+          <td>
+            <a href="/patent/CN201677813U/en">
+              <span itemprop="publicationNumber">CN201677813U</span>
+              (<span itemprop="primaryLanguage">en</span>)
+            </a>
+            
+            
+          </td>
+          <td itemprop="priorityDate">2010-03-31</td>
+          <td itemprop="publicationDate">2010-12-22</td>
+          <td>
+            <span itemprop="assigneeOriginal">奇瑞汽车股份有限公司</span>
+          </td>
+          <td itemprop="title">Automatic open/close device for trunk 
+       </td>
+        </tr>
+        <tr itemprop="backwardReferencesOrig" itemscope repeat>
+          <td>
+            <a href="/patent/CN102602367A/en">
+              <span itemprop="publicationNumber">CN102602367A</span>
+              (<span itemprop="primaryLanguage">en</span>)
+            </a>
+            
+            
+          </td>
+          <td itemprop="priorityDate">2012-04-13</td>
+          <td itemprop="publicationDate">2012-07-25</td>
+          <td>
+            <span itemprop="assigneeOriginal">天津盛相电子有限公司</span>
+          </td>
+          <td itemprop="title">Automatic automobile door alarm 
+     </td>
+        </tr>
+        <tr itemprop="backwardReferencesOrig" itemscope repeat>
+          <td>
+            <a href="/patent/US8606467B2/en">
+              <span itemprop="publicationNumber">US8606467B2</span>
+              (<span itemprop="primaryLanguage">en</span>)
+            </a>
+            
+            
+          </td>
+          <td itemprop="priorityDate">2007-06-25</td>
+          <td itemprop="publicationDate">2013-12-10</td>
+          <td>
+            <span itemprop="assigneeOriginal">Valeo Securite Habitacle</span>
+          </td>
+          <td itemprop="title">Secure method for automatically closing a motor vehicle tailgate 
+       </td>
+        </tr>
+        <tr itemprop="backwardReferencesOrig" itemscope repeat>
+          <td>
+            <a href="/patent/US20130332033A1/en">
+              <span itemprop="publicationNumber">US20130332033A1</span>
+              (<span itemprop="primaryLanguage">en</span>)
+            </a>
+            <span itemprop="examinerCited">*</span>
+            
+          </td>
+          <td itemprop="priorityDate">2012-06-12</td>
+          <td itemprop="publicationDate">2013-12-12</td>
+          <td>
+            <span itemprop="assigneeOriginal">GM Global Technology Operations LLC</span>
+          </td>
+          <td itemprop="title">Systems and methods for confirming a potentially unintended command given to a vehicle 
+       </td>
+        </tr>
+        <tr itemprop="backwardReferencesOrig" itemscope repeat>
+          <td>
+            <a href="/patent/US8755975B2/en">
+              <span itemprop="publicationNumber">US8755975B2</span>
+              (<span itemprop="primaryLanguage">en</span>)
+            </a>
+            <span itemprop="examinerCited">*</span>
+            
+          </td>
+          <td itemprop="priorityDate">2011-01-06</td>
+          <td itemprop="publicationDate">2014-06-17</td>
+          <td>
+            <span itemprop="assigneeOriginal">Honda Motor Co., Ltd.</span>
+          </td>
+          <td itemprop="title">Automatic vehicle door movement control system 
+       </td>
+        </tr>
+        <tr itemprop="backwardReferencesOrig" itemscope repeat>
+          <td>
+            <a href="/patent/US20160159369A1/en">
+              <span itemprop="publicationNumber">US20160159369A1</span>
+              (<span itemprop="primaryLanguage">en</span>)
+            </a>
+            <span itemprop="examinerCited">*</span>
+            
+          </td>
+          <td itemprop="priorityDate">2014-12-09</td>
+          <td itemprop="publicationDate">2016-06-09</td>
+          <td>
+            <span itemprop="assigneeOriginal">Hyundai Motor Company</span>
+          </td>
+          <td itemprop="title">Safety method for passenger of vehicle 
+       </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>Family Cites Families (10)</h2>
+    <table>
+      <caption>* Cited by examiner, † Cited by third party</caption>
+      <thead>
+        <tr>
+          <th>Publication number</th>
+          <th>Priority date</th>
+          <th>Publication date</th>
+          <th>Assignee</th>
+          <th>Title</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr itemprop="backwardReferencesFamily" itemscope repeat>
+          <td>
+            <a href="/patent/JP2008002085A/en">
+              <span itemprop="publicationNumber">JP2008002085A</span>
+              (<span itemprop="primaryLanguage">en</span>)
+            </a>
+            <span itemprop="examinerCited">*</span>
+            
+          </td>
+          <td itemprop="priorityDate">2006-06-20</td>
+          <td itemprop="publicationDate">2008-01-10</td>
+          <td><span itemprop="assigneeOriginal">Denso Corp</span></td>
+          <td itemprop="title">
+        Automotive door control device
+       
+       </td>
+        </tr>
+        <tr itemprop="backwardReferencesFamily" itemscope repeat>
+          <td>
+            <a href="/patent/CN101660382B/en">
+              <span itemprop="publicationNumber">CN101660382B</span>
+              (<span itemprop="primaryLanguage">en</span>)
+            </a>
+            <span itemprop="examinerCited">*</span>
+            
+          </td>
+          <td itemprop="priorityDate">2008-08-26</td>
+          <td itemprop="publicationDate">2012-07-18</td>
+          <td><span itemprop="assigneeOriginal">信昌机械厂股份有限公司</span></td>
+          <td itemprop="title">
+        Back door electric system
+       
+       </td>
+        </tr>
+        <tr itemprop="backwardReferencesFamily" itemscope repeat>
+          <td>
+            <a href="/patent/GB201219262D0/en">
+              <span itemprop="publicationNumber">GB201219262D0</span>
+              (<span itemprop="primaryLanguage">en</span>)
+            </a>
+            <span itemprop="examinerCited">*</span>
+            
+          </td>
+          <td itemprop="priorityDate">2012-10-26</td>
+          <td itemprop="publicationDate">2012-12-12</td>
+          <td><span itemprop="assigneeOriginal">Jaguar Cars</span></td>
+          <td itemprop="title">Vehicle access system and method 
+     </td>
+        </tr>
+        <tr itemprop="backwardReferencesFamily" itemscope repeat>
+          <td>
+            <a href="/patent/CN103277002B/en">
+              <span itemprop="publicationNumber">CN103277002B</span>
+              (<span itemprop="primaryLanguage">en</span>)
+            </a>
+            <span itemprop="examinerCited">*</span>
+            
+          </td>
+          <td itemprop="priorityDate">2013-05-28</td>
+          <td itemprop="publicationDate">2016-01-27</td>
+          <td><span itemprop="assigneeOriginal">北京经纬恒润科技有限公司</span></td>
+          <td itemprop="title">Electric tail gate method for control speed and device 
+       </td>
+        </tr>
+        <tr itemprop="backwardReferencesFamily" itemscope repeat>
+          <td>
+            <a href="/patent/CN203267791U/en">
+              <span itemprop="publicationNumber">CN203267791U</span>
+              (<span itemprop="primaryLanguage">en</span>)
+            </a>
+            <span itemprop="examinerCited">*</span>
+            
+          </td>
+          <td itemprop="priorityDate">2013-06-07</td>
+          <td itemprop="publicationDate">2013-11-06</td>
+          <td><span itemprop="assigneeOriginal">徐湘云</span></td>
+          <td itemprop="title">Intelligent control system for arrival and departure of passenger cars 
+       </td>
+        </tr>
+        <tr itemprop="backwardReferencesFamily" itemscope repeat>
+          <td>
+            <a href="/patent/CN103661168B/en">
+              <span itemprop="publicationNumber">CN103661168B</span>
+              (<span itemprop="primaryLanguage">en</span>)
+            </a>
+            <span itemprop="examinerCited">*</span>
+            
+          </td>
+          <td itemprop="priorityDate">2013-12-06</td>
+          <td itemprop="publicationDate">2017-01-04</td>
+          <td><span itemprop="assigneeOriginal">东风汽车公司</span></td>
+          <td itemprop="title">
+        One-button start switch control method
+       
+       </td>
+        </tr>
+        <tr itemprop="backwardReferencesFamily" itemscope repeat>
+          <td>
+            <a href="/patent/CN104712217A/en">
+              <span itemprop="publicationNumber">CN104712217A</span>
+              (<span itemprop="primaryLanguage">en</span>)
+            </a>
+            <span itemprop="examinerCited">*</span>
+            
+          </td>
+          <td itemprop="priorityDate">2013-12-17</td>
+          <td itemprop="publicationDate">2015-06-17</td>
+          <td><span itemprop="assigneeOriginal">西安广融电气有限公司</span></td>
+          <td itemprop="title">Get-off door control device of bus 
+     </td>
+        </tr>
+        <tr itemprop="backwardReferencesFamily" itemscope repeat>
+          <td>
+            <a href="/patent/US9834978B2/en">
+              <span itemprop="publicationNumber">US9834978B2</span>
+              (<span itemprop="primaryLanguage">en</span>)
+            </a>
+            <span itemprop="examinerCited">*</span>
+            
+          </td>
+          <td itemprop="priorityDate">2014-04-04</td>
+          <td itemprop="publicationDate">2017-12-05</td>
+          <td><span itemprop="assigneeOriginal">Ford Global Technologies, Llc</span></td>
+          <td itemprop="title">Power door system for a motor vehicle 
+       </td>
+        </tr>
+        <tr itemprop="backwardReferencesFamily" itemscope repeat>
+          <td>
+            <a href="/patent/JP6172086B2/en">
+              <span itemprop="publicationNumber">JP6172086B2</span>
+              (<span itemprop="primaryLanguage">en</span>)
+            </a>
+            <span itemprop="examinerCited">*</span>
+            
+          </td>
+          <td itemprop="priorityDate">2014-08-08</td>
+          <td itemprop="publicationDate">2017-08-02</td>
+          <td><span itemprop="assigneeOriginal">トヨタ自動車株式会社</span></td>
+          <td itemprop="title">
+        Vehicle control device
+       
+     </td>
+        </tr>
+        <tr itemprop="backwardReferencesFamily" itemscope repeat>
+          <td>
+            <a href="/patent/CN104405226A/en">
+              <span itemprop="publicationNumber">CN104405226A</span>
+              (<span itemprop="primaryLanguage">en</span>)
+            </a>
+            <span itemprop="examinerCited">*</span>
+            
+          </td>
+          <td itemprop="priorityDate">2014-10-24</td>
+          <td itemprop="publicationDate">2015-03-11</td>
+          <td><span itemprop="assigneeOriginal">苏州德鲁森自动化系统有限公司</span></td>
+          <td itemprop="title">Method for automatically closing automobile door 
+       </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <ul>
+      <li itemprop="applicationsByYear" itemscope repeat>
+        <span itemprop="year">2016</span>
+        <ul>
+          <li itemprop="application" itemscope repeat>
+            <span itemprop="filingDate">2016-05-31</span>
+            <span itemprop="countryCode">US</span>
+            <span itemprop="applicationNumber">US15/168,627</span>
+            <a href="/patent/US10273739B2/en"><span itemprop="documentId">patent/US10273739B2/en</span></a>
+            <span itemprop="legalStatusCat">active</span>
+            <span itemprop="legalStatus">Active</span>
+            <span itemprop="thisApp" content="true" bool></span>
+          </li>
+        </ul>
+      </li>
+      <li itemprop="applicationsByYear" itemscope repeat>
+        <span itemprop="year">2017</span>
+        <ul>
+          <li itemprop="application" itemscope repeat>
+            <span itemprop="filingDate">2017-05-23</span>
+            <span itemprop="countryCode">MX</span>
+            <span itemprop="applicationNumber">MX2017006743A</span>
+            <a href="/patent/MX369722B/en"><span itemprop="documentId">patent/MX369722B/en</span></a>
+            <span itemprop="legalStatusCat">active</span>
+            <span itemprop="legalStatus">IP Right Grant</span>
+            
+          </li>
+          <li itemprop="application" itemscope repeat>
+            <span itemprop="filingDate">2017-05-26</span>
+            <span itemprop="countryCode">DE</span>
+            <span itemprop="applicationNumber">DE102017111564.1A</span>
+            <a href="/patent/DE102017111564A1/en"><span itemprop="documentId">patent/DE102017111564A1/en</span></a>
+            <span itemprop="legalStatusCat">active</span>
+            <span itemprop="legalStatus">Pending</span>
+            
+          </li>
+          <li itemprop="application" itemscope repeat>
+            <span itemprop="filingDate">2017-05-26</span>
+            <span itemprop="countryCode">CN</span>
+            <span itemprop="applicationNumber">CN201710385011.XA</span>
+            <a href="/patent/CN107461106A/en"><span itemprop="documentId">patent/CN107461106A/en</span></a>
+            <span itemprop="legalStatusCat">active</span>
+            <span itemprop="legalStatus">Pending</span>
+            
+          </li>
+        </ul>
+      </li>
+    </ul>
+
+    </section>
+
+  <section>
+    <h2>Patent Citations (11)</h2>
+    <table>
+      <caption>* Cited by examiner, † Cited by third party</caption>
+      <thead>
+        <tr>
+          <th>Publication number</th>
+          <th>Priority date</th>
+          <th>Publication date</th>
+          <th>Assignee</th>
+          <th>Title</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr itemprop="backwardReferences" itemscope repeat>
+          <td>
+            <a href="/patent/US3629817A/en">
+              <span itemprop="publicationNumber">US3629817A</span>
+              (<span itemprop="primaryLanguage">en</span>)
+            </a>
+            
+            
+          </td>
+          <td itemprop="priorityDate">1968-07-25</td>
+          <td itemprop="publicationDate">1971-12-21</td>
+          <td><span itemprop="assigneeOriginal">Lucas Industries Ltd</span></td>
+          <td itemprop="title">Warning systems for road vehicles 
+       </td>
+        </tr>
+        <tr itemprop="backwardReferences" itemscope repeat>
+          <td>
+            <a href="/patent/KR0157819B1/en">
+              <span itemprop="publicationNumber">KR0157819B1</span>
+              (<span itemprop="primaryLanguage">en</span>)
+            </a>
+            
+            
+          </td>
+          <td itemprop="priorityDate">1995-12-29</td>
+          <td itemprop="publicationDate">1998-10-15</td>
+          <td><span itemprop="assigneeOriginal">김태구</span></td>
+          <td itemprop="title">A warning device for trunk lead opening of a car 
+       </td>
+        </tr>
+        <tr itemprop="backwardReferences" itemscope repeat>
+          <td>
+            <a href="/patent/US6727806B1/en">
+              <span itemprop="publicationNumber">US6727806B1</span>
+              (<span itemprop="primaryLanguage">en</span>)
+            </a>
+            
+            
+          </td>
+          <td itemprop="priorityDate">2002-10-18</td>
+          <td itemprop="publicationDate">2004-04-27</td>
+          <td><span itemprop="assigneeOriginal">Jerold L. Massie</span></td>
+          <td itemprop="title">Truck tailgate position indicator 
+       </td>
+        </tr>
+        <tr itemprop="backwardReferences" itemscope repeat>
+          <td>
+            <a href="/patent/JP2005054466A/en">
+              <span itemprop="publicationNumber">JP2005054466A</span>
+              (<span itemprop="primaryLanguage">en</span>)
+            </a>
+            
+            
+          </td>
+          <td itemprop="priorityDate">2003-08-05</td>
+          <td itemprop="publicationDate">2005-03-03</td>
+          <td><span itemprop="assigneeOriginal">Honda Motor Co Ltd</span></td>
+          <td itemprop="title">
+        Open / close control device for automotive opening / closing body
+       
+       </td>
+        </tr>
+        <tr itemprop="backwardReferences" itemscope repeat>
+          <td>
+            <a href="/patent/US7118155B2/en">
+              <span itemprop="publicationNumber">US7118155B2</span>
+              (<span itemprop="primaryLanguage">en</span>)
+            </a>
+            
+            
+          </td>
+          <td itemprop="priorityDate">2004-10-01</td>
+          <td itemprop="publicationDate">2006-10-10</td>
+          <td><span itemprop="assigneeOriginal">Honda Motor Co., Ltd.</span></td>
+          <td itemprop="title">Automatic opening and closing device 
+       </td>
+        </tr>
+        <tr itemprop="backwardReferences" itemscope repeat>
+          <td>
+            <a href="/patent/US8606467B2/en">
+              <span itemprop="publicationNumber">US8606467B2</span>
+              (<span itemprop="primaryLanguage">en</span>)
+            </a>
+            
+            
+          </td>
+          <td itemprop="priorityDate">2007-06-25</td>
+          <td itemprop="publicationDate">2013-12-10</td>
+          <td><span itemprop="assigneeOriginal">Valeo Securite Habitacle</span></td>
+          <td itemprop="title">Secure method for automatically closing a motor vehicle tailgate 
+       </td>
+        </tr>
+        <tr itemprop="backwardReferences" itemscope repeat>
+          <td>
+            <a href="/patent/CN201677813U/en">
+              <span itemprop="publicationNumber">CN201677813U</span>
+              (<span itemprop="primaryLanguage">en</span>)
+            </a>
+            
+            
+          </td>
+          <td itemprop="priorityDate">2010-03-31</td>
+          <td itemprop="publicationDate">2010-12-22</td>
+          <td><span itemprop="assigneeOriginal">奇瑞汽车股份有限公司</span></td>
+          <td itemprop="title">Automatic open/close device for trunk 
+       </td>
+        </tr>
+        <tr itemprop="backwardReferences" itemscope repeat>
+          <td>
+            <a href="/patent/US8755975B2/en">
+              <span itemprop="publicationNumber">US8755975B2</span>
+              (<span itemprop="primaryLanguage">en</span>)
+            </a>
+            <span itemprop="examinerCited">*</span>
+            
+          </td>
+          <td itemprop="priorityDate">2011-01-06</td>
+          <td itemprop="publicationDate">2014-06-17</td>
+          <td><span itemprop="assigneeOriginal">Honda Motor Co., Ltd.</span></td>
+          <td itemprop="title">Automatic vehicle door movement control system 
+       </td>
+        </tr>
+        <tr itemprop="backwardReferences" itemscope repeat>
+          <td>
+            <a href="/patent/CN102602367A/en">
+              <span itemprop="publicationNumber">CN102602367A</span>
+              (<span itemprop="primaryLanguage">en</span>)
+            </a>
+            
+            
+          </td>
+          <td itemprop="priorityDate">2012-04-13</td>
+          <td itemprop="publicationDate">2012-07-25</td>
+          <td><span itemprop="assigneeOriginal">天津盛相电子有限公司</span></td>
+          <td itemprop="title">Automatic automobile door alarm 
+     </td>
+        </tr>
+        <tr itemprop="backwardReferences" itemscope repeat>
+          <td>
+            <a href="/patent/US20130332033A1/en">
+              <span itemprop="publicationNumber">US20130332033A1</span>
+              (<span itemprop="primaryLanguage">en</span>)
+            </a>
+            <span itemprop="examinerCited">*</span>
+            
+          </td>
+          <td itemprop="priorityDate">2012-06-12</td>
+          <td itemprop="publicationDate">2013-12-12</td>
+          <td><span itemprop="assigneeOriginal">GM Global Technology Operations LLC</span></td>
+          <td itemprop="title">Systems and methods for confirming a potentially unintended command given to a vehicle 
+       </td>
+        </tr>
+        <tr itemprop="backwardReferences" itemscope repeat>
+          <td>
+            <a href="/patent/US20160159369A1/en">
+              <span itemprop="publicationNumber">US20160159369A1</span>
+              (<span itemprop="primaryLanguage">en</span>)
+            </a>
+            <span itemprop="examinerCited">*</span>
+            
+          </td>
+          <td itemprop="priorityDate">2014-12-09</td>
+          <td itemprop="publicationDate">2016-06-09</td>
+          <td><span itemprop="assigneeOriginal">Hyundai Motor Company</span></td>
+          <td itemprop="title">Safety method for passenger of vehicle 
+       </td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section>
+    <h2>Non-Patent Citations (4)</h2>
+    <table>
+      <caption>* Cited by examiner, † Cited by third party</caption>
+      <thead>
+        <tr>
+          <th>Title</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr itemprop="detailedNonPatentLiterature" itemscope repeat>
+          <td>
+            <span itemprop="title">English Machine Translation of CN102602367A.</span>
+            
+            
+          </td>
+        </tr>
+        <tr itemprop="detailedNonPatentLiterature" itemscope repeat>
+          <td>
+            <span itemprop="title">English Machine Translation of CN201677813U.</span>
+            
+            
+          </td>
+        </tr>
+        <tr itemprop="detailedNonPatentLiterature" itemscope repeat>
+          <td>
+            <span itemprop="title">English Machine Translation of JP2005054466A.</span>
+            
+            
+          </td>
+        </tr>
+        <tr itemprop="detailedNonPatentLiterature" itemscope repeat>
+          <td>
+            <span itemprop="title">English Machine Translation of KR0157819B1.</span>
+            
+            
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  
+
+  <section>
+    <h2>Also Published As</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Publication number</th>
+          <th>Publication date</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr itemprop="docdbFamily" itemscope repeat>
+          <td>
+            <a href="/patent/DE102017111564A1/en">
+              <span itemprop="publicationNumber">DE102017111564A1</span>
+              (<span itemprop="primaryLanguage">en</span>)
+            </a>
+          </td>
+          <td itemprop="publicationDate">2017-11-30</td>
+        </tr>
+        <tr itemprop="docdbFamily" itemscope repeat>
+          <td>
+            <a href="/patent/CN107461106A/en">
+              <span itemprop="publicationNumber">CN107461106A</span>
+              (<span itemprop="primaryLanguage">en</span>)
+            </a>
+          </td>
+          <td itemprop="publicationDate">2017-12-12</td>
+        </tr>
+        <tr itemprop="docdbFamily" itemscope repeat>
+          <td>
+            <a href="/patent/MX369722B/en">
+              <span itemprop="publicationNumber">MX369722B</span>
+              (<span itemprop="primaryLanguage">en</span>)
+            </a>
+          </td>
+          <td itemprop="publicationDate">2019-11-19</td>
+        </tr>
+        <tr itemprop="docdbFamily" itemscope repeat>
+          <td>
+            <a href="/patent/MX2017006743A/en">
+              <span itemprop="publicationNumber">MX2017006743A</span>
+              (<span itemprop="primaryLanguage">en</span>)
+            </a>
+          </td>
+          <td itemprop="publicationDate">2018-08-28</td>
+        </tr>
+        <tr itemprop="docdbFamily" itemscope repeat>
+          <td>
+            <a href="/patent/US20170342760A1/en">
+              <span itemprop="publicationNumber">US20170342760A1</span>
+              (<span itemprop="primaryLanguage">en</span>)
+            </a>
+          </td>
+          <td itemprop="publicationDate">2017-11-30</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section>
+    <h2>Similar Documents</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Publication</th>
+          <th>Publication Date</th>
+          <th>Title</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr itemprop="similarDocuments" itemscope repeat>
+          <td>
+            <meta itemprop="isPatent" content="true">
+              <a href="/patent/CN109249893B/en">
+                <span itemprop="publicationNumber">CN109249893B</span>
+                (<span itemprop="primaryLanguage">en</span>)
+              </a>
+            
+            
+          </td>
+          <td>
+            <time itemprop="publicationDate" datetime="2022-02-25">2022-02-25</time>
+            
+            
+          </td>
+          <td itemprop="title">
+        Vehicle Door Locking System and Control Logic for Passenger Door Assembly
+       
+       </td>
+        </tr>
+        <tr itemprop="similarDocuments" itemscope repeat>
+          <td>
+            <meta itemprop="isPatent" content="true">
+              <a href="/patent/JP7468584B2/en">
+                <span itemprop="publicationNumber">JP7468584B2</span>
+                (<span itemprop="primaryLanguage">en</span>)
+              </a>
+            
+            
+          </td>
+          <td>
+            <time itemprop="publicationDate" datetime="2024-04-16">2024-04-16</time>
+            
+            
+          </td>
+          <td itemprop="title">
+        Vehicle arbitration system
+       
+       </td>
+        </tr>
+        <tr itemprop="similarDocuments" itemscope repeat>
+          <td>
+            <meta itemprop="isPatent" content="true">
+              <a href="/patent/CN110893847A/en">
+                <span itemprop="publicationNumber">CN110893847A</span>
+                (<span itemprop="primaryLanguage">en</span>)
+              </a>
+            
+            
+          </td>
+          <td>
+            <time itemprop="publicationDate" datetime="2020-03-20">2020-03-20</time>
+            
+            
+          </td>
+          <td itemprop="title">Vehicle remote parking assist system and method 
+       </td>
+        </tr>
+        <tr itemprop="similarDocuments" itemscope repeat>
+          <td>
+            <meta itemprop="isPatent" content="true">
+              <a href="/patent/US10273739B2/en">
+                <span itemprop="publicationNumber">US10273739B2</span>
+                (<span itemprop="primaryLanguage">en</span>)
+              </a>
+            
+            
+          </td>
+          <td>
+            <time itemprop="publicationDate" datetime="2019-04-30">2019-04-30</time>
+            
+            
+          </td>
+          <td itemprop="title">Automated system for closing a closure of a motor vehicle based upon transmission state 
+       </td>
+        </tr>
+        <tr itemprop="similarDocuments" itemscope repeat>
+          <td>
+            <meta itemprop="isPatent" content="true">
+              <a href="/patent/US10744838B2/en">
+                <span itemprop="publicationNumber">US10744838B2</span>
+                (<span itemprop="primaryLanguage">en</span>)
+              </a>
+            
+            
+          </td>
+          <td>
+            <time itemprop="publicationDate" datetime="2020-08-18">2020-08-18</time>
+            
+            
+          </td>
+          <td itemprop="title">Pet mode door and suspension control system and method 
+       </td>
+        </tr>
+        <tr itemprop="similarDocuments" itemscope repeat>
+          <td>
+            <meta itemprop="isPatent" content="true">
+              <a href="/patent/DE102017124731A1/en">
+                <span itemprop="publicationNumber">DE102017124731A1</span>
+                (<span itemprop="primaryLanguage">en</span>)
+              </a>
+            
+            
+          </td>
+          <td>
+            <time itemprop="publicationDate" datetime="2018-04-26">2018-04-26</time>
+            
+            
+          </td>
+          <td itemprop="title">
+        METHOD AND DEVICE FOR DETECTING THE DOOR CONDITION
+       
+       </td>
+        </tr>
+        <tr itemprop="similarDocuments" itemscope repeat>
+          <td>
+            <meta itemprop="isPatent" content="true">
+              <a href="/patent/DE102018118600A1/en">
+                <span itemprop="publicationNumber">DE102018118600A1</span>
+                (<span itemprop="primaryLanguage">en</span>)
+              </a>
+            
+            
+          </td>
+          <td>
+            <time itemprop="publicationDate" datetime="2019-02-07">2019-02-07</time>
+            
+            
+          </td>
+          <td itemprop="title">
+        MONITORING AND ALARMING VEHICLE INITIATIVES WITH REGARD TO IGNITION SYSTEMS
+       
+       </td>
+        </tr>
+        <tr itemprop="similarDocuments" itemscope repeat>
+          <td>
+            <meta itemprop="isPatent" content="true">
+              <a href="/patent/US10821937B1/en">
+                <span itemprop="publicationNumber">US10821937B1</span>
+                (<span itemprop="primaryLanguage">en</span>)
+              </a>
+            
+            
+          </td>
+          <td>
+            <time itemprop="publicationDate" datetime="2020-11-03">2020-11-03</time>
+            
+            
+          </td>
+          <td itemprop="title">Active approach detection with macro capacitive sensing 
+       </td>
+        </tr>
+        <tr itemprop="similarDocuments" itemscope repeat>
+          <td>
+            <meta itemprop="isPatent" content="true">
+              <a href="/patent/CN110893848A/en">
+                <span itemprop="publicationNumber">CN110893848A</span>
+                (<span itemprop="primaryLanguage">en</span>)
+              </a>
+            
+            
+          </td>
+          <td>
+            <time itemprop="publicationDate" datetime="2020-03-20">2020-03-20</time>
+            
+            
+          </td>
+          <td itemprop="title">Parking assistance based on door open position 
+       </td>
+        </tr>
+        <tr itemprop="similarDocuments" itemscope repeat>
+          <td>
+            <meta itemprop="isPatent" content="true">
+              <a href="/patent/GB2565625A/en">
+                <span itemprop="publicationNumber">GB2565625A</span>
+                (<span itemprop="primaryLanguage">en</span>)
+              </a>
+            
+            
+          </td>
+          <td>
+            <time itemprop="publicationDate" datetime="2019-02-20">2019-02-20</time>
+            
+            
+          </td>
+          <td itemprop="title">Vehicle door assistance 
+       </td>
+        </tr>
+        <tr itemprop="similarDocuments" itemscope repeat>
+          <td>
+            <meta itemprop="isPatent" content="true">
+              <a href="/patent/CN104859651A/en">
+                <span itemprop="publicationNumber">CN104859651A</span>
+                (<span itemprop="primaryLanguage">en</span>)
+              </a>
+            
+            
+          </td>
+          <td>
+            <time itemprop="publicationDate" datetime="2015-08-26">2015-08-26</time>
+            
+            
+          </td>
+          <td itemprop="title">Danger sounding and preventing method for improving door opening safety after parking 
+       </td>
+        </tr>
+        <tr itemprop="similarDocuments" itemscope repeat>
+          <td>
+            <meta itemprop="isPatent" content="true">
+              <a href="/patent/CN116890809A/en">
+                <span itemprop="publicationNumber">CN116890809A</span>
+                (<span itemprop="primaryLanguage">en</span>)
+              </a>
+            
+            
+          </td>
+          <td>
+            <time itemprop="publicationDate" datetime="2023-10-17">2023-10-17</time>
+            
+            
+          </td>
+          <td itemprop="title">Context-based vehicle configuration 
+       </td>
+        </tr>
+        <tr itemprop="similarDocuments" itemscope repeat>
+          <td>
+            <meta itemprop="isPatent" content="true">
+              <a href="/patent/DE102016121570A1/en">
+                <span itemprop="publicationNumber">DE102016121570A1</span>
+                (<span itemprop="primaryLanguage">en</span>)
+              </a>
+            
+            
+          </td>
+          <td>
+            <time itemprop="publicationDate" datetime="2017-06-01">2017-06-01</time>
+            
+            
+          </td>
+          <td itemprop="title">
+  SYNCHRONIZATION OF VEHICLE DOOR AND GARAGE DOOR
+ 
+     </td>
+        </tr>
+        <tr itemprop="similarDocuments" itemscope repeat>
+          <td>
+            <meta itemprop="isPatent" content="true">
+              <a href="/patent/CN114715069B/en">
+                <span itemprop="publicationNumber">CN114715069B</span>
+                (<span itemprop="primaryLanguage">en</span>)
+              </a>
+            
+            
+          </td>
+          <td>
+            <time itemprop="publicationDate" datetime="2023-07-25">2023-07-25</time>
+            
+            
+          </td>
+          <td itemprop="title">
+        Vehicle collision processing system and method
+       
+       </td>
+        </tr>
+        <tr itemprop="similarDocuments" itemscope repeat>
+          <td>
+            <meta itemprop="isPatent" content="true">
+              <a href="/patent/US10961768B2/en">
+                <span itemprop="publicationNumber">US10961768B2</span>
+                (<span itemprop="primaryLanguage">en</span>)
+              </a>
+            
+            
+          </td>
+          <td>
+            <time itemprop="publicationDate" datetime="2021-03-30">2021-03-30</time>
+            
+            
+          </td>
+          <td itemprop="title">Power door closing algorithm 
+       </td>
+        </tr>
+        <tr itemprop="similarDocuments" itemscope repeat>
+          <td>
+            <meta itemprop="isPatent" content="true">
+              <a href="/patent/DE102016120282A1/en">
+                <span itemprop="publicationNumber">DE102016120282A1</span>
+                (<span itemprop="primaryLanguage">en</span>)
+              </a>
+            
+            
+          </td>
+          <td>
+            <time itemprop="publicationDate" datetime="2017-05-11">2017-05-11</time>
+            
+            
+          </td>
+          <td itemprop="title">
+        APPROXIMATE LOCK ACCESS SYSTEM FOR A MOTOR VEHICLE
+       
+       </td>
+        </tr>
+        <tr itemprop="similarDocuments" itemscope repeat>
+          <td>
+            <meta itemprop="isPatent" content="true">
+              <a href="/patent/CN113060093A/en">
+                <span itemprop="publicationNumber">CN113060093A</span>
+                (<span itemprop="primaryLanguage">en</span>)
+              </a>
+            
+            
+          </td>
+          <td>
+            <time itemprop="publicationDate" datetime="2021-07-02">2021-07-02</time>
+            
+            
+          </td>
+          <td itemprop="title">Vehicle door unlocking control method and device, electronic equipment and storage medium 
+       </td>
+        </tr>
+        <tr itemprop="similarDocuments" itemscope repeat>
+          <td>
+            <meta itemprop="isPatent" content="true">
+              <a href="/patent/CN106627491A/en">
+                <span itemprop="publicationNumber">CN106627491A</span>
+                (<span itemprop="primaryLanguage">en</span>)
+              </a>
+            
+            
+          </td>
+          <td>
+            <time itemprop="publicationDate" datetime="2017-05-10">2017-05-10</time>
+            
+            
+          </td>
+          <td itemprop="title">Vehicle voice starting device 
+       </td>
+        </tr>
+        <tr itemprop="similarDocuments" itemscope repeat>
+          <td>
+            <meta itemprop="isPatent" content="true">
+              <a href="/patent/CN102390330A/en">
+                <span itemprop="publicationNumber">CN102390330A</span>
+                (<span itemprop="primaryLanguage">en</span>)
+              </a>
+            
+            
+          </td>
+          <td>
+            <time itemprop="publicationDate" datetime="2012-03-28">2012-03-28</time>
+            
+            
+          </td>
+          <td itemprop="title">Auxiliary getting-off monitoring device and monitoring method thereof 
+       </td>
+        </tr>
+        <tr itemprop="similarDocuments" itemscope repeat>
+          <td>
+            <meta itemprop="isPatent" content="true">
+              <a href="/patent/CN116853290B/en">
+                <span itemprop="publicationNumber">CN116853290B</span>
+                (<span itemprop="primaryLanguage">en</span>)
+              </a>
+            
+            
+          </td>
+          <td>
+            <time itemprop="publicationDate" datetime="2026-01-30">2026-01-30</time>
+            
+            
+          </td>
+          <td itemprop="title">
+        Car wash management mode control methods, devices, equipment and storage media
+       
+       </td>
+        </tr>
+        <tr itemprop="similarDocuments" itemscope repeat>
+          <td>
+            <meta itemprop="isPatent" content="true">
+              <a href="/patent/US20200114842A1/en">
+                <span itemprop="publicationNumber">US20200114842A1</span>
+                (<span itemprop="primaryLanguage">en</span>)
+              </a>
+            
+            
+          </td>
+          <td>
+            <time itemprop="publicationDate" datetime="2020-04-16">2020-04-16</time>
+            
+            
+          </td>
+          <td itemprop="title">Vehicle closure open warning system and method 
+       </td>
+        </tr>
+        <tr itemprop="similarDocuments" itemscope repeat>
+          <td>
+            <meta itemprop="isPatent" content="true">
+              <a href="/patent/US12503886B2/en">
+                <span itemprop="publicationNumber">US12503886B2</span>
+                (<span itemprop="primaryLanguage">en</span>)
+              </a>
+            
+            
+          </td>
+          <td>
+            <time itemprop="publicationDate" datetime="2025-12-23">2025-12-23</time>
+            
+            
+          </td>
+          <td itemprop="title">Systems and methods to enable a vehicle to exit double-lock mode 
+       </td>
+        </tr>
+        <tr itemprop="similarDocuments" itemscope repeat>
+          <td>
+            <meta itemprop="isPatent" content="true">
+              <a href="/patent/US12018810B2/en">
+                <span itemprop="publicationNumber">US12018810B2</span>
+                (<span itemprop="primaryLanguage">en</span>)
+              </a>
+            
+            
+          </td>
+          <td>
+            <time itemprop="publicationDate" datetime="2024-06-25">2024-06-25</time>
+            
+            
+          </td>
+          <td itemprop="title">Crossbar with lighting 
+       </td>
+        </tr>
+        <tr itemprop="similarDocuments" itemscope repeat>
+          <td>
+            <meta itemprop="isPatent" content="true">
+              <a href="/patent/JP7306138B2/en">
+                <span itemprop="publicationNumber">JP7306138B2</span>
+                (<span itemprop="primaryLanguage">en</span>)
+              </a>
+            
+            
+          </td>
+          <td>
+            <time itemprop="publicationDate" datetime="2023-07-11">2023-07-11</time>
+            
+            
+          </td>
+          <td itemprop="title">
+        Automotive power system
+       
+       </td>
+        </tr>
+        <tr itemprop="similarDocuments" itemscope repeat>
+          <td>
+            <meta itemprop="isPatent" content="true">
+              <a href="/patent/JP5652215B2/en">
+                <span itemprop="publicationNumber">JP5652215B2</span>
+                (<span itemprop="primaryLanguage">en</span>)
+              </a>
+            
+            
+          </td>
+          <td>
+            <time itemprop="publicationDate" datetime="2015-01-14">2015-01-14</time>
+            
+            
+          </td>
+          <td itemprop="title">
+        Oiling port outer lid locking device, oiling port outer lid locking method, program and medium
+       
+     </td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section>
+    <h2>Legal Events</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Date</th>
+          <th>Code</th>
+          <th>Title</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr itemprop="legalEvents" itemscope repeat>
+          <td><time itemprop="date" datetime="2016-05-31">2016-05-31</time></td>
+          <td itemprop="code">AS</td>
+          <td itemprop="title">Assignment</td>
+          <td>
+            <p itemprop="attributes" itemscope repeat>
+              <strong itemprop="label">Owner name</strong>:
+              <span itemprop="value">FORD GLOBAL TECHNOLOGIES, LLC, MICHIGAN</span>
+            </p>
+            <p itemprop="attributes" itemscope repeat>
+              <strong itemprop="label">Free format text</strong>:
+              <span itemprop="value">ASSIGNMENT OF ASSIGNORS INTEREST;ASSIGNORS:BE, TUAN ANH;COLELLA, NICHOLAS;MURRAY, ALLEN R.;SIGNING DATES FROM 20160524 TO 20160526;REEL/FRAME:038848/0521</span>
+            </p>
+          </td>
+        </tr>
+        <tr itemprop="legalEvents" itemscope repeat>
+          <td><time itemprop="date" datetime="2019-03-12">2019-03-12</time></td>
+          <td itemprop="code">STPP</td>
+          <td itemprop="title">Information on status: patent application and granting procedure in general</td>
+          <td>
+            <p itemprop="attributes" itemscope repeat>
+              <strong itemprop="label">Free format text</strong>:
+              <span itemprop="value">PUBLICATIONS -- ISSUE FEE PAYMENT VERIFIED</span>
+            </p>
+          </td>
+        </tr>
+        <tr itemprop="legalEvents" itemscope repeat>
+          <td><time itemprop="date" datetime="2019-04-10">2019-04-10</time></td>
+          <td itemprop="code">STCF</td>
+          <td itemprop="title">Information on status: patent grant</td>
+          <td>
+            <p itemprop="attributes" itemscope repeat>
+              <strong itemprop="label">Free format text</strong>:
+              <span itemprop="value">PATENTED CASE</span>
+            </p>
+          </td>
+        </tr>
+        <tr itemprop="legalEvents" itemscope repeat>
+          <td><time itemprop="date" datetime="2022-09-14">2022-09-14</time></td>
+          <td itemprop="code">MAFP</td>
+          <td itemprop="title">Maintenance fee payment</td>
+          <td>
+            <p itemprop="attributes" itemscope repeat>
+              <strong itemprop="label">Free format text</strong>:
+              <span itemprop="value">PAYMENT OF MAINTENANCE FEE, 4TH YEAR, LARGE ENTITY (ORIGINAL EVENT CODE: M1551); ENTITY STATUS OF PATENT OWNER: LARGE ENTITY</span>
+            </p>
+            <p itemprop="attributes" itemscope repeat>
+              <strong itemprop="label">Year of fee payment</strong>:
+              <span itemprop="value">4</span>
+            </p>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+</article>
+
+    </search-app>
+    
+    <script></script>
+    <script type="text/javascript" src="//www.gstatic.com/feedback/api.js"></script>
+    <script type="text/javascript" src="//www.gstatic.com/feedback/js/help/prod/service/lazy.min.js"></script>
+    <script type="text/javascript">
+      if (window.help && window.help.service) {
+        helpApi = window.help.service.Lazy.create(0, {apiKey: 'AIzaSyDTEI_0tLX4varJ7bwK8aT-eOI5qr3BmyI', locale: 'en-US'});
+        window.requestedSurveys = new Set();
+        window.requestSurvey = function(triggerId) {
+          if (window.requestedSurveys.has(triggerId)) {
+            return;
+          }
+          window.requestedSurveys.add(triggerId);
+          helpApi.requestSurvey({
+            triggerId: triggerId,
+            enableTestingMode: false,
+            callback: (requestSurveyCallbackParam) => {
+              if (!requestSurveyCallbackParam.surveyData) {
+                return;
+              }
+              helpApi.presentSurvey({
+                productData: {
+                  productVersion: window.version,
+                  customData: {
+                    "experiments": "",
+                  },
+                },
+                surveyData: requestSurveyCallbackParam.surveyData,
+                colorScheme: 1,
+                customZIndex: 10000,
+              });
+            }
+          });
+        };
+
+        window.requestSurvey('YXTwAsvoW0kedxbuTdH0RArc9VhT');
+      }
+    </script>
+    <script src="/sw/null_loader.js"></script>
+  </body>
+</html>
